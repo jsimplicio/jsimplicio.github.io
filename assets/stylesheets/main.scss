@@ -42,8 +42,9 @@ h1 {
 
 #credits {
 	text-align: center;	
-	
+
 	p {
+		display: inline-block;
 		font-size: 14px;
 		max-width: 768px;
 	}
