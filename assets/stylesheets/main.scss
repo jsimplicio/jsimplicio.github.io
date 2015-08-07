@@ -16,10 +16,13 @@ a {
 	text-align: center;
 
 	img {
-		display: inline-block;
 		max-width: 1140px;
 		margin: 0 auto;
 	}
+}
+
+.vertical {
+	transform: translateX(50%);
 }
 
 .navigation {
