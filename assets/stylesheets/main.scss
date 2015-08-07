@@ -18,8 +18,9 @@ body {
 	}
 }
 
-.center {
+.navigation {
 	text-align: center;
+	padding: 24px 0;
 }
 
 #prev,
@@ -28,4 +29,5 @@ body {
 	font-size: 2em;
 	text-decoration: none;
 	text-transform: lowercase;
+	padding: 0 12px;
 }
