@@ -13,12 +13,10 @@ a {
 .cycle-slideshow {
 	max-width: 1140px;
 	margin: 0 auto;
-
+	text-align: center;
 
 	img {
-		position: absolute;
-		top: 0;
-		left: 0;
+		display: inline-block;
 		max-width: 1140px;
 		margin: 0 auto;
 	}
