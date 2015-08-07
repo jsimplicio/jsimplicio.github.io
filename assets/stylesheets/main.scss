@@ -3,11 +3,16 @@ body {
 	position: relative;
 	background: #111;
 	color: #fff;
-	font-family: "museo-slab";
+	font-family: "garamond-premier-pro";
 }
 
 a {
 	color: #fff;
+}
+
+h1 {
+	font-style: italic;
+	font-size: 62px;
 }
 
 .cycle-slideshow {
@@ -30,6 +35,7 @@ a {
 	font-size: 2em;
 	text-decoration: none;
 	text-transform: lowercase;
+	font-style: italic;
 	padding: 0 12px;
 }
 
