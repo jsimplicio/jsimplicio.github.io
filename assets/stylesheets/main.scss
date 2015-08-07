@@ -2,7 +2,12 @@ body {
 	padding: 20px;
 	position: relative;
 	background: #111;
+	color: #fff;
 	font-family: "museo-slab";
+}
+
+a {
+	color: #fff;
 }
 
 .cycle-slideshow {
@@ -25,9 +30,16 @@ body {
 
 #prev,
 #next {
-	color: #fff;
 	font-size: 2em;
 	text-decoration: none;
 	text-transform: lowercase;
 	padding: 0 12px;
+}
+
+#footer {
+	text-align: center;
+
+	p {
+		font-size: 12px;
+	}
 }
