@@ -23,6 +23,7 @@ a {
 
 .vertical {
 	left: 50% !important;
+	z-index: 1 !important;
 	transform: translateX(-50%);
 }
 
