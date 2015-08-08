@@ -13,7 +13,11 @@ a {
 h1 {
 	font-style: italic;
 	text-align: center;
-	font-size: 44px;
+	font-size: 24px;
+
+	@media (min-width: 768px) {
+		font-size: 44px;
+	}
 }
 
 .cycle-slideshow {
