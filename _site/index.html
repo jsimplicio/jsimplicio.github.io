@@ -1,203 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta name="description" content="Developing products in Chicago">
-  <meta author="author" content="Jules Simplicio">
-  <meta charset="UTF-8">
-  <meta name="theme-color" content="#444444">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/images/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="../assets/images/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="../assets/images/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="../assets/images/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="../assets/images/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="../assets/images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../assets/favicon/images/ms-icon-144x144.png">
-  <link type="text/css" rel="stylesheet" href="/assets/stylesheets/main.css">
-  <title>Jules Simplicio, Product and Front-End Designer</title>
-</head>
-
-  <body ontouchstart="">
-    <div class="wrapper">
-  <section class="intro content">
-  <div class="logo-wrapper">
-    <div class="logo">
-      <img src="assets/images/name.png" />
-    </div>
-  </div>
-  <p>Hey 👋 I'm Jules Simplicio—A product and front-end designer living in Chicago, and working as a product designer on web and mobile software at <a title="dscout mobile research" href="https://dscout.com">dscout</a>.</p>
-
-  <p>I've been in tech for 4 years. Apprenticed design under <a title="Basecamp" href="http://basecamp.com" title="Basecamp">Basecamp</a> and  <a title="Threadless" href="http://threadless.com" title="Threadless">Threadless</a>. Practiced development for a small startup that has been acquired. Volunteered for open source <a href="http://opensourcedesign.net" title="Open Source Deisgn">design</a> and <a href="http://hood.ie" title="Hoodie">development</a> in between jobs.
-
-  <div class="intro-links">
-    <a href="mailto:hi@jules.studio" title="Get in touch">Get in touch</a>
-  </div>
-</section>
-
+---
+layout: default
+title: Jules Simplicio, Product and Front-End Designer
+---
+<div class="wrapper">
+  {% include header.html %}
   <section class="work">
     <div class="work-wrapper">
-      
-      <a href="/product/design/dscout-mission-invites-inviting-participants-to-your-research-project/" title="dscout mission invites">
+      {% for post in site.posts %}
+      <a href="{{ post.url }}" title="{{ post.title }}">
         <div class="work-item">
-          <span class="post-meta">Jun 1, 2017</span>
-          <h3 class="post-title">dscout mission invites <span class="subtitle">Inviting participants to your research project</span></h3>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3 class="post-title">{{ post.title }} <span class="subtitle">{{ post.subtitle }}</span></h3>
           <div class="tags">
-            
-              <span>user research</span>
-            
-              <span>agile software development</span>
-            
-              <span>prototyping</span>
-            
-              <span>user interface design</span>
-            
+            {% for tag in post.tags %}
+              <span>{{tag | downcase}}</span>
+            {% endfor %}
           </div>
-          <p>After our redesign of the Mission Builder, the product team continued focusing on other aspects of the experience of researchers creating projects with dscout. The invites feature came out of...Click to read more</p>
+          <p>{{ post.content | strip_html | truncatewords: 30 }}Click to read more</p>
         </div>
       </a>
-      
-      <a href="/product/design/dscout-mission-testing-test-your-research-before-launching-it/" title="dscout mission testing">
-        <div class="work-item">
-          <span class="post-meta">May 30, 2017</span>
-          <h3 class="post-title">dscout mission testing <span class="subtitle">Test your research before launching it</span></h3>
-          <div class="tags">
-            
-              <span>wireframes</span>
-            
-              <span>prototyping</span>
-            
-              <span>agile software development</span>
-            
-              <span>user interface design</span>
-            
-          </div>
-          <p>Before launching their research project, researchers now can make sure they have crafted a good mission, and ensure they can get to insightful answers. All of this is now capable...Click to read more</p>
-        </div>
-      </a>
-      
-      <a href="/product/design/dscout-for-DIY-users-paying-for-your-research-on-launch/" title="dscout for DIY users">
-        <div class="work-item">
-          <span class="post-meta">Apr 25, 2017</span>
-          <h3 class="post-title">dscout for DIY users <span class="subtitle">Paying for your research on launch</span></h3>
-          <div class="tags">
-            
-              <span>interactive</span>
-            
-              <span>prototype</span>
-            
-              <span>payments</span>
-            
-              <span>user interface design</span>
-            
-          </div>
-          <p>role: UI and UX design team: Taylor Briggs—Lead Front-end Engineer At dscout, we offer three kinds of project plans for researchers: DIY Projects: Users pay as they go a fee...Click to read more</p>
-        </div>
-      </a>
-      
-      <a href="/product/design/threadless-artist-shops-earnings-a-dashboard-with-sales-data-from-a-shop/" title="Threadless Artist Shops Earnings">
-        <div class="work-item">
-          <span class="post-meta">Aug 24, 2016</span>
-          <h3 class="post-title">Threadless Artist Shops Earnings <span class="subtitle">A dashboard with sales data from a shop</span></h3>
-          <div class="tags">
-            
-              <span>wireframes</span>
-            
-              <span>mobile</span>
-            
-              <span>web app</span>
-            
-              <span>user interface design</span>
-            
-              <span>analytics</span>
-            
-          </div>
-          <p>I designed a proposal for an upcoming earnings dashboard, where shop owners can see a summary of their sales activity. Needs and goals Display a summary of important data about...Click to read more</p>
-        </div>
-      </a>
-      
-      <a href="/product/design/threadless-artist-shops-onboarding-guiding-both-new-and-exisitng-shop-owners/" title="Threadless Artist Shops Onboarding">
-        <div class="work-item">
-          <span class="post-meta">Aug 11, 2016</span>
-          <h3 class="post-title">Threadless Artist Shops Onboarding <span class="subtitle">Guiding both new and existing shop owners</span></h3>
-          <div class="tags">
-            
-              <span>onboarding</span>
-            
-              <span>user interface design</span>
-            
-          </div>
-          <p>I proposed a new welcome page design for new and recurring shop owners. The dashboard is the first thing new shop owners see when they login for the first time,...Click to read more</p>
-        </div>
-      </a>
-      
-      <a href="/product/design/threadless-for-ios-improving-interactions-and-interfaces-within-the-threadless-ios-app/" title="Threadless for iOS">
-        <div class="work-item">
-          <span class="post-meta">Jul 1, 2016</span>
-          <h3 class="post-title">Threadless for iOS <span class="subtitle">Improving interactions and interfaces within the Threadless iOS app</span></h3>
-          <div class="tags">
-            
-              <span>ios</span>
-            
-              <span>mobile</span>
-            
-              <span>prototyping</span>
-            
-              <span>user interface design</span>
-            
-          </div>
-          <p>While working at Threadless I dedicated some of my time to the iOS Threadless app. I created different visuals including options for the navigation bar, and an unified icon family....Click to read more</p>
-        </div>
-      </a>
-      
-      <a href="/product/design/threadless-artist-shops-managing-products-shop-owners-publishing-editing-prices-and-editing-styles-of-products-and-designs/" title="Threadless Artist Shops Managing Products">
-        <div class="work-item">
-          <span class="post-meta">Jun 10, 2016</span>
-          <h3 class="post-title">Threadless Artist Shops Managing Products <span class="subtitle">Shop owners publishing, editing prices, and editing styles of products and designs</span></h3>
-          <div class="tags">
-            
-              <span>usability testing</span>
-            
-              <span>prototyping</span>
-            
-              <span>user interface design</span>
-            
-          </div>
-          <p>Threadless recently released Artist Shops, a platform for artists to sell their designs printed on a variety of different products, including apparel and wall art. The service provides shop owners...Click to read more</p>
-        </div>
-      </a>
-      
+      {% endfor %}
     </div>
   </section>
-  <footer class="site-footer content">
-     <p>&copy; Jules Simplicio. Made with <a href="http://jekyllrb.com">Jekyll</a>. 2013-2017.
- </footer>
-
+  {% include footer.html %}
 </div>
-
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                  (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-48100383-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
-</html>
