@@ -1,9 +1,9 @@
 # Site settings
-title: Jules Simplicio's Portfolio
+title: Jules Simplicio
 email: hi@jules.studio
-description: My portfolio of product design and development
+description: Product development
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jules.studio" # the base hostname & protocol for your site
+url: "http://jsimplicio.github.io" # the base hostname & protocol for your site
 twitter_username: julessimplicio
 github_username:  jsimplicio
 
