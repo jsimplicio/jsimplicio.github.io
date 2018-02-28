@@ -3,7 +3,7 @@ layout: post
 title:  "Threadless for iOS"
 date:   2016-07-01
 categories: product design
-subtitle: "Improving interactions and interfaces within the Threadless iOS app"
+subtitle: "Improving interactions and interfaces in app"
 tags: ["iOS", "mobile",
 "prototyping", "user interface design"]
 ---

@@ -12,8 +12,17 @@
 .block {
   display: block; }
 
-.margin-t--base {
+.margin--t-base {
   margin-top: 1em; }
+
+.margin--b-normal {
+  margin-bottom: 1em; }
+
+.margin--b-large {
+  margin-bottom: 2em; }
+
+.display--ib {
+  display: inline-block; }
 
 .caption {
   font-size: .9rem;

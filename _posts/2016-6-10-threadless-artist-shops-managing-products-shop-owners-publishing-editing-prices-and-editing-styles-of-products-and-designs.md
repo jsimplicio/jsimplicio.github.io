@@ -3,7 +3,7 @@ layout: post
 title: "Threadless Artist Shops Managing Products"
 date: 2016-06-10
 categories: product design
-subtitle: "Shop owners publishing, editing prices, and editing styles of products and designs"
+subtitle: "Publishing products, editing prices, and editing styles"
 tags: ["usability testing",
 "prototyping", "user interface design"]
 ---

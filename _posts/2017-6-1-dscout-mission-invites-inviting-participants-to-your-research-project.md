@@ -3,7 +3,7 @@ layout: post
 title:  "dscout mission invites"
 date:   2017-6-1
 categories: product design
-subtitle: "Inviting participants to your research project"
+subtitle: "Inviting participants to a research project"
 tags: ["user research", "agile software development",
 "prototyping", "user interface design"]
 ---

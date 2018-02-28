@@ -3,7 +3,7 @@ layout: post
 title:  "dscout mission testing"
 date:   2017-5-30
 categories: product design
-subtitle: "Test your research before launching it"
+subtitle: "Testing research questions before launching a project"
 tags: ["wireframes", "prototyping",
 "agile software development", "user interface design"]
 ---
