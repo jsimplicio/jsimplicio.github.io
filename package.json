@@ -4,7 +4,8 @@
   "description": "My portfolio site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ../../../assets/stylesheets/main.scss:../../../assets/stylesheets/"
   },
   "repository": {
     "type": "git",

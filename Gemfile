@@ -3,5 +3,5 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "jekyll"
-gem "jekyll-assets"
 gem "autoprefixer-rails"
+gem "sass"

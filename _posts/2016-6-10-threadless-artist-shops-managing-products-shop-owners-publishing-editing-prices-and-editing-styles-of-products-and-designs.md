@@ -36,31 +36,31 @@ We conducted usability testing with a few shop owners, both in person and throug
 Below are sketches that I created before designing high fidelity wireframes. The idea for Manage Products originated with the table of products from the start. After many back and forth feedback sessions, and usability testing, I arrived at the high fidelity solutions below the preliminary sketches. The final wireframes took many iterations where my goal was to include all the necessary parts for shop owners to be able to manage and edit their products and designs in one place.
 
 <figure>
-	<img src="{% asset_path images/manage-products-scan.jpg %}" alt="Artist Shops Manage Products" class="has-caption" />
+	<img src="../../../../../../assets/images/manage-products-scan.jpg" alt="Artist Shops Manage Products" class="has-caption" />
 	<figcaption class="media-caption center">Artist Shops: Manage Products - First iterations on sketch</figcaption>
 </figure>
 
 <figure>
-	<img src="{% asset_path images/manage-products-scan-2.jpg %}" alt="Artist Shops Manage Products" class="has-caption" />
+	<img src="../../../assets/images/manage-products-scan-2.jpg" alt="Artist Shops Manage Products" class="has-caption" />
 	<figcaption class="media-caption center">Artist Shops: Manage Products - First iterations on sketch</figcaption>
 </figure>
 
 <figure>
-	<img src="{% asset_path images/manage-products-scan-3.jpg %}" alt="Artist Shops Manage Products" class="has-caption" />
+	<img src="../../../assets/images/manage-products-scan-3.jpg" alt="Artist Shops Manage Products" class="has-caption" />
 	<figcaption class="media-caption center">Artist Shops: Manage Products - First iterations on sketch</figcaption>
 </figure>
 
 <figure>
-	<img src="{% asset_path images/manage-products-1.jpg %}" alt="Artist Shops Manage Products" class="has-caption" />
+	<img src="../../../assets/images/manage-products-1.jpg" alt="Artist Shops Manage Products" class="has-caption" />
 	<figcaption class="media-caption center">Artist Shops: Manage Products - Men's t-Shirts</figcaption>
 </figure>
 
 <figure>
-	<img src="{% asset_path images/manage-products-2.jpg %}" alt="Artist Shops Manage Products" class="has-caption" />
+	<img src="../../../assets/images/manage-products-2.jpg" alt="Artist Shops Manage Products" class="has-caption" />
 	<figcaption class="media-caption center">Artist Shops: Manage Products - Framed wall art prints</figcaption>
 </figure>
 
 <figure>
-	<img src="{% asset_path images/manage-products-3.jpg %}" alt="Artist Shops Manage Products" class="has-caption" />
+	<img src="../../../assets/images/manage-products-3.jpg" alt="Artist Shops Manage Products" class="has-caption" />
 	<figcaption class="media-caption center">Artist Shops: Manage Products - Editing a design</figcaption>
 </figure>

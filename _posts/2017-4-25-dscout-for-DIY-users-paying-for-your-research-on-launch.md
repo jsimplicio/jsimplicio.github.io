@@ -32,6 +32,6 @@ DIY users can put a card on file which is charged when their mission is being la
 
 I made sure the flow of payment worked seamlessly inside the flow of launching. For our DIY users, that sometimes must pay before launching their mission, the launch button says "Launch and Pay." They're then prompted to pay for the fee of the mission with a concise payment form.
 
-<video autoplay preload loop src="{% asset_path images/diy-launch.mp4 %}"><source src="{% asset_path images/diy-launch.mp4 %}" type="video/mp4"></video>
+<video autoplay preload loop src="../../../../../../assets//images/diy-launch.mp4 %}"><source src="../../../../../../assets//images/diy-launch.mp4 %}" type="video/mp4"></video>
 
-<video autoplay preload loop src="{% asset_path images/diy-launch-2.mp4 %}"><source src="{% asset_path images/diy-launch-2.mp4 %}" type="video/mp4"></video>
+<video autoplay preload loop src="../../../../../../assets//images/diy-launch-2.mp4 %}"><source src="../../../../../../assets//images/diy-launch-2.mp4 %}" type="video/mp4"></video>

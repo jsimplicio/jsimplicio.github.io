@@ -28,11 +28,11 @@ I researched different analytics dashboards from different product companies tha
 This project was particularly interesting to do because I started with mobile research and mobile sketch plans first. I expanded my mobile sketches into desktop sized dashboards, to make sure it can respond both to mobile and desktop. Below are the mobile sketches, followed by a high fidelity wireframe option for the earnings dashboard.
 
 <figure>
-	<img src="{% asset_path images/earnings-scan.jpg %}" alt="Artist Shops Earnings sketch" />
+	<img src="../../../../../../assets//images/earnings-scan.jpg" alt="Artist Shops Earnings sketch" />
 	<figcaption class="media-caption center">Artist Shops - Dashboard earnings sketch</figcaption>
 </figure>
 
 <figure>
-	<img src="{% asset_path images/dashboard-2.jpg %}" alt="Artist Shops Dashboard" />
+	<img src="../../../../../../assets//images/dashboard-2.jpg" alt="Artist Shops Dashboard" />
 	<figcaption class="media-caption center">Artist Shops - Dashboard</figcaption>
 </figure>
