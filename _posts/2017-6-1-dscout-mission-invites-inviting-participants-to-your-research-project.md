@@ -7,84 +7,84 @@ subtitle: "Inviting participants to a research project"
 tags: ["user research", "agile software development",
 "prototyping", "user interface design"]
 ---
-After our redesign of the Mission Builder, the product team continued focusing on other aspects of the experience of researchers creating projects with dscout.
+After redesigning the Mission Builder, the product team kept focus on the experience of researchers creating projects with dscout.
 
-The invites feature came out of our goal to streamline the research process, and to keep facilitating the use of dscout for researchers. Our research process, prototyping, and testing, ended up making sense of all of the essential parts for launching a research project—the research's mission details, the research itself, and the research participants.
+The invites feature launched to facilitate the process of building and launching research. Our UX research, prototypes, and user testing, helped us understand the essential pieces that researchers need for launching their project—details and overview, research questions, and research participants.
 
-For the invites project, we focused on the invitation of research participants to your project. Where does the process of inviting participants to a researcher's mission fits best? This question generated many ideas in our team's minds. With our users in mind, we proceeded to research and design a way to tackle this question.
+With invites, we focused on the invitation of research participants to a researcher's project. We catalogued all of the activities in the research process—writing the questions script, inviting participants, conducting research analysis, managing research participants, and many more—and we used this data to understand the research process in dscout. Our goal was to determine the best place for inviting participants in the researcher flow.
 
-We catalogued all of the activities in the researcher process—writing the questions script, inviting scouts, research analysis, managing research participants, etc.—and we used this data understand the researcher process. We wanted to determine the most intuitive place for inviting participants. We conducted an internal card sorting activity with team members from user success and research—they're the teams that use our platform as researchers, and are power users. In this activity we asked our colleagues to write down in each card each part of the researcher process, and group parts that go together, and then put them in the order they happen. The activity showed us a lot of different perspectives and also commonalities between peoples mental models. This helped us formulate our hypothesis of where the inviting participants process should be located in the research experience.
+We conducted internal card sorting with team members from user success, and research. In this activity we asked our colleagues to write down on each card each part of the researcher process in dscout, then group the parts that go together, and finally put them in the order that they happen. This activity showed us a lot of different perspectives and commonalities between our internal power users' mental models. This helped us come up with a hypothesis of where the invite process should be in dscout's research flow.
 
 <figure>
 	<img src="../../../../../../assets//images/card-sort.png" alt="Card sorting" />
 	<figcaption class="media-caption center">Card sorting</figcaption>
 </figure>
 
-We came up with designs, and iterated on them through various prototypes, and concluded that the activity of inviting participants fits appropriately inside the Mission Builder, where researchers fill out their mission details and build their question script.
+We came up with designs, and user tested them with different prototypes. Finally, we concluded that inviting participants to a research project in dscout fits naturally in the Mission Builder, where researchers fill out their project's details and build their research questions script.
 
-#### Why?
-This is tied to our goal of getting together all of the essential pieces for launching your research:
+#### What you need for launching your research project
+We wanted to gather all of the essential pieces for launching a research project:
 
 1. Details (Instructions and Overview)
-2. The question script (Your research)
+2. The question script (Research questions)
 3. Participants
 
-It made sense to include an “Invites” tab where you can add your list of scouts inside the Mission Builder, next to “Details” and “Questions” . This also leaves Scout Management for purely tracking scout progress and communicating with scouts.
+In our UI, it made sense to include an “Invites” tab where researchers can add a list of participants to their project inside the Mission Builder. This change would leave dscout's Scout Management for purely tracking scout progress and communicating with scouts.
 
-#### How inviting scouts works
+#### Inviting research participants
 
-There is an “Invites” tab in the builder next to “Details” and “Questions.” You may also notice “Invites” showing up on the status bar.
+There is an “Invites” tab in the Mission Builder next to “Details” and “Questions.” You can access “Invites” on the status bar as well.
 
 <figure>
 	<img src="../../../../../../assets//images/invites-1.png" alt="The invites tab" />
 	<figcaption class="media-caption center">The invites tab</figcaption>
 </figure>
 
-Inside “Invites” you will encounter an invitation—which consists of your invitation message (the email scouts get to join your mission), and scouts.
+Inside “Invites” researchers will encounter an invitation UI—consisting of an invitation message (the email that participants get as an invite to join a research project).
 
-To add scouts simply click on the “Add Scouts” call to action. Note that below the CTA we tell you that your first wave of scouts is invited upon launching your mission—first wave scouts are automatically invited on launch, and will show up in Scout Management with the status of “Invited.”
+Besides the invitation, researchers can add participants to their project. To add scouts they click on the “Add Scouts” call to action. Below the CTA note that the first wave of scouts is invited upon launching a mission—first wave scouts are automatically invited on launch, and will show up in Scout Management with the status of “Invited” until they accept the mission invitation.
 
-You can add scouts manually by entering in the text area First Name, Last Name, and email—one per line. Or, we’ve added the capability of reading a CSV file, which can be a list of scouts entered by the same formula: First Name, Last Name, and email.
+Scouts can be added manually by entering their first name, last name, and email—one per line. Likewise, we’ve added the capability of reading a CSV file, which can be a list of participants entered by the same formula: first name, last name, and email.
 
 <figure>
 	<img src="../../../../../../assets//images/invites-4.png" alt="Manually entering scouts" />
 	<figcaption class="media-caption center">Manually entering scouts</figcaption>
 </figure>
 
-You can also pull scouts from a previous mission. You can pull scouts by filtering and picking only mission accomplished scouts, scouts who submitted entries, or all scouts.
+Additionally, researchers can also pull scouts from a previous mission. They can also pull scouts with the help of filters that let them select only mission accomplished scouts, for example.
 
 <figure>
 	<img src="../../../../../../assets//images/invites-2.png" alt="Adding scouts from a previous mission" />
 	<figcaption class="media-caption center">Adding scouts from a previous mission</figcaption>
 </figure>
 
-#### Pulling Scouts From a Screener?
+#### Moving scouts from a screener to a mission
 
-You need to add scouts to your mission by going to the screener Applications and selection scouts and promoting them to your mission. Once you’ve done this, they will be populated in the “Invitation” container under “Scouts” in “Invites.”
+If a researcher needs to add scouts to their mission from a screener, they should simply access Applications and select all of the desired scouts and promote them to their mission. Once that's been done, these scouts will show up under “Scouts” in the “Invites” tab on the Mission Builder.
 
-#### Launching Your Mission
+#### Launching your mission after writing your research
 
-Once you’ve added scouts, you should see them populated on the bottom of the invitation container. The “Invites” status in the status bar will also contain the count of invitees.
+Researchers can launch their mission once they have added mission overview, details, research questions, and once they have added participants (participants are displayed under “Scouts” in “Invites” once added). The invites on the status bar also contain the count of invitees.
 
 <figure>
 	<img src="../../../../../../assets//images/invites-5.png" alt="Complete invitation" />
 	<figcaption class="media-caption center">Complete invitation</figcaption>
 </figure>
 
-When you hit launch on the status bar, you will see a special modal that let’s you review your invitation and reminds you that this first wave is being invited upon launch. (During this point, our DIY users also go through the payment process)
+When researchers hit launch on the status bar, they will see a special modal that let’s them review their invitation message, invitees, and also reminds them that the participants added to “Invites” before launch are being invited upon launch.
 
 <figure>
 	<img src="../../../../../../assets//images/invites-6.png" alt="Launch modal" />
 	<figcaption class="media-caption center">Launch modal</figcaption>
 </figure>
 
-After launching, you’re taken to Scout Management, where you will see your list of scouts added with the status of “Invited.”
+After launching, researchers are taken to Scout Management, where they can see the list of scouts they invited.
 
-#### Post Launch
+#### Inviting more participants after launching a research project
 
-Whenever you would like to invite more waves of scouts after launching, you can go back to the "Invites" tab in the Builder. Your previous invitation message will be saved there as well.
+Whenever researchers would like to invite more waves of scouts after launching, they can go back to the “Invites” tab in the Builder. The previous invitation message will be saved there as well.
 
-Since you're not going to re-launch your mission for future waves of scouts, now you will see a green button that says: “Invite Scouts.” You will send their invitations by clicking on this button after adding scouts.
+Since the researcher is not about to launch their project again, future waves of scouts will receive invites when a researcher clicks on a green button that says “Send Invitations” bellow “Add Scouts”. 
 
 <figure>
 	<img src="../../../../../../assets//images/invites-7.png" alt="Invites during an open mission" />
