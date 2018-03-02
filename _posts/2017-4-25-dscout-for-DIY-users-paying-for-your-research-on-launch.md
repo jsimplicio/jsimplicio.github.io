@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "dscout DIY projects"
+title:  "dscout payments"
 date:   2017-4-25
 categories: product design
-subtitle: "Paying for a research project on launch"
+subtitle: "Paying for a DIY research project on launch"
 tags: ["interactive", "prototype",
 "payments", "user interface design"]
 ---
@@ -31,6 +31,12 @@ I researched payment forms, and noted patterns in its UI elements, and user expe
 DIY users can put a card on file which is charged when their mission is being launched. However if they don't have a card on file, they are prompted to update their payment information and enter a card.
 
 I made sure the flow of payment worked seamlessly inside the flow of launching. For our DIY users, that sometimes must pay before launching their mission, the launch button says "Launch and Pay." They're then prompted to pay for the fee of the mission with a concise payment form.
+
+<figure>
+	<img src="../../../../../../assets/images/cards.png" alt="Credit cards" />
+	<figcaption class="media-caption center">Credit card icons created from royalty free logos</figcaption>
+</figure>
+
 
 <video controls preload loop src="../../../assets/images/diy-launch.mp4"><source src="../../../assets/images/diy-launch.mp4" type="video/mp4"></video>
 

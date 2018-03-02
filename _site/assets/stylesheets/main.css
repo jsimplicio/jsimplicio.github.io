@@ -223,7 +223,8 @@ li:not(:last-child) {
 
 .tags span {
   background-color: #EEE;
-  color: #505050;
+  border-radius: 3px;
+  color: #999;
   display: inline-block;
   font-size: .725rem;
   font-style: uppercase;
