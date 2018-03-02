@@ -3,7 +3,7 @@ layout: post
 title:  "Threadless Artist Shops Earnings"
 date:   2016-08-24
 categories: product design
-subtitle: "A dashboard with sales data from a shop owner"
+subtitle: "A dashboard of a shop owner's sales data"
 tags: ["wireframes", "mobile", "web app", "user interface design",
 "analytics"]
 ---

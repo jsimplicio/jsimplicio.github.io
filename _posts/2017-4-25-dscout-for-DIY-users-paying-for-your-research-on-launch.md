@@ -3,7 +3,7 @@ layout: post
 title:  "dscout payments"
 date:   2017-4-25
 categories: product design
-subtitle: "Paying for a DIY research project on launch"
+subtitle: "Launching and paying for a DIY project"
 tags: ["interactive", "prototype",
 "payments", "user interface design"]
 ---
