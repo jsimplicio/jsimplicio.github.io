@@ -4,3 +4,4 @@ project.sublime-project
 manifest.json
 feed.xml
 package.json
+_site
