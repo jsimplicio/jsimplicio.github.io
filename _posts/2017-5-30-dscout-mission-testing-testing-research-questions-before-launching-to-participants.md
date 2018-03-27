@@ -3,9 +3,8 @@ layout: post
 title:  "dscout mission testing"
 date:   2017-5-30
 categories: product design
-subtitle: "Testing research questions before launching a project"
-tags: ["wireframes", "prototyping",
-"agile software development", "user interface design"]
+subtitle: "Testing research questions before launching to participants"
+tags: ["software development"]
 ---
 
 Before launching their research project, researchers now can make sure they have crafted a good mission, and ensure they can get to insightful answers. All of this is now capable by using the "Test" feature inside the Mission Builder.

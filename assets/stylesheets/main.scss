@@ -118,7 +118,7 @@ a {
   position: relative;
   text-decoration: none;
 
-  &::after {
+  &:not(.tag)::after {
     background-color: $text-color-light;
     border-radius: 5px;
     bottom: 0px;
@@ -171,6 +171,14 @@ li:not(:last-child) {
   margin-bottom: $spacer-xsmall;
 }
 
+footer {
+  border-top: 1px solid #F0F0F0;
+}
+
+header {
+  border-bottom: 1px solid #F0F0F0;
+}
+
 /* Components */
 .wrapper {
   margin: 0 auto;
@@ -183,6 +191,10 @@ li:not(:last-child) {
 
   p {
     text-align: left;
+
+    &:first-child {
+      font-size: 1.4;
+    }
   }
 }
 
@@ -225,8 +237,8 @@ li:not(:last-child) {
 .media-caption {
   display: block;
   font-color: #888;
-  font-size: $font-small;
-  font-weight: bold;
+  font-size: $font-xsmall;
+  font-style: italic;
   margin-top: $spacer-xsmall;
 
   &:not(:last-child) {
@@ -321,13 +333,12 @@ li:not(:last-child) {
   margin-bottom: $spacer-small;
 }
 
-.tags span {
-  background-color: #EEE;
+.tags .tag {
+  background-color: #F1F1F1;
   border-radius: 3px;
   color: #999;
   display: inline-block;
   font-size: .725rem;
-  font-style: uppercase;
   margin: 0 .5em .5em 0;
   padding: .25em .5em;
 }
@@ -340,4 +351,20 @@ li:not(:last-child) {
   display: inline-block;
   margin: 0 0 1em 0;
   max-width: 281px;
+}
+
+.post-content {
+  margin: 2em 0;
+}
+
+.tag--group {
+  margin-bottom: $spacer-normal;
+}
+
+.tags--table {
+  width: 100%;
+
+  td span {
+    float: right;
+  }
 }

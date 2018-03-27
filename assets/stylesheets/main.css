@@ -74,7 +74,7 @@ a {
   color: inherit;
   position: relative;
   text-decoration: none; }
-  a::after {
+  a:not(.tag)::after {
     background-color: #CCC;
     border-radius: 5px;
     bottom: 0px;
@@ -114,6 +114,12 @@ ul {
 li:not(:last-child) {
   margin-bottom: 0.6em; }
 
+footer {
+  border-top: 1px solid #F0F0F0; }
+
+header {
+  border-bottom: 1px solid #F0F0F0; }
+
 /* Components */
 .wrapper {
   margin: 0 auto;
@@ -125,6 +131,9 @@ li:not(:last-child) {
   .intro p,
   .intro-links p {
     text-align: left; }
+    .intro p:first-child,
+    .intro-links p:first-child {
+      font-size: 1.4; }
 
 .site-header,
 .site-footer {
@@ -153,8 +162,8 @@ li:not(:last-child) {
 .media-caption {
   display: block;
   font-color: #888;
-  font-size: 0.9rem;
-  font-weight: bold;
+  font-size: 0.75rem;
+  font-style: italic;
   margin-top: 0.6em; }
   .media-caption:not(:last-child) {
     margin-bottom: 1em; }
@@ -221,13 +230,12 @@ li:not(:last-child) {
 .tags {
   margin-bottom: 1em; }
 
-.tags span {
-  background-color: #EEE;
+.tags .tag {
+  background-color: #F1F1F1;
   border-radius: 3px;
   color: #999;
   display: inline-block;
   font-size: .725rem;
-  font-style: uppercase;
   margin: 0 .5em .5em 0;
   padding: .25em .5em; }
 
@@ -238,5 +246,16 @@ li:not(:last-child) {
   display: inline-block;
   margin: 0 0 1em 0;
   max-width: 281px; }
+
+.post-content {
+  margin: 2em 0; }
+
+.tag--group {
+  margin-bottom: 2em; }
+
+.tags--table {
+  width: 100%; }
+  .tags--table td span {
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

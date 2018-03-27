@@ -4,8 +4,7 @@ title:  "dscout mission invites"
 date:   2017-6-1
 categories: product design
 subtitle: "Inviting participants to a research project"
-tags: ["user research", "agile software development",
-"prototyping", "user interface design"]
+tags: ["software development"]
 ---
 After redesigning the Mission Builder, the product team kept focus on the experience of researchers creating projects with dscout.
 

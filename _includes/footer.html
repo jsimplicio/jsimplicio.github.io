@@ -1,3 +1,32 @@
 <footer class="site-footer content">
-     <p>&copy; Jules Simplicio. Made with <a href="http://jekyllrb.com">Jekyll</a>. 2013-2017.
- </footer>
+  <p>Have a good <span id="js-time"></span>.</p>
+
+  <p>&copy; Jules Simplicio. Built with <a href="http://jekyllrb.com" title="Jekyll">Jekyll</a> hosted on <a href="https://pages.github.com" title="GitHub Pages">GitHub Pages</a>. 2013-2017.
+</footer>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48100383-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-48100383-1');
+</script>
+<script>
+  let date =  new Date();
+  let hours = date.getHours();
+  let time;
+
+  if ( hours <= 12 ) {
+    time = "morning ☕️"
+  }
+
+  else if ( hours >= 12 && hours <= 17) {
+    time = "afternoon"
+  }
+
+  else if ( hours >= 18 && hours <= 24) {
+    time = "evening"
+  }
+
+  document.getElementById('js-time').innerHTML = time;
+</script>

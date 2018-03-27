@@ -4,8 +4,7 @@ title:  "dscout payments"
 date:   2017-4-25
 categories: product design
 subtitle: "Launching and paying for a DIY project"
-tags: ["interactive", "prototype",
-"payments", "user interface design"]
+tags: ["interaction design"]
 ---
 <div class="caption">
 role: UI and UX design<br>
