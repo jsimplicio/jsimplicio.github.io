@@ -1,3 +1,4 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -113,27 +114,24 @@ h4 {
   }
 }
 
+hr {
+  background: #F0F0F0;
+  border: none;
+  height: 1px;
+  margin: 2rem 0;
+}
 a {
   color: inherit;
+  background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent), linear-gradient(to right, $text-color-light, $text-color-light);
+	background-position: 120%, 122%, 0 130%;
+  background-repeat: no-repeat;
+  background-size: 100% 7px;
   position: relative;
   text-decoration: none;
 
-  &:not(.tag)::after {
-    background-color: $text-color-light;
-    border-radius: 5px;
-    bottom: 0px;
-    content: '';
-    display: block;
-    height: 1px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%;
+  &:hover {
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, $text-color, $text-color);
   }
-
-  &:hover:after {
-      background-color: $text-color;
-    }
 }
 
 p {
@@ -217,10 +215,22 @@ header {
   position: relative;
   text-decoration: none;
   transition: 200ms ease-in;
+	background-position: 120%, 122%, 0 130%;
+  background-repeat: no-repeat;
+  background-size: 100% 5px;
 
-  &:hover {
-    p {
-      text-decoration: underline;
+  p {
+    color: inherit;
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent), linear-gradient(to right, $text-color-light, $text-color-light);
+  	background-position: 120%, 122%, 0 130%;
+    background-repeat: no-repeat;
+    background-size: 100% 7px;
+    display: inline;
+    position: relative;
+    text-decoration: none;
+
+    &:hover {
+      background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, $text-color, $text-color);
     }
   }
 
@@ -243,45 +253,6 @@ header {
 
   &:not(:last-child) {
     margin-bottom: $spacer-small;
-  }
-}
-
-.home-link {
-  border: 2px solid #999;
-  border-radius: 50px;
-  color: #999;
-  display: block;
-  font-size: $font-xsmall;
-  font-weight: 600;
-  margin: $spacer-small 0;
-  padding: $spacer-xsmall $spacer-small;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  &::after {
-    content: '';
-    display: block;
-    height: 0;
-  }
-
-  &:hover:after {
-    height: 0;
-  }
-
-  &:before {
-    display: none;
-  }
-
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: #999;
-    color: #FFF;
-  }
-
-  @include breakpoint(480px) {
-    display: inline-block;
   }
 }
 
@@ -334,6 +305,7 @@ header {
 }
 
 .tags .tag {
+  background-image: none;
   background-color: #F1F1F1;
   border-radius: 3px;
   color: #999;
