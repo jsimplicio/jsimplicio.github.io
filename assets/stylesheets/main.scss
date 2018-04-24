@@ -120,17 +120,15 @@ hr {
   height: 1px;
   margin: 2rem 0;
 }
+
 a {
   color: inherit;
-  background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent), linear-gradient(to right, $text-color-light, $text-color-light);
-	background-position: 120%, 122%, 0 130%;
-  background-repeat: no-repeat;
-  background-size: 100% 7px;
+  border-bottom: 1px solid rgba($text-color, .4);
   position: relative;
   text-decoration: none;
 
   &:hover {
-    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, $text-color, $text-color);
+    border-bottom: 1px solid rgba($text-color, 1);
   }
 }
 
@@ -218,30 +216,6 @@ header {
 	background-position: 120%, 122%, 0 130%;
   background-repeat: no-repeat;
   background-size: 100% 5px;
-
-  p {
-    color: inherit;
-    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent), linear-gradient(to right, $text-color-light, $text-color-light);
-  	background-position: 120%, 122%, 0 130%;
-    background-repeat: no-repeat;
-    background-size: 100% 7px;
-    display: inline;
-    position: relative;
-    text-decoration: none;
-
-    &:hover {
-      background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, $text-color, $text-color);
-    }
-  }
-
-  .post-title {
-    font-size: $font-medium;
-    line-height: 1.1;
-
-    @include breakpoint(768px) {
-      font-size: $font-large;
-    }
-  }
 }
 
 .media-caption {
@@ -262,7 +236,7 @@ header {
   }
 
   .post-title {
-    padding-bottom: $spacer-xsmall;
+    font-size: $font-large;
   }
 
   .tags {
@@ -271,14 +245,9 @@ header {
 }
 
 .post-title {
-  font-size: $font-medium;
   line-height: 1;
   padding-bottom: 10px;
   text-transform: none;
-
-  @include breakpoint(768px) {
-    font-size: $font-large;
-  }
 }
 
 .subtitle {
@@ -305,8 +274,8 @@ header {
 }
 
 .tags .tag {
-  background-image: none;
   background-color: #F1F1F1;
+  border-bottom: none;
   border-radius: 3px;
   color: #999;
   display: inline-block;

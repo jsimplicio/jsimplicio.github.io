@@ -4,7 +4,6 @@ title:  "Threadless Artist Shops Earnings"
 date:   2016-08-24
 categories: product design
 subtitle: "A dashboard with a shop owner's sales data"
-tags: ["user interface design"]
 ---
 
 I designed a proposal for an upcoming earnings dashboard, where shop owners can see a summary of their sales activity.

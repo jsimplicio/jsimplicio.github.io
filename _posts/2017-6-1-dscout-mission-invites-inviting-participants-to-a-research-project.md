@@ -4,8 +4,8 @@ title:  "dscout mission invites"
 date:   2017-6-1
 categories: product design
 subtitle: "Inviting participants to a research project"
-tags: ["software development"]
 ---
+
 After redesigning the Mission Builder, the product team kept focus on the experience of researchers creating projects with dscout.
 
 The invites feature launched to facilitate the process of building and launching research. Our UX research, prototypes, and user testing, helped us understand the essential pieces that researchers need for launching their project—details and overview, research questions, and research participants.

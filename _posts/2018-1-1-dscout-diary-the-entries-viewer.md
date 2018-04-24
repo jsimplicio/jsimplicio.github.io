@@ -4,7 +4,6 @@ title:  "dscout diary"
 date:   2018-1-1
 categories: product design
 subtitle: "The entries viewer"
-tags: ["software development"]
 ---
 
 The product and engineering teams took over a year to overhaul the Diary product at dscout. We implemented a new interface which improves how projects are structured. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.
