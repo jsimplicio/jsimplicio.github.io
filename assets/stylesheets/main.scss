@@ -124,6 +124,7 @@ hr {
 a {
   color: inherit;
   border-bottom: 1px solid rgba($text-color, .4);
+  padding-bottom: 2px;
   position: relative;
   text-decoration: none;
 
@@ -260,13 +261,7 @@ header {
   display: block;
   font-size: $font-small;
   text-decoration: none;
-  text-transform: lowercase;
-}
-
-.date {
-  color: #CCC;
-  font-weight: 300;
-  margin-right: 1.5em;
+  text-transform: capitalize;
 }
 
 .tags {
