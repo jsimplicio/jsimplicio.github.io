@@ -8,7 +8,9 @@ twitter_username: julessimplicio
 github_username:  jsimplicio
 
 # Compile settings
-exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
+exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md, vendor]
+includes:
+  - .well-known
 
 # Build settings
 markdown: kramdown
