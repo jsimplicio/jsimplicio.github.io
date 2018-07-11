@@ -7,8 +7,8 @@ subtitle: "Launching and paying for a DIY project"
 ---
 
 <div class="caption">
-role: UI and UX design<br>
-team: Taylor Briggs—Lead Front-end Engineer
+role: web UI and UX design and product thinking.<br>
+team: Taylor Briggs, Lead Front-end Engineer.
 </div>
 
 At dscout, we offer three kinds of project plans for researchers:
