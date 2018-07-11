@@ -7,7 +7,7 @@ subtitle: "Analyzing your mission"
 ---
 
 <div class="caption">
-role: web UI and UX.<br>
+role: web UI and UX, product thinking.<br>
 team: Timo Kuhn, UI and UX, product thinking. Most of our engineering team!
 </div>
 
