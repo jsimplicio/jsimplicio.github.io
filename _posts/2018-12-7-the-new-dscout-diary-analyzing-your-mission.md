@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The new dscout Diary"
-date:   2018-12-7
+date:   2017-12-7
 categories: product design
 subtitle: "Analyzing your mission"
 ---
