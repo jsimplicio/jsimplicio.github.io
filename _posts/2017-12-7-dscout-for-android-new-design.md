@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "dscout for Android"
+title:  "New dscout for Android"
 date:   2017-12-7
 categories: mobile design
-subtitle: "New design"
+subtitle: "The new Diary mobile experience"
 ---
 
 <div class="caption">
