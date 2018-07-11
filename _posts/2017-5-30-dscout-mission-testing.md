@@ -7,7 +7,7 @@ subtitle: "Testing research questions before launching to participants"
 ---
 
 <div class="caption">
-role: web UI and UX design and product thinking.<br>
+role: web UI and UX design, product thinking, front-end development.<br>
 team: Brad Dalrymple, UX lead. Jonathan Fairman, product thinking. Timo Kuhn, UX and UI, product thinking.
 </div>
 
