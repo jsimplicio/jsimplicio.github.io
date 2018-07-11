@@ -8,7 +8,7 @@ subtitle: "Analyzing your mission"
 
 <div class="caption">
 role: web UI and UX.
-team: Timo Kuhn, UI and UX and product thinking. Most of our engineering team!
+team: Timo Kuhn, UI and UX, product thinking. Most of our engineering team!
 </div>
 
 The product and engineering teams took over a year to overhaul the Diary product at dscout. We implemented a new interface which improves how projects are structured. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.

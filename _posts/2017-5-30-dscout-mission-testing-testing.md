@@ -8,7 +8,7 @@ subtitle: "Testing research questions before launching to participants"
 
 <div class="caption">
 role: web UI and UX design and product thinking.<br>
-team: Brad Dalrymple, UX lead. Jonathan Fairman, product thinking. Timo Kuhn, UX and UI, and product thinking.
+team: Brad Dalrymple, UX lead. Jonathan Fairman, product thinking. Timo Kuhn, UX and UI, product thinking.
 </div>
 
 Before launching their research project, researchers now can make sure they have crafted a good mission, and ensure they can get to insightful answers. All of this is now capable by using the "Test" feature inside the Mission Builder.
