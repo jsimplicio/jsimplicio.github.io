@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Threadless Artist Shops Manage Products"
+title: "Threadless Artist Shops managing products"
 date: 2016-06-10
 categories: product design
 subtitle: "Managing and publishing products"

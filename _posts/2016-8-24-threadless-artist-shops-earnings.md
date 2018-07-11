@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Threadless Artist Shops Earnings"
+title:  "Threadless Artist Shops earnings"
 date:   2016-08-24
 categories: product design
 subtitle: "A dashboard with a shop owner's sales data"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Threadless Artist Shops Onboarding"
+title:  "Threadless Artist Shops onboarding"
 date:   2016-08-11
 categories: product design
 subtitle: "Home base guide to new and existing shop owners"
