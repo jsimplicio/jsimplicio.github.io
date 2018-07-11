@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "dscout diary"
-date:   2018-1-1
+title:  "The new dscout Diary"
+date:   2018-12-7
 categories: product design
-subtitle: "The entries viewer"
+subtitle: "Analyzing your mission"
 ---
 
 The product and engineering teams took over a year to overhaul the Diary product at dscout. We implemented a new interface which improves how projects are structured. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.
