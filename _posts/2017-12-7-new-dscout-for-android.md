@@ -8,20 +8,25 @@ subtitle: "The new Diary mobile experience"
 
 <div class="caption">
 Role: mobile UI and UX, product thinking.<br>
-Team: Jared Davies, Android engineer. Jonathan Marsh, Android engineer. Jeffrey XU, mobile QA engineer. Timo Kuhn, UI and UX, product thinking. 
+Team: Jared Davies, Android engineer. Jonathan Marsh, Android engineer. Jeffrey XU, mobile QA engineer. Timo Kuhn, UI and UX, product thinking.
 </div>
 
-The product and engineering teams at dscout worked on a dscout mobile experience that was a major redesign for the iOS and Android apps so that it could handle the new dscout Diary for researchers that was going to be released
+The product and engineering teams worked on a major redesign of our dscout mobile experience. The new design was implemented so our mobile apps could handle the new dscout Diary for researchers.
 
-I was tasked with updating the design for the dscout Android application, working alongside our design director, Timo Kuhn, who did the designs for iOS. This challenge was interesting because I had never been an Android user. I had to start by learning Material Design, which was very methodical and fun to use.
+I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS designs. This project was interesting because I had never been an Android user. I had to start by learning Material Design, which was very methodical and quite fun to use.
 
-## Goal
-Update and modernize our mobile apps outdated design in order to handle the new dscout Diary, and aspects of dscout Live during its beta.
+## Goals
+* Update and modernize our mobile apps outdated design in order to handle the new dscout Diary.
+* Bonus: handle and some aspects of dscout Live while it's in beta.
 
 ## Solution
-To begin with, there was a ton of reading. I didn't necessarily read the Material Design guides online from beginning to end, but those guides are extremely well laid out and it was easy to find the important nuggets of information I would need to start designing.
+I started this project by reading [Material Design](https://material.io/design/) guides. They are easy to follow and well laid out, therefore I found the important nuggets of information necessary to start designing.
 
-*I would also like to thank our mobile engineers who provided guiding feedback throughout this project.*
+I focused on the new Android experience, from login to completing a mission part. I also focused on complete features such as an upload progress screen where scouts can track particularly heavy uploads.
+
+All of the images below display the new experience of dscout for Android with the new Diary mission design, introducing mission parts.
+
+The following image shows a simple way to use the default carousel on Android for an introduction to our scout app.
 
 <figure>
 	<img src="../../../../../../assets/images/android-0.png" alt="Android app - Welcome carousel" />
