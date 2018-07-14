@@ -22,7 +22,7 @@ Before we used to let researchers invite five participants for free to their mis
 * Tests run just like the mission would run if it was open
 * Allow researchers to receive real data as test answers
 
-## How test works
+## Process
 While building their research design, researchers can at any point test a valid questionnaire (your mission design must be free of errors). Researchers will see a call to action for testing their mission right next to the action to launch their mission.
 
 When researchers click on test they're presented with a modal that instruct them how testing works. Test have up to 5 testers, and run up to 5 days. Researchers may end a test whenever they want within these 5 days. During test, the research design is locked, and they may not modify it. However, after their test end, researchers may iterate on their research design.

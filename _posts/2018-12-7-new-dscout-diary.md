@@ -15,12 +15,11 @@ The product and engineering teams took over a year to overhaul the Diary product
 
 Historically, a researcher would create a project that was made out of one or more missions. They often wanted participants to go through distinct tasks, so they would accomplish this by making scouts go through multiple mission. However, when researchers wanted to see all of their scouts response data across every mission, they couldn't—because each mission was structured like an individual part of a project, in silos separated from one another, which made it hard to compare data across missions. Each mission had its own entries viewer, separated from the other missions inside the project.
 
+With the new Diary release, we broke missions up into parts. Now researchers don't have the need to create multiple missions because a mission can be divided up into parts. For example: before researchers wanting to run a diary study of three distinct tracks, hits, misses, and wishes, would split their project up into three missions. Now researchers can split one mission into three parts. Subsequently, their entries viewer will contain data submitted across the whole mission, which is the entire project.
+
 ## Goals
 * Allow researchers to see all submissions data from their project contained in one place for easy comprehension and analysis
 * Adapt to the new design system (we call our design system Particle) as product of redesigning this section of our application
-
-## Benefits of the new project structure
-With the new Diary release, we broke missions up into parts. Now researchers don't have the need to create multiple missions because a mission can be divided up into parts. For example: before researchers wanting to run a diary study of three distinct tracks, hits, misses, and wishes, would split their project up into three missions. Now researchers can split one mission into three parts. Subsequently, their entries viewer will contain data submitted across the whole mission, which is the entire project.
 
 <figure>
 	<img src="../../../../../../assets/images/entries-1.png" alt="Entering testers" />

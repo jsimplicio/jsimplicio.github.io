@@ -11,18 +11,19 @@ Role: mobile UI and UX, product thinking.<br>
 Team: Jared Davies, Android engineer. Jonathan Marsh, Android engineer. Jeffrey XU, mobile QA engineer. Timo Kuhn, UI and UX, product thinking.
 </div>
 
-The product and engineering teams worked on a major redesign of our dscout mobile experience. The new design was implemented so our mobile apps could handle the new dscout Diary for researchers.
+The product and engineering teams worked on a major redesign of the dscout mobile experience. The new design was born out of the necessity to bring the mobile apps up to date with the new dscout Diary for researchers.
 
 I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS designs. This project was interesting because I had never been an Android user. I had to start by learning Material Design, which was very methodical and quite fun to use.
 
 ## Goals
-* Update and modernize our mobile apps outdated design in order to handle the new dscout Diary.
+* Update the app to handle the new Diary, with mission parts.
+* Bonus: modernize the Android app's outdated design.
 * Bonus: handle and some aspects of dscout Live while it's in beta.
 
-## Solution
+## Process
 I started this project by reading [Material Design](https://material.io/design/) guides. They are easy to follow and well laid out, therefore I found the important nuggets of information necessary to start designing.
 
-I focused on the new Android experience, from login to completing a mission part. I also focused on complete features such as an upload progress screen where scouts can track particularly heavy uploads.
+I focused on a new experience from login to completing a mission part. I also designed supplental features such as an upload progress screen where scouts can track particularly heavy uploads.
 
 All of the images below display the new experience of dscout for Android with the new Diary mission design, introducing mission parts.
 

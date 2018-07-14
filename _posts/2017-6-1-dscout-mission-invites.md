@@ -6,9 +6,7 @@ categories: product design
 subtitle: "Inviting participants to a research project"
 ---
 
-After redesigning the Mission Builder, the product team kept focus on the experience of researchers creating projects with dscout.
-
-The invites feature launched to facilitate the process of building and launching research. Our UX research, prototypes, and user testing, helped us understand the essential pieces that researchers need for launching their project—details and overview, research questions, and research participants.
+The invites feature launched to facilitate the process of building and launching a research study with dscout. Our user research, prototyping, and testing, helped us gather the essential parts that researchers need to launch their project.
 
 With invites, we focused on the invitation of research participants to a researcher's project. We catalogued all of the activities in the research process—writing the questions script, inviting participants, conducting research analysis, managing research participants, and many more—and we used this data to understand the research process in dscout. Our goal was to determine the best place for inviting participants in the researcher flow.
 
@@ -21,7 +19,7 @@ We conducted internal card sorting with team members from user success, and rese
 
 We came up with designs, and user tested them with different prototypes. Finally, we concluded that inviting participants to a research project in dscout fits naturally in the Mission Builder, where researchers fill out their project's details and build their research questions script.
 
-#### What you need for launching your research project
+## What you need for launching your research project
 We wanted to gather all of the essential pieces for launching a research project:
 
 1. Details (Instructions and Overview)
@@ -30,7 +28,7 @@ We wanted to gather all of the essential pieces for launching a research project
 
 In our UI, it made sense to include an “Invites” tab where researchers can add a list of participants to their project inside the Mission Builder. This change would leave dscout's Scout Management for purely tracking scout progress and communicating with scouts.
 
-#### Inviting research participants
+## Inviting research participants
 
 There is an “Invites” tab in the Mission Builder next to “Details” and “Questions.” You can access “Invites” on the status bar as well.
 
@@ -57,11 +55,11 @@ Additionally, researchers can also pull scouts from a previous mission. They can
 	<figcaption class="media-caption center">Adding scouts from a previous mission</figcaption>
 </figure>
 
-#### Moving scouts from a screener to a mission
+## Moving scouts from a screener to a mission
 
 If a researcher needs to add scouts to their mission from a screener, they should simply access Applications and select all of the desired scouts and promote them to their mission. Once that's been done, these scouts will show up under “Scouts” in the “Invites” tab on the Mission Builder.
 
-#### Launching your mission after writing your research
+## Launching a mission after writing designing your research
 
 Researchers can launch their mission once they have added mission overview, details, research questions, and once they have added participants (participants are displayed under “Scouts” in “Invites” once added). The invites on the status bar also contain the count of invitees.
 
