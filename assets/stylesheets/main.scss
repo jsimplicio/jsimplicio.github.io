@@ -95,7 +95,6 @@ main {
 
 p,
 a,
-blockquote,
 ul,
 ol {
   font-family: Georgia;
@@ -284,6 +283,7 @@ blockquote {
 .post-meta {
   color: #888;
   display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: $font-xsmall;
   font-weight: 800;
   text-decoration: none;
