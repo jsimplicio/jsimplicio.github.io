@@ -11,6 +11,7 @@ title: Jules Simplicio
           <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h3 class="post-title">{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
+            <p>{{ post.excerpt }}</p>
           </a>
         </div>
       {% endfor %}

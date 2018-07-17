@@ -5,7 +5,6 @@ date:   2017-6-1
 categories: product design
 subtitle: "Inviting participants to a research project"
 ---
-
 The invites feature launched to facilitate the process of building and launching a research study with dscout. Our user research, prototyping, and testing, helped us gather the essential parts that researchers need to launch their project.
 
 With invites, we focused on the invitation of research participants to a researcher's project. We catalogued all of the activities in the research process—writing the questions script, inviting participants, conducting research analysis, managing research participants, and many more—and we used this data to understand the research process in dscout. Our goal was to determine the best place for inviting participants in the researcher flow.

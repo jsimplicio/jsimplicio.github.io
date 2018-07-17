@@ -5,13 +5,6 @@ date:   2018-1-1
 categories: mobile design
 subtitle: "The new Diary mobile experience"
 ---
-
-<div class="caption">
-	Role: mobile UI and UX, product thinking.
-	<br>
-	Team: Jared Davies, Android engineer. Jonathan Marsh, Android engineer. Jeffrey XU, mobile QA engineer. Timo Kuhn, UI and UX, product thinking.
-</div>
-
 The product and engineering teams worked on a major redesign of the dscout mobile experience. The new design was born out of the necessity to bring the mobile apps up to date with the new dscout Diary for researchers.
 
 I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS designs. This project was interesting because I had never been an Android user. I had to start by learning Material Design, which was very methodical and quite fun to use.
