@@ -118,6 +118,13 @@ footer {
 header {
   border-bottom: 1px solid #F0F0F0; }
 
+blockquote {
+  border-left: 4px solid #444;
+  margin: 0 0 2em 1em;
+  padding: 1em 0 1em 1em; }
+  blockquote p {
+    margin: 0; }
+
 /* Components */
 .wrapper {
   margin: 0 auto;

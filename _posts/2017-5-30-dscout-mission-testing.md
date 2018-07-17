@@ -13,16 +13,16 @@ team: Brad Dalrymple, UX lead. Jonathan Fairman, product thinking. Timo Kuhn, UX
 
 Before launching their research project, researchers now can make sure they have crafted a good mission, and ensure they can get to insightful answers. All of this is now capable by using the "Test" feature inside the Mission Builder.
 
-## Why test?
+### Why test?
 Before we used to let researchers invite five participants for free to their mission. This would usually help kickstart their project. Now we have facilitated the way they can write their research and iterate on it by letting them conduct tests. A mission test will run just like an open mission. Researchers can invite up to 5 testers to take a test drive.
 
-## Goals
+### Goals
 * Allow researchers to test their research questions
 * Allow researchers to test for free
 * Tests run just like the mission would run if it was open
 * Allow researchers to receive real data as test answers
 
-## Process
+### Process
 While building their research design, researchers can at any point test a valid questionnaire (your mission design must be free of errors). Researchers will see a call to action for testing their mission right next to the action to launch their mission.
 
 When researchers click on test they're presented with a modal that instruct them how testing works. Test have up to 5 testers, and run up to 5 days. Researchers may end a test whenever they want within these 5 days. During test, the research design is locked, and they may not modify it. However, after their test end, researchers may iterate on their research design.

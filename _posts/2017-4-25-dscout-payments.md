@@ -17,14 +17,14 @@ At dscout, we offer three kinds of project plans for researchers:
 * Assisted Projects: Assisted Projects are billed by credit card or invoices. They are also a per project basis model. However, they also offer researchers access to dscout's platform, plus pool of participants, and assistance from a dscout user success advisor
 * Enterprise Licenses: This is a subscription model that gives researchers access to unlimited projects to run solo or with our support. Users get access to our platform plus extra powerful features such as text analysis.
 
-## DIY Projects
+### DIY Projects
 The paywall project was directed towards our DIY accounts. They sign up for free, and pay as they go—upon launching their mission they must pay a flat fee of $295. If they don't have a valid card on the account, the paywall moment happens when they go launch their mission by hitting the "Pay and Launch" button.
 
-## Goals
+### Goals
 * Provide a quick an unobtrusive payment flow during launching a mission
 * Focus on the user's experience of payment (sensitive information) for a mission mid launch
 
-## Process
+### Process
 I researched payment forms, and noted patterns in its UI elements, and user experience that are helpful to users while they fill out payment information. Our card inputs give users visual feedback with which kind of card they are entering by recognizing the bank based on what the user types. Our inputs also provide visuals to where your CVV is located based on which card you own.
 
 DIY users can put a card on file which is charged when their mission is being launched. However if they don't have a card on file, they are prompted to update their payment information and enter a card.

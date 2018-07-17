@@ -8,7 +8,7 @@ subtitle: "Managing and publishing products"
 
 Threadless recently released Artist Shops, a platform for artists to sell their designs printed on a variety of different products, including apparel and wall art. The service provides shop owners with their own customizable e-commerce site, while handling the transactions, printing services, delivery, and customer support. The Manage Products section of the dashboard provides shop owners access to their collection of products and designs, and the ability to edit their styles, prices, and publishing status.
 
-## Goals
+### Goals
 * Shop owners should be able to edit the pricing of products
 * Shop owners should be able to publish or unpublish products and designs
 * Shop owners should be able to add/remove product properties: for garments they should be able to edit garment colors, and for wall art they should be able to edit frame colors and choose the size(s) of the canvas
@@ -17,7 +17,7 @@ Threadless recently released Artist Shops, a platform for artists to sell their 
 * Shop owners should be able to bulk edit the pricing of all products in one category (example: all men's t-shirts)
 * A link for accessing the page where shop owners can edit each design, and subsequently, all products pertaining to them
 
-## Process
+### Process
 We listed all designs and products on a table. The products can be filtered by category (Men's, Women's, Kids, and Wall Art), and product type (T-Shirts, Sweatshirts, Wall Art, etc.). The filtering is meant to facilitate the process of editing all shop's items in an organized fashion. The designs table lets shop owners publish or unpublish a design, and see how many products are under a specific design.
 
 We successfully included all of our goal's needs, while still leaving plenty of space for future requirements. We have a list of ideas that we still would like to include such as  the ability for shop owners to replace and edit the design on each product.

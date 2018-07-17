@@ -17,7 +17,7 @@ Historically, a researcher would create a project that was made out of one or mo
 
 With the new Diary release, we broke missions up into parts. Now researchers don't have the need to create multiple missions because a mission can be divided up into parts. For example: before researchers wanting to run a diary study of three distinct tracks, hits, misses, and wishes, would split their project up into three missions. Now researchers can split one mission into three parts. Subsequently, their entries viewer will contain data submitted across the whole mission, which is the entire project.
 
-## Goals
+### Goals
 * Allow researchers to see all submissions data from their project contained in one place for easy comprehension and analysis
 * Adapt to the new design system (we call our design system Particle) as product of redesigning this section of our application
 

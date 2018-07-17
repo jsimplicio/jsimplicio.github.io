@@ -28,7 +28,7 @@ We wanted to gather all of the essential pieces for launching a research project
 
 In our UI, it made sense to include an “Invites” tab where researchers can add a list of participants to their project inside the Mission Builder. This change would leave dscout's Scout Management for purely tracking scout progress and communicating with scouts.
 
-## Inviting research participants
+### Inviting research participants
 
 There is an “Invites” tab in the Mission Builder next to “Details” and “Questions.” You can access “Invites” on the status bar as well.
 
@@ -77,7 +77,7 @@ When researchers hit launch on the status bar, they will see a special modal tha
 
 After launching, researchers are taken to Scout Management, where they can see the list of scouts they invited.
 
-#### Inviting more participants after launching a research project
+### Inviting more participants after launching a research project
 
 Whenever researchers would like to invite more waves of scouts after launching, they can go back to the “Invites” tab in the Builder. The previous invitation message will be saved there as well.
 
