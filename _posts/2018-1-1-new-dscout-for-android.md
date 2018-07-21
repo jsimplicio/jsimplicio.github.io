@@ -83,6 +83,8 @@ The following flow displays the process of a scout submitting an entry to a Diar
 
 The dscout app has acquired 1,576 reviews on the Google Play store and a 4/5 rating.
 
+The following are a couple of reviews we have received from scouts on the Google Play store.
+
 <blockquote>
 	<b>Gwen Geronimo</b>
 	<date class="post-meta">April 25, 2018</date>
