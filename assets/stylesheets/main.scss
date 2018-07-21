@@ -247,7 +247,7 @@ blockquote {
   display: block;
   font-color: #888;
   font-size: $font-xsmall;
-  font-style: italic;
+  font-weight: bold;
   margin-top: $spacer-xsmall;
 
   &:not(:last-child) {

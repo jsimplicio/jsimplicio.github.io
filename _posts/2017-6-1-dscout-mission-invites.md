@@ -18,7 +18,7 @@ We conducted internal card sorting with team members from user success, and rese
 
 We came up with designs, and user tested them with different prototypes. Finally, we concluded that inviting participants to a research project in dscout fits naturally in the Mission Builder, where researchers fill out their project's details and build their research questions script.
 
-## What you need for launching your research project
+### What you need for launching your research project
 We wanted to gather all of the essential pieces for launching a research project:
 
 1. Details (Instructions and Overview)
@@ -54,11 +54,11 @@ Additionally, researchers can also pull scouts from a previous mission. They can
 	<figcaption class="media-caption center">Adding scouts from a previous mission</figcaption>
 </figure>
 
-## Moving scouts from a screener to a mission
+### Moving scouts from a screener to a mission
 
 If a researcher needs to add scouts to their mission from a screener, they should simply access Applications and select all of the desired scouts and promote them to their mission. Once that's been done, these scouts will show up under “Scouts” in the “Invites” tab on the Mission Builder.
 
-## Launching a mission after writing designing your research
+### Launching a mission after writing designing your research
 
 Researchers can launch their mission once they have added mission overview, details, research questions, and once they have added participants (participants are displayed under “Scouts” in “Invites” once added). The invites on the status bar also contain the count of invitees.
 
