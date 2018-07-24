@@ -4,6 +4,7 @@ title:  "Threadless for iOS"
 date:   2016-07-01
 categories: product design
 subtitle: "Improving interactions and interfaces in app"
+hero_image: "/../assets/images/7-01-2016-hero.png"
 ---
 While working at Threadless I dedicated some of my time to the iOS Threadless app. I created different visuals including options for the navigation bar, and an unified icon family. I re-worked the voting and shopping experiences to make them pleasant interactions.
 

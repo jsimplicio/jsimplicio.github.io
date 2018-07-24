@@ -4,6 +4,7 @@ title:  "dscout payments"
 date:   2017-4-25
 categories: product design
 subtitle: "Launching and paying for a DIY project"
+hero_image: "/../assets/images/4-25-2017-hero.png"
 ---
 At dscout, we offer three kinds of project plans for researchers:
 

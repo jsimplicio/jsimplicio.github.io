@@ -4,6 +4,7 @@ title: "Threadless Artist Shops managing products"
 date: 2016-06-10
 categories: product design
 subtitle: "Managing and publishing products"
+hero_image: "/../assets/images/6-10-2016-hero.png"
 ---
 Threadless recently released Artist Shops, a platform for artists to sell their designs printed on a variety of different products, including apparel and wall art. The service provides shop owners with their own customizable e-commerce site, while handling the transactions, printing services, delivery, and customer support. The Manage Products section of the dashboard provides shop owners access to their collection of products and designs, and the ability to edit their styles, prices, and publishing status.
 

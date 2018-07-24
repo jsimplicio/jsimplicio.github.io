@@ -55,6 +55,10 @@ $main-content--width: 768px;
   margin-bottom: 2em;
 }
 
+.margin--t-large {
+  margin-top: 2em;
+}
+
 .display--ib {
   display: inline-block;
 }
@@ -229,9 +233,6 @@ blockquote {
   margin-bottom: 2em;
   position: relative;
   transition: 200ms ease-in;
-	background-position: 120%, 122%, 0 130%;
-  background-repeat: no-repeat;
-  background-size: 100% 5px;
 
   a {
     color: #444;
@@ -329,5 +330,27 @@ blockquote {
 
   td span {
     float: right;
+  }
+}
+
+.hero-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -2em -1em 2em -1em;
+  height: 300px;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.15));
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  @include breakpoint(768px) {
+    height: 500px;
   }
 }

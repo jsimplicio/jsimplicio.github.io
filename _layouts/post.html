@@ -1,22 +1,19 @@
 ---
 layout: default
 ---
+<div class="hero-image" style="background-image:url({{ page.hero_image }})">
+</div>
 <main class="wrapper">
   <a class="margin--b-large" href="/">Return home</a>
   <hr/>
   <article class="post">
-      <header class="post-header">
-  			<span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
-        <h3 class="post-title">{{ page.title }} <span class="subtitle">{{ page.subtitle }}</span></h3>
-        <div class="tags">
-          {% for tag in page.tags %}
-            <a href="/tags#{{ tag | cgi_escape }}" class="tag">{{tag | downcase}}</a>
-          {% endfor %}
-        </div>
-      </header>
-      <div class="post-content">
-        {{ content }}
-      </div>
+    <header class="post-header">
+			<span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+      <h3 class="post-title">{{ page.title }} <span class="subtitle">{{ page.subtitle }}</span></h3>
+    </header>
+    <div class="post-content">
+      {{ content }}
+    </div>
   </article>
   <div class="wrapper">
   	{% include footer.html %}

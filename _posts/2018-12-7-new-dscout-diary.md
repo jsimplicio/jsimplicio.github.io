@@ -4,6 +4,7 @@ title:  "New dscout Diary"
 date:   2017-12-7
 categories: product design
 subtitle: "Analyzing your mission"
+hero_image: "/../assets/images/12-7-2017-hero.png"
 ---
 Our teams of product and engineers took over a year to overhaul the Diary product at dscout. We implemented a new interface which improves how projects are structured. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.
 

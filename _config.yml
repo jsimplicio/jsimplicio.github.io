@@ -22,6 +22,8 @@ data:
   tags: ""
   subtitle: ""
 
+hero-image: ""
+
 navigation:
   - title: home
     url: /index.html

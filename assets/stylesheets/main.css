@@ -22,6 +22,9 @@
 .margin--b-large {
   margin-bottom: 2em; }
 
+.margin--t-large {
+  margin-top: 2em; }
+
 .display--ib {
   display: inline-block; }
 
@@ -157,10 +160,7 @@ blockquote {
   display: block;
   margin-bottom: 2em;
   position: relative;
-  transition: 200ms ease-in;
-  background-position: 120%, 122%, 0 130%;
-  background-repeat: no-repeat;
-  background-size: 100% 5px; }
+  transition: 200ms ease-in; }
   .work-item a {
     color: #444;
     font-family: "Arial Rounded MT Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -233,5 +233,23 @@ blockquote {
   width: 100%; }
   .tags--table td span {
     float: right; }
+
+.hero-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -2em -1em 2em -1em;
+  height: 300px;
+  position: relative; }
+  .hero-image:after {
+    content: '';
+    display: block;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.15));
+    height: 100%;
+    position: absolute;
+    width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .hero-image {
+      height: 500px; } }
 
 /*# sourceMappingURL=main.css.map */
