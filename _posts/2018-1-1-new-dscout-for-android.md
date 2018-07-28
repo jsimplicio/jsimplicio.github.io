@@ -5,6 +5,7 @@ date:   2018-1-1
 categories: mobile design
 subtitle: "The new Diary mobile experience"
 hero_image: "/../assets/images/1-1-2018-hero.png"
+hero_color: "#197FF6"
 ---
 Our teams of product and engineering worked on a major redesign of the dscout mobile experience. The new design was born out of the necessity to bring the mobile apps up to date with the new dscout Diary for researchers.
 

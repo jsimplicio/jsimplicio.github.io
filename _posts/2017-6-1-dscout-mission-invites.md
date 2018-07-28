@@ -5,6 +5,7 @@ date:   2017-6-1
 categories: product design
 subtitle: "Inviting participants to a research project"
 hero_image: "/../assets/images/6-1-2017-hero.png"
+hero_color: "#FEFEFE"
 ---
 The invites feature launched to facilitate the process of building and launching a research study with dscout. Our user research, prototyping, and testing, helped us gather the essential parts that researchers need to launch their project.
 

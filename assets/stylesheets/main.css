@@ -235,21 +235,54 @@ blockquote {
     float: right; }
 
 .hero-image {
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center -10%;
   margin: -2em -1em 2em -1em;
   height: 300px;
   position: relative; }
   .hero-image:after {
     content: '';
     display: block;
-    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.15));
+    background: linear-gradient(to bottom, rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.15));
     height: 100%;
     position: absolute;
     width: 100%; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 550px) {
     .hero-image {
+      background-size: 85% auto;
+      height: 300px; } }
+  @media only screen and (min-width: 600px) {
+    .hero-image {
+      background-size: 110% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 800px) {
+    .hero-image {
+      background-size: 90% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 1024px) {
+    .hero-image {
+      background-size: 85% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 1000px) {
+    .hero-image {
+      background-size: 80% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 1200px) {
+    .hero-image {
+      background-size: 65% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 1400px) {
+    .hero-image {
+      background-size: 55% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 1600px) {
+    .hero-image {
+      background-size: 45% auto;
+      height: 500px; } }
+  @media only screen and (min-width: 1800px) {
+    .hero-image {
+      background-size: 35% auto;
       height: 500px; } }
 
 /*# sourceMappingURL=main.css.map */

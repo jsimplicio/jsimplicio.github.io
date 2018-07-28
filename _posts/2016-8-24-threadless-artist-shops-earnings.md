@@ -5,6 +5,7 @@ date:   2016-08-24
 categories: product design
 subtitle: "A dashboard with shop sales data"
 hero_image: "/../assets/images/8-24-2016-hero.png"
+hero_color: "#0298FF"
 ---
 I designed a proposal for an upcoming earnings dashboard, where shop owners can see a summary of their sales activity.
 
