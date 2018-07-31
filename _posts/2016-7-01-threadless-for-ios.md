@@ -12,8 +12,6 @@ While working at Threadless I dedicated some of my time to the iOS Threadless ap
 ### Voting on a design
 Below are both an animated prototype, and high fidelity wireframes of the flow of voting on a design. This lets users vote on a scale from 1 through 5. Users should receive a nice little positive feedback animation when they vote.
 
-<video autoplay preload loop src="../../../../../../assets/images/threadlessapp.mov"><source src="../../../../../../assets/images/threadlessapp.mov %}" type="video/mp4"></video>
-
 <figure>
 	<img src="../../../../../../assets/images/threadless-ios-1.png" alt="Threadless for iOS" />
 	<figcaption class="media-caption center">Threadless for iOS - Voting</figcaption>

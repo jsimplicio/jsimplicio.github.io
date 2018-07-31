@@ -98,3 +98,9 @@ The following are a couple recent reviews we have received from scouts on the Go
 	<date class="post-meta">April 25, 2018</date>
 	<p>I really enjoy Dscout. This app is simplistic and is easy to follow. They have many opportunities, consistently.</p>
 </blockquote>
+
+<blockquote>
+	<b>Terry Dellow</b>
+	<date class="post-meta">July 25, 2018</date>
+	<p>This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!</p>
+</blockquote>
