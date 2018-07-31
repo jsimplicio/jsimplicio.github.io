@@ -237,14 +237,14 @@ blockquote {
 .hero-image {
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center -10%;
+  background-position: center 15%;
   margin: -2em -1em 2em -1em;
   height: 300px;
   position: relative; }
   .hero-image:after {
     content: '';
     display: block;
-    background: linear-gradient(to bottom, rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.15));
+    background: linear-gradient(to bottom, rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.1));
     height: 100%;
     position: absolute;
     width: 100%; }
@@ -278,11 +278,11 @@ blockquote {
       height: 500px; } }
   @media only screen and (min-width: 1600px) {
     .hero-image {
-      background-size: 45% auto;
+      background-size: 55% auto;
       height: 500px; } }
   @media only screen and (min-width: 1800px) {
     .hero-image {
-      background-size: 35% auto;
+      background-size: 45% auto;
       height: 500px; } }
 
 /*# sourceMappingURL=main.css.map */

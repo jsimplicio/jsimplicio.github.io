@@ -9,8 +9,6 @@ github_username:  jsimplicio
 
 # Compile settings
 exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md, vendor]
-includes:
-  - .well-known
 
 # Build settings
 markdown: kramdown
@@ -19,10 +17,7 @@ permalink: /:categories/:title/
 
 # Variables
 data:
-  tags: ""
   subtitle: ""
-
-hero-image: ""
 
 navigation:
   - title: home
