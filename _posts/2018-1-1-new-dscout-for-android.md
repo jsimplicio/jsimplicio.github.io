@@ -25,8 +25,6 @@ All of the images below display a brand new experience of scouts with the new re
 
 The following image shows a solution on which I used a default Android OS carousel for an introduction to the app. I designed small illustrations accomplanying each slide.
 
-<video width="384" controls preload loop src="../../../assets/images/android.mov"><source src="../../../assets/images/android.mov" type="video/mov"></video>
-
 <figure>
 	<img src="../../../../../../assets/images/android-0.png" alt="Android app - Welcome carousel" />
 	<figcaption class="media-caption center">Android app - Welcome carousel</figcaption>
