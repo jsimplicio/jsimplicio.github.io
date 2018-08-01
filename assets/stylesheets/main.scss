@@ -338,7 +338,7 @@ blockquote {
   background-repeat: no-repeat;
   background-position: center 15%;
   margin: -2em -1em 2em -1em;
-  height: 300px;
+  height: 250px;
   position: relative;
 
   &:after {
@@ -352,7 +352,7 @@ blockquote {
 
   @include breakpoint(550px) {
     background-size: 85% auto;
-    height: 300px;
+    height: 250px;
   }
 
   @include breakpoint(600px) {
