@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Mission parts"
+title:  "Setting up a diary mission with dscout"
 date:   2017-12-7
 categories: product design
-subtitle: "Building a mission"
 hero_image: "/../assets/images/12-7-2017-2-hero.png"
 hero_color: "#2FD491"
 ---
@@ -24,4 +23,20 @@ The new Diary introduced mission parts. Researchers running diary studies no lon
 <figure>
 	<img src="../../../../../../assets/images/builder-3.png" alt="Mission Builder - Launching a manual mission with parts" />
 	<figcaption class="media-caption center">Mission Builder - Launching a manual mission with parts</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/builder-4.png" alt="Mission Builder - Running a manual mission" />
+	<figcaption class="media-caption center">Mission Builder - Running a manual mission</figcaption>
+</figure>
+
+
+<figure>
+	<img src="../../../../../../assets/images/builder-5.png" alt="Mission Builder - Manual mission post launch" />
+	<figcaption class="media-caption center">Mission Builder - Manual mission post launch</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/builder-6.png" alt="Mission Builder - Manual mission post launch" />
+	<figcaption class="media-caption center">Mission Builder - Manual mission post launch publishing a part</figcaption>
 </figure>

@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "New dscout for Android"
+title:  "dscout for Android with mission parts"
 date:   2018-1-1
 categories: mobile design
-subtitle: "The new Diary mobile experience"
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---
@@ -88,19 +87,19 @@ The dscout app has acquired 1,576 reviews on the Google Play store and a 4/5 rat
 The following are a couple recent reviews we have received from scouts on the Google Play store.
 
 <blockquote>
-	<b>Gwen Geronimo</b>
+	<h3>Gwen Geronimo</h3>
 	<date class="post-meta">April 25, 2018</date>
 	<p>Dscout is an excellent app. It is easy to use and intuitive.</p>
 </blockquote>
 
 <blockquote>
-	<b>Adriana Auten</b>
+	<h3>Adriana Auten</h3>
 	<date class="post-meta">April 25, 2018</date>
 	<p>I really enjoy Dscout. This app is simplistic and is easy to follow. They have many opportunities, consistently.</p>
 </blockquote>
 
 <blockquote>
-	<b>Terry Dellow</b>
+	<h3>Terry Dellow</h3>
 	<date class="post-meta">July 25, 2018</date>
 	<p>This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!</p>
 </blockquote>

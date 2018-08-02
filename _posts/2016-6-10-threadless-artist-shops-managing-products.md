@@ -3,7 +3,6 @@ layout: post
 title: "Threadless Artist Shops managing products"
 date: 2016-06-10
 categories: product design
-subtitle: "Managing and publishing products"
 hero_image: "/../assets/images/6-10-2016-hero.png"
 hero_color: "#0298FF"
 ---

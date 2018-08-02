@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "dscout payments"
+title:  "Paying as you launch a project with dscout"
 date:   2017-4-25
 categories: product design
-subtitle: "Launching and paying for a DIY project"
 hero_image: "/../assets/images/4-25-2017-hero.png"
 hero_color: "#FEFEFE"
 ---

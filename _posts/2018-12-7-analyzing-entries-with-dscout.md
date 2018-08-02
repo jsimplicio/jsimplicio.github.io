@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "New dscout Diary"
+title:  "Analyzing entries with dscout"
 date:   2017-12-7
 categories: product design
-subtitle: "Analyzing a mission"
 hero_image: "/../assets/images/12-7-2017-hero.png"
 hero_color: "#FEFEFE"
 ---

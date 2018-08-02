@@ -3,7 +3,6 @@ layout: post
 title:  "dscout mission testing"
 date:   2017-5-30
 categories: product design
-subtitle: "Testing research questions before launching to participants"
 hero_image: "/../assets/images/5-30-2017-hero.png"
 hero_color: "#FEFEFE"
 ---

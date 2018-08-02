@@ -3,7 +3,6 @@ layout: post
 title:  "Threadless Artist Shops onboarding"
 date:   2016-08-11
 categories: product design
-subtitle: "Home base guide to new and existing shop owners"
 hero_image: "/../assets/images/8-11-2016-hero.png"
 hero_color: "#0298FF"
 ---

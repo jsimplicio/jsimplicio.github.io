@@ -29,7 +29,6 @@
   display: inline-block; }
 
 .caption {
-  font-family: Georgia;
   font-size: .9rem;
   color: #999;
   margin-bottom: 2em; }
@@ -47,7 +46,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
   color: #505050;
-  font-family: "Arial Rounded MT Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia;
   font-size: 1rem;
   line-height: 1.4;
   margin: 2em 1em;
@@ -57,29 +56,17 @@ body {
 main {
   margin: 0 auto; }
 
-p,
-a,
-ul,
-ol {
-  font-family: Georgia; }
-
 h2,
 h3,
 h4 {
-  color: #393939; }
+  color: #393939;
+  font-family: Tahoma; }
 
 h2 {
   font-size: 1rem;
   font-weight: bolder;
   letter-spacing: 1px;
   padding-bottom: 1em; }
-
-h4 {
-  font-size: 1.225rem;
-  font-weight: bold;
-  padding-bottom: 1em; }
-  h4:not(:first-child) {
-    padding-top: 2em; }
 
 hr {
   background: #F0F0F0;
@@ -131,6 +118,8 @@ blockquote {
   padding: 1em 0 1em 1em; }
   blockquote p {
     margin: 0; }
+  blockquote h3 {
+    font-size: 1rem; }
 
 /* Components */
 .wrapper {
@@ -161,15 +150,17 @@ blockquote {
   margin-bottom: 2em;
   position: relative;
   transition: 200ms ease-in; }
+  .work-item .post-title {
+    padding-bottom: 1em; }
   .work-item a {
-    color: #444;
-    font-family: "Arial Rounded MT Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    color: #505050; }
     .work-item a:hover {
       text-decoration: none; }
 
 .media-caption {
   display: block;
   font-color: #888;
+  font-family: Tahoma;
   font-size: 0.75rem;
   font-weight: bold;
   margin-top: 0.6em; }
@@ -185,18 +176,16 @@ blockquote {
 
 .post-title {
   line-height: 1;
-  padding-bottom: 10px;
+  font-family: Tahoma, sans-serif;
   text-transform: none; }
 
-.subtitle {
-  color: #AAA;
-  display: block;
-  font-weight: normal !important; }
+.post-header {
+  padding-bottom: 2em; }
 
 .post-meta {
   color: #888;
   display: block;
-  font-family: "Arial Rounded MT Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   font-weight: 800;
   text-decoration: none;
