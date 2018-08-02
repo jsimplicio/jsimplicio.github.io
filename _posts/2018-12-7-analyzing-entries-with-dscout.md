@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Analyzing entries with dscout"
+title:  " "
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-hero.png"

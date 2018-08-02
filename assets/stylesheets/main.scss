@@ -96,6 +96,12 @@ main {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: $font-large;
+  margin-bottom: $spacer-small;
+}
+
+h1,
 h2,
 h3,
 h4 {

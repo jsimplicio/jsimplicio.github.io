@@ -56,6 +56,11 @@ body {
 main {
   margin: 0 auto; }
 
+h1 {
+  font-size: 1.625rem;
+  margin-bottom: 1em; }
+
+h1,
 h2,
 h3,
 h4 {
