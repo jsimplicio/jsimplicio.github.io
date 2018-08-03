@@ -6,12 +6,14 @@ categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---
-Product and engineering worked on a major redesign of the dscout mobile experience. The new design was born out of the necessity to bring the mobile apps up to date with the new dscout Diary for researchers.
+The dscout mobile experience was redesigned with [the introduction of mission parts](/product/design/analyzing-entries-with-dscout/). The scout apps had to handle projects with missions that could be broken up into multiple parts.
 
-I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS designs. This project was interesting because I had never been an Android user. I had to start by learning Material Design, which was very methodical and quite fun to use.
+I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS redesign.
+
+This project was interesting because I am not an Android user and I never have been. I had to start by learning Material Design. I also consulted our Android engineers, Jared Davies and Jonathan Marsh, along the way.
 
 ### Goals
-* Update the app to handle the new dscout Diary, with mission parts.
+* Update the Android app to adapt to the new researcher dscout Diary experience.
 * Bonus: modernize the Android app's outdated design.
 * Bonus: handle some aspects of dscout Live in beta.
 
