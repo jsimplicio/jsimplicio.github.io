@@ -43,7 +43,13 @@ On the following designs, the app homepage was rebuilt to support mission opport
 	<figcaption class="media-caption center">Android app - Opportunities and missions</figcaption>
 </figure>
 
-The following flow displays the process of a scout submitting an entry to a Diary mission. On the mission card you can see important information such as how many parts the mission has, Once a scout clicks on a new mission from the home page, they're greated by an overlay with the mission descriptions and specs.
+The following flow displays the process of a scout submitting an entry to a Diary mission.
+
+Under missions, a researcher can navigate to the "new" tab to see new missions they have qualified for. On the mission card important information is displayed, such as how many parts the mission will have.
+
+The next step on the flow is when a researcher clicks on the new mission card. Researchers are then greeted with an overlay with the mission description and the same details the mission card had.
+
+Once a researcher accepts the mission through the mission details overlay, they can start to submit entries to open mission parts.
 
 <figure>
 	<img src="../../../../../../assets/images/android-3.png" alt="Android app - Accepting a new mission" />
