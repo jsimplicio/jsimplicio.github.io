@@ -4,7 +4,7 @@ title:  "Analyzing entries with dscout"
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-hero.png"
-hero_color: "#FEFEFE"
+hero_color: "#2bae92"
 ---
 The new dscout Diary took about a year to revamp. Product and engineering implemented a new experience that improves how projects are structured. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.
 
