@@ -137,12 +137,6 @@ blockquote {
 .intro,
 .intro-links {
   margin: 0 auto 2em auto; }
-  .intro p,
-  .intro-links p {
-    text-align: left; }
-    .intro p:first-child,
-    .intro-links p:first-child {
-      font-size: 1.4; }
 
 .site-header,
 .site-footer {

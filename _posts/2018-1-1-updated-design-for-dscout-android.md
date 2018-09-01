@@ -6,7 +6,7 @@ categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---
-The dscout Diary mobile experience had to be redesigned with [the introduction of mission parts](/product/design/analyzing-entries-with-dscout/). Once parts were introduced, the mobile apps had to be updated so projects with missions could be broken up into multiple parts.
+Dscout Diary's mobile experience went through a redesign with [the introduction of mission parts](/product/design/analyzing-entries-with-dscout/). Once missions became capable of being broken up into parts, the mobile apps had to be updated so to handle the new diary research design.
 
 I was tasked with updating the UI and UX design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS redesign.
 
