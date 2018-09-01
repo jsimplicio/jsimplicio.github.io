@@ -6,16 +6,14 @@ categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---
-Dscout Diary's mobile experience went through a redesign with [the introduction of mission parts](/product/design/analyzing-entries-with-dscout/). Once missions became capable of being broken up into parts, the mobile apps had to be updated so to handle the new diary research design.
+Dscout Diary went through a redesign with [the introduction of mission parts](/product/design/analyzing-entries-with-dscout/). Missions are now capable of being divided up into parts. The mobile apps required a redesign to handle parts.
 
-I was tasked with updating the UI and UX design for the Android application, working alongside our design director, Timo Kuhn, who did the iOS redesign.
+I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.
 
-This project was interesting because I am not an Android user and I never have been. I had to start by learning Material Design. I also consulted our Android engineers, Jared Davies and Jonathan Marsh, along the way.
-
-### Goals
-* Update the Android app to conform to the new scout dscout Diary experience.
-* Bonus: modernize the Android app's outdated design.
-* Bonus: handle some aspects of [dscout Live](https://dscout.com/live) in beta.
+### Goal
+- Update the Android app to conform to the new scout dscout Diary experience.
+	- Bonus: modernize the Android app's outdated design.
+	- Bonus: handle some aspects of [dscout Live](https://dscout.com/live) in beta.
 
 ### Process
 I started this project by reading [Google's guide on Material Design](https://material.io/design/). The guide, being thoughtfully laid out, made it easy to find the important nuggets of information necessary to start designing.

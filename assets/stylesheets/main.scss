@@ -160,11 +160,19 @@ figure:not(:last-child) {
 ol,
 ul {
   list-style-position: inside;
-  margin-bottom: $spacer-small;
+  margin-bottom: $spacer-xsmall;
 }
 
 li:not(:last-child) {
   margin-bottom: $spacer-xsmall;
+}
+
+li ul {
+  margin-top: $spacer-xsmall;
+}
+
+li li {
+  margin-left: $spacer-normal;
 }
 
 footer {

@@ -106,10 +106,16 @@ figure:not(:last-child) {
 ol,
 ul {
   list-style-position: inside;
-  margin-bottom: 1em; }
+  margin-bottom: 0.6em; }
 
 li:not(:last-child) {
   margin-bottom: 0.6em; }
+
+li ul {
+  margin-top: 0.6em; }
+
+li li {
+  margin-left: 2em; }
 
 footer {
   border-top: 1px solid #F0F0F0; }
