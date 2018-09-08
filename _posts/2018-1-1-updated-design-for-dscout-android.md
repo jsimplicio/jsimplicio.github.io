@@ -16,27 +16,27 @@ I was tasked with updating the design for the Android application, working along
 	- Bonus: handle some aspects of [dscout Live](https://dscout.com/live) in beta.
 
 ### Process
-I started this project by reading [Google's guide on Material Design](https://material.io/design/). The guide, being thoughtfully laid out, made it easy to find the important nuggets of information necessary to start designing.
+I started by researching and learning from [Google's guide on Material Design](https://material.io/design/).
 
-I focused on a new experience from login to completing a mission part. I also designed supplemental features, such as an upload progress screen where scouts can track their file uploads.
+I focused on the experience from login to completion of a mission part. I also designed additional features, such as an upload progress screen where scouts can track their media uploads.
 
-All of the designs below display a new experience for scouts with the re-design and reboot of Diary missions.
+The images below display the new experience for scouts with the launch of the new dscout Diary.
 
-The following image shows an onboarding solution where I used a default Android carousel for an introduction to the app. I created small illustrations accomplanying each slide.
+The following image shows an onboarding carousel design where I created small illustrations to go along each slide.
 
 <figure>
 	<img src="../../../../../../assets/images/android-0.png" alt="Android app - Welcome carousel" />
 	<figcaption class="media-caption center">Android app - Welcome carousel</figcaption>
 </figure>
 
-Notice me utilizing Material Design elements on the following login form, such as inputs, buttons, and overall form design.
+The following login form shows the use of Material Design elements, such as inputs, buttons, and overall form design practices.
 
 <figure>
 	<img src="../../../../../../assets/images/android-1.png" alt="Android app - Login" />
 	<figcaption class="media-caption center">Android app - Login</figcaption>
 </figure>
 
-On the following designs, the app homepage was rebuilt to support mission opportunities, missions, and live missions. We revised the layout of the missions home to handle projects in progress, new, or closed under accordions.
+The app home was redesigned to support mission opportunities, missions, and live missions. We revised the layout of the missions home to handle projects in progress, new, or closed under accordions.
 
 <figure>
 	<img src="../../../../../../assets/images/android-2.png" alt="Android app - Opportunities and missions" />
