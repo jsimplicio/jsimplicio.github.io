@@ -84,7 +84,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
   color: $text-color;
-  font-family: Palatino, Georgia, serif;
+  font-family: Georgia, serif;
   font-size: 1rem;
   line-height: 1.4;
   margin: 2em 1em;
@@ -106,7 +106,7 @@ h2,
 h3,
 h4 {
   color: $text-color-faded;
-  font-family: Verdana, sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 h2 {
@@ -284,7 +284,7 @@ blockquote {
 .post-meta {
   color: #888;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Tahoma, sans-serif;
   font-size: $font-xsmall;
   font-weight: 800;
   text-decoration: none;

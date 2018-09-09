@@ -43,7 +43,7 @@ The app home was redesigned to support mission opportunities, missions, and live
 	<figcaption class="media-caption center">Android app - Opportunities and missions</figcaption>
 </figure>
 
-The following flow displays the process of a scout submitting an entry to a Diary mission.
+The following user flow displays follows a scout submitting an entry to a Diary mission.
 
 Under missions, a scout can navigate to the "new" tab to see new missions they have qualified for. On the mission card important information is displayed, such as how many parts the mission will have.
 
