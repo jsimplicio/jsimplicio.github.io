@@ -36,7 +36,7 @@ The following login form shows the use of Material Design elements, such as inpu
 	<figcaption class="media-caption center">Android app - Login</figcaption>
 </figure>
 
-The app home was redesigned to support mission opportunities, missions, and live missions. We revised the layout of the missions home to handle projects in progress, new, or closed under accordions.
+The app home was redesigned to support mission opportunities, diary missions, and live missions. We revised the layout of the missions home to handle projects in progress, new, or closed under accordions.
 
 <figure>
 	<img src="../../../../../../assets/images/android-2.png" alt="Android app - Opportunities and missions" />
@@ -56,10 +56,16 @@ Scouts can tell new parts apart from parts in progress, or from locked parts, by
 	<figcaption class="media-caption center">Android app - Accepting a new mission</figcaption>
 </figure>
 
+Once a scout starts an entry, they first see the instructions. Following that, they start answering the entry's questions.
+
 <figure>
 	<img src="../../../../../../assets/images/android-4.png" alt="Android app - Completing mission parts" />
 	<figcaption class="media-caption center">Android app - Completing a mission part</figcaption>
 </figure>
+
+Scouts don't have to finish an entry when they start it. We are aware that sometimes it takes time for them to come up with answers and for them to have the time and space to respond video questions.
+
+Once they return to a mission to complete an entry, they can see their paused entry as a marked square in the mission part container. They can tap and hold to delete the draft entry, or tap once to continue completing it.
 
 <figure>
 	<img src="../../../../../../assets/images/android-5.png" alt="Android app - Deleting an incomplete entry" />
