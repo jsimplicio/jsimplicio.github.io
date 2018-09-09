@@ -43,17 +43,13 @@ The app home was redesigned to support mission opportunities, missions, and live
 	<figcaption class="media-caption center">Android app - Opportunities and missions</figcaption>
 </figure>
 
-The following user flow displays follows a scout submitting an entry to a Diary mission.
+Under missions, scouts can navigate to the "new" tab to see new missions they have qualified for. On the mission card there are important details, such as how many parts the mission will have.
 
-Under missions, a scout can navigate to the "new" tab to see new missions they have qualified for. On the mission card important information is displayed, such as how many parts the mission will have.
+When a scout taps on a mission card they are greeted with an overlay with the full mission description and the same important mission details the card had.
 
-When a scout clicks on the mission card they are greeted with an overlay with the mission description and the same details the mission card had.
+Once a scout accepts the mission through on the overlay, they arrive on the mission where they can start to submit entries to open mission parts.
 
-Once a scout accepts the mission through the mission details overlay, they can start to submit entries to open mission parts.
-
-Scouts are able to tell new parts from parts in progress, or from locked parts, by color. New parts are always green, whereas parts that have been started and are in progress are blue. Parts that are locked are grey. Locked parts occur in manual missions where researchers control when to open parts to scouts.
-
-The color differentiation between the parts helps scouts distinguish parts from one another in order to keep progress.
+Scouts can tell new parts apart from parts in progress, or from locked parts, by color. New parts are always green, whereas parts in progress are blue. Parts that are locked are grey. Locked parts occur in manual missions where researchers control when the parts open to scouts.
 
 <figure>
 	<img src="../../../../../../assets/images/android-3.png" alt="Android app - Accepting a new mission" />
