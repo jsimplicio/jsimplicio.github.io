@@ -32,6 +32,6 @@ I made sure the flow of payment worked seamlessly inside the flow of launching. 
 </figure>
 
 
-<video controls preload loop src="../../../assets/images/diy-launch.mp4"><source src="../../../assets/images/diy-launch.mp4" type="video/mp4"></video>
+<video muted autoplay preload src="../../../assets/images/diy-launch.mp4"><source src="../../../assets/images/diy-launch.mp4" type="video/mp4"></video>
 
-<video controls preload loop src="../../../assets/images/diy-launch-2.mp4"><source src="../../../assets/images/diy-launch-2.mp4" type="video/mp4"></video>
+<video muted autoplay preload loop src="../../../assets/images/diy-launch-2.mp4"><source src="../../../assets/images/diy-launch-2.mp4" type="video/mp4"></video>
