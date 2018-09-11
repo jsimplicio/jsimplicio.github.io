@@ -203,6 +203,10 @@ blockquote {
   max-width: $main-content--width;
 }
 
+.intro img {
+  margin-bottom: $spacer-normal;
+}
+
 .intro-paragraph {
   font-size: 1.5rem;
 }

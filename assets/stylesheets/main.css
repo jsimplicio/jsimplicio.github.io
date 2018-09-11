@@ -137,6 +137,9 @@ blockquote {
   margin: 0 auto;
   max-width: 768px; }
 
+.intro img {
+  margin-bottom: 2em; }
+
 .intro-paragraph {
   font-size: 1.5rem; }
 
