@@ -4,7 +4,7 @@ title:  "dscout mission testing"
 date:   2017-5-30
 categories: product design
 hero_image: "/../assets/images/5-30-2017-hero.png"
-hero_color: "#FEFEFE"
+hero_color: "#D8D8E3"
 ---
 Before launching their research project, researchers now can make sure they have crafted a good mission, and ensure they can get to insightful answers. All of this is now capable by using the "Test" feature inside the Mission Builder.
 
