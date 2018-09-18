@@ -3,11 +3,9 @@ layout: default
 title: Jules Simplicio
 ---
 <div class="wrapper">
-  <h1>About</h1>
   {% include header.html %}
   <section class="work">
     <div class="work-wrapper">
-      <h1>Work</h1>
       {% for post in site.posts %}
         <div class="work-item">
           <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">
