@@ -25,21 +25,21 @@ The images below display the new experience for scouts with the launch of the ne
 The following image shows an onboarding carousel design where I created small illustrations to go along each slide.
 
 <figure>
-	<img src="../../../../../../assets/images/android-0.png" alt="Android app - Welcome carousel" />
+	<img src="{{ site.baseurl }}/assets/images/android-0.png" alt="Android app - Welcome carousel" />
 	<figcaption class="media-caption center">Android app - Welcome carousel</figcaption>
 </figure>
 
 The following login form shows the use of Material Design elements, such as inputs, buttons, and overall form design practices.
 
 <figure>
-	<img src="../../../../../../assets/images/android-1.png" alt="Android app - Login" />
+	<img src="{{ site.baseurl }}/assets/images/android-1.png" alt="Android app - Login" />
 	<figcaption class="media-caption center">Android app - Login</figcaption>
 </figure>
 
 The app home was redesigned to support mission opportunities, diary missions, and live missions. We revised the layout of the missions home to handle projects in progress, new, or closed under accordions.
 
 <figure>
-	<img src="../../../../../../assets/images/android-2.png" alt="Android app - Opportunities and missions" />
+	<img src="{{ site.baseurl }}/assets/images/android-2.png" alt="Android app - Opportunities and missions" />
 	<figcaption class="media-caption center">Android app - Opportunities and missions</figcaption>
 </figure>
 
@@ -52,14 +52,14 @@ Once a scout accepts the mission through on the overlay, they arrive on the miss
 Scouts can tell new parts apart from parts in progress, or from locked parts, by color. New parts are always green, whereas parts in progress are blue. Parts that are locked are grey. Locked parts occur in manual missions where researchers control when the parts open to scouts.
 
 <figure>
-	<img src="../../../../../../assets/images/android-3.png" alt="Android app - Accepting a new mission" />
+	<img src="{{ site.baseurl }}/assets/images/android-3.png" alt="Android app - Accepting a new mission" />
 	<figcaption class="media-caption center">Android app - Accepting a new mission</figcaption>
 </figure>
 
 Once a scout starts an entry, they first see the instructions. Following that, they start answering the entry's questions.
 
 <figure>
-	<img src="../../../../../../assets/images/android-4.png" alt="Android app - Completing mission parts" />
+	<img src="{{ site.baseurl }}/assets/images/android-4.png" alt="Android app - Completing mission parts" />
 	<figcaption class="media-caption center">Android app - Completing a mission part</figcaption>
 </figure>
 
@@ -68,27 +68,27 @@ Scouts don't have to finish an entry when they start one. We are aware that some
 Once a scout returns to the dscout app to complete an entry, in the mission they will see their paused entry as a square marked with [...]. They can tap and hold to delete the draft entry, or tap once to continue answering prompts from where they left off.
 
 <figure>
-	<img src="../../../../../../assets/images/android-5.png" alt="Android app - Deleting an incomplete entry" />
+	<img src="{{ site.baseurl }}/assets/images/android-5.png" alt="Android app - Deleting an incomplete entry" />
 	<figcaption class="media-caption center">Android app - Deleting an incomplete entry</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/android-6.png" alt="Android app - Entry uploading" />
+	<img src="{{ site.baseurl }}/assets/images/android-6.png" alt="Android app - Entry uploading" />
 	<figcaption class="media-caption center">Android app - Entry uploading</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/android-7.png" alt="Android app - Closed missions" />
+	<img src="{{ site.baseurl }}/assets/images/android-7.png" alt="Android app - Closed missions" />
 	<figcaption class="media-caption center">Android app - Closed missions</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/android-8.png" alt="Android app - Entry upload progress" />
+	<img src="{{ site.baseurl }}/assets/images/android-8.png" alt="Android app - Entry upload progress" />
 	<figcaption class="media-caption center">Android app - Entry upload progress </figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/android-9.png" alt="Android app - dscout Live support" />
+	<img src="{{ site.baseurl }}/assets/images/android-9.png" alt="Android app - dscout Live support" />
 	<figcaption class="media-caption center">Android app - dscout Live support </figcaption>
 </figure>
 
