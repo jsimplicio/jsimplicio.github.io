@@ -26,7 +26,7 @@ With the new Diary release, we broke missions up into parts. Now researchers don
 	<figcaption class="media-caption center">Entries viewer: sorting by part</figcaption>
 </figure>
 
-Inside the entries viewer, the default is the grid view. The grid view allows researchers to see submissions across all parts of their mission shaped as cards, with a thumbnail and submission details.
+In the entries viewer, the default is the grid view. The grid view allows researchers to see submissions across all parts of their mission shaped as cards, with a thumbnail and submission details.
 
 You can sort results by scout name, date, part, or group.
 
