@@ -25,4 +25,4 @@ navigation:
 
 sass:
   style: compressed
-  sass_dir: ../../../assets/stylesheets
+  sass_dir: _sass
