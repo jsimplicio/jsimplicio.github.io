@@ -6,9 +6,9 @@ categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---
-Dscout Diary went through a redesign with [the introduction of mission parts](/product/design/analyzing-entries-with-dscout/). Missions are now capable of being divided up into parts. The mobile apps required a redesign to handle parts.
+The researcher experience with dscout Diary was redesigned when we introduced [mission parts](/product/design/analyzing-entries-with-dscout/). Now missions are capable of being divided up into parts, so researchers don't have to analyze data across separate missions.
 
-I was tasked with updating the design for the Android application, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.
+I was tasked with updating the scout experience for the Android application, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.
 
 ### Goal
 - Update the Android app to conform to the new scout dscout Diary experience.
@@ -63,9 +63,9 @@ Once a scout starts an entry, they first see the instructions. Following that, t
 	<figcaption class="media-caption center">Android app - Completing a mission part</figcaption>
 </figure>
 
-Scouts don't have to finish an entry when they start it. We are aware that sometimes it takes time for them to come up with answers and for them to have the time and space to respond video questions.
+Scouts don't have to finish an entry when they start one. We are aware that sometimes it takes time for them to come up with ellaborate answers, or for them to respond to video prompts.
 
-Once they return to a mission to complete an entry, they can see their paused entry as a marked square in the mission part container. They can tap and hold to delete the draft entry, or tap once to continue completing it.
+Once a scout returns to the dscout app to complete an entry, in the mission they will see their paused entry as a square marked with [...]. They can tap and hold to delete the draft entry, or tap once to continue answering prompts from where they left off.
 
 <figure>
 	<img src="../../../../../../assets/images/android-5.png" alt="Android app - Deleting an incomplete entry" />
@@ -92,7 +92,7 @@ Once they return to a mission to complete an entry, they can see their paused en
 	<figcaption class="media-caption center">Android app - dscout Live support </figcaption>
 </figure>
 
-### Feedback
+### Scout Feedback
 
 The dscout app has acquired 1,576 reviews on the Google Play store and a 4/5 rating.
 
