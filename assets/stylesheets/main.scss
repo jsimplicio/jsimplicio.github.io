@@ -1,18 +1,15 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Mixins */
 @mixin breakpoint($width) {
   @media only screen and (min-width: $width) {
     @content;
   }
 }
 
-/* Variables */
 $font-xxsmall: .65rem;
 $font-xsmall: .75rem;
 $font-small: .9rem;
@@ -34,7 +31,6 @@ $spacer-xlarge: 4em;
 $page-width: 768px;
 $main-content--width: 768px;
 
-/* Helpers */
 .center {
   text-align: center;
 }
@@ -69,7 +65,10 @@ $main-content--width: 768px;
   margin-bottom: $spacer-normal;
 }
 
-/* Global */
+.btn--link {
+  cursor: pointer;
+}
+
 html {
   font-size: 18px;
 
@@ -106,7 +105,7 @@ h2,
 h3,
 h4 {
   color: $text-color-faded;
-  font-family: Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h2 {
@@ -197,7 +196,23 @@ blockquote {
   }
 }
 
-/* Components */
+.btn {
+  background: white;
+  border: 1px solid $text-color-light;
+  border-radius: 2px;
+  color: $text-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1em;
+  transition: 150ms;
+  padding: $spacer-small;
+
+  &:hover {
+    background-color: $text-color;
+    border-color: $text-color;
+    color: white;
+  }
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: $main-content--width;
@@ -251,7 +266,7 @@ blockquote {
 .media-caption {
   display: block;
   font-color: #888;
-  font-family: Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-xsmall;
   font-weight: bold;
   margin-top: $spacer-xsmall;
@@ -277,7 +292,7 @@ blockquote {
 
 .post-title {
   line-height: 1;
-  font-family: Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-transform: none;
 }
 
@@ -288,7 +303,7 @@ blockquote {
 .post-meta {
   color: #888;
   display: block;
-  font-family: Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-xsmall;
   font-weight: 800;
   text-decoration: none;
