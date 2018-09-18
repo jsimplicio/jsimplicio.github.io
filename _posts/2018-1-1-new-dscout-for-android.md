@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Updated design for dscout Android"
+title:  "New dscout for Android"
 date:   2018-1-1
 categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
