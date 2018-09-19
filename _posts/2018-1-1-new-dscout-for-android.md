@@ -39,6 +39,7 @@ The following login form shows the use of Material Design elements, such as inpu
 The app home was redesigned to support mission opportunities, diary missions, and live missions. We revised the layout of the missions home to handle projects in progress, new, or closed under accordions.
 
 <figure>
+	<img src="{{ site.baseurl }}/assets/images/android-2.png" alt="Android app - Login" />
 	<figcaption class="media-caption center">Android app - Opportunities and missions</figcaption>
 </figure>
 
