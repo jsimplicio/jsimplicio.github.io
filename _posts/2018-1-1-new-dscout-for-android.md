@@ -72,6 +72,12 @@ Once a scout returns to the dscout app to complete an entry, in the mission they
 	<figcaption class="media-caption center">Android app - Deleting an incomplete entry</figcaption>
 </figure>
 
+When a scout submits an entry, they will see the entry component with a spinner, indicating that their submission is uploading.
+
+Whenever there is an error with an entry uploading, for example a media attached was too big, the entry component changes to warn you something went wrong, and an error message pops up.
+
+If an entry submission is successful, the entry media image renders on the entry component if there is a media attached to the entry. The entry also gets a number to indicate and guide scouts how many entries they've submitted out of the total required.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/android-6.png" alt="Android app - Entry uploading" />
 	<figcaption class="media-caption center">Android app - Entry uploading</figcaption>

@@ -6,3 +6,6 @@ feed.xml
 package.json
 _site
 style.css.map
+server.crt
+server.csr
+server.key
