@@ -83,15 +83,21 @@ If an entry submission is successful, the entry media image renders on the entry
 	<figcaption class="media-caption center">Android app - Entry uploading</figcaption>
 </figure>
 
+Scouts can access the history of missions they have participated in that have closed. They're still able to message with their mission advisor in a closed mission.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/android-7.png" alt="Android app - Closed missions" />
 	<figcaption class="media-caption center">Android app - Closed missions</figcaption>
 </figure>
 
+Through a scout's account settings they can access the "Entry Upload Progress". This screen is particularly helpful for submissions that contain big media attachments. They're able to cancel uploads and retry them. Uploads occur in a queue in the order they were submitted.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/android-8.png" alt="Android app - Entry upload progress" />
 	<figcaption class="media-caption center">Android app - Entry upload progress </figcaption>
 </figure>
+
+Finally, with the release of [dscout Live](https://dscout.com/live) we were able to start implementing small mobile features that supplement the web Live experience for a scout. For example, scouts are able to see the time for scheduled Live interviews and get a link to their session. They will also see details such interview length and reward.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/android-9.png" alt="Android app - dscout Live support" />
