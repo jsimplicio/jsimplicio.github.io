@@ -15,21 +15,14 @@ I was tasked with updating the scout experience for the Android application, wor
 	- Bonus: modernize the Android app's outdated design.
 	- Bonus: handle some aspects of [dscout Live](https://dscout.com/live) in beta.
 
-### Process
-I started by researching and learning from [Google's guide on Material Design](https://material.io/design/).
+### Delivery
+I first researched and learned best practices from [Google's guide on Material Design](https://material.io/design/).
 
-I focused on the experience from login to completion of a mission part. I also designed additional features, such as an upload progress screen where scouts can track their media uploads.
+My goal was the scout experience from login to completion of a mission part.
 
-The images below display the new experience for scouts with the launch of the new dscout Diary.
+I designed additional required features along the way, such as an upload progress screen where scouts track their entry uploads.
 
-The following image shows an onboarding carousel design where I created small illustrations to go along each slide.
-
-<figure>
-	<img src="{{ site.baseurl }}/assets/images/android-0.png" alt="Android app - Welcome carousel" />
-	<figcaption class="media-caption center">Android app - Welcome carousel</figcaption>
-</figure>
-
-The following login form shows the use of Material Design elements, such as inputs, buttons, and overall form design practices.
+Beginning with the login form, I utilized Material Design elements, such as inputs, buttons, and overall form design practices.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/android-1.png" alt="Android app - Login" />

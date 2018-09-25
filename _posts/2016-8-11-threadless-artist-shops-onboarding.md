@@ -8,13 +8,13 @@ hero_color: "#0298FF"
 ---
 I proposed a new welcome page design for new and recurring shop owners. The dashboard is the first thing new shop owners see when they login for the first time, so I wanted to provide options that onboard them into all corners of the Artist Shops platform. For recurring shop owners, I showed a summary of their sales activity, and tips for promoting and maintaining their Artist Shop.
 
-### Goals
+### Master Story List
 * Guide new shop owners through essential steps to get their shop going
 * Suggest various ways to learn more about Artist Shops and have a successful shop
 * Give a sales summary for recurring shop owners
 * Help recurring shop owners promote their shop
 
-### Process
+### Delivery
 The welcome banner immediately gives new shop owners two important actions to get started: upload a new product or customize their Artist Shop.
 
 I made sure to highlight important steps that would help new shop owners get started and finish with publishing their shop, through an interactive progress bar. In addition, I included helpful sections to help them market their shop, such as links to our helpful blog posts, and a way for shop owners to connect their shops to their social networks, so they can share their Artist Shop on social media feeds. Recurring shop owners also get access to coupon codes to share with their followers, and the ability to download assets with product images to share online.
