@@ -9,3 +9,5 @@ style.css.map
 server.crt
 server.csr
 server.key
+Gemfile
+Gemfile.lock
