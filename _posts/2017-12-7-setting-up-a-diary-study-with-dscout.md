@@ -40,3 +40,6 @@ The new Diary introduced mission parts. Researchers running diary studies no lon
 	<img src="../../../../../../assets/images/builder-6.png" alt="Mission Builder - Manual mission post launch" />
 	<figcaption class="media-caption center">Mission Builder - Manual mission post launch publishing a part</figcaption>
 </figure>
+
+<iframe src="https://codepen.io/jsimplicio/live/4943f2d43e35d2f7be1a32859a01646a">
+</iframe>
