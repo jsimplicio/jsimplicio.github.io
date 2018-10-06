@@ -4,7 +4,7 @@ title:  "Setting up a diary study with dscout"
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-2-hero.png"
-hero_color: "#2FD491"
+hero_color: "#2BAE92"
 ---
 Our goal for bringing mission parts to reality for our customers cooked for a year. We delivered the enhanced dscout Diary experience in late 2017.
 
