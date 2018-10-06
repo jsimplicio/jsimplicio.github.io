@@ -43,3 +43,4 @@ The new Diary introduced mission parts. Researchers running diary studies no lon
 
 <iframe src="https://codepen.io/jsimplicio/live/4943f2d43e35d2f7be1a32859a01646a">
 </iframe>
+<figcaption class="media-caption center">Publishing a part - interactive prototype</figcaption>
