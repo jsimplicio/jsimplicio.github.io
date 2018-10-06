@@ -66,6 +66,12 @@ a {
   }
 }
 
+iframe {
+  border: none;
+  height: 650px;
+  width: 100%;
+}
+
 p {
   &:not(:last-child) {
     padding-bottom: $spacer-small;;
