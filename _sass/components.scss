@@ -8,8 +8,11 @@
   border: 1px solid $text-color-light;
   border-radius: 6px;
   color: $text-color;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Archer SSm A", "Archer SSm B",
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1em;
+  font-style: normal;
+  font-weight: 800;
   transition: 150ms;
   padding: $spacer-small;
 
@@ -70,9 +73,11 @@
 .media-caption {
   display: block;
   font-color: #888;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Archer SSm A", "Archer SSm B",
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-xsmall;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 800;
   margin-top: $spacer-xsmall;
 
   &:not(:last-child) {
@@ -96,8 +101,9 @@
 
 .post-title {
   line-height: 1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-transform: none;
+  font-family: "Archer SSm A", "Archer SSm B", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style: normal;
+  font-weight: 800;
 }
 
 .post-header {
@@ -107,8 +113,10 @@
 .post-meta {
   color: #888;
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Archer SSm A", "Archer SSm B",
+  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-xsmall;
+  font-style: normal;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
