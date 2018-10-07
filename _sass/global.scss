@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
   color: $text-color;
-  font-family: "Hoefler Text A", "Hoefler Text B", sGeorgia, serif;
+  font-family: "Hoefler Text A", "Hoefler Text B", Georgia, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -44,6 +44,9 @@ h4 {
   color: $text-color-faded;
   font-family: "Knockout 90 A", "Knockout 90 B",
   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: $font-large;
+  font-weght: 800;
+  text-transform: uppercase;
 }
 
 h2 {
