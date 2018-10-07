@@ -8,7 +8,7 @@
   border: 1px solid $text-color-light;
   border-radius: 6px;
   color: $text-color;
-  font-family: "Hoefler Text A", "Hoefler Text B", Georgia, serif;
+  font-family: Georgia, serif;
   font-size: 1em;
   font-style: normal;
   transition: 150ms;
@@ -71,6 +71,7 @@
 .media-caption {
   display: block;
   font-color: #888;
+  font-size: $font-small;
   font-style: normal;
   font-weight: 700;
   margin-top: $spacer-xsmall;
@@ -96,9 +97,9 @@
 
 .post-title {
   line-height: 1;
-  font-family: "Leviathan A", "Leviathan B", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .post-header {
@@ -108,11 +109,10 @@
 .post-meta {
   color: #888;
   display: block;
-  font-family: "Leviathan A", "Leviathan B",
-  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-xsmall;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
 }
 
