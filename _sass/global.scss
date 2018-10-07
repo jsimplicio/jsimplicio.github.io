@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 
   @include breakpoint(768px) {
     font-size: 21px;
@@ -42,7 +42,7 @@ h2,
 h3,
 h4 {
   color: $text-color-faded;
-  font-family: "Knockout 90 A", "Knockout 90 B",
+  font-family: "Leviathan A", "Leviathan B",
   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-large;
   font-weght: 800;
