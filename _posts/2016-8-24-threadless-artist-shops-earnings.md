@@ -8,10 +8,10 @@ hero_color: "#0298FF"
 ---
 I designed a proposal for an upcoming earnings dashboard, where shop owners can see a summary of their sales activity.
 
-### Goals
+### Goal
 * Display a digestable summary of data about a shop owner's sales
 
-### Delivery
+### Shop earnings
 I researched different analytics dashboards from different product companies that conduct online sales. I put my research results against similar data that we can access for our Artist Shops transactions and users. I designed an organized dashboard with important and helpful data that we can share to shop owners about their orders and earnings. It also lets them compare data through different dates. Some of the data the dashboard includes are:
 
 * The status of their earnings: pending, cleared, and paid

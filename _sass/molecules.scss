@@ -1,0 +1,22 @@
+.work-item {
+  display: block;
+  margin-bottom: 2em;
+  position: relative;
+  transition: 200ms ease-in;
+
+  .post-title {
+    padding-bottom: $spacer-small;
+  }
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.work h2 {
+  padding-bottom: $spacer-small;
+}

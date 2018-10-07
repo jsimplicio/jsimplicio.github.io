@@ -17,7 +17,7 @@ Threadless recently released Artist Shops, a platform for artists to sell their 
 * Shop owners should be able to bulk edit the pricing of all products in one category (example: all men's t-shirts)
 * A link for accessing the page where shop owners can edit each design, and subsequently, all products pertaining to them
 
-### Delivery
+### Managing Products
 We listed all designs and products on a table. The products can be filtered by category (Men's, Women's, Kids, and Wall Art), and product type (T-Shirts, Sweatshirts, Wall Art, etc.). The filtering is meant to facilitate the process of editing all shop's items in an organized fashion. The designs table lets shop owners publish or unpublish a design, and see how many products are under a specific design.
 
 We successfully included all of our goal's needs, while still leaving plenty of space for future requirements. We have a list of ideas that we still would like to include such as  the ability for shop owners to replace and edit the design on each product.

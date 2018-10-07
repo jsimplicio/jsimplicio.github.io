@@ -5,7 +5,7 @@
 
 .btn {
   background: white;
-  border: 1px solid $text-color-light;
+  border: 1px solid rgba($text-color, .5);
   border-radius: 6px;
   color: $text-color;
   font-family: Georgia, serif;
@@ -15,7 +15,8 @@
   padding: $spacer-small;
 
   &:hover {
-    border-color: $text-color;
+    border: 1px solid rgba($accent-color, .5);
+    color: $accent-color;
   }
 }
 
@@ -38,42 +39,12 @@
   padding: $spacer-normal 0;
 }
 
-.work {
-  h2 {
-    padding-bottom: $spacer-small;
-  }
-}
-
-.work-item {
-  color: red;
-  display: block;
-  margin-bottom: 2em;
-  position: relative;
-  transition: 200ms ease-in;
-
-  .post-title {
-    padding-bottom: $spacer-small;
-  }
-
-  a {
-    color: $text-color;
-
-    &:hover {
-      text-decoration: none;
-
-      button {
-        border-color: $text-color;
-      }
-    }
-  }
-}
-
 .media-caption {
   display: block;
   font-color: #888;
-  font-size: $font-small;
+  font-size: $font-xsmall;
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
   margin-top: $spacer-xsmall;
 
   &:not(:last-child) {

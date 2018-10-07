@@ -18,7 +18,7 @@ The paywall project was directed towards our DIY accounts. They sign up for free
 ### Goal
 * Focus on the user's experience of payment (sensitive information) for a mission mid launch
 
-### Delivery
+### Paying for a DIY project
 I researched payment forms, and noted patterns in its UI elements, and user experience that are helpful to users while they fill out payment information. Our card inputs give users visual feedback with which kind of card they are entering by recognizing the bank based on what the user types. Our inputs also provide visuals to where your CVV is located based on which card you own.
 
 DIY users can put a card on file which is charged when their mission is being launched. However if they don't have a card on file, they are prompted to update their payment information and enter a card.
