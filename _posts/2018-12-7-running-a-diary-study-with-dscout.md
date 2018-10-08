@@ -6,7 +6,7 @@ categories: product design
 hero_image: "/../assets/images/12-7-2017-hero.png"
 hero_color: "#8EDDE8"
 ---
-The new dscout Diary took about a year launch. Product and engineering implemented a new experience that improves how projects are structured. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.
+The new dscout Diary launched at the end of 2017. We implemented a new core experience that improves how projects should run in dscout. With this redesign we facilitated the experience of conducting research analysis on the responses (entries) submitted by scouts.
 
 Historically, a researcher would create a project that was made out of one or more missions. They often wanted participants to go through distinct tasks, so they would accomplish this by making scouts go through multiple mission. However, when researchers wanted to see all of their scouts response data across every mission, they couldn't—because each mission was structured like an individual part of a project, in silos separated from one another, which made it hard to compare data across missions. Each mission had its own entries viewer, separated from the other missions inside the project.
 
