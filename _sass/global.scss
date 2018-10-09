@@ -141,3 +141,45 @@ blockquote {
     font-size: $font-normal;
   }
 }
+
+.btn {
+  background: white;
+  border: 1px solid rgba($text-color, .5);
+  border-radius: 6px;
+  color: $text-color;
+  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
+  font-size: 1em;
+  font-style: normal;
+  transition: 150ms;
+  padding: $spacer-small;
+
+  &:hover {
+    border: 1px solid rgba($accent-color, .5);
+    color: $accent-color;
+  }
+}
+
+.btn--link {
+  display: inline-block;
+}
+
+.btn--link:hover {
+  text-decoration: none;
+}
+
+.page--navigation {
+  display: flex;
+  margin-bottom: $spacer-normal;
+  justify-content: space-between;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: $main-content--width;
+}
+
+.site-header,
+.site-footer {
+  margin: 0 auto;
+  padding: $spacer-normal 0;
+}
