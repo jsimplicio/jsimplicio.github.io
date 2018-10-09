@@ -12,10 +12,6 @@
 }
 
 .post {
-  h2 {
-    padding-bottom: 0;
-  }
-
   .post-title {
     font-size: $font-xlarge;
   }
@@ -31,7 +27,7 @@
 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-large;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .post-header {
@@ -41,11 +37,8 @@
 .post-meta {
   color: #888;
   display: block;
-  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B",
--apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $font-xsmall;
-  font-style: normal;
-  font-weight: 700;
+  font-style: italic;
   text-decoration: none;
 }
 
