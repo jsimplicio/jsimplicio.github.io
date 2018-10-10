@@ -172,7 +172,11 @@ blockquote {
   text-align: center;
 
   .btn {
-    width: 20%;
+    width: 50%;
+
+    @include breakpoint(480px) {
+      width: 20%;
+    }
   }
 }
 
