@@ -167,14 +167,26 @@ blockquote {
 }
 
 .page--navigation {
+  display: flex;
   margin-bottom: $spacer-normal;
+  justify-content: center;
   text-align: center;
+
+  .btn:first-child {
+    margin-bottom: $spacer-xsmall;
+    margin-right: $spacer-xsmall;
+
+    @include breakpoint(480px) {
+      margin-bottom: 0;
+      width: 30%;
+    }
+  }
 
   .btn {
     width: 50%;
 
     @include breakpoint(480px) {
-      width: 20%;
+      width: 30%;
     }
   }
 }
