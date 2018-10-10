@@ -168,9 +168,12 @@ blockquote {
 }
 
 .page--navigation {
-  display: flex;
   margin-bottom: $spacer-normal;
-  justify-content: space-between;
+  text-align: center;
+
+  .btn {
+    width: 20%;
+  }
 }
 
 .wrapper {
