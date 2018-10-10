@@ -144,7 +144,7 @@ blockquote {
 
 .btn {
   background: white;
-  border: 1px solid rgba($text-color, .5);
+  border: 1px solid #DDD;
   border-radius: 6px;
   color: $text-color;
   font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
@@ -154,8 +154,7 @@ blockquote {
   padding: $spacer-small;
 
   &:hover {
-    border: 1px solid rgba($accent-color, .5);
-    color: $accent-color;
+    border: 1px solid #000;
   }
 }
 
