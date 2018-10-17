@@ -173,11 +173,9 @@ blockquote {
   text-align: center;
 
   .btn:first-child {
-    margin-bottom: $spacer-xsmall;
     margin-right: $spacer-xsmall;
 
     @include breakpoint(480px) {
-      margin-bottom: 0;
       width: 30%;
     }
   }
