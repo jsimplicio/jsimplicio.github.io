@@ -97,6 +97,13 @@ With the release of [dscout Live](https://dscout.com/live) we were able to start
 	<figcaption class="media-caption center">Android app - dscout Live support </figcaption>
 </figure>
 
+The following are new designs for a new Explore tab where you apply for quick tasks and Mission opportunities, and a Rewards tab.
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/android-10.png" alt="Android app - dscout Live support" />
+	<figcaption class="media-caption center">Android app - dscout Live support </figcaption>
+</figure>
+
 ### Scout Feedback
 
 The dscout app acquired over 1,570 reviews on the Google Play store and a 4/5 rating.
