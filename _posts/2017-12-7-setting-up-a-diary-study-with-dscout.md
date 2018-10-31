@@ -11,7 +11,7 @@ Our goal for bringing mission parts to reality for our customers cooked for a ye
 The new Diary introduced mission parts. Researchers running diary studies no longer have to divide their study into multiple missions where the data is siloed and separated by mission.
 
 <figure>
-	<img src="../../../../../../assets/images/builder-0.jpg" title="Sketches for publishing a part" />
+	<img src="../../../../../../assets/images/builder-0.png" title="Sketches for publishing a part" />
 	<figcaption class="media-caption center">Sketches for publishing a part</figcaption>
 </figure>
 
