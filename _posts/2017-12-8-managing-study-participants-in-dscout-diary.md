@@ -9,7 +9,7 @@ hero_color: "#A5D570"
 
 With the Diary 2.0 experience, researchers can manage scouts through all of the mission parts in Manage.
 
-### Goal
+### Objective
 * Allow researchers to keep track of and manage the progress of scouts in a mission
 
 ### Keeping track of research participants

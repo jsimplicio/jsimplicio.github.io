@@ -13,7 +13,7 @@ With invites, we focused on the invitation of research participants to a researc
 We conducted internal card sorting with team members from user success, and research. In this activity we asked our colleagues to write down on each card each part of the researcher process in dscout, then group the parts that go together, and finally put them in the order that they happen. This activity showed us a lot of different perspectives and commonalities between our internal power users' mental models. This helped us come up with a hypothesis of where the invite process should be in dscout's research flow.
 
 <figure>
-	<img src="../../../../../../assets/images/card-sort.png" alt="Card sorting" />
+	<img src="../../../../../../assets/images/card-sort.png" title="Card sorting" />
 	<figcaption class="media-caption center">Card sorting</figcaption>
 </figure>
 
@@ -33,12 +33,12 @@ In our UI, it made sense to include an “Invites” tab where researchers can a
 There is an “Invites” tab in the Mission Builder next to “Details” and “Questions.” You can access “Invites” on the status bar as well.
 
 <figure>
-	<img src="../../../../../../assets/images/invites-1.png" alt="The invites tab" />
+	<img src="../../../../../../assets/images/invites-1.png" title="The invites tab" />
 	<figcaption class="media-caption center">The invites tab</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/invites-2.png" alt="Manually entering scouts" />
+	<img src="../../../../../../assets/images/invites-2.png" title="Manually entering scouts" />
 	<figcaption class="media-caption center">You need research participants when you launch your research</figcaption>
 </figure>
 
@@ -49,14 +49,14 @@ Besides the invitation, researchers can add participants to their project. To ad
 Scouts can be added manually by entering their first name, last name, and email—one per line. Likewise, we’ve added the capability of reading a CSV file, which can be a list of participants entered by the same formula: first name, last name, and email.
 
 <figure>
-	<img src="../../../../../../assets/images/invites-3.png" alt="Adding scouts from a previous mission" />
+	<img src="../../../../../../assets/images/invites-3.png" title="Adding scouts from a previous mission" />
 	<figcaption class="media-caption center">Adding scouts manually</figcaption>
 </figure>
 
 Additionally, researchers can also pull scouts from a previous mission. They can also pull scouts with the help of filters that let them select only mission accomplished scouts, for example.
 
 <figure>
-	<img src="../../../../../../assets/images/invites-4.png" alt="Complete invitation" />
+	<img src="../../../../../../assets/images/invites-4.png" title="Complete invitation" />
 	<figcaption class="media-caption center">Adding scouts from a previous mission in the project</figcaption>
 </figure>
 
@@ -71,12 +71,12 @@ Researchers can launch their mission once they have added mission overview, deta
 When researchers hit launch on the status bar, they will see a special modal that let’s them review their invitation message, invitees, and also reminds them that the participants added to “Invites” before launch are being invited upon launch.
 
 <figure>
-	<img src="../../../../../../assets/images/invites-5.png" alt="Launch modal" />
+	<img src="../../../../../../assets/images/invites-5.png" title="Launch modal" />
 	<figcaption class="media-caption center">Once scouts have been added to your mission, you can launch it!</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/invites-6.png" alt="Invites during an open mission" />
+	<img src="../../../../../../assets/images/invites-6.png" title="Invites during an open mission" />
 	<figcaption class="media-caption center">Launching your mission modal</figcaption>
 </figure>
 
@@ -89,16 +89,16 @@ Whenever researchers would like to invite more waves of scouts after launching, 
 Since the researcher is not about to launch their project again, future waves of scouts will receive invites when a researcher clicks on a green button that says “Send Invitations” bellow “Add Scouts”.
 
 <figure>
-	<img src="../../../../../../assets/images/invites-7.png" alt="Adding a new scout to an open mission" />
+	<img src="../../../../../../assets/images/invites-7.png" title="Adding a new scout to an open mission" />
 	<figcaption class="media-caption center">Researchers can still add more scouts after a mission is open</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/invites-8.png" alt="You're inviting more scouts modal" />
+	<img src="../../../../../../assets/images/invites-8.png" title="You're inviting more scouts modal" />
 	<figcaption class="media-caption center">Adding scouts to an open mission</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/invites-9.png" alt="You're inviting more scouts modal" />
+	<img src="../../../../../../assets/images/invites-9.png" title="You're inviting more scouts modal" />
 	<figcaption class="media-caption center">You're inviting more scouts modal</figcaption>
 </figure>

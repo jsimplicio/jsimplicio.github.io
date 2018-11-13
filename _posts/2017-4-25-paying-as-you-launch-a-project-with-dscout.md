@@ -15,7 +15,7 @@ At dscout, we offer three kinds of project plans for researchers:
 ### DIY Projects
 The paywall project was directed towards our DIY accounts. They sign up for free, and pay as they go—upon launching their mission they must pay a flat fee of $295. If they don't have a valid card on the account, the paywall moment happens when they go launch their mission by hitting the "Pay and Launch" button.
 
-### Goal
+### Objective
 * Focus on the user's experience of payment (sensitive information) for a mission mid launch
 
 ### Paying for a DIY project
@@ -26,7 +26,7 @@ DIY users can put a card on file which is charged when their mission is being la
 I made sure the flow of payment worked seamlessly inside the flow of launching. For our DIY users, that sometimes must pay before launching their mission, the launch button says "Launch and Pay." They're then prompted to pay for the fee of the mission with a concise payment form.
 
 <figure>
-	<img src="../../../../../../assets/images/cards.png" alt="Credit cards" />
+	<img src="../../../../../../assets/images/cards.png" title="Credit cards" />
 	<figcaption class="media-caption center">Credit card icons created from royalty free logos</figcaption>
 </figure>
 
