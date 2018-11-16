@@ -38,5 +38,9 @@
 
 .jules {
   padding: $spacer-normal 0;
-  width: 50%;
+  width: 80%;
+
+  @include breakpoint(560px) {
+    width: 50%;
+  }
 }
