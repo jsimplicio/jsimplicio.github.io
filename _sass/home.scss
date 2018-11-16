@@ -7,11 +7,6 @@
   font-size: 1.5rem;
 }
 
-.welcome {
-  font-size: 1.5rem;
-  font-style: italic;
-}
-
 .work-item {
   display: block;
   margin-bottom: 2em;
@@ -39,4 +34,9 @@
 
 .work h2 {
   padding-bottom: $spacer-small;
+}
+
+.jules {
+  padding: $spacer-normal 0;
+  width: 50%;
 }
