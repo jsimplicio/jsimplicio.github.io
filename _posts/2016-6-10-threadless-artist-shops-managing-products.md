@@ -22,7 +22,7 @@ We listed all designs and products on a table. The products can be filtered by c
 
 We successfully included all of our goal's needs, while still leaving plenty of space for future requirements. We have a list of ideas that we still would like to include such as  the ability for shop owners to replace and edit the design on each product.
 
-## Usability tests
+### Usability tests
 We conducted usability testing with a few shop owners, both in person and through google hangouts. We compiled our results in order to pinpoint positives and negatives that we should work on.
 
 * Not all shop owners knew what 'MSRP' stands for
