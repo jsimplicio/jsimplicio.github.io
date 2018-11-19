@@ -27,63 +27,77 @@ On the left sidebar, there is a dedicated call to action to create a new project
 The right sidebar has account and help items: a link to account settings, the researcher's dscout contact (their dscout research advisor), the researcher's account owner, and help docs and help chat links.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-1.png" title="The new dscout home" />
-	<figcaption class="media-caption center">Login Page</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-1.png" title="Home Page" />
+	<figcaption class="media-caption center">Home Page</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-2.png" title="The new dscout home" />
-	<figcaption class="media-caption center">The new dscout home</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-2.png" title="Search for projects, missions, and screeners" />
+	<figcaption class="media-caption center">Search for projects, missions, and screeners</figcaption>
 </figure>
 
 
-
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-3.png" title="Android app - dscout Live support" />
-	<figcaption class="media-caption center">The new dscout home - Switch to different dscout accounts</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-3.png" title="Complete a project" />
+	<figcaption class="media-caption center">Complete a project</figcaption>
 </figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-4.png" title="Complete a project" />
-	<figcaption class="media-caption center">The new dscout home - Complete a project</figcaption>
+	<figcaption class="media-caption center">Complete a project</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-5.png" title="Complete a project modal" />
-	<figcaption class="media-caption center">The new dscout home - Complete a project modal</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-5.png" title="Delete an empty project" />
+	<figcaption class="media-caption center">Delete an empty project</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-1.png" title="The new project page" />
-	<figcaption class="media-caption center">The new project page</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-6.png" title="Delete a project modal" />
+	<figcaption class="media-caption center">Delete a project modal</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-2.png" title="Android app - dscout Live support" />
-	<figcaption class="media-caption center">The new dscout home - Complete a project</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-7.png" title="Switching dscout accounts" />
+	<figcaption class="media-caption center">Switching dscout accounts</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-3.png" title="Android app - dscout Live support" />
-	<figcaption class="media-caption center">The new dscout home - Complete a project</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/project-1.png" title="A dscout project" />
+	<figcaption class="media-caption center">A dscout project</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-4.png" title="Android app - dscout Live support" />
-	<figcaption class="media-caption center">The new dscout home - Move a Mission</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/project-2.png" title="Create a new Screener or copy from previous" />
+	<figcaption class="media-caption center">Create a new Screener or copy from previous</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-5.png" title="Android app - dscout Live support" />
-	<figcaption class="media-caption center">The new dscout home - Move a Mission</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/project-3.png" title="Create a new Diary Mission, copy from previous, or create from a template" />
+	<figcaption class="media-caption center">Create a new Diary Mission, copy from previous, or create from a template</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-6.png" title="Deleting a draft screener or mission" />
-	<figcaption class="media-caption center">The new dscout home - Deleting a draft screener or mission</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/project-4.png" title="Move a Mission or Screener" />
+	<figcaption class="media-caption center">Move a Mission or Screener</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/project-7.png" title="Deleting a draft screener or mission" />
-	<figcaption class="media-caption center">The new dscout home - Deleting a draft screener or mission</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/project-5.png" title="Move a Mission or Screener" />
+	<figcaption class="media-caption center">Move a Mission or Screener</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/project-6.png" title="Move a Mission or Screener" />
+	<figcaption class="media-caption center">Move a Mission or Screener</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/project-7.png" title="Delete a draft Mission or Screener" />
+	<figcaption class="media-caption center">Delete a draft Mission or Screener</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/project-8.png" title="Delete a draft Mission or Screener modal" />
+	<figcaption class="media-caption center">Delete a draft Mission or Screener modal</figcaption>
 </figure>
