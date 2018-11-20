@@ -12,7 +12,7 @@ exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md, vendor]
 
 # Build settings
 markdown: kramdown
-gems: [autoprefixer-rails]
+gems: [autoprefixer-rails, jekyll-paginate-v2]
 permalink: /:categories/:title/
 
 # Variables
@@ -26,3 +26,13 @@ navigation:
 sass:
   style: compressed
   sass_dir: _sass
+
+pagination:
+  enabled: true
+  debug: false
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title — Page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

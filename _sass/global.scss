@@ -160,6 +160,16 @@ blockquote {
 
 .btn--link {
   display: inline-block;
+
+  &.primary {
+    background-color: $text-color;
+    border: none;
+    color: #FFF;
+
+    &:hover {
+      border: none;
+    }
+  }
 }
 
 .btn--link:hover {

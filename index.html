@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Jules Simplicio — Software Product Designer
+pagination:
+  enabled: true
 ---
 <div class="wrapper">
   {% include header.html %}
   <section class="work">
     <div class="work-wrapper">
-      {% for post in site.posts %}
+      {% for post in paginator.posts %}
         <div class="work-item">
           <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -18,5 +20,17 @@ title: Jules Simplicio — Software Product Designer
       {% endfor %}
     </div>
   </section>
+  <hr>
+  <!-- Pagination links -->
+  <div class="page--navigation">
+    {% if paginator.total_pages > 1 %}
+      {% if paginator.next_page %}
+        <a class="btn btn--link primary"  href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+        <a class="btn btn--link primary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+      {% endif %}
+    {% endif %}
+  </div>
   {% include footer.html %}
 </div>
