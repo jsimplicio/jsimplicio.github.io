@@ -12,7 +12,7 @@ exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md, vendor]
 
 # Build settings
 markdown: kramdown
-gems: [autoprefixer-rails, jekyll-paginate-v2]
+plugins: [autoprefixer-rails, jekyll-paginate-v2]
 permalink: /:categories/:title/
 
 # Variables
