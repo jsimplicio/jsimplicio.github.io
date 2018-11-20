@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta author="title" content="Jules Simplicio — Software Product Designer">
+  <meta author="author" content="Jules Simplicio — Software Product Designer">
+  <meta name="description" content="Jules Simplicio designs software products">
+  <meta name="Copyright" content="Copyright — Jules Simplicio">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Jekyll v3.7.3" />
+  <meta property="og:title" content="Jules Simplicio — Software Product Designer" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="http://julessimplic.io" />
+  <meta property="og:site_name" content="Jules Simplicio — Software Product Designer" />
+  <meta property="og:description" content="Jules Simplicio designs software products" />
+  <meta property="og:image" content="/android-chrome-192x192" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href=" /assets/stylesheets/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#222222">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7748876/6026812/css/fonts.css" />
+  <title>Adding collaborators in a dscout project</title>
+</head>
+
+  <body ontouchstart="">
+    <div class="hero-image" style="background-image:url(/../assets/images/10-22-2018-hero-2.png); background-color:#ECF3FD">
+</div>
+<main class="wrapper">
+  <a class="margin--b-large" href="/">Return home</a>
+  <hr/>
+  <article class="post">
+    <header class="post-header">
+			<span class="post-meta">Oct 22, 2018</span>
+      <h3 class="post-title">Adding collaborators in a dscout project</h3>
+    </header>
+    <div class="post-content">
+      <p>With the new design of <a href="https://julessimplic.io/product/design/new-dscout-home-and-project-page/">the project page and the dscout home</a>, I tackled the design of adding collaborators to a project.</p>
+
+<p>In the old version, adding collaborators wasn’t a clear experience. There was lots of fine print on the modal, and ultimately, it was hard to tell when you succesfully added people to your project.</p>
+
+<h3 id="objective">Objective</h3>
+<ul>
+  <li>Re-design the experience of adding collaborators to a project</li>
+</ul>
+
+<h3 id="key-results">Key results</h3>
+<ul>
+  <li>The new experience is clear, fixing the complicated old experience</li>
+  <li>The new experience uses and benefits from our new design system</li>
+</ul>
+
+<p>Before the engineering kick off meeting where we discuss how a feature is going to be built, I iterated on different designs during the design sprint.</p>
+
+<p>The following are old versions which I iterated on through during the sprint.</p>
+
+<p>The design below only has one main action button “Add to Project”. When a researcher adds a person to the project, they show up on the table on a green row, so it looks like they perhaps are already added. What happens if a researcher tries to exit and they have queued up people on the table? We couldn’t open a modal on top of this modal.</p>
+
+<figure>
+	<img src="/assets/images/old-1.png" title="Adding project collaborators - Concept" />
+	<figcaption class="media-caption center">Adding project collaborators - Concept</figcaption>
+</figure>
+
+<p>The design below separates viewers from members. While this keeps the distinction between the two kinds of user types, it makes the experience confusing by having one input that adds people to two different tables. This also has the same problem from the design above, where a researcher can queue people and try to exit the modal.</p>
+
+<figure>
+	<img src="/assets/images/old-2.png" title="Adding project collaborators - Concept" />
+	<figcaption class="media-caption center">Adding project collaborators - Concept</figcaption>
+</figure>
+
+<p>The design below has two different tabs depending on user type. This design carries the same problem of the design above, managing users in two different tables in one modal. Researchers would also have the problem of exiting the modal with people queued on the tables.</p>
+
+<figure>
+	<img src="/assets/images/old-3.png" title="Adding project collaborators - Concept" />
+	<figcaption class="media-caption center">Adding project collaborators - Concept</figcaption>
+</figure>
+
+<p>Lastly, I tried a design more close to Google Docs. A researcher can include a note to who they are inviting and they can set the user’s permissions at the modal, and provide people a link to the project. Unfortunately, setting a user permission type only happens in the Account Management page, and we’re also not technologically ready for generating a project link that can be accessed by a member and a viewer. However, this design helped me think for the final iteration.</p>
+
+<figure>
+	<img src="/assets/images/old-4.png" title="Adding project collaborators - Concept" />
+	<figcaption class="media-caption center">Adding project collaborators - Concept</figcaption>
+</figure>
+
+<p>For the final design, I was inspired by my last design iterations and Google’s method of sharing a file with collaborators.</p>
+
+<p>A researcher can only exit the modal by clicking on “Done”. People are queued on the input instead of on the table, so its clear that they are not on the project yet. When there are people on the input a user can either “Add” them or Cancel, at which point the modal returns to the “Done” state.</p>
+
+<figure>
+	<img src="/assets/images/collaborators-1.png" title="Adding project collaborators" />
+	<figcaption class="media-caption center">Adding project collaborators</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/collaborators-2.png" title="Adding project collaborators" />
+	<figcaption class="media-caption center">Adding project collaborators</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/collaborators-3.png" title="Adding project collaborators" />
+	<figcaption class="media-caption center">Adding project collaborators</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/collaborators-4.png" title="Adding project collaborators" />
+	<figcaption class="media-caption center">Adding project collaborators</figcaption>
+</figure>
+
+<p>Viewers and members are visibly different on the table and on the input.</p>
+
+<figure>
+	<img src="/assets/images/collaborators-5.png" title="Adding project collaborators" />
+	<figcaption class="media-caption center">Adding project collaborators</figcaption>
+</figure>
+
+<p>When people are succesfully added to the project, the researcher receives a notification, at which point the modal return to the “Done” state, with the table open to show the newly added collaborators.</p>
+
+<figure>
+	<img src="/assets/images/collaborators-6.png" title="Adding project collaborators" />
+	<figcaption class="media-caption center">Adding project collaborators</figcaption>
+</figure>
+
+<p>Below, I used our Pill component on CodePen to generate the new different pill designs that we have throghout our platform.</p>
+
+<p data-height="460" data-theme-id="dark" data-slug-hash="yxRPwX" data-default-tab="js,result" data-user="jsimplicio" data-pen-title="Pills" class="codepen">See the Pen <a href="https://codepen.io/jsimplicio/pen/yxRPwX/">Pills</a> by Jules (<a href="https://codepen.io/jsimplicio">@jsimplicio</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+    </div>
+  </article>
+  <div class="page--navigation">
+    
+      <a class="btn btn--link prev" href="/mobile/design/new-dscout-for-android/">Previous</a>
+    
+    
+      <a class="btn btn--link next" href="/product/design/new-dscout-home-and-project-page/">Next</a>
+    
+  </div>
+  <div class="wrapper">
+  	<footer class="site-footer content">
+  <p>Have a good <span id="js-time"></span></p>
+
+  <p>&copy; Jules Simplicio · 2018</p>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48100383-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-48100383-1');
+</script>
+<script>
+  let date =  new Date();
+  let hours = date.getHours();
+  let time;
+
+  if ( hours >= 5 && hours <= 11 ) {
+    time = "morning ☕️"
+  }
+
+  else if ( hours >= 12 && hours <= 17) {
+    time = "afternoon"
+  }
+
+  else if ( hours >= 18 && hours <= 20) {
+    time = "evening"
+  }
+
+  else {
+    time = "night 😴"
+  }
+
+  document.getElementById('js-time').innerHTML = time;
+</script>
+
+  </div>
+</main>
+
+  </body>
+</html>
