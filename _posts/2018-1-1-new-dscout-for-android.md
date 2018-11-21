@@ -101,7 +101,7 @@ The following are new designs for a new Explore tab where you apply for quick ta
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/android-10.png" title="Android app - dscout Live support" />
-	<figcaption class="media-caption center">Android app - Rewards and quick tasks</figcaption>
+	<figcaption class="media-caption center">Android app - Rewards and Explore</figcaption>
 </figure>
 
 ### Scout Feedback
