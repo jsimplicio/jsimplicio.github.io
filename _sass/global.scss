@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
   color: $text-color;
-  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
+  font-family: $font-family;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -42,8 +42,7 @@ h2,
 h3,
 h4 {
   color: $text-color-faded;
-  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B",
--apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $font-header;
   font-size: $font-medium;
   font-weght: 800;
 }
@@ -147,7 +146,7 @@ blockquote {
   border: 1px solid #DDD;
   border-radius: 6px;
   color: $text-color;
-  font-family: "Sentinel SSm A", "Sentinel SSm B", Georgia, serif;
+  font-family: $font-family;
   font-size: 1em;
   font-style: normal;
   transition: 150ms;
