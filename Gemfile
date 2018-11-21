@@ -3,6 +3,6 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "jekyll", ">= 3.6.3"
-gem "jekyll-paginate-v2"
+gem "jekyll-paginate"
 gem "autoprefixer-rails"
 gem "sass"

@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Jules Simplicio — Software Product Designer
-pagination:
-  enabled: true
 ---
 <div class="wrapper">
   {% include header.html %}
@@ -20,18 +18,18 @@ pagination:
       {% endfor %}
     </div>
   </section>
-  
+
   <hr>
 
   <div class="page--navigation">
-    {% if paginator.total_pages > 1 %}
-      {% if paginator.next_page %}
-        <a class="btn btn--link primary"  href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a class="btn btn--link primary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-      {% endif %}
-    {% endif %}
+  {% if paginator.previous_page %}
+  <a class="btn primary btn--link" href="{{ paginator.previous_page_path }}" class="previous">
+    Previous
+  </a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="btn primary btn--link"  href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% endif %}
   </div>
   {% include footer.html %}
 </div>
