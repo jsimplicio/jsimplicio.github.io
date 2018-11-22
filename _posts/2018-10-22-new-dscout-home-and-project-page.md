@@ -21,7 +21,7 @@ I was lead designer and Scrum Master on providing a home and an improved project
 
 ### The new home
 
-Now dscout has a home page dedicated to housing researcher projects. Under "All projects" researchers\ see a combination of "My Projects" and "Shared with Me", so they have access to projects created by them or shared with them.
+Now dscout has a home page dedicated to housing researcher projects. Under "All projects" researchers see a combination of "My Projects" and "Shared with Me", so they have access to projects created by them or shared with them.
 
 On the left sidebar, there is a dedicated call to action to create a new project.
 
