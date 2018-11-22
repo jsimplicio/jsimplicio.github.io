@@ -12,15 +12,16 @@ I was lead designer and Scrum Master on providing a home and an improved project
 
 ### Objectives
 * Provide a home for the dscout web app.
-* Upgrade the project page to the v4 API and new design system.
+* Redesign the project page with upgrated it the v4 API and new design system.
 
 ### Key Results
 * Provide a better onboarding experience for researchers.
 * Provide a home for researchers projects.
+* Provide a useful project page.
 
 ### The new home
 
-Now dscout has a home page dedicated to housing researchers projects. Under "All projects" researchers see a combination of "My Projects" and "Shared with Me", so they have access to projects created by them or shared with them.
+Now dscout has a home page dedicated to housing researcher projects. Under "All projects" researchers\ see a combination of "My Projects" and "Shared with Me", so they have access to projects created by them or shared with them.
 
 On the left sidebar, there is a dedicated call to action to create a new project.
 
