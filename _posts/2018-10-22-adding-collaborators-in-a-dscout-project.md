@@ -88,7 +88,7 @@ When people are succesfully added to the project, the researcher receives a noti
 	<figcaption class="media-caption center">Adding project collaborators</figcaption>
 </figure>
 
-Below, I used our Pill component on CodePen to generate the new different pill designs that we have throghout our platform.
+Below, I used our Pill React component on CodePen to generate the new different pill designs that we have throghout our platform.
 
-<p data-height="460" data-theme-id="dark" data-slug-hash="yxRPwX" data-default-tab="js,result" data-user="jsimplicio" data-pen-title="Pills" class="codepen">See the Pen <a href="https://codepen.io/jsimplicio/pen/yxRPwX/">Pills</a> by Jules (<a href="https://codepen.io/jsimplicio">@jsimplicio</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="475" data-theme-id="dark" data-slug-hash="yxRPwX" data-default-tab="result" data-user="jsimplicio" data-pen-title="Pills" class="codepen">See the Pen <a href="https://codepen.io/jsimplicio/pen/yxRPwX/">Pills</a> by Jules (<a href="https://codepen.io/jsimplicio">@jsimplicio</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
