@@ -16,7 +16,6 @@ I was lead designer and Scrum Master on providing a home and an improved project
 
 ### Key Results
 * Provide a better onboarding experience for researchers.
-* Provide a home for researchers projects.
 * Provide a useful project page.
 
 ### The new home
