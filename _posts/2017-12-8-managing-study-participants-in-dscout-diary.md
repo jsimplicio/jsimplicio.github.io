@@ -20,64 +20,80 @@ Manage is essentially a powerful table of scouts from a mission. It includes inf
 
 <figure>
 	<img src="../../../../../../assets/images/manage-1.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - The progress of scouts in a mission</figcaption>
+	<figcaption class="media-caption center">The progress of scouts in a dscout mission</figcaption>
 </figure>
 
-Researchers can filter their Manage view by a variety of attributes. On the following image you can see the view of the options for filtering by mission progress: invited to mission, accepted, rejected, and completed the mission.
+The groups sidebar is very powerful. A researcher can create groups and put scouts in one or more of these groups. Groups help manage scouts progress and analisis of data.
+
+The ratings sidebar allows researchers to filter their view by scouts ratings.
 
 <figure>
 	<img src="../../../../../../assets/images/manage-2.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Filtering by mission progress</figcaption>
+	<figcaption class="media-caption center">A better view of the groups and ratings sidebar</figcaption>
 </figure>
+
+Researchers can filter their Manage view by a variety of attributes. On the following image you can see the view of the options for filtering by mission progress: invited to mission, accepted, rejected, and completed the mission.
 
 Researchers can also filter by part progress. Unstarted, in progress, and minimum number of entries completed.
 
 <figure>
 	<img src="../../../../../../assets/images/manage-3.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Filtering by part progress</figcaption>
+	<figcaption class="media-caption center">Filtering by mission progress</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-4.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - The option to filter by rating and group</figcaption>
+	<figcaption class="media-caption center">Filtering by part progress</figcaption>
 </figure>
+
+There are several actions researchers can do by selection one or more scouts on the table.
 
 <figure>
 	<img src="../../../../../../assets/images/manage-5.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Opening parts feature</figcaption>
+	<figcaption class="media-caption center">Manage actions</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-6.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Opening parts feature with indeterminate checkbox</figcaption>
+	<figcaption class="media-caption center">Opening parts to scouts</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-7.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Adding scouts to groups to facilitate analysis (a new feature customers have always wanted)</figcaption>
+	<figcaption class="media-caption center">Applying scout groups</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-8.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Messaging multiple scouts at once (a new feature customers have always wanted)</figcaption>
+	<figcaption class="media-caption center">Messaging a scout</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-9.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Messaging all scouts at once! (also a new powerful feature)</figcaption>
+	<figcaption class="media-caption center">Messaging all scouts</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-10.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Keeping tabs and motivating scouts through direct messages</figcaption>
+	<figcaption class="media-caption center">Export data options</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-11.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Scout profile, add to groups, and message</figcaption>
+	<figcaption class="media-caption center">Renaming a group</figcaption>
 </figure>
 
 <figure>
 	<img src="../../../../../../assets/images/manage-12.png" title="Manage - The progress of scouts on your mission" />
-	<figcaption class="media-caption center">Manage - Export options</figcaption>
+	<figcaption class="media-caption center">Deleting a group</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/manage-13.png" title="Manage - The progress of scouts on your mission" />
+	<figcaption class="media-caption center">Creating a group</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/manage-14.png" title="Manage - The progress of scouts on your mission" />
+	<figcaption class="media-caption center">Creating a group</figcaption>
 </figure>
