@@ -64,7 +64,7 @@ Additionally, researchers can also pull scouts from a previous mission. They can
 
 If a researcher needs to add scouts to their mission from a screener, they should simply access Applications and select all of the desired scouts and promote them to their mission. Once that's been done, these scouts will show up under “Scouts” in the “Invites” tab on the Mission Builder.
 
-### Launching a mission after writing designing your research
+### Launching a mission after writing your research
 
 Researchers can launch their mission once they have added mission overview, details, research questions, and once they have added participants (participants are displayed under “Scouts” in “Invites” once added). The invites on the status bar also contain the count of invitees.
 

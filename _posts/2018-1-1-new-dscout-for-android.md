@@ -12,8 +12,6 @@ I updated the Scout experience design for the Android application, working along
 
 ### Objective
 - Update the Android Scout app to conform to the new dscout Diary researcher experience.
-	- Bonus: modernize the Android app's outdated design.
-	- Bonus: implement some aspects of [dscout Live](https://dscout.com/live) in beta.
 
 ### Designing the Scout experience
 I researched and learned Material Design best practices from [Google's guide on Material Design](https://material.io/design/).
