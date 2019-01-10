@@ -6,25 +6,25 @@ categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#197FF6"
 ---
-We recently launched a home for the dscout researcher web app. The app had always lacked a home. Researchers would log in and arrive at their last seen project, and first time researchers would arrive at an empty first project, which was a confusing onboarding experience.
+We recently launched a home for the dscout web app because the app lacked a clear home page. Researchers would log in and arrive at their last active project. First time researchers would arrive at an empty first project, which is potentially a confusing onboarding experience.
 
-I was lead designer and Scrum Master on providing a home and an improved project page experience for researchers.
+I was lead designer and Scrum Master on building dscout's web app a home. I also lead the redesign of the project page, which we tackled alongside the home project.
 
 ### Objectives
 * Provide a home for the dscout web app.
-* Redesign the project page with upgrated it the v4 API and new design system.
+* Redesign the project page by using the new API and design system.
 
 ### Key Results
-* Provide a better onboarding experience for researchers.
-* Provide a useful project page.
+* Provide a home for a researcher's projects.
+* Provide an improved project page.
 
 ### The new home
 
-Now dscout has a home page dedicated to housing researcher projects. Under "All projects" researchers see a combination of "My Projects" and "Shared with Me", so they have access to projects created by them or shared with them.
+Dscout's home is dedicated to housing a researcher's projects. On the main content, under the tab "All projects", researchers see a combination of "My Projects" and "Shared with Me" projects.
 
-On the left sidebar, there is a dedicated call to action to create a new project.
+On the left sidebar, there is a primary call to action to create a new project.
 
-The right sidebar has account and help items: a link to account settings, the researcher's dscout contact (their dscout research advisor), the researcher's account owner, and help docs and help chat links.
+On the right sidebar, there are information on the researcher's account and lastly a help docs and help chat links.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-1.png" title="Home Page" />
