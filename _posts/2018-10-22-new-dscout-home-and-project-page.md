@@ -31,11 +31,14 @@ On the right sidebar, there are information on the researcher's account and last
 	<figcaption class="media-caption center">Home Page</figcaption>
 </figure>
 
+Researchers can use the main content's search bar to quickly look for projects or missions.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-2.png" title="Search for projects, missions, and screeners" />
 	<figcaption class="media-caption center">Search for projects, missions, and screeners</figcaption>
 </figure>
 
+When a project is done, a researcher can mark it as complete, think of it as archiving a project. This project will then move to the completed projects tab on the main content.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-3.png" title="Complete a project" />
@@ -46,6 +49,12 @@ On the right sidebar, there are information on the researcher's account and last
 	<img src="{{ site.baseurl }}/assets/images/home-4.png" title="Complete a project" />
 	<figcaption class="media-caption center">Complete a project</figcaption>
 </figure>
+
+A researcher is able to delete projects. However there are some caveats. Dscout does not allow researchers to delete projects which contain active or completed (closed) missions or screeners.
+
+If a project is in draft and does not contain any data, researchers are able to delete it.
+
+Below, we see a project which contains the trash icon and projects who don't. This shows the difference between "draft" projects, and projects in progress or containing scout data.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-5.png" title="Delete an empty project" />
