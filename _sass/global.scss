@@ -23,7 +23,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  margin: 2em 1.5em;
+  margin: 2em 0;
   position: relative;
   text-rendering: optimizeLegibility;
 }
@@ -220,6 +220,7 @@ blockquote {
 .wrapper {
   margin: 0 auto;
   max-width: $main-content--width;
+  padding: 0 2em;
 }
 
 .paper {
