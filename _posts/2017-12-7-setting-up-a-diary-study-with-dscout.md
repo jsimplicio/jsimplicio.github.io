@@ -8,7 +8,7 @@ hero_color: "#2BAE92"
 ---
 Our goal for bringing mission parts to reality for our customers cooked for a year. We delivered the enhanced dscout Diary experience in late 2017.
 
-The new Diary introduced mission parts. Researchers running diary studies no longer have to divide their study into multiple missions where the data is siloed and separated by mission.
+The new Diary introduced mission parts. Researchers running diary studies no longer have to divide their study into multiple missions where the data becomes siloed between separated by mission.
 
 <figure>
 	<img src="../../../../../../assets/images/builder-0.png" title="Sketches for publishing a part" />

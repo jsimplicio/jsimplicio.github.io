@@ -108,20 +108,21 @@ The dscout app acquired over 1,570 reviews on the Google Play store and a 4/5 ra
 
 The following are a couple recent reviews we have received from Scouts on the Google Play store.
 
+
 <blockquote>
-	<h3>Gwen Geronimo</h3>
-	<date class="post-meta">April 25, 2018</date>
 	<p>Dscout is an excellent app. It is easy to use and intuitive.</p>
 </blockquote>
+<date class="post-meta">April 25, 2018</date>
+<strong>Gwen Geronimo</strong>
 
 <blockquote>
-	<h3>Adriana Auten</h3>
-	<date class="post-meta">April 25, 2018</date>
 	<p>I really enjoy Dscout. This app is simplistic and is easy to follow. They have many opportunities, consistently.</p>
 </blockquote>
+<date class="post-meta">April 25, 2018</date>
+<strong>Adriana Auten</strong>
 
 <blockquote>
-	<h3>Terry Dellow</h3>
-	<date class="post-meta">July 25, 2018</date>
 	<p>This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!</p>
 </blockquote>
+<date class="post-meta">July 25, 2018</date>
+<strong>Terry Dellow</strong>

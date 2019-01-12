@@ -23,7 +23,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  margin: 2em 1em;
+  margin: 2em 1.5em;
   position: relative;
   text-rendering: optimizeLegibility;
 }
@@ -123,14 +123,8 @@ footer {
   border-top: 1px solid #F0F0F0;
 }
 
-header {
-  border-bottom: 1px solid #F0F0F0;
-}
-
 blockquote {
-  border-left: 4px solid #444;
-  margin: 0 0 2em 1em;
-  padding: 1em 0 1em 1em;
+  position: relative;
 
   p {
     margin: 0;
@@ -138,6 +132,20 @@ blockquote {
 
   h3 {
     font-size: $font-normal;
+  }
+
+  &::before {
+    content:"“";
+    font-family: $font-header;
+    font-size: 2em;
+    left: -.65em;
+    position: absolute;
+    top: -.15em;
+    z-index: -1;
+
+    @include breakpoint(480px) {
+      font-size: 1.5em;
+    }
   }
 }
 
@@ -198,9 +206,26 @@ blockquote {
   }
 }
 
+.my-thumbnail {
+  background-size: cover;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,.35);
+  height: 150px;
+  margin-bottom: 1em;
+  width: 150px;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: $main-content--width;
+}
+
+.paper {
+  border-radius: 4px;
+  box-shadow: 0px 0px 60px rgba(0,0,0,.1);
+  margin: 2em 0;
+  padding: 2em;
 }
 
 .site-header,
