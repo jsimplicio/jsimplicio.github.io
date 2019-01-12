@@ -88,15 +88,21 @@ The right sidebar provides contact information about the project lead and dscout
 	<figcaption class="media-caption center">A dscout project</figcaption>
 </figure>
 
+It's quite easy to create a new screener through the prominent "Create Screener" call to action. A screener can be started froms cratch or copied from a previous one.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/project-2.png" title="Create a new Screener or copy from previous" />
 	<figcaption class="media-caption center">Create a new Screener or copy from previous</figcaption>
 </figure>
 
+Below the Screener call to action, a researcher can create a Diary mission through a "Create Diary Mission" action. Not only can these be created from scratche or copied from a previous mission, they can also be created based on a template.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/project-3.png" title="Create a new Diary Mission, copy from previous, or create from a template" />
 	<figcaption class="media-caption center">Create a new Diary Mission, copy from previous, or create from a template</figcaption>
 </figure>
+
+There are instances where a researcher might need to move a mission, screener, or panel into another project. For that case, we provide an action through an actionable arrow icon which opens a dropdown where a researcher can pick a project within their account for this mission/panel/screener to be moved to.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/project-4.png" title="Move a Mission or Screener" />
@@ -112,6 +118,8 @@ The right sidebar provides contact information about the project lead and dscout
 	<img src="{{ site.baseurl }}/assets/images/project-6.png" title="Move a Mission or Screener" />
 	<figcaption class="media-caption center">Move a Mission or Screener</figcaption>
 </figure>
+
+Screeners can be deleted if they're in draft mode.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/project-7.png" title="Delete a draft Mission or Screener" />
