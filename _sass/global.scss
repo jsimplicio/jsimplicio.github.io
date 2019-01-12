@@ -207,7 +207,8 @@ blockquote {
 }
 
 .my-thumbnail {
-  background-size: cover;
+  background-position: center;
+  background-size: 100%;
   border: 5px solid white;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0,0,0,.35);
