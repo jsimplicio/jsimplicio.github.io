@@ -8,23 +8,19 @@ hero_color: "#197FF6"
 ---
 We launched a home for the dscout web app because it lacked a clear home page. Researchers upon logging in, would arrive at the last active project. First time researchers would arrive at an empty first project, which could potentially be a confusing onboarding experience.
 
-I was lead designer and Scrum Master on the project of building dscout's web app a home. I also lead the redesign of the dscout project page, which we tackled alongside the home project.
+I was lead designer and Scrum Master on the project, and I also lead the re-design of the dscout project page, which we tackled alongside building the home.
 
 ### Objectives
 * Provide a home for the dscout web app.
-* Redesign the project page by utilizing the power of our new API and design system.
+* Re-design the old project page.
 
 ### Key Results
-* Provide a home for a researcher's projects.
-* Provide an improved project page experience.
+* A home for a researcher's projects.
+* An improved and useful project page.
 
 ### The new home
 
-Dscout's home houses a researcher's projects. On the main content, under the tab "All projects", researchers see a combination of "My Projects" and "Shared with Me" projects.
-
-On the left sidebar, there is a primary call to action to create a new project. We decided to call out this action since it's one of the primary triggers and features on the home page.
-
-On the right sidebar, there are account contact information, and help docs with help chat links.
+Dscout's home has a main column with a researcher's collection of projects. There is a primary call to action to create a new project to the left of the main column. To the right, there is a sidebar with account contact information, and help docs with help chat links.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-1.png" title="Home Page" />

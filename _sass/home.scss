@@ -10,22 +10,8 @@
   position: relative;
   transition: 200ms ease-in;
 
-  &:hover {
-    .btn {
-      border: 1px solid #000;
-    }
-  }
-
   .font-size--xl {
     padding-bottom: $spacer-small;
-  }
-
-  a {
-    color: $text-color;
-
-    &:hover {
-      text-decoration: none;
-    }
   }
 }
 

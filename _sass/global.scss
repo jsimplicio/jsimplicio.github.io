@@ -161,45 +161,11 @@ blockquote {
   }
 }
 
-.btn--link {
-  display: inline-block;
-
-  &.primary {
-    background-color: $text-color;
-    border: none;
-    color: #FFF;
-
-    &:hover {
-      border: none;
-    }
-  }
-}
-
-.btn--link:hover {
-  text-decoration: none;
-}
-
 .page--navigation {
   display: flex;
   margin-bottom: $spacer-normal;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-
-  .btn:first-child {
-    margin-right: $spacer-xsmall;
-
-    @include breakpoint(480px) {
-      width: 30%;
-    }
-  }
-
-  .btn {
-    width: 50%;
-
-    @include breakpoint(480px) {
-      width: 30%;
-    }
-  }
 }
 
 .my-thumbnail {

@@ -7,7 +7,7 @@ hero_image: "/../assets/images/10-22-2018-hero-2.png"
 hero_color: "#ECF3FD"
 ---
 
-With the new design of [the project page and the dscout home](https://julessimplic.io/product/design/new-dscout-home-and-project-page/), I tackled the design of adding collaborators to a project.
+With the new designs of [the project page and the dscout home](https://julessimplic.io/product/design/new-dscout-home-and-project-page/), I tackled the feature of adding collaborators to a project.
 
 In the old version, adding collaborators wasn't a clear experience. There was lots of fine print on the modal, and ultimately, it was hard to tell when you succesfully added people to your project.
 
