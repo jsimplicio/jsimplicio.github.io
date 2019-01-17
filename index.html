@@ -2,34 +2,38 @@
 layout: default
 title: Jules Simplicio — Software Product Designer
 ---
-<div class="wrapper">
-  {% include header.html %}
+<main class="main">
+  <section class="sidebar">
+    {% include header.html %}
+  </section>
   <section class="work">
+    <h1 class="font--size-xl">Work</h1>
     <div class="work-wrapper">
       {% for post in paginator.posts %}
         <div class="work-item">
           <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h3 class="post-title">{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
+            <h3 class="font-size--xl">{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
             <p>{{ post.content | truncatewords: 50 | strip_html }}</p>
             <button class="btn btn--link" title="Continue Reading">Continue Reading</button>
           </a>
         </div>
       {% endfor %}
+      <hr>
+      <div class="page--navigation">
+        {% if paginator.next_page %}
+          <a class="btn primary btn--link" href="{{ paginator.next_page_path }}" class="next">Older</a>
+        {% endif %}
+        {% if paginator.previous_page %}
+        <a class="btn primary btn--link" href="{{ paginator.previous_page_path }}" class="previous">
+          Newer
+        </a>
+        {% endif %}
+      </div>
     </div>
   </section>
-
-  <hr>
-
-  <div class="page--navigation">
-  {% if paginator.next_page %}
-    <a class="btn primary btn--link"  href="{{ paginator.next_page_path }}" class="next">Older</a>
-  {% endif %}
-  {% if paginator.previous_page %}
-  <a class="btn primary btn--link" href="{{ paginator.previous_page_path }}" class="previous">
-    Newer
-  </a>
-  {% endif %}
-  </div>
-  {% include footer.html %}
+</main>
+<hr/>
+<div class="wrapper">
+{% include footer.html %}
 </div>

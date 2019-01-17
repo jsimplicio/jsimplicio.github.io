@@ -9,7 +9,7 @@ layout: default
   <article class="post">
     <header class="post-header">
 			<span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
-      <h3 class="post-title">{{ page.title }}</h3>
+      <h3 class="font-size--xl">{{ page.title }}</h3>
     </header>
     <div class="post-content">
       {{ content }}
@@ -23,7 +23,8 @@ layout: default
       <a class="btn btn--link next" href="{{page.next.url}}">Next</a>
     {% endif %}
   </div>
-  <div class="wrapper">
-  	{% include footer.html %}
-  </div>
 </main>
+<hr />
+<div class="wrapper">
+  {% include footer.html %}
+</div>

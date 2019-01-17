@@ -12,16 +12,12 @@
 }
 
 .post {
-  .post-title {
-    font-size: $font-xlarge;
-  }
-
   .tags {
     margin-bottom: $spacer-normal;
   }
 }
 
-.post-title {
+.font-size--xl {
   line-height: 1.3;
   font-size: $font-large;
   font-style: normal;
