@@ -6,7 +6,7 @@
 
 html {
   font-size: 16px;
-  padding: 16px;
+  padding: 0 16px;
 
   @include breakpoint(768px) {
     font-size: 18px;
@@ -188,17 +188,15 @@ blockquote {
   display: flex;
   flex-flow: column;
   max-width: 1400px;
-  padding: $spacer-xsmall;
 
   @include breakpoint(1024px) {
     flex-flow: row;
-    padding: $spacer-normal;
   }
 }
 
 .sidebar {
   border-top: 8px solid $text-color;
-  margin: 0 auto;
+  margin: $spacer-large auto 0 auto;
   max-width: 768px;
   padding: $spacer-large 0;
   width: 100%;
@@ -213,7 +211,7 @@ blockquote {
 .work {
   border-top: 8px solid $text-color;
   padding-top: $spacer-large;
-  margin: 0 auto;
+  margin: $spacer-large auto 0 auto;
   max-width: 768px;
   width: 100%;
 

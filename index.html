@@ -6,6 +6,7 @@ title: Jules Simplicio — Software Product Designer
   <section class="sidebar">
     {% include header.html %}
   </section>
+  <a href="work" name="work"></a>
   <section class="work">
     <h1 class="font--size-xl">Blog</h1>
     <div class="work-wrapper">
@@ -23,7 +24,7 @@ title: Jules Simplicio — Software Product Designer
         {% if paginator.total_pages > 1 %}
           <div class="pagination">
             {% if paginator.previous_page %}
-              <a href="{{ paginator.previous_page_path | relative_url }}">
+              <a href="{{ paginator.previous_page_path | relative_url }}#work">
                 &laquo; Previous
               </a>
             {% else %}
@@ -34,18 +35,18 @@ title: Jules Simplicio — Software Product Designer
               {% if page == paginator.page %}
                 <em>{{ page }}</em>
               {% elsif page == 1 %}
-                <a href="{{ paginator.previous_page_path | relative_url }}">
+                <a href="{{ paginator.previous_page_path | relative_url }}#work">
                   {{ page }}
                 </a>
               {% else %}
-                <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+                <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}#work ">
                   {{ page }}
                 </a>
               {% endif %}
             {% endfor %}
 
             {% if paginator.next_page %}
-              <a href="{{ paginator.next_page_path | relative_url }}">
+              <a href="{{ paginator.next_page_path | relative_url }}#work">
                 Next &raquo;
               </a>
             {% else %}
