@@ -8,7 +8,7 @@ hero_color: "#197FF6"
 ---
 We launched a home for the dscout web app because it lacked a clear home page. Researchers upon logging in, would arrive at the last active project. First time researchers would arrive at an empty first project, which could potentially be a confusing onboarding experience.
 
-I acted as lead designer and Scrum Master on the project of building dscout's web app a home. I also lead the redesign of the dscout project page, which we tackled alongside the home project.
+I was lead designer and Scrum Master on the project of building dscout's web app a home. I also lead the redesign of the dscout project page, which we tackled alongside the home project.
 
 ### Objectives
 * Provide a home for the dscout web app.
