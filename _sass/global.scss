@@ -234,12 +234,13 @@ blockquote {
   border-top: 8px solid $text-color;
   margin: 0 auto;
   max-width: 768px;
+  padding: $spacer-large 0;
   width: 100%;
-  padding-top: $spacer-large;
 
   @include breakpoint(1024px) {
     margin-right: $spacer-xlarge * 2;
     max-width: 360px;
+    padding: $spacer-large 0 0 0;
   }
 }
 

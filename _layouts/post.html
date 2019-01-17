@@ -9,22 +9,22 @@ layout: default
   <article class="post">
     <header class="post-header">
 			<span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
-      <h3 class="font-size--xl">{{ page.title }}</h3>
+      <h1 class="font--size-xl">{{ page.title }}</h1>
     </header>
-    <div class="post-content">
+    <section class="post-content">
       {{ content }}
-    </div>
+    </section>
   </article>
-  <div class="page--navigation">
+  <section class="page--navigation">
     {% if page.previous.url %}
       <a class="btn btn--link prev" href="{{page.previous.url}}">Previous</a>
     {% endif %}
     {% if page.next.url %}
       <a class="btn btn--link next" href="{{page.next.url}}">Next</a>
     {% endif %}
-  </div>
+  </section>
 </main>
 <hr />
-<div class="wrapper">
+<section class="wrapper">
   {% include footer.html %}
-</div>
+</section>
