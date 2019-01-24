@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Threadless Artist Shops onboarding"
+title:  "Onboarding Artist Shops users"
 date:   2016-08-11
 categories: product design
 hero_image: "/../assets/images/8-11-2016-hero.png"

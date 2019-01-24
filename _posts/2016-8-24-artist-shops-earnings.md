@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Threadless Artist Shops earnings"
+title:  "Artist Shop earnings"
 date:   2016-08-24
 categories: product design
 hero_image: "/../assets/images/8-24-2016-hero.png"
