@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New home for projects with a new project page"
+title:  "New home for projects with new project page"
 date:   2018-10-22
 categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
