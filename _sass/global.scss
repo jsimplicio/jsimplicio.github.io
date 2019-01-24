@@ -6,7 +6,7 @@
 
 html {
   font-size: 16px;
-  padding: 0 24px;
+  padding: 0 $spacer-small;
 
   @include breakpoint(768px) {
     font-size: 18px;
@@ -124,7 +124,7 @@ blockquote {
   position: relative;
 
   p {
-    margin: 0 0 $spacer-normal 0;
+    padding: $spacer-small 0 $spacer-normal 0;
   }
 
   h3 {
@@ -134,15 +134,11 @@ blockquote {
   &::before {
     content:"“";
     font-family: $font-header;
-    font-size: 2em;
-    left: -.65em;
+    font-size: 1.5em;
+    left: -.55em;
     position: absolute;
     top: -.15em;
     z-index: -1;
-
-    @include breakpoint(480px) {
-      font-size: 1.5em;
-    }
   }
 }
 
