@@ -14,9 +14,8 @@ In the old version, adding collaborators wasn't a clear experience. There was lo
 ### Objective
 * Re-design the experience of adding collaborators to a project
 
-### Key results
+### Key result
 * The new experience is clear, fixing the complicated old experience
-* The new experience uses and benefits from our new design system
 
 Before the engineering kick off meeting where we discuss how a feature is going to be built, I iterated on different designs during the design sprint.
 
