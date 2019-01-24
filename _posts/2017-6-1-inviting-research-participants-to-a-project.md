@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "dscout mission invites"
+title:  "Inviting research participants to a project"
 date:   2017-6-1
 categories: product design
 hero_image: "/../assets/images/6-1-2017-hero.png"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up a diary study with dscout"
+title:  "Setting up a diary study"
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-2-hero.png"

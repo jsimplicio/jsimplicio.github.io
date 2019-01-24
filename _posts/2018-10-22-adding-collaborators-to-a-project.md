@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding collaborators in a dscout project"
+title:  "Adding collaborators to a project"
 date:   2018-10-22
 categories: product design
 hero_image: "/../assets/images/10-22-2018-hero-2.png"

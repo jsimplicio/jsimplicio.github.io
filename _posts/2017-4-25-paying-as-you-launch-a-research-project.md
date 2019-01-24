@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paying as you launch a project with dscout"
+title:  "Paying as you launch a research project"
 date:   2017-4-25
 categories: product design
 hero_image: "/../assets/images/4-25-2017-hero.png"

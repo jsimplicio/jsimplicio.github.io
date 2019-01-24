@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "dscout mission testing"
+title:  "Testing a Diary study"
 date:   2017-5-30
 categories: product design
 hero_image: "/../assets/images/5-30-2017-hero.png"

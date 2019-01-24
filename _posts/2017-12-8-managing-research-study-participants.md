@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Managing study participants in dscout diary"
+title:  "Managing research study participants"
 date:   2017-12-8
 categories: product design
 hero_image: "/../assets/images/8-12-2017-hero.png"
