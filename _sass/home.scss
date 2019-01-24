@@ -9,12 +9,8 @@
   margin-bottom: 2em;
   position: relative;
   transition: 200ms ease-in;
-
-  .font-size--xl {
-    padding-bottom: $spacer-small;
-  }
 }
 
-.work h2 {
-  padding-bottom: $spacer-small;
+.work h3 {
+  margin-bottom: $spacer-xsmall;
 }
