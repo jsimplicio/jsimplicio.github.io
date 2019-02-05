@@ -6,7 +6,7 @@ categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#197FF6"
 ---
-We launched a home for the dscout web app because it lacked a clear home page. Researchers upon logging in, would arrive at the last active project. First time researchers would arrive at an empty first project, which could potentially be a confusing onboarding experience.
+We designed and launched a home for the dscout web app. The app lacked a clear home, researchers upon logging in would arrive at the last active project. First time researchers would arrive at an empty first project, which could potentially be a confusing onboarding experience.
 
 I was lead designer and Scrum Master on the project, and I also lead the re-design of the dscout project page, which we tackled alongside building the home.
 
