@@ -12,10 +12,10 @@ With the new designs of [the project page and the dscout home](https://julessimp
 In the old version, adding collaborators wasn't a clear experience. There was lots of fine print on the modal, and ultimately, it was hard to tell when you succesfully added people to your project.
 
 ### Objective
-* Re-design the experience of adding collaborators to a project
+* Re-design the experience of adding collaborators to a project.
 
 ### Key result
-* The new experience is clear, fixing the complicated old experience
+* The new experience facilitates the act of adding members to a project by fixing the complicated old user experience.
 
 Before the engineering kick off meeting where we discuss how a feature is going to be built, I iterated on different designs during the design sprint.
 

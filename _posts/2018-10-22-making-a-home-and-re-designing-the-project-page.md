@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Giving projects a home and re-designing the project page"
+title:  "Making a home and re-designing the project page"
 date:   2018-10-22
 categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
@@ -12,11 +12,11 @@ I was lead designer and Scrum Master on the project, and I also lead the re-desi
 
 ### Objectives
 * Provide a home for the dscout web app.
-* Re-design the old project page.
+* Bring the project page to the v4 API.
 
 ### Key Results
-* A home for a researcher's projects.
-* An improved and useful project page.
+* The dscout web app has a clear home in its structural design.
+* The project page is revitalized with core project information and components.
 
 ### The new home
 
