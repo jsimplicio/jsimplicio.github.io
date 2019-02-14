@@ -78,9 +78,7 @@ iframe {
 }
 
 p {
-  &:not(:last-of-type) {
-    padding-bottom: $spacer-small;;
-  }
+  padding-bottom: $spacer-small;
 }
 
 img,

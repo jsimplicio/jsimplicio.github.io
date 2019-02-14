@@ -46,26 +46,31 @@ When a project is done, a researcher can mark it as complete, as if they're arch
 	<figcaption class="media-caption center">Complete a project</figcaption>
 </figure>
 
-A researcher is able to delete projects under some caveats. Dscout does not allow researchers to delete projects which contain active or completed (closed) missions or screeners.
-
-If a project is in draft and does not contain any launched missions, researchers are able to delete it.
-
-Below, we see a project which contains the trash icon and projects who don't. This shows the difference between "draft" projects, and in progress projects that can't be deleted.
+There's also the capability to pin projects to the top of the list. This is a power-up for long project lists.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-5.png" title="Delete an empty project" />
-	<figcaption class="media-caption center">Delete an empty project</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/home-5.png" title="Pin project to top" />
+	<figcaption class="media-caption center">Pin project to top</figcaption>
+</figure>
+
+A researcher is able to delete projects under some caveats. Dscout does not allow researchers to delete projects which contain active or completed (closed) missions or screeners.
+
+If a project is in draft and does not contain any launched missions, researchers are able to delete it. Below, we see a project which contains the trash icon and projects which don't. 
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/home-6.png" title="Delete a project" />
+	<figcaption class="media-caption center">Delete a project</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-6.png" title="Delete a project modal" />
+	<img src="{{ site.baseurl }}/assets/images/home-7.png" title="Delete a project modal" />
 	<figcaption class="media-caption center">Delete a project modal</figcaption>
 </figure>
 
 If a researcher is for example working under a big organization, they may be using different dscout accounts per team. In the following example, you see an account dropdown that lists two different accounts that this researcher is part of. This is the dropdown where a researcher is able to go between dscout accounts.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/home-7.png" title="Switching dscout accounts" />
+	<img src="{{ site.baseurl }}/assets/images/home-8.png" title="Switching dscout accounts" />
 	<figcaption class="media-caption center">Switching dscout accounts</figcaption>
 </figure>
 
