@@ -2,11 +2,12 @@
 layout: post
 title:  "Testing a Diary study"
 date:   2017-5-30
-categories: product design
+categories: [product, design]
 hero_image: "/../assets/images/5-30-2017-hero.png"
 hero_color: "#D8D8E3"
+tags: [dscout, software development, react app]
 ---
-Before launching their research project, researchers now can make sure they have crafted a good mission, and ensure they can get to insightful answers. All of this is now capable by using the "Test" feature inside the Mission Builder.
+Before launching a research project, researchers now can make sure they have crafted a good mission by using the "Test" feature inside the Mission Builder.
 
 ### Why test?
 Before we used to let researchers invite five participants for free to their mission. This would usually help kickstart their project. Now we have facilitated the way they can write their research and iterate on it by letting them conduct tests. A mission test will run just like an open mission. Researchers can invite up to 5 testers to take a test drive.

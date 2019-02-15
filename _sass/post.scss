@@ -17,9 +17,11 @@
 
 .tag {
   background: rgba($accent-color,.2);
+  display: inline-block;
   font-family: $sans-serif;
   font-size: $font-xsmall;
-  padding: $spacer-xsmall;
+  margin-bottom: $spacer-xxsmall;
+  padding: .25em $spacer-xxsmall;
 
   a {
     display: block;

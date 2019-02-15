@@ -5,7 +5,7 @@ date:   2018-1-1
 categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, android, product, design, material design]
+tags: [dscout, android, mobile, material design]
 ---
 The dscout Diary researcher experience was redesigned with the introduction of [Mission parts](/product/design/analyzing-entries-with-dscout/). Now Missions are capable of being divided up into parts, so researchers don't have to create multiple Missions and analyze data across these separate missions.
 

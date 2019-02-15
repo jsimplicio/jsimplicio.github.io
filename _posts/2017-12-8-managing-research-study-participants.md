@@ -2,28 +2,29 @@
 layout: post
 title:  "Managing research study participants"
 date:   2017-12-8
-categories: product design
+categories: [product, design]
 hero_image: "/../assets/images/8-12-2017-hero.png"
 hero_color: "#A5D570"
+tags: [dscout, software development, react app]
 ---
 
-With the Diary 2.0 experience, researchers can manage scouts through all of the mission parts in Manage.
+With the Diary 2.0 experience, researchers can manage scouts through all mission parts in app inside "Manage".
 
 ### Objective
-* Allow researchers to keep track of and manage the progress of scouts in a mission
+* Allow researchers to keep track of and manage the progress of scouts in a mission.
 
 ### Keeping track of research participants
 
-We released the new Diary which introduced mission parts. Researchers now can divide their mission into multiple parts. Instead of having to manage research data across multiple missions, they can see all their data divided up into logical parts in one place.
+We released the new Diary which introduced mission parts. Researchers now can divide their mission into multiple parts. Instead of having to manage research data across multiple missions, they can see all their data divided up into logical parts inside one mission.
 
-Manage is essentially a powerful table of scouts from a mission. It includes information about a scout's progress through the mission and all of its parts, it highlights scout ratings, and allows the researcher to mark scouts as completed (mission accomplished).
+Manage is a powerful feature for tracking scout progress in a mission. The table of scouts includes the scout part progress, it highlights scout ratings, and it allows researchers to mark scouts as completed (mission accomplished).
 
 <figure>
 	<img src="../../../../../../assets/images/manage-1.png" title="Manage - The progress of scouts on your mission" />
 	<figcaption class="media-caption center">The progress of scouts in a dscout mission</figcaption>
 </figure>
 
-The groups sidebar is very powerful. A researcher can create groups and put scouts in one or more of these groups. Groups help manage scouts progress and analisis of data.
+On the group sidebar, a researcher can create groups and put scouts in one or more of these groups. Groups help manage scouts progress and analisis of data.
 
 The ratings sidebar allows researchers to filter their view by scouts ratings.
 

@@ -2,19 +2,19 @@
 layout: post
 title:  "Running a diary study"
 date:   2017-12-7
-categories: product design
+categories: [product, design]
 hero_image: "/../assets/images/12-7-2017-hero.png"
 hero_color: "#8EDDE8"
+tags: [dscout, software development, react app,]
 ---
-The new dscout Diary launched at the end of 2017. We built a new core researcher experience that improves how projects run in dscout. With the redesign, we facilitated the experience of conducting research and data analysis.
+The new dscout Diary launched at the end of 2017. We built a new researcher experience that improves how projects are run in dscout by making research and data analysis faster and easier.
 
-Historically, a researcher would create a project that was made out of one or more missions. They often wanted participants to go through distinct tasks, so they would accomplish this by making scouts go through multiple mission. However, when researchers wanted to see all of their scouts response data across every mission, they couldn't—because each mission was structured like an individual part of a project, in silos separated from one another, which made it hard to compare data across missions. Each mission had its own entries viewer, separated from the other missions inside the project.
+Historically, a researcher created a project that was made out of one or more missions. Often researchers wanted scouts to go through distinct tasks, so they would accomplish this by creating multiple missions. Unfortunately, when researchers wanted to see all of their scouts response data across all missions, they couldn't. Researchers had to access each mission separately and make sense of it all.
 
-With the new Diary release, we broke missions up into parts. Now researchers don't have the need to create multiple missions because a mission can be divided up into parts. For example: before researchers wanting to run a diary study of three distinct tracks, hits, misses, and wishes, would split their project up into three missions. Now researchers can split one mission into three parts. Subsequently, their entries viewer will contain data submitted across the whole mission, which is the entire project.
+The new Diary allows for breaking up a mission with parts. Now researchers don't have to create multiple missions because a mission can be divided up into parts. Researchers can access all scout data from their parts inside one mission.
 
 ### Objective
 * Allow researchers to see all submissions data from their project contained in one place for easy comprehension and analysis
-	* Bonus: Adapt to the new design system (we call our design system Particle) as product of redesigning this section of our application
 
 ### Results
 

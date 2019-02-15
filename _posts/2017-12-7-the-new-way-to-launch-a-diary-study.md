@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Setting up a diary study"
+title:  "The new way to launch a Diary study"
 date:   2017-12-7
-categories: product design
+categories: [product, design]
 hero_image: "/../assets/images/12-7-2017-2-hero.png"
 hero_color: "#2BAE92"
+tags: [dscout, software development, react app]
 ---
-Our goal for bringing mission parts to reality for our customers cooked for a year. We delivered the enhanced dscout Diary experience in late 2017.
 
-The new Diary introduced mission parts. Researchers running diary studies no longer have to divide their study into multiple missions where the data becomes siloed between separated by mission.
+The new Diary introduced mission parts. Before parts, researchers often had to break up their study into a few missions, making it hard for analysis of data across each mission. By dividing a mission into parts, now researchers can see the whole breadth of their research inside one mission.
 
 <figure>
 	<img src="../../../../../../assets/images/builder-0.png" title="Sketches for publishing a part" />

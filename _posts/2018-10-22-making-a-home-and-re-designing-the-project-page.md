@@ -5,7 +5,7 @@ date:   2018-10-22
 categories: [product, design]
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, software development, design, product]
+tags: [dscout, software development, home, react app]
 ---
 We designed and launched a home for the dscout web app. The app lacked a clear home, researchers upon logging in would arrive at the last active project. First time researchers would arrive at an empty first project, which was a confusing experience.
 
@@ -90,14 +90,19 @@ The right sidebar provides contact information about the project lead and dscout
 	<figcaption class="media-caption center">A dscout project</figcaption>
 </figure>
 
-It's quite easy to create a new screener through the prominent "Create Screener" call to action. A screener can be started froms cratch or copied from a previous one.
+It's easy to create a new screener through the "Create Screener" call to action. A screener can be started froms cratch or copied from a previous one.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/project-2.png" title="Create a new Screener or copy from previous" />
 	<figcaption class="media-caption center">Create a new Screener or copy from previous</figcaption>
 </figure>
 
-Below the Screener call to action, a researcher can create a Diary mission through a "Create Diary Mission" action. Not only can these be created from scratche or copied from a previous mission, they can also be created based on a template.
+Below the Screener call to action, a researcher can create a Diary mission through the "Create Diary Mission" action. Not only can missions be created from scratch, they can be copied from a previous mission, or be created based on a template.
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/project-9.png" title="Copying a mission (or screener) from a previously created one" />
+	<figcaption class="media-caption center">Copying a mission (or screener) from a previously created one</figcaption>
+</figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/project-3.png" title="Create a new Diary Mission, copy from previous, or create from a template" />
