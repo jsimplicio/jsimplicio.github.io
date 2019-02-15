@@ -5,6 +5,7 @@ date:   2018-10-22
 categories: product design
 hero_image: "/../assets/images/10-22-2018-hero-2.png"
 hero_color: "#ECF3FD"
+tags: [dscout, software development, design, product, ]
 ---
 
 With the new designs of [the project page and the dscout home](https://julessimplic.io/product/design/new-dscout-home-and-project-page/), I tackled the feature of adding collaborators to a project.

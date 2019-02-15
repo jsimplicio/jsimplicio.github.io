@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Onboarding Artist Shops users"
+title:  "Onboarding shop owners"
 date:   2016-08-11
 categories: product design
 hero_image: "/../assets/images/8-11-2016-hero.png"

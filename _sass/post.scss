@@ -11,9 +11,18 @@
   }
 }
 
-.post {
-  .tags {
-    margin-bottom: $spacer-normal;
+.tags {
+  margin-top: $spacer-xsmall;
+}
+
+.tag {
+  background: rgba($accent-color,.2);
+  font-family: $sans-serif;
+  font-size: $font-xsmall;
+  padding: $spacer-xsmall;
+
+  a {
+    display: block;
   }
 }
 

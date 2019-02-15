@@ -42,10 +42,10 @@ h2,
 h3,
 h4 {
   color: $text-color-faded;
-  font-family: $font-header;
+  font-family: $sans-serif;
   font-size: $font-medium;
   font-weght: 800;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 h2 {
@@ -63,7 +63,7 @@ hr {
 }
 
 a {
-  color: #1E90FF;
+  color: $accent-color;
   text-decoration: none;
 
   &:hover {
@@ -131,7 +131,7 @@ blockquote {
 
   &::before {
     content:"“";
-    font-family: $font-header;
+    font-family: $sans-serif;
     font-size: 1.5em;
     left: -.6em;
     position: absolute;

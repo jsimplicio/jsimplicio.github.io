@@ -17,3 +17,6 @@
   <link rel="shortcut icon" href="/favicon.ico?v=2" />
   <title>{{ page.title }}</title>
 </head>
+{% if site.tags != "" %}
+  {% include tags.html %}
+{% endif %}

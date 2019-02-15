@@ -14,6 +14,12 @@ title: Jules Simplicio — Software Product Designer
         <article class="work-item">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h3 class="font--size-l">{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
+            <p class="tags">
+              {% for tag in post.tags %}
+                {% capture tag_name %}{{ tag }}{% endcapture %}
+                <a class="tag" title="{{ tag_name }}" href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+              {% endfor %}
+            </p>
             <p>{{ post.content | truncatewords: 50 | strip_html }}</p>
             <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">Continue Reading »
           </a>

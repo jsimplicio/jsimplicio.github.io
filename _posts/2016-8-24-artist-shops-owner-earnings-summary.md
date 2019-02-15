@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Artist Shop earnings"
+title:  "Artist Shops owner earnings summary"
 date:   2016-08-24
 categories: product design
 hero_image: "/../assets/images/8-24-2016-hero.png"
@@ -9,7 +9,7 @@ hero_color: "#0298FF"
 I designed a proposal for an upcoming earnings dashboard, where shop owners can see a summary of their sales activity.
 
 ### Objective
-* Display a digestable summary of data about a shop owner's sales
+* Display a summary of data about a shop owner's sales
 
 ### Shop earnings
 I researched different analytics dashboards from different product companies that conduct online sales. I put my research results against similar data that we can access for our Artist Shops transactions and users. I designed an organized dashboard with important and helpful data that we can share to shop owners about their orders and earnings. It also lets them compare data through different dates. Some of the data the dashboard includes are:

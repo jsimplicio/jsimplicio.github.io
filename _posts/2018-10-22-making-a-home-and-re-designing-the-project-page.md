@@ -2,9 +2,10 @@
 layout: post
 title:  "Making a home and re-designing the project page"
 date:   2018-10-22
-categories: product design
+categories: [product, design]
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#197FF6"
+tags: [dscout, software development, design, product]
 ---
 We designed and launched a home for the dscout web app. The app lacked a clear home, researchers upon logging in would arrive at the last active project. First time researchers would arrive at an empty first project, which was a confusing experience.
 
@@ -55,7 +56,7 @@ There's also the capability to pin projects to the top of the list. This is a po
 
 A researcher is able to delete projects under some caveats. Dscout does not allow researchers to delete projects which contain active or completed (closed) missions or screeners.
 
-If a project is in draft and does not contain any launched missions, researchers are able to delete it. Below, we see a project which contains the trash icon and projects which don't. 
+If a project is in draft and does not contain any launched missions, researchers are able to delete it. Below, we see a project which contains the trash icon and projects which don't.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/home-6.png" title="Delete a project" />
