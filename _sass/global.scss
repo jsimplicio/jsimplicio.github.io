@@ -195,10 +195,8 @@ blockquote {
 }
 
 .sidebar {
-  border-top: 8px solid $text-color;
-  margin: $spacer-large auto 0 auto;
+  margin: 0 auto $spacer-normal auto;
   max-width: 768px;
-  padding-top: $spacer-large;
   width: 100%;
 
   @include breakpoint(1024px) {
@@ -208,10 +206,7 @@ blockquote {
   }
 }
 
-.work,
-.tags {
-  border-top: 8px solid $text-color;
-  padding-top: $spacer-large;
+.work {
   margin: $spacer-large auto 0 auto;
   max-width: 768px;
   width: 100%;
@@ -221,8 +216,17 @@ blockquote {
   }
 }
 
-.site-header,
-.site-footer {
+.site-header {
   margin: 0 auto;
   padding: $spacer-normal 0;
+}
+
+.site-footer {
+  background-color: #EEE;
+  margin: $spacer-small (-$spacer-small) (-$spacer-small) (-$spacer-small);
+  padding: $spacer-large;
+
+  p:last-child {
+    padding: 0;
+  }
 }
