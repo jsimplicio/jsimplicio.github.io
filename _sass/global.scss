@@ -197,12 +197,12 @@ blockquote {
 .sidebar {
   margin: 0 auto $spacer-normal auto;
   max-width: 768px;
+  padding: $spacer-large 0 0 0;
   width: 100%;
 
   @include breakpoint(1024px) {
     margin-right: $spacer-xlarge * 2;
     max-width: 360px;
-    padding: $spacer-large 0 0 0;
   }
 }
 
