@@ -2,10 +2,10 @@
 layout: post
 title:  "Inviting research participants to a project"
 date:   2017-6-1
-categories: [product, design]
+categories: product design
 hero_image: "/../assets/images/6-1-2017-hero.png"
 hero_color: "#EBF3FE"
-tags: [dscout, software development, react app]
+tags: [dscout, software development, React app]
 ---
 The invites feature launched to facilitate the process of building and launching a research study with dscout. Our user research, prototyping, and testing, helped us gather the essential parts that researchers need to launch their project.
 

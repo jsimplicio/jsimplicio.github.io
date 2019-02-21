@@ -2,7 +2,7 @@
 layout: post
 title: "Managing Artist Shops products"
 date: 2016-06-10
-categories: [product, design]
+categories: product, design
 hero_image: "/../assets/images/6-10-2016-hero.png"
 hero_color: "#0298FF"
 tags: [Threadless, Artist Shops, e-commerce]

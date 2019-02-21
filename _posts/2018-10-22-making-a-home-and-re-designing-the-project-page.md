@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Making a home and re-designing the project page"
+title:  "Making a home, and re-designing the project page"
 date:   2018-10-22
-categories: [product, design]
+categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, software development, home, react app]
+tags: [dscout, software development, home, React app]
 ---
 We designed and launched a home for the dscout web app. The app lacked a clear home, researchers upon logging in would arrive at the last active project. First time researchers would arrive at an empty first project, which was a confusing experience.
 

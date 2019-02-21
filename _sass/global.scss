@@ -208,7 +208,8 @@ blockquote {
   }
 }
 
-.work {
+.work,
+.tags {
   border-top: 8px solid $text-color;
   padding-top: $spacer-large;
   margin: $spacer-large auto 0 auto;

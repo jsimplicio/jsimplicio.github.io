@@ -2,7 +2,7 @@
 layout: post
 title:  "Artist Shops owner earnings summary"
 date:   2016-08-24
-categories: [product, design]
+categories: product design
 hero_image: "/../assets/images/8-24-2016-hero.png"
 hero_color: "#0298FF"
 tags: [Threadless, Artist Shops, e-commerce]
