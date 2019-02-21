@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "The new Diary study"
+title:  "The new dscout Diary"
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-hero.png"
 hero_color: "#8EDDE8"
 tags: [dscout, software development, diary study, React app]
 ---
-The new dscout Diary launched in Q4 of 2017. For a year, we worked on a new researcher experience. Projects are easier to run, conductng research and data analysis is faster.
+The new dscout Diary launched in Q4 of 2017. For a year, we worked on a new researcher experience. Projects are easier to run, conducting research and data analysis is faster.
 
 Historically, a researcher created a project that was made out of one or more missions. Often researchers wanted scouts to go through distinct tasks, so they would accomplish this by creating multiple missions. Unfortunately, when researchers wanted to see all of their scouts response data across all missions, they couldn't. Researchers had to access each mission separately and make sense of it all.
 

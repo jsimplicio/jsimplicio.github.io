@@ -10,6 +10,7 @@ html {
 
   @include breakpoint(768px) {
     font-size: 18px;
+    padding: 0 $spacer-normal;
   }
 }
 
@@ -197,7 +198,7 @@ blockquote {
 .sidebar {
   margin: 0 auto $spacer-normal auto;
   max-width: 768px;
-  padding: $spacer-large 0 0 0;
+  padding: $spacer-normal 0 0 0;
   width: 100%;
 
   @include breakpoint(1024px) {
@@ -207,7 +208,7 @@ blockquote {
 }
 
 .work {
-  margin: $spacer-large auto 0 auto;
+  margin: $spacer-normal auto 0 auto;
   max-width: 768px;
   width: 100%;
 
@@ -223,7 +224,7 @@ blockquote {
 
 .site-footer {
   background-color: #EEE;
-  margin: $spacer-small (-$spacer-small) (-$spacer-small) (-$spacer-small);
+  margin: $spacer-small (-$spacer-normal) (-$spacer-normal) (-$spacer-normal);
   padding: $spacer-large;
   text-align: center;
 
