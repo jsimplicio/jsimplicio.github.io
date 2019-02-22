@@ -106,6 +106,10 @@ ul {
   margin-bottom: $spacer-xsmall;
 }
 
+ul li:last-child {
+  margin-bottom: $spacer-small;
+}
+
 li:not(:last-child) {
   margin-bottom: $spacer-xsmall;
 }
