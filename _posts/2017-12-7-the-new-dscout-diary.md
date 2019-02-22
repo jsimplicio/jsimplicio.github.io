@@ -22,7 +22,7 @@ In the entries viewer, the default is the grid view. The grid view allows resear
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/entries-1.png" title="Entering testers" />
-	<figcaption class="media-caption center">Multiple scout entries across one mission divided in 11 parts! All of your research in one place</figcaption>
+	<figcaption class="media-caption center">Multiple scout entries across one mission divided in eleven parts! All of the research in one place</figcaption>
 </figure>
 
 You can sort results by scout name, date, part, or group.

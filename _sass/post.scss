@@ -1,9 +1,9 @@
 .media-caption {
   display: block;
   font-color: #888;
-  font-size: $font-xsmall;
+  font-family: $sans-serif;
+  font-size: $font-small;
   font-style: normal;
-  font-weight: normal;
   margin-top: $spacer-xsmall;
 
   &:not(:last-child) {
@@ -41,7 +41,7 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center 15%;
-  margin: 0 (-$spacer-small) $spacer-normal (-$spacer-small);
+  margin: 0 (-$spacer-normal) $spacer-normal (-$spacer-normal);
   height: 250px;
   position: relative;
 

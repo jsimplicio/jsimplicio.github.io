@@ -27,6 +27,7 @@
 }
 
 .caption {
+  font-family: $sans-serif;
   font-size: .9rem;
   color: #999;
   margin-bottom: $spacer-normal;
@@ -34,6 +35,10 @@
 
 .font--size-xl {
   font-size: $font-xlarge;
+}
+
+.font--size-xxl {
+  font-size: $font-xxlarge;
 }
 
 .font--size-l {
