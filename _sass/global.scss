@@ -226,16 +226,7 @@ blockquote {
 }
 
 .site-footer {
-  background-color: #EEE;
   margin: 0 (-$spacer-small);
   padding: $spacer-large;
   text-align: center;
-
-  p:last-child {
-    padding: 0;
-  }
-
-  @include breakpoint(768px) {
-    padding: $spacer-small (-$spacer-normal) (-$spacer-normal) (-$spacer-normal);
-  }
 }
