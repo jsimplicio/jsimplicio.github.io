@@ -111,19 +111,19 @@ The following are a couple recent reviews we have received from Scouts on the Go
 
 
 <blockquote>
-	<p>Dscout is an excellent app. It is easy to use and intuitive.</p>
+	Dscout is an excellent app. It is easy to use and intuitive.
 </blockquote>
 <date class="post-meta">April 25, 2018</date>
 <strong>Gwen Geronimo</strong>
 
 <blockquote>
-	<p>I really enjoy Dscout. This app is simplistic and is easy to follow. They have many opportunities, consistently.</p>
+	I really enjoy Dscout. This app is simplistic and is easy to follow. They have many opportunities, consistently.
 </blockquote>
 <date class="post-meta">April 25, 2018</date>
 <strong>Adriana Auten</strong>
 
 <blockquote>
-	<p>This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!</p>
+	This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!
 </blockquote>
 <date class="post-meta">July 25, 2018</date>
 <strong>Terry Dellow</strong>
