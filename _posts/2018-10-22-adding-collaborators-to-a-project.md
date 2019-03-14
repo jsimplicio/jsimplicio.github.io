@@ -16,7 +16,7 @@ In the old version, adding collaborators wasn't a clear experience. There was lo
 * Re-design the experience of adding collaborators to a project.
 
 ### Key result
-* The new experience facilitates the act of adding members to a project by fixing the complicated old user experience.
+* The new adding collaborators experience facilitates the act of adding members to a project by eliminating the old complicated user experience.
 
 Before the engineering kick off meeting where we discuss how a feature is going to be built, I iterated on different designs during the design sprint.
 
