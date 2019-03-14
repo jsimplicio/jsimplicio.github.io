@@ -38,11 +38,11 @@
 }
 
 .hero-image {
-  background-size: 60% auto;
+  background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: center 15%;
   margin: 0 (-$spacer-small) $spacer-small (-$spacer-small);
-  height: 250px;
+  height: 300px;
   position: relative;
 
   &:after {
@@ -54,10 +54,15 @@
     width: 100%;
   }
 
+  @include breakpoint(480px) {
+    background-size: 100% auto;
+    height: 300px;
+  }
+
   @include breakpoint(650px) {
     background-size: 100% auto;
     height: 350px;
-    margin: 0 (-$spacer-normal) $spacer-normal (-$spacer-normal);
+    margin: 0 (-$spacer-normal) -$spacer-normal (-$spacer-normal);
   }
 
   @include breakpoint(600px) {
