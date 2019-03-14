@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The dscout onboarding experience"
+title:  "The dscout web onboarding experience"
 date:   2018-12-25
 categories: product design
 hero_image: "/../assets/images/3-13-2019-hero.png"
