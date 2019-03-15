@@ -205,8 +205,8 @@ blockquote {
   width: 100%;
 
   @include breakpoint(1024px) {
-    margin-right: $spacer-xlarge * 2;
-    max-width: 325px;
+    margin-right: $spacer-large * 2;
+    max-width: 368px;
   }
 }
 

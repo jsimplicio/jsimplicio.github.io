@@ -5,7 +5,7 @@ date:   2018-12-25
 categories: product design
 hero_image: "/../assets/images/3-13-2019-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, software development, home, onboarding, product design, React app]
+tags: [dscout, software development, onboarding, React app]
 ---
 One of the things dscout always lacked was a clear way to onboard new users. A new user would login and arrive at an empty blank project.
 
