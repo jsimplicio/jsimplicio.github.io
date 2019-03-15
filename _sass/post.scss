@@ -38,11 +38,11 @@
 }
 
 .hero-image {
-  background-size: 50% auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center 15%;
   margin: 0 (-$spacer-small) $spacer-small (-$spacer-small);
-  height: 300px;
+  height: 200px;
   position: relative;
 
   &:after {
