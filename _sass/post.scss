@@ -62,7 +62,7 @@
   @include breakpoint(650px) {
     background-size: 100% auto;
     height: 350px;
-    margin: 0 (-$spacer-normal) -$spacer-normal (-$spacer-normal);
+    margin: 0 (-$spacer-normal) $spacer-normal (-$spacer-normal);
   }
 
   @include breakpoint(600px) {
