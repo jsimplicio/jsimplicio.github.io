@@ -5,15 +5,18 @@ date:   2017-12-8
 categories: product design
 hero_image: "/../assets/images/8-12-2017-hero.png"
 hero_color: "#A5D570"
-tags: [dscout, software development, React app]
+tags: [dscout, research, software development, React app]
 ---
 
 With the Diary 2.0 experience, researchers can manage scouts through all mission parts in app inside "Manage".
 
 ### Objective
-* Allow researchers to keep track of and manage the progress of scouts in a mission.
+* Allow researchers to keep track of, and manage the progress of scouts in a mission.
 
-### Keeping track of research participants
+### Key results
+* Allow researchers to quickly communicate with scouts, and see their mission gress.
+
+### Tracking research participants
 
 We released the new Diary which introduced mission parts. Researchers now can divide their mission into multiple parts. Instead of having to manage research data across multiple missions, they can see all their data divided up into logical parts inside one mission.
 
@@ -97,4 +100,23 @@ There are several actions researchers can do by selection one or more scouts on 
 <figure>
 	<img src="../../../../../../assets/images/manage-14.png" title="Manage - The progress of scouts on your mission" />
 	<figcaption class="media-caption center">Creating a group</figcaption>
+</figure>
+
+### Old project artifacts and design exercises
+The following are various UI and UX components and artifacts I've created throghout this project.
+
+<figure>
+	<img src="../../../../../../assets/images/mgmt-dropdown-actions-1.png" title="Artifacts for several dropdown UI ideas for actions you can take on Scouts in Manage" />
+	<figcaption class="media-caption center">Artifacts for several dropdown UI ideas for actions you can take on Scouts in Manage</figcaption>
+</figure>
+
+
+<figure>
+	<img src="../../../../../../assets/images/mgmt-dropdown-actions-2.png" title="Artifacts for several dropdown UI ideas for actions you can take on Scouts in Manage" />
+	<figcaption class="media-caption center">Artifacts for several dropdown UI ideas for actions you can take on Scouts in Manage</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/scout-side-bar-1.png" title="Artifacts for the UI of the scout sidebar in Manage" />
+	<figcaption class="media-caption center">Artifacts for the UI of the scout sidebar in Manage</figcaption>
 </figure>

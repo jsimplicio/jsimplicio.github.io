@@ -5,11 +5,11 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   padding: 0 $spacer-small;
 
   @include breakpoint(768px) {
-    font-size: 18px;
+    font-size: 21px;
     padding: 0 $spacer-normal;
   }
 }
@@ -22,7 +22,7 @@ body {
   color: $text-color;
   font-family: $font-family;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.5;
   position: relative;
@@ -39,20 +39,21 @@ h3,
 h4 {
   color: $text-color-faded;
   font-family: $sans-serif;
-  font-size: $font-medium;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: $spacer-xxsmall;
+
+  a {
+    color: $text-color;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
-h2 {
-  font-size: $font-normal;
-  font-weight: bolder;
-  padding-bottom: $spacer-small;
-}
-
-h3 {
-  font-size: $font-medium;
+h1 {
+  font-size: 1.8rem;
 }
 
 hr {
@@ -123,6 +124,7 @@ li li {
 }
 
 blockquote {
+  font-style: italic;
   position: relative;
 
   p {
@@ -131,17 +133,6 @@ blockquote {
 
   h3 {
     font-size: $font-normal;
-  }
-
-  &::before {
-    content:"“";
-    font-family: $sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    left: -.5em;
-    position: absolute;
-    top: -.10em;
-    z-index: -1;
   }
 }
 
@@ -218,11 +209,6 @@ blockquote {
   @include breakpoint(1024px) {
     max-width: 768px;
   }
-}
-
-.site-header {
-  margin: 0 auto;
-  padding: $spacer-normal 0;
 }
 
 .site-footer {

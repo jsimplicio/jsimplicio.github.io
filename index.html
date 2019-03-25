@@ -8,12 +8,12 @@ title: Jules Simplicio — Software Product Designer
   </section>
   <a href="work" name="work"></a>
   <section class="work">
-    <h1 class="font--size-xxl">Work</h1>
+    <h1>Work</h1>
     <div class="work-wrapper">
       {% for post in paginator.posts %}
         <article class="work-item">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h3 class="font--size-l">{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
+            <h2>{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h2>
             <p class="tags-list">
               {% for tag in post.tags %}
                 {% capture tag_name %}{{ tag }}{% endcapture %}
