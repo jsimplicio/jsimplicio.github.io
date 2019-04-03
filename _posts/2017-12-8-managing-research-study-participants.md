@@ -14,7 +14,7 @@ With the Diary 2.0 experience, researchers can manage scouts through all mission
 * Allow researchers to keep track of, and manage the progress of scouts in a mission.
 
 ### Key results
-* Allow researchers to quickly communicate with scouts, and see their mission gress.
+* Researchers quickly communicate with and see the mission progress of scouts.
 
 ### Tracking research participants
 
