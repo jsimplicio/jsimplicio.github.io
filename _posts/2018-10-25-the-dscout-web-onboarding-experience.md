@@ -18,7 +18,7 @@ We wanted the home to house projects and guide both new and seasoned researchers
 * Provide an onboarding experience for new users.
 
 ### Key Results
-* Researchers can easily be onboarded into the product.
+* Researchers are easily onboarded into the product.
 * Researchers can try dscout products during their Sandbox experience.
 
 ### The new home for Sandbox users (free accounts)
