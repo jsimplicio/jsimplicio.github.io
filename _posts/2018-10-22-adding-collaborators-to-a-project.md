@@ -8,9 +8,7 @@ hero_color: "#ECF3FD"
 tags: [dscout, software development, collaboration, React app]
 ---
 
-With the new designs of [the project page and the dscout home](https://julessimplic.io/product/design/new-dscout-home-and-project-page/), I tackled the feature of adding collaborators to a project.
-
-In the old version, adding collaborators wasn't a clear experience. There was lots of fine print on the modal, and ultimately, it was hard to tell when you succesfully added people to your project.
+Adding collaborators didn't used to be a clear experience. There was lots of fine print on the modal, and it was hard to tell when people were succesfully added to a project.
 
 ### Objective
 * Re-design the experience of adding collaborators to a project.
