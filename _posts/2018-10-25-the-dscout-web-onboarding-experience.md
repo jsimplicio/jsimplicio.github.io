@@ -7,19 +7,19 @@ hero_image: "/../assets/images/3-13-2019-hero.png"
 hero_color: "#197FF6"
 tags: [dscout, software development, onboarding, React app]
 ---
-The web dscout platform lacked a way to onboard new researchers. A new researcher would login for the first time and arrive at an empty blank project.
+The dscout web platform did not have onboarding for new researchers. New researchers would login for the first time to arrive at an empty blank project.
 
 ### Brief
-We worked towards making an onboarding experience for new users for the dscout web experience.
+We worked on an onboarding experience for new researchers on the dscout web application.
 
-We wanted the home to guide new researchers throghout the product.
+The goal was for the home to guide new researchers throghout different areas of our product.
 
 ### Objectives
 * Provide an onboarding experience for new users.
 
 ### Key Results
-* Researchers are easily onboarded into the product.
-* Researchers can try dscout products during their Sandbox experience.
+* Researchers experience a smooth onboarding experience into the product.
+* Researchers can try different features during their Sandbox experience.
 
 ### The new home for Sandbox users (free accounts)
 
