@@ -3,7 +3,7 @@ layout: post
 title:  "Adding collaborators to a project"
 date:   2018-10-22
 categories: product design
-hero_image: "/../assets/images/10-22-2018-hero-2.png"
+hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#ECF3FD"
 tags: [dscout, software development, collaboration, React app]
 ---
