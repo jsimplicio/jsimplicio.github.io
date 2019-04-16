@@ -5,8 +5,12 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 $spacer-small;
+
+  @include breakpoint(480px) {
+    font-size: 18px;
+  }
 }
 
 body {
