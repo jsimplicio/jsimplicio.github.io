@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Onboarding researchers
+title:  "Onboarding researchers"
 date:   2019-3-13
 categories: product design
 hero_image: "/../assets/images/3-13-2019-hero.png"
