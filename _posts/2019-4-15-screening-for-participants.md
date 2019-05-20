@@ -8,22 +8,22 @@ hero_color: "#D0E8E6"
 tags: [dscout, software development, screener, research, React app]
 ---
 
-In order to run a research study on dscout, researchers need participants. Recruit is a product that allows customers to find and screen research participants.
+To run a research study on dscout, researchers need participants. Recruit is the product that lets customers find and screen research participants.
 
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-1.png" title="The new Recruit applications view with a question filter applied" />
-	<figcaption class="media-caption center">The new screener applications view with a question filter applied</figcaption>
+	<figcaption class="media-caption center">The screener applications view with a question filter applied</figcaption>
 </figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-2.png" title="The new Recruit applications view the filter by mission applied" />
-	<figcaption class="media-caption center">The new screener applications view the filter by mission applied</figcaption>
+	<figcaption class="media-caption center">Scouts part of the first mission, as seen on on the filter "Filter by Mission"</figcaption>
 </figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-3.png" title="Types of file exports from a screener" />
-	<figcaption class="media-caption center">Types of file exports from a screener</figcaption>
+	<figcaption class="media-caption center">File exports from screener application data</figcaption>
 </figure>
 
 <figure>
@@ -33,20 +33,20 @@ In order to run a research study on dscout, researchers need participants. Recru
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-5.png" title="Bulk actions - Rating applications" />
-	<figcaption class="media-caption center">Bulk actions - Rating applications</figcaption>
+	<figcaption class="media-caption center">Bulk actions - Adding scouts to groups</figcaption>
 </figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-6.png" title="Bulk actions - Rating applications" />
-	<figcaption class="media-caption center">Bulk actions - Rating applications</figcaption>
+	<figcaption class="media-caption center">Bulk actions - Adding scouts to a mission</figcaption>
 </figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-7.png" title="Bulk actions - Rating applications" />
-	<figcaption class="media-caption center">Bulk actions - Rating applications</figcaption>
+	<figcaption class="media-caption center">Bulk actions - Adding scouts to a mission</figcaption>
 </figure>
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-8.png" title="Bulk actions - Rating applications" />
-	<figcaption class="media-caption center">Bulk actions - Rating applications</figcaption>
+	<figcaption class="media-caption center">Bulk actions - Summary of metrics gathered from scout applications</figcaption>
 </figure>
