@@ -8,9 +8,9 @@ hero_color: "#D0E8E6"
 tags: [dscout, software development, screener, research, React app]
 ---
 
-To run a diary or live research study on dscout, researchers need participants. Recruit is the product that equip customers with tools to find and screen research participants.
+To run a diary or live research study on dscout, researchers need to screen participants. Recruit is our product that equip customers with tools to find and the best research participants.
 
-In the applications view, researchers are able to see the results of the screening survey that they sent out to the pool of dscout research participants. Surveys ultimately are tools to narrow down their search in order to find the perfect candidate that have experiences related to the study to follow.
+Under "Applications", researchers see the results of the screening survey that they crafted and sent out to the pool of dscout participants. Surveys are tools to narrow down their search in order to find perfects candidate that have relevant experiences related to the study to follow.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-1.png" title="The new Recruit applications view with a question filter applied" />
