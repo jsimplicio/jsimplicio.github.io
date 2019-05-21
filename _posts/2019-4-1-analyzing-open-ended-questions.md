@@ -8,23 +8,23 @@ hero_color: "#776FC7"
 tags: [dscout, software development, open-ends, research, analysis, word cloud, React app]
 ---
 
-The dscout researcher platform used to have a simple open-ended questions analysis view, that included a basic word cloud based on word frequency. Our team recently made a variety of improvements with new features to help researchers dig into each open-ended question on a brand new analysis view.
+The diary team recently launched a new analysis tab with improvements and features that help researchers understad the answer to open-ended questions.
 
 ## Brief
-Researchers need meaningful data from open-ended questions, which are harder to analyze than close-ended questions. The new analysis tab helps them mine this data through new features.
+Researchers need to gather meaningful data from the answers of open-ended questions. Close-ended questions are easily quantifiable and displayed as graphs in the summary tab. With the analysis tab, researchers are able to dig deeper into open-ended answers, and form patterns based on open-ended-questions.
 
 ## Objectives
-* An analysis view with new features for researchers to analyze open-ended questions.
+* The analysis view comes with new features for researchers to analyze open-ended questions.
 
 ## Key Results
-* Researchers can make value of the answers to open-ended questions.
+* Researchers can quickly create value out of the answers to open-ended questions.
 
 ## The features
-The following images belong to a project on customer experience on the personalized monthly make-up box, Birchbox.
+The following images belong to a research project that examined the experience of customers that were provided a trial of the [Birchbox](https://www.birchbox.com/) service, a pepersonalized box delivered to your home with a mix of makeup, hair, and skincare products.
 
-Below there is the analysis of the following open-ended question: "Is there anything that's surprising or unexpected, in terms of contents of your box or the overall experience?"
+For the example of this feature, I posted screenshots of the analysis one of the open-ended questions in the Birchbox project: "Is there anything that's surprising or unexpected, in terms of contents of your box or the overall experience?"
 
-Tools for analysis:
+The following are some tools for word analysis:
 
 * Question picker
 * Filter top words (10, 25, or 50)
