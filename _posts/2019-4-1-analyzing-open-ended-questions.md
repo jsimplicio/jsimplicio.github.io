@@ -8,7 +8,7 @@ hero_color: "#776FC7"
 tags: [dscout, software development, open-ends, research, analysis, word cloud, React app]
 ---
 
-The diary team recently launched a new analysis tab with improvements and features that help researchers understad the answer to open-ended questions.
+The diary team recently launched a new analysis tab with improvements and features that help researchers understand the answer to open-ended questions.
 
 ## Brief
 Researchers need to gather meaningful data from the answers of open-ended questions. Close-ended questions are easily quantifiable and displayed as graphs in the summary tab. With the analysis tab, researchers are able to dig deeper into open-ended answers, and form patterns based on open-ended-questions.
