@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Screening for participants"
+title:  "Screening for research participants"
 date:   2019-4-15
 categories: product design
 hero_image: "/../assets/images/4-15-2019-hero.png"
