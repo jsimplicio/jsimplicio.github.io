@@ -89,12 +89,12 @@
   }
 
   @include breakpoint(1300px) {
-    background-size: 60% auto;
+    background-size: 70% auto;
     height: 500px;
   }
 
   @include breakpoint(1600px) {
-    background-size: 60% auto;
+    background-size: 80% auto;
     height: 600px;
   }
 }
