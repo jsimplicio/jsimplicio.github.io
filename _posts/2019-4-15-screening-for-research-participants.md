@@ -12,7 +12,7 @@ To run any research study on dscout, there has to be the participants. With Recr
 
 We'll be diving into the screening process after a dscout screener is designed and launched.
 
-## Choosing your research participants
+## Choosing your scouts
 In "Applications", researchers see the applications from the Screener sent out to hundreds of people. All of the participants answer the same set of questions in the Screener, resulting in applications. Every time someone fills out an application, that data immediately shows up for the researchers.
 
 Every application comes in as unrated, and ready to be rated as they see fit by the researcher. Ratings are purely based on whether a person is a great fit for the research project to follow, and not solely on the quality of the participant.

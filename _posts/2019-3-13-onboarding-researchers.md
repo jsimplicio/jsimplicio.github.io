@@ -57,8 +57,3 @@ The project's goal was for the home to showcase and guide new researchers throug
 	<img src="{{ site.baseurl }}/assets/images/sandbox-7.png" title="Sandbox project's content re-shuffle when a user creates a project" />
 	<figcaption class="media-caption center">Sandbox project's content re-shuffle when a user creates a project</figcaption>
 </figure>
-
-<figure>
-	<img src="{{ site.baseurl }}/assets/images/sandbox-8.png" title="Sandbox project's content re-shuffle when a user creates a project" />
-	<figcaption class="media-caption center">Sandbox project's content re-shuffle when a user creates a project</figcaption>
-</figure>
