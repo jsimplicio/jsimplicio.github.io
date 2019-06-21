@@ -8,14 +8,23 @@ hero_color: "#D0E8E6"
 tags: [dscout, software development, screener, research, React app]
 ---
 
-To run a diary or live research study on dscout, users need participants. Recruit is the product that equip customers with the tools to screen, narrow down, and select the best research participants.
+To run any research study on dscout, there has to be the participants. With Recruit, customers have the tools to screen, narrow, and choose well suited research participants.
 
-In "Applications", researchers get the results from the screening that they crafted and sent out to the pool of dscout participants. With their screener they narrow down their search in order to find ideal candidates.
+We'll be diving into the screening process after a dscout screener is designed and launched.
+
+## Choosing your research participants
+In "Applications", researchers see the applications from the Screener sent out to hundreds of people. All of the participants answer the same set of questions in the Screener, resulting in applications. Every time someone fills out an application, that data immediately shows up for the researchers.
+
+Every application comes in as unrated, and ready to be rated as they see fit by the researcher. Ratings are purely based on whether a person is a great fit for the research project to follow, and not solely on the quality of the participant.
+
+Potential fit for research ratings are as follow: amazing, good, weak, poor, or unrated.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-1.png" title="The new Recruit applications view with a question filter applied" />
 	<figcaption class="media-caption center">The screener applications view with a question filter applied</figcaption>
 </figure>
+
+After launching their research study, researchers can access the Applications page and filter the applications based on participants that were promoted to their study (missions).
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/recruit-2.png" title="The new Recruit applications view the filter by mission applied" />

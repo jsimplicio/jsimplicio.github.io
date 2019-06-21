@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The powerful new diary study analysis"
+title:  "A powerful new diary study analysis"
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-hero.png"
