@@ -13,9 +13,9 @@ You can't run research projects in dscout without participants. With our tool Re
 We'll dive into the screening process after a Screener is programmed and launched.
 
 ## Choosing your scouts
-In "Applications", researchers see the applications from the Screener sent out to hundreds of people. All of the participants answer the same set of questions in the Screener, resulting in applications. Every time someone fills out an application, that data immediately shows up for the researchers.
+Screener answers are applications, which help researchers find their participants. Screeners go out to hundreds of people, some inadequate are knocked out, and hundreds of applications make in. Every participant is screened by answering the same questions. Every time someone fills out an application, that data immediately shows up for the researchers.
 
-Every application comes in as unrated, and ready to be rated as they see fit by the researcher. Ratings are purely based on whether a person is a great fit for the research project to follow, and not solely on the quality of the participant.
+Every application comes in as unrated. They are ready to be rated as they see fit by the researcher. Ratings are based on whether a person is a great fit for the research project to follow based on their experiences, and not solely on their quality as a participant.
 
 Potential fit for research ratings are as follow: amazing, good, weak, poor, or unrated.
 
