@@ -8,7 +8,7 @@ hero_color: "#D0E8E6"
 tags: [dscout, software development, screener, research, React app]
 ---
 
-You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen, narrow down, and find the best suited research participants.
+You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen and find the best suited research participants.
 
 We'll be dive into the screening process after a dscout screener is designed and launched.
 
