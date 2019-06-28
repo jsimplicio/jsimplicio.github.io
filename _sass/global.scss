@@ -161,17 +161,6 @@ blockquote {
   text-align: center;
 }
 
-.my-thumbnail {
-  background-position: 50% 30%;
-  background-size: 150%;
-  border: 5px solid white;
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0,0,0,.35);
-  height: 150px;
-  margin-bottom: 1em;
-  width: 150px;
-}
-
 .wrapper {
   margin: 0 auto;
   max-width: $main-content--width;
@@ -195,7 +184,7 @@ blockquote {
 
   @include breakpoint(1024px) {
     margin-right: $spacer-large * 2;
-    max-width: 368px;
+    max-width: 350px;
   }
 }
 
