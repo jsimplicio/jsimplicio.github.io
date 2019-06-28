@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Managing research study participants"
+title:  "Managing research participants"
 date:   2017-12-8
 categories: product design
 hero_image: "/../assets/images/8-12-2017-hero.png"
@@ -8,7 +8,7 @@ hero_color: "#A5D570"
 tags: [dscout, research, software development, React app]
 ---
 
-With the Diary 2.0 experience, researchers can manage scouts through all mission parts in app inside "Manage".
+In the new Diary tool, researchers can manage scouts throughout all parts of the project inside "Manage."
 
 ### Objective
 * Allow researchers to keep track of, and manage the progress of scouts in a mission.
