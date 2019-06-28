@@ -5,7 +5,6 @@ date:   2019-4-1
 categories: product design
 hero_image: "/../assets/images/4-1-2019-hero.png"
 hero_color: "#776FC7"
-tags: [dscout, software development, open-ends, research, analysis, word cloud, React app]
 ---
 
 The diary team recently launched a new analysis tab with improvements and features that help researchers understand the answer to open-ended questions.

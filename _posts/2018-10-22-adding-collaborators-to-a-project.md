@@ -5,7 +5,6 @@ date:   2018-10-22
 categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#ECF3FD"
-tags: [dscout, software development, collaboration, React app]
 ---
 
 Adding collaborators didn't used to be a clear experience. There was lots of fine print on the modal, and it was hard to tell when people were succesfully added to a project.

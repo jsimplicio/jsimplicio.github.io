@@ -5,7 +5,6 @@ date:   2019-4-15
 categories: product design
 hero_image: "/../assets/images/4-15-2019-hero.png"
 hero_color: "#D0E8E6"
-tags: [dscout, software development, screener, research, React app]
 ---
 
 You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen and find the best research participants.

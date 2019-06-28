@@ -5,7 +5,6 @@ date:   2018-1-1
 categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, Android, mobile, Material Design]
 ---
 The dscout Diary researcher experience was redesigned with the introduction of [Mission parts](/product/design/analyzing-entries-with-dscout/). Now Missions are capable of being divided up into parts, so researchers don't have to create multiple Missions and analyze data across these separate missions.
 
@@ -15,9 +14,7 @@ I updated the Scout experience design for the Android application, working along
 - Update the Android Scout app to conform to the new dscout Diary researcher experience.
 
 ### Designing the Scout experience
-I researched and learned Material Design best practices from [Google's guide on Material Design](https://material.io/design/).
-
-My goal was quite broad--the Scout experience from login all the way to the completion of a mission part.
+My goal was broad--the Scout experience from login all the way to the completion of submitting research questions.
 
 I also designed additional features that became priority along the way, such as an upload progress screen where Scouts can track their entry uploads.
 

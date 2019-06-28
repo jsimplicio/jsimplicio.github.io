@@ -5,7 +5,6 @@ date:   2019-3-13
 categories: product design
 hero_image: "/../assets/images/3-13-2019-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, software development, onboarding, React app]
 ---
 The dscout researcher platform did not have onboarding for new users. New researchers logged in for the first time, and arrived at an empty blank project.
 

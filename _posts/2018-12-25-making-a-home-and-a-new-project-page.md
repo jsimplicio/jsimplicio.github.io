@@ -5,7 +5,6 @@ date:   2018-12-25
 categories: product design
 hero_image: "/../assets/images/12-25-2018-hero.png"
 hero_color: "#197FF6"
-tags: [dscout, software development, home, React app]
 ---
 We designed and launched a home for the dscout web app. The app lacked a clear home, researchers upon logging in would arrive at the last active project. First time researchers would arrive at an empty first project, which was a confusing experience.
 

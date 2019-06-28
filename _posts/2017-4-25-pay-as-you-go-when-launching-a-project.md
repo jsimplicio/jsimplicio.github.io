@@ -5,7 +5,6 @@ date:   2017-4-25
 categories: product design
 hero_image: "/../assets/images/4-25-2017-hero.png"
 hero_color: "#FEFEFE"
-tags: [dscout, software development, online payments, React app]
 ---
 At dscout, we offer three kinds of project plans for researchers:
 

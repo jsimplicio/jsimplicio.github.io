@@ -5,7 +5,6 @@ date:   2017-12-8
 categories: product design
 hero_image: "/../assets/images/8-12-2017-hero.png"
 hero_color: "#A5D570"
-tags: [dscout, research, software development, React app]
 ---
 
 In the new Diary tool, researchers can manage scouts throughout all parts of the project inside "Manage."
