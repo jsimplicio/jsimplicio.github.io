@@ -8,9 +8,9 @@ hero_color: "#D0E8E6"
 tags: [dscout, software development, screener, research, React app]
 ---
 
-To run any research study on dscout, there has to be the participants. With Recruit, customers have the tools to screen, narrow, and choose well suited research participants.
+You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen, narrow down, and find the best suited research participants.
 
-We'll be diving into the screening process after a dscout screener is designed and launched.
+We'll be dive into the screening process after a dscout screener is designed and launched.
 
 ## Choosing your scouts
 In "Applications", researchers see the applications from the Screener sent out to hundreds of people. All of the participants answer the same set of questions in the Screener, resulting in applications. Every time someone fills out an application, that data immediately shows up for the researchers.
