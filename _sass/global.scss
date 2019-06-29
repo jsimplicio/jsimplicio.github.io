@@ -5,7 +5,7 @@
 }
 
 html {
-  padding: 0 $spacer-small;
+  box-sizing: border-box;
 
   @include breakpoint(480px) {
     font-size: 16px;
@@ -17,6 +17,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
+  box-sizing: border-box;
+
   color: $text-color;
   font-family: $font-family;
   font-style: normal;
@@ -163,13 +165,12 @@ blockquote {
 
 .wrapper {
   margin: 0 auto;
-  max-width: $main-content--width;
+  max-width: 768px;
 }
 
 .main {
   display: flex;
   flex-flow: column;
-  max-width: 1300px;
 
   @include breakpoint(1024px) {
     flex-flow: row;
@@ -177,13 +178,12 @@ blockquote {
 }
 
 .sidebar {
-  margin: 0 auto $spacer-normal auto;
+  margin: 0 auto;
   max-width: 768px;
   padding: $spacer-normal 0 0 0;
   width: 100%;
 
   @include breakpoint(1024px) {
-    margin-right: $spacer-large * 2;
     max-width: 350px;
   }
 }
@@ -199,7 +199,6 @@ blockquote {
 }
 
 .site-footer {
-  margin: 0 (-$spacer-small);
   padding: $spacer-large;
   text-align: center;
 }
