@@ -7,10 +7,6 @@
 html {
   box-sizing: border-box;
   font-size: $font-normal;
-
-  @include breakpoint(480px) {
-    font-size: $font-medium;
-  }
 }
 
 body {
@@ -21,8 +17,9 @@ body {
   box-sizing: border-box;
   color: $text-color;
   font-family: $font-family;
+  font-size: $font-normal;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   position: relative;
   text-rendering: optimizeLegibility;
