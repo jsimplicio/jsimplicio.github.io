@@ -6,12 +6,12 @@ categories: mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---
-The dscout Diary researcher experience was redesigned with the introduction of [Mission parts](/product/design/analyzing-entries-with-dscout/). Now Missions are capable of being divided up into parts, so researchers don't have to create multiple Missions and analyze data across these separate missions.
+The dscout Diary researcher experience was redesigned with the launch of [Mission parts](/product/design/analyzing-entries-with-dscout/). Research studies are now capable of being divided up into parts, missions don't have to be analyzed separately, they're a part of a whole.
 
-I updated the Scout experience design for the Android application, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.
+I updated the Scout experience for Android, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.
 
 ### Objective
-- Update the Android Scout app to conform to the new dscout Diary researcher experience.
+- Update the Android Scout app to conform to the new user experiences of the Diary researcher experience.
 
 ### Designing the Scout experience
 My goal was broad--the Scout experience from login all the way to the completion of submitting research questions.
