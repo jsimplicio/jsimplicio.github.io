@@ -7,16 +7,16 @@ hero_image: "/../assets/images/4-1-2019-hero.png"
 hero_color: "#776FC7"
 ---
 
-The diary team recently launched a new analysis tab with improvements and features that help researchers understand the answer to open-ended questions.
+The Diary team launched a new Analysis tab with improvements that help researchers understand and compare answers to open-ended questions.
 
 ## Brief
-Researchers need to gather meaningful data from the answers of open-ended questions. Close-ended questions are easily quantifiable and displayed as graphs in the summary tab. With the analysis tab, researchers are able to dig deeper into open-ended answers, and form patterns based on open-ended-questions.
+Researchers should be able to take in meaningful data from answers to open-ended questions. Close-ended questions are easier to quantify, and displayed the results in graphs, like in Summary. With the Analysis tab, researchers are able can dig deep into open-ends by analyzing different patterns.
 
-## Objectives
-* The analysis view comes with new features for researchers to analyze open-ended questions.
+## Objective
+* The Analysis view has features that help researchers analyze the answers to open-ended questions.
 
 ## Key Results
-* Researchers can quickly create value out of the answers to open-ended questions.
+* Researchers can quickly make patterns and create value out of answers to open-ended questions.
 
 ## The features
 The following images belong to a research project that examined the experience of customers that were provided a trial of the [Birchbox](https://www.birchbox.com/) service, a pepersonalized box delivered to your home with a mix of makeup, hair, and skincare products.
