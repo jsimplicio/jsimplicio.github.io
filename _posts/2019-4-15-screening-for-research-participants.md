@@ -7,7 +7,7 @@ hero_image: "/../assets/images/4-15-2019-hero.png"
 hero_color: "#D0E8E6"
 ---
 
-You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen and find the best research participants.
+You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen for, and find the best research participants.
 
 We'll dive into the screening process after a Screener is programmed and launched.
 
