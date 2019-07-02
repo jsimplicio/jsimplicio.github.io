@@ -7,14 +7,14 @@ hero_image: "/../assets/images/4-15-2019-hero.png"
 hero_color: "#D0E8E6"
 ---
 
-You can't run research projects in dscout without participants. With our tool Recruit, researchers can screen for, and find the best research participants.
+You can't run research projects in dscout without participants. With the tool Recruit, researchers can screen for, and find the best research participants.
 
-We'll dive into the screening process after a Screener is programmed and launched.
+We'll be focusing on the screening process after a Screener is programmed and launched.
 
 ## Choosing your scouts
-Screener answers are applications, which help researchers find their participants. Screeners go out to hundreds of people, some inadequate are knocked out, and hundreds of applications make in. Every participant is screened by answering the same questions. Every time someone fills out an application, that data immediately shows up for the researchers.
+Screener answers, or applications, help researchers find participants. Screeners go out to hundreds of people, some are an inadequate fit and are knocked out, and hundreds of applications make in. All participants are screened by answering the same set of questions written to determine whether they are fit for the research study to follow. When answers are submitted, they show up as an application for the researcher.
 
-Every application comes in as unrated. They are ready to be rated as they see fit by the researcher. Ratings are based on whether a person is a great fit for the research project to follow based on their experiences, and not solely on their quality as a participant.
+Every application comes in as unrated. They are ready to be rated as they see fit by the researcher. Ratings are based on whether a participant is a good fit for the research project based on their experiences, and not solely on their qualifications as a participant.
 
 Potential fit for research ratings are as follow: amazing, good, weak, poor, or unrated.
 
