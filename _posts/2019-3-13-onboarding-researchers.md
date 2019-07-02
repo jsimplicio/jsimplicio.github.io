@@ -13,7 +13,7 @@ We worked on an onboarding experience for new researchers on the dscout web plat
 
 The project's goal was for the home to showcase and guide new researchers through different areas of our product.
 
-### Objectives
+### Objective
 * Provide an onboarding experience for new users.
 
 ### Key Results
