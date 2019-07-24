@@ -7,10 +7,10 @@ hero_image: "/../assets/images/4-1-2019-hero.png"
 hero_color: "#776FC7"
 ---
 
-The Diary team launched a new Analysis tab with improvements that give researchers the ability to quantify and distill data from open-ended answers. Close-ended answers can be easier to quantify in charts, like the data seen in Summary.
+The Diary team launched a new Analysis tab with improvements that give researchers the ability to quantify data from open-ended answers. Close-ended answers can be easier to quantify in charts, like the data seen in Summary.
 
 ## Brief
-Researchers are able to make meaningful data and patterns from answers to open-ended questions.
+Researchers are able to make meaningful data patterns from answers to open-ended questions.
 
 ## Objective
 * The Analysis feature has features that help researchers researchers get a quick understanding of open-ended answers through tools that generate patterns.
