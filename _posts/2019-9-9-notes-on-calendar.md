@@ -19,4 +19,4 @@ Super excited to say that this project was the first thing I tackled when I star
 	<figcaption class="media-caption center">Notes on calendar</figcaption>
 </figure>
 
-<video loop muted autoplay preload src="../../../assets/images/notes-on-calendar-prototype.mp4"><source src="../../../assets/images/notes-on-calendar-prototype.mp4" type="video/mp4"></video>
+<video  muted autoplay preload src="../../../assets/images/notes-on-calendar-prototype.mp4"><source src="../../../assets/images/notes-on-calendar-prototype.mp4" type="video/mp4"></video>
