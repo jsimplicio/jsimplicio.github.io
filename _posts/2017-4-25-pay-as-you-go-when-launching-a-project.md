@@ -30,6 +30,6 @@ I made sure the flow of payment worked seamlessly inside the flow of launching. 
 	<figcaption class="media-caption center">Credit card icons created from royalty free logos</figcaption>
 </figure>
 
-<video muted autoplay preload src="../../../assets/images/diy-launch.mp4"><source src="../../../assets/images/diy-launch.mp4" type="video/mp4"></video>
+<video loop muted autoplay preload src="../../../assets/images/diy-launch.mp4"><source src="../../../assets/images/diy-launch.mp4" type="video/mp4"></video>
 
-<video muted autoplay preload loop src="../../../assets/images/diy-launch-2.mp4"><source src="../../../assets/images/diy-launch-2.mp4" type="video/mp4"></video>
+<video loop muted autoplay preload loop src="../../../assets/images/diy-launch-2.mp4"><source src="../../../assets/images/diy-launch-2.mp4" type="video/mp4"></video>

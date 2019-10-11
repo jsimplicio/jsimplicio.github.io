@@ -2,18 +2,18 @@
 layout: default
 title: Jules Simplicio — Software Product Designer
 ---
-<main class="main">
-  <section class="sidebar">
+<main class="home">
+  <header class="header intro wrapper">
     {% include header.html %}
-  </section>
+  </header>
   <a href="work" name="work"></a>
   <section class="work">
-    <h1>Work</h1>
+    <h2>Worklog</h2>
     <div class="work-wrapper">
       {% for post in paginator.posts %}
         <article class="work-item">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h2>
+            <h3>{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
             <p>{{ post.content | truncatewords: 50 | strip_html }}</p>
             <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">Continue Reading »
           </a>

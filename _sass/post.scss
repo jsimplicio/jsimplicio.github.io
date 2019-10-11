@@ -102,3 +102,9 @@
 .cp_embed_wrapper {
   margin-bottom: $spacer-normal;
 }
+
+.posts-in-year {
+  li {
+    list-style-type: none;
+  }
+}

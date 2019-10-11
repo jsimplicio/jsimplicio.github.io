@@ -2,7 +2,7 @@
 layout: post
 title:  "Threadless for iOS"
 date:   2016-07-01
-categories: product, design
+categories: product design
 hero_image: "/../assets/images/7-01-2016-hero.png"
 hero_color: "#F6EA6A"
 ---

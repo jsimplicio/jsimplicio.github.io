@@ -27,7 +27,7 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 16px;
+  padding: 64px 16px;
 }
 
 h1,
@@ -50,7 +50,15 @@ h4 {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 hr {
@@ -133,23 +141,43 @@ blockquote {
   }
 }
 
+.about {
+  .header {
+    .about--link {
+      border-bottom: 1px dotted;
+    }
+  }
+}
+
+.home {
+  .header {
+    .home--link {
+      border-bottom: 1px dotted;
+    }
+  }
+}
+
+.archive {
+  .header {
+    .archive--link {
+      border-bottom: 1px dotted;
+    }
+  }
+}
+
 .error {
   padding: $spacer-large;
 }
 
-.btn {
-  background: white;
-  border: 1px solid #DDD;
-  border-radius: 6px;
-  color: $text-color;
-  font-family: $font-family;
-  font-size: 1em;
-  font-style: normal;
-  transition: 150ms;
-  padding: $spacer-xsmall $spacer-small;
+.header {
+  a {
+    display: inline-block;
+    margin-right: $spacer-normal;
 
-  &:hover {
-    border: 1px solid #000;
+    &:hover {
+      border-bottom: 1px dotted;
+      text-decoration: none;
+    }
   }
 }
 
@@ -163,15 +191,6 @@ blockquote {
 .wrapper {
   margin: 0 auto;
   max-width: 768px;
-}
-
-.main {
-  display: flex;
-  flex-flow: column;
-
-  @include breakpoint(1024px) {
-    flex-flow: row;
-  }
 }
 
 .sidebar {
