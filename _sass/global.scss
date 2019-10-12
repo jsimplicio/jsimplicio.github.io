@@ -27,7 +27,7 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 64px 16px;
+  padding: 16px;
 }
 
 h1,
@@ -153,6 +153,10 @@ blockquote {
   }
 }
 
+.header {
+  margin: 64px auto 0 auto;
+}
+
 .about {
   .header {
     .about--link {
@@ -201,7 +205,6 @@ blockquote {
 }
 
 .wrapper {
-  margin: 0 auto;
   max-width: 768px;
 }
 
