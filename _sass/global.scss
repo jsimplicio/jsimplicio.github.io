@@ -65,11 +65,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
-
-  @include breakpoint(560px) {
-    font-size: 1.15rem;
-  }
+  font-size: 1.35rem;
 }
 
 hr {
