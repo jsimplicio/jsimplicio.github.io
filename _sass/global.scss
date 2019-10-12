@@ -27,7 +27,6 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 16px;
 }
 
 h1,
@@ -205,6 +204,11 @@ blockquote {
 }
 
 .wrapper {
+  max-width: 768px;
+}
+
+.main {
+  margin: 0 auto;
   max-width: 768px;
 }
 
