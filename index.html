@@ -2,60 +2,58 @@
 layout: default
 title: Jules Simplicio — Software Product Designer
 ---
-<main class="home">
-  <header class="intro wrapper header">
-    {% include header.html %}
-  </header>
-  <a href="work" name="work"></a>
-  <section class="work">
-    <h2>Worklog</h2>
-    <div class="work-wrapper">
-      {% for post in paginator.posts %}
-        <article class="work-item">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h3>{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
-            <p>{{ post.content | truncatewords: 50 | strip_html }}</p>
-            <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">Continue Reading »
-          </a>
-        </article>
-        <hr />
-      {% endfor %}
-      <div class="page--navigation">
-        {% if paginator.total_pages > 1 %}
-          <div class="pagination">
-            {% if paginator.previous_page %}
+<header class="intro wrapper header">
+  {% include header.html %}
+</header>
+<a href="work" name="work"></a>
+<section class="work">
+  <h2>Worklog</h2>
+  <div class="work-wrapper">
+    {% for post in paginator.posts %}
+      <article class="work-item">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3>{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
+          <p>{{ post.content | truncatewords: 50 | strip_html }}</p>
+          <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">Continue Reading »
+        </a>
+      </article>
+      <hr />
+    {% endfor %}
+    <div class="page--navigation">
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}#work">
+              &laquo; Previous
+            </a>
+          {% else %}
+            <span>&laquo; Previous</span>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <em>{{ page }}</em>
+            {% elsif page == 1 %}
               <a href="{{ paginator.previous_page_path | relative_url }}#work">
-                &laquo; Previous
+                {{ page }}
               </a>
             {% else %}
-              <span>&laquo; Previous</span>
-            {% endif %}
-
-            {% for page in (1..paginator.total_pages) %}
-              {% if page == paginator.page %}
-                <em>{{ page }}</em>
-              {% elsif page == 1 %}
-                <a href="{{ paginator.previous_page_path | relative_url }}#work">
-                  {{ page }}
-                </a>
-              {% else %}
-                <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}#work ">
-                  {{ page }}
-                </a>
-              {% endif %}
-            {% endfor %}
-
-            {% if paginator.next_page %}
-              <a href="{{ paginator.next_page_path | relative_url }}#work">
-                Next &raquo;
+              <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}#work ">
+                {{ page }}
               </a>
-            {% else %}
-              <span>Next &raquo;</span>
             {% endif %}
-          </div>
-        {% endif %}
-      </div>
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}#work">
+              Next &raquo;
+            </a>
+          {% else %}
+            <span>Next &raquo;</span>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
-  </section>
-</main>
+  </div>
+</section>
 {% include footer.html %}
