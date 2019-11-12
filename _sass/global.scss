@@ -6,7 +6,11 @@
 
 html {
   box-sizing: border-box;
-  font-size: $font-normal;
+  font-size: $body-font-size;
+
+  @include breakpoint(560px) {
+    font-size: $font-medium;
+  }
 }
 
 body {
@@ -27,7 +31,7 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 16px;
+  padding: 10px;
 }
 
 h1,
@@ -50,23 +54,15 @@ h4 {
 }
 
 h1 {
-  font-size: 1.85rem;
-
-  @include breakpoint(560px) {
-    font-size: 2.5rem;
-  }
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 1.55rem;
-
-  @include breakpoint(560px) {
-    font-size: 2rem;
-  }
+  font-size: 1.45rem;
 }
 
 h3 {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
 }
 
 hr {
@@ -145,7 +141,7 @@ blockquote {
   }
 
   h3 {
-    font-size: $font-normal;
+    font-size: $body-font-size;
   }
 }
 
@@ -183,6 +179,7 @@ blockquote {
 
 .header {
   a {
+    border-bottom: 1px dotted transparent;
     display: inline-block;
     margin-right: $spacer-small;
 
