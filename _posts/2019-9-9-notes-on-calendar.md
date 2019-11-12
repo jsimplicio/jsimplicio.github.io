@@ -7,7 +7,14 @@ hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
 ---
 
-This project was the first thing I tackled as a product designer at Sprout Social this year. I joined a team of two very talented designers responsible for publishing tools.
+This was my first project as a new product designer at Sprout Social. I joined a team of two very talented designers responsible for Sprout's publishing tools.
+
+## The calendar
+
+The publishing calendar is a big part of the platform. It's where social media managers can see and manage their network posts displayed in different calendar views.
+
+## Notes
+Being able to add notes to calendars had been a feature requested by our users. It's helpful for users to plan posts next to important events, for example. Notes is a feature for a plethora of uses, but most importantly, to help social media managers work efficiently with a concept they already familiar with, writing a post-it note on a calendar.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/notes-on-calendar-1.png" title="Notes on calendar" />
