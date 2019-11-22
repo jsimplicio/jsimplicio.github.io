@@ -1,7 +1,7 @@
 .media-caption {
   display: block;
   font-color: #888;
-  font-family: $sans-serif;
+  font-family: $secondary-font;
   font-size: $font-small;
   font-style: normal;
   margin-top: $spacer-xsmall;
@@ -15,7 +15,7 @@
   background: rgba($text-color,.1);
   color: rgba($text-color,.6);
   display: inline-block;
-  font-family: $sans-serif;
+  font-family: $secondary-font;
   font-size: $font-small;
   margin: $spacer-xsmall $spacer-xxsmall $spacer-xxsmall 0;
   padding: .25em $spacer-xxsmall;
