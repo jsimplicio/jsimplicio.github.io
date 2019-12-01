@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sharing project media with generated links"
+title:  "Generating links for sharing project media"
 date:   2019-4-20
 categories: product design
 hero_image: "/../assets/images/4-20-2019-hero.png"
