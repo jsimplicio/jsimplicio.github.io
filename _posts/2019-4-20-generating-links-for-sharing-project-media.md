@@ -7,14 +7,12 @@ hero_image: "/../assets/images/4-20-2019-hero.png"
 hero_color: "#FFECEF"
 ---
 
-One of the last projects I contributed to at dscout was the public share links for research projects. With this feature, researchers can publicly share media from their project.
+One of the last projects I contributed to at dscout was public links for research projects. Researchers can now share media from their project with people outside of dscout.
 
 ## Getting started with share links
-Every generated link will have a home inside the project share links at the project home page.
+Every generated link has a home inside the project link manager on the project home page.
 
-Researchers will have access to a designated container with a call-to-action to the project link manager on the rightmost project sidebar.
-
-The example below highlights how many links a project contain directly in the call to action, a nice to have.
+The example below shows the link manager call-to-action, displaying how many links a project currently has.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/public-share-links-1.png" title="Public share links - Project link manager call to action" />
