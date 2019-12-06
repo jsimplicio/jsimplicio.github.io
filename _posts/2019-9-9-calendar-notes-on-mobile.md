@@ -7,14 +7,16 @@ hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
 ---
 
-I designed the mobile experience for adding notes to the calendar as my first project at Sprout Social. The web experience was previously designed by one of my teammates.
+Social media managers rely on tools that should feel familiar to them. It's common to jot down notes on post-its over the calendar. This feature should feel real and be just as useful as the real thing.
 
-## The calendar
+## Sprout's calendar
 
-The publishing calendar is a big part of the platform. It's where social media managers can see and manage their network posts displayed in different calendar views.
+The calendar is a big part of the tool. It's where social media managers see and manage their network posts.
 
-## Notes
-Being able to add notes to calendars had been a feature requested by our users. It's helpful for them for a number of reasons including giving more flexibility to add important imformation on the calendar. This feature helps social media managers work efficiently with a something they already familiar with, writing a post-it note on a calendar.
+## Why Notes?
+Being able to add notes to calendars was a feature requested by our users. This feature helps social media managers work efficiently, with adding notes on their calendar.
+
+## The mobile experience
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/notes-on-calendar-1.png" title="Notes on calendar" />
