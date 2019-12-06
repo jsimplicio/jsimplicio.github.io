@@ -7,7 +7,7 @@ hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
 ---
 
-Social media managers should rely on tools that feel familiar to them. It's common to jot down notes on post-its over the calendar. This feature should feel real and be just as useful as the real thing.
+Social media managers should rely on tools that feel familiar to them. It's common to write down notes or reminders on post-its over your work calendar. The notes feature should feel real and be as useful as the real thing, just like your computer desktop alludes to a real workspace desk.
 
 ## Sprout's calendar
 
