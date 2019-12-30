@@ -10,7 +10,7 @@ hero_color: "#FFECEF"
 Researchers can now share media from their project with people outside of dscout.
 
 ## Getting started with share links
-generated links live inside the project link manager on the project home page.
+Generated links live inside the project link manager on the project home page.
 
 The interface below shows the link manager call-to-action on the right column.
 
