@@ -7,7 +7,7 @@ hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
 ---
 
-Social media managers should rely on tools that feel familiar to them, like writing down notes or reminders on post-its over a calendar. Sprout Social's calendar notes feature should feel real and be useful, just like a computer's desktop alludes to a real workspace desk.
+Social media managers should rely on familiar tools, like post-it notes and reminders over a calendar. Sprout Social's calendar notes feature feel like the real note taking experience, and are a useful feature for managing social media calendars.
 
 ## Sprout's calendar
 

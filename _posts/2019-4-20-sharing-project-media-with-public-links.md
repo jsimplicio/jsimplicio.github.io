@@ -7,26 +7,30 @@ hero_image: "/../assets/images/4-20-2019-hero.png"
 hero_color: "#FFECEF"
 ---
 
-Researchers can now easily share media from their project with people outside of dscout.
+Researchers can now share media from their project with people outside of dscout.
 
 ## Getting started with share links
-Every generated link lives inside the project link manager on the project home page.
+generated links live inside the project link manager on the project home page.
 
-The interface below shows the link manager call-to-action on the right column, with a useful project link count.
+The interface below shows the link manager call-to-action on the right column.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/public-share-links-1.png" title="Public share links - Project link manager call to action" />
 	<figcaption class="media-caption center">Public share links - Project link manager call to action</figcaption>
 </figure>
 
-The project link manager is a table of links shared. Researchers can navigate to those links via the manager to edit link settings.
+The project link manager is a table of links generated and shared. Researchers can navigate to links via the manager and edit link settings.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/public-share-links-2.png" title="Public share links - Project link manager" />
 	<figcaption class="media-caption center">Public share links - Project link manager</figcaption>
 </figure>
 
-If we navigate to the link "Test!" we can see link's settings. Some major features to point out is the ability to delete such share link, to set an access code for people to access the content behind the share link, set link expiration, and even share it to designated Slack channels.
+Inside a link's settings are features:
+ * The ability to delete such share link
+ * Setting an access code for people to access the content behind the share link
+ * Set link expiration
+ * Share link to chosen Slack channels
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/public-share-links-3.png" title="Public share links - Share link modal while sharing link" />
@@ -35,13 +39,9 @@ If we navigate to the link "Test!" we can see link's settings. Some major featur
 
 ## Creating a link
 
-While analyzing their projects, researchers will come upon photo and video media that they may want to share with colleagues outside of dscout.
+Once a researcher finds a media that they want to share, they click on the sharing button on the media. Following, they're greeted with the sharing modal below.
 
-For the first time, researchers can give a taste of their project to colleagues by using the public share links feature.
-
-Once they choose media that they want to  share, they click on a sharing button on the media and are greeted with the sharing modal below.
-
-The first step to sharing media is to click on "Generate public share link" once they open the sharing modal
+The first step to sharing media is to click on "Generate public share link."
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/public-share-links-4.png" title="Public share links - Share link modal when opened for the first time" />
