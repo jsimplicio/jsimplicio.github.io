@@ -12,9 +12,7 @@ title: Jules Simplicio — Software Product Designer
     {% for post in paginator.posts %}
       <article class="work-item">
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h3>{{ post.title}} <span class="subtitle">{{ post.subtitle }}</span></h3>
-          <p>{{ post.content | truncatewords: 25 | strip_html }}</p>
-          <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">Continue Reading »
+          <a href="{{ post.url }}" title="{{ post.title }} {{ post.subtitle }}">{{ post.title}}
         </a>
       </article>
       <hr />
