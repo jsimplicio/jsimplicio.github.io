@@ -10,7 +10,7 @@ hero_color: "#EAEAF9"
 Social media managers need tools that make them work faster and smarter. Notes on the calendar helps people organize and manage their social media calendar. Sprout's Notes feel like a pleasant real note taking experience on a calendar. 
 
 ## Why Notes?
-Adding notes to a calendar is so obvious that it was a highly requested feature by our users. The purpose of Notes is to help social media managers organize their social media calendar and work efficiently.
+Adding notes to a calendar was a highly requested feature by our users, as you can image. Notes help social media managers organize their calendar content and work efficiently.
 
 ## The mobile experience
 

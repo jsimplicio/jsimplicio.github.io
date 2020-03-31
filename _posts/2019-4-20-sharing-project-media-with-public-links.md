@@ -27,8 +27,8 @@ The project link manager is a table of links generated and shared. Researchers c
 </figure>
 
 Inside a link's settings are features:
- * The ability to delete such share link
- * Setting an access code for people to access the content behind the share link
+ * Delete the share link
+ * Set an access code for people to access the content behind the link
  * Set link expiration
  * Share link to chosen Slack channels
 
