@@ -79,9 +79,12 @@ hr {
 a {
   color: $accent-color;
   text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  display: inline-block;
 
   &:hover {
-    text-decoration: underline;
+    border-bottom: 1px dotted;
+    text-decoration: none;
   }
 }
 
@@ -182,15 +185,19 @@ blockquote {
 }
 
 .header {
-  a {
-    border-bottom: 1px dotted transparent;
-    display: inline-block;
-    margin-right: $spacer-small;
+  ul {
+    margin: 0;
+    padding: 0;
 
-    &:hover {
-      border-bottom: 1px dotted;
-      text-decoration: none;
+    li {
+      display: inline-block;
+      margin-right: $spacer-small;
+      margin-bottom: 0;
     }
+  }
+
+  .intro {
+    font-size: 1.8rem;
   }
 }
 
