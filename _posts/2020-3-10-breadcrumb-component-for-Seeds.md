@@ -23,3 +23,8 @@ I wrote a document outlining the following:
 * HTML translation
 * Prop Table
 * Accessibility considerations
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb development proposal" />
+	<figcaption class="media-caption center">Breadcrumb development proposal</figcaption>
+</figure>
