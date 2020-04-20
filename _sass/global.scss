@@ -185,6 +185,10 @@ blockquote {
 }
 
 .header {
+  p {
+    padding: 0;
+  }
+
   ul {
     margin: 0;
     padding: 0;
@@ -198,7 +202,7 @@ blockquote {
 
   .intro {
     font-size: 1.8rem;
-    line-height: 1.5;
+    line-height: 1.4;
     font-weight: bold;
   }
 }
