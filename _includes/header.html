@@ -1,9 +1,10 @@
-<p class="intro">Jules Simplicio is a software product designer and design technologist.</p>
-<p>Focused on front-end engineering design, currently working on <a target="_blank" href="https://sproutsocial.com" title="Sprout Social">Sprout Social's</a> publishing tools.</p>
-<hr/>
-<ul>
-    <li><a href="/" title="home" class="home--link">🏠 Home</a></li>
-    <li><a href="/about" title="about" class="about--link">👤 About </a></li>
-    <li><a href="/archive" title="archive" class="archive--link">🗂 Archive</a></li>
-</ul>
-<hr/>
+<p class="intro">Jules Simplicio is a software product designer and design technologist currently working on <a href="https://sproutsocial.com" title="Sprout Social" target="_blank">Sprout Social's</a> publishing tools.</p>
+<hr />
+<nav class="main-nav">
+    <ul>
+        <li><a href="/" {% if page.path contains 'index' %}class="active"{% endif %}>🏠 Home</a></li>
+        <li><a href="/about" {% if page.path contains 'about' %}class="active"{% endif %}>👤  About</a></li>
+        <li><a href="/archive" {% if page.path contains 'archive' %}class="active"{% endif %}>🗄 Archive</a></li>
+    </ul>
+</nav>
+<hr />

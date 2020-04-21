@@ -156,27 +156,9 @@ blockquote {
   margin: 64px auto 0 auto;
 }
 
-.about {
-  .header {
-    .about--link {
-      border-bottom: 1px dotted;
-    }
-  }
-}
-
-.home {
-  .header {
-    .home--link {
-      border-bottom: 1px dotted;
-    }
-  }
-}
-
-.archive {
-  .header {
-    .archive--link {
-      border-bottom: 1px dotted;
-    }
+.main-nav a {
+  &.active {
+    border-bottom: 1px dotted;
   }
 }
 

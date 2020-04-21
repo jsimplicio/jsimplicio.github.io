@@ -19,13 +19,17 @@ permalink: /:categories/:title/
 data:
   subtitle: ""
 
-navigation:
-  - title: home
-    url: /index.html
-
 sass:
   style: compressed
   sass_dir: _sass
+
+navigation:
+  - title: home
+    url: /
+  - title: about
+    url: /about
+  - title: archive
+    url: /archive
 
 paginate: 10
 paginate_path: "/posts/page:num"
