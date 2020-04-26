@@ -19,7 +19,7 @@ Researchers are able to make meaningful data patterns from answers to open-ended
 * Researchers can quickly create meaningful value out of answers to open-ended questions.
 
 ## The features
-The following images belong to a research project that examined the experience of customers that were provided a trial of the [Birchbox](https://www.birchbox.com/) service, a personalized box delivery subscription.
+The following images belong to a research project that examined the experience of customers that were provided a trial of the [Birchbox ↗](https://www.birchbox.com/) service, a personalized box delivery subscription.
 
 The following are screenshots on the analysis of one of the open-ended questions in the Birchbox project: "Is there anything that's surprising or unexpected, in terms of contents of your box or the overall experience?"
 

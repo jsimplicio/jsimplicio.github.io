@@ -7,9 +7,12 @@ hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#6F5ED3"
 ---
 
-I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on three separate projects, one being the design, development and release of Breadcrumb for [Seeds](https://seeds.sproutsocial.com "Sprout Social's Seeds").
+I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of Breadcrumb on [Seeds ↗](https://seeds.sproutsocial.com "Sprout Social's Seeds").
 
-## Why build this component?
+## The challenge
+Breadcrumbs should be user interface elements used for navigating content in parent-child relationships within pages or overlays. They should provide context for where users are in a nested hierarchy.
+
+## Background
 Outside of the residency, my team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb component.
 
 ## Design proposals and research

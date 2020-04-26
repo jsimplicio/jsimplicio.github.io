@@ -7,7 +7,8 @@ hero_image: "/../assets/images/4-20-2019-hero.png"
 hero_color: "#FFECEF"
 ---
 
-Researchers can now share media from their project with people outside of dscout.
+## The challenge
+Researchers have requested to be able to share project data outside of dscout with colleagues that don't an account or access to the platform.
 
 ## Getting started with share links
 Generated links live inside the project link manager on the project home page.
