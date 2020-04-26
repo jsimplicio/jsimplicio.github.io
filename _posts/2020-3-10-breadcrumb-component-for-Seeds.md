@@ -12,8 +12,8 @@ I had the opportunity to go through a residency in our Design Systems team at Sp
 ## Why build this component?
 Outside of the residency, my team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb component.
 
-## Design proposal
-I proposed several different designs for the Breadcrumb component. The designs were based on UX patterns from breadcrumbs. We landed on a design that was conscious of space, provided easy wayfinding and fit within our system.
+## Design proposals and research
+I proposed several different designs for the Breadcrumb component based on breadcrumb UX patterns. We landed on a design that was conscious of space, provided easy wayfinding and fit within our system.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb design proposal" />
