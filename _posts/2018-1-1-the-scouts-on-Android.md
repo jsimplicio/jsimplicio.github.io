@@ -2,7 +2,7 @@
 layout: post
 title:  "The scout's experience on Android"
 date:   2018-1-1
-categories: mobile design
+categories: product mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#197FF6"
 ---

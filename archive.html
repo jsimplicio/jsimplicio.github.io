@@ -14,7 +14,11 @@ title: Jules Simplicio — Archive
       {% capture year %}{{currentyear}}{% endcapture %}
     {% endif %}
     <ul class="posts-in-year">
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}    <br /> </a>{{ post.date | date: "%B %d" }}</li>
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+        </a>
+        <br />
+        {{ post.date | date: "%B %d" }}</li>
     </ul>
   {% endfor %}
 </section>

@@ -15,6 +15,11 @@ Outside of the residency, my team builds Publishing features for Sprout Social. 
 ## Design proposal
 I proposed several different designs for the Breadcrumb component. The designs were based on UX patterns from breadcrumbs. We landed on a design that was conscious of space, provided easy wayfinding and fit within our system.
 
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb design proposal" />
+	<figcaption class="media-caption center">Breadcrumb design proposal</figcaption>
+</figure>
+
 ## Development proposal
 
 I wrote a document outlining the following:
@@ -25,6 +30,6 @@ I wrote a document outlining the following:
 * Accessibility considerations
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb development proposal" />
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-2.png" title="Breadcrumb development proposal" />
 	<figcaption class="media-caption center">Breadcrumb development proposal</figcaption>
 </figure>

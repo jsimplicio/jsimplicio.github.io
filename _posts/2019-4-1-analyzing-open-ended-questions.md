@@ -31,6 +31,19 @@ The following are the filter tools provided for word analysis:
 * Filter based on the rating of responses (positive, negative, or unrated)
 * Eliminate words from the chart by adding them to a stop word list
 
+## Early Sketches
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/analysis-sketch-1.png" title="Design explorations around the word cluster" />
+	<figcaption class="media-caption center">Design explorations around the word cluster</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/analysis-sketch-2.png" title="Design explorations around the word cluster" />
+	<figcaption class="media-caption center">Design explorations around the word cluster</figcaption>
+</figure>
+
+## Final designs
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/analysis-1.png" title="The word cloud analysis of an open-ended question" />
 	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
