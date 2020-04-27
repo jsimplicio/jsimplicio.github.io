@@ -7,8 +7,10 @@ hero_image: "/../assets/images/4-20-2019-hero.png"
 hero_color: "#FFECEF"
 ---
 
-## The challenge
-Researchers have requested to be able to share project data outside of dscout with colleagues that don't an account or access to the platform.
+<div class="problem-statement">
+	<h2>💪 The challenge</h2>
+	Researchers requested many times for the ability to share project data outside of dscout with colleagues that don't have access to the platform.
+</div>
 
 ## Getting started with share links
 Generated links live inside the project link manager on the project home page.

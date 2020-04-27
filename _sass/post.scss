@@ -36,6 +36,14 @@
   margin: 2em 0;
 }
 
+.problem-statement {
+  background: #e8f9ff;
+  border: 1px solid #add8e6;
+  border-radius: 8px;
+  margin-bottom: $spacer-normal;
+  padding: $spacer-small;
+}
+
 .hero-image {
   background-size: 100% auto;
   background-repeat: no-repeat;

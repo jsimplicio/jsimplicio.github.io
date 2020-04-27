@@ -7,8 +7,10 @@ hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
 ---
 
-## The challenge
-Social media managers rely on tools that make them work smarter and faster. The notes on the calendar feature was highly requested since writing notes helps social media managers add calendar reminders, and efficiently organize work.
+<div class="problem-statement">
+	<h2>💪 The challenge</h2>
+	Social media managers rely on tools that make them work smarter and faster. The notes on the calendar feature was highly requested since writing notes helps social media managers add calendar reminders, and efficiently organize work.
+</div>
 
 ## The team and my role
 Since I focused on designing the notes experience for our iOS and Android apps. The mobile design lead helped validate questions and give feedback along the way.
