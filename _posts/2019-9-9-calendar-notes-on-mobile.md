@@ -9,7 +9,7 @@ hero_color: "#EAEAF9"
 
 <div class="problem-statement">
 	<h2>💪 The challenge</h2>
-	Social media managers rely on tools that make them work smarter and faster. The notes on the calendar feature was highly requested since writing notes helps social media managers add calendar reminders, and efficiently organize work.
+	Writing notes on the calendar was highly requested from social media managers. Calendar notes helps them add reminders and organize their work.
 </div>
 
 ## The team and my role

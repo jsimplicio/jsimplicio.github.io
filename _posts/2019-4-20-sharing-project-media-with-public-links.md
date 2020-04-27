@@ -9,7 +9,7 @@ hero_color: "#FFECEF"
 
 <div class="problem-statement">
 	<h2>💪 The challenge</h2>
-	Researchers requested for the ability to share project data with colleagues outisde of dscout.
+	Researchers wanted to share project data bites with colleagues outside of their dscout team account.
 </div>
 
 ## Getting started with share links
