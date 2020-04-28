@@ -7,9 +7,9 @@ hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#6F5ED3"
 ---
 
-I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of Breadcrumb on [Seeds ↗](https://seeds.sproutsocial.com "Sprout Social's Seeds").
+I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of Breadcrumb on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds ↗</a>.
 
-<div class="problem-statement">
+<div class="problem-statement"> 
 <h2>💪 The challenge</h2>
 To design, build, and release the breadcrumb component. We defined breadcrumbs as small user interface elements used for navigating content in parent-child relationships within pages or overlays. Breadcrumbs should provide context for where users are in a nested hierarchy.
 </div>
