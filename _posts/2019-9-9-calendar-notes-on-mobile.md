@@ -9,7 +9,7 @@ hero_color: "#EAEAF9"
 
 <div class="problem-statement">
 	<h2>💪 The challenge</h2>
-	Writing notes on the calendar was highly requested from social media managers. Calendar notes helps them add reminders and organize their work.
+	Writing notes on the calendar was highly requested. Calendar notes help social media managers add reminders and organize their work. This particular project's focus was the Android and iOS experiences.
 </div>
 
 ## The team and my role
