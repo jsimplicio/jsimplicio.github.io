@@ -7,9 +7,10 @@ hero_image: "/../assets/images/4-15-2019-hero.png"
 hero_color: "#D0E8E6"
 ---
 
-To run research projects in dscout you need partifipants. With the tool Recruit, researchers can screen for, and find the best research participants.
-
-We'll be focusing on the screening process after a Screener is programmed and launched.
+<div class="problem-statement">
+	<h2>💪 The challenge</h2>
+	Let researchers screen for research participants from a pool of hundreds of thousands of people provided by dscout. Let researchers find the best participants that fit their project needs.
+</div>
 
 ## Choosing your scouts
 Screener answers, or applications, help researchers find participants. Screeners go out to hundreds of people, some are an inadequate fit and are knocked out, and hundreds of applications make in. All participants are screened by answering the same set of questions written to determine whether they are fit for the research study to follow. When answers are submitted, they show up as an application for the researcher.

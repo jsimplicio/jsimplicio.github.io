@@ -9,7 +9,7 @@ hero_color: "#EAEAF9"
 
 <div class="problem-statement">
 	<h2>💪 The challenge</h2>
-	Social media managers highly requested calendar notes. Notes help them create reminders and organize their work. This particular project's focus was the Android and iOS experiences.
+	Social media managers highly requested the ability to add calendar notes. Notes help them create reminders and organize their work. This project focuses on the Android and iOS experiences.
 </div>
 
 ## The team and my role
