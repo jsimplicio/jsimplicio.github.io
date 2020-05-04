@@ -11,7 +11,7 @@ I had the opportunity to go through a residency in our Design Systems team at Sp
 
 <div class="problem-statement"> 
 <h2>💪 The challenge</h2>
-To design, build, and release the breadcrumb component. We defined breadcrumbs as small user interface elements used for navigating content in parent-child relationships within pages or overlays. Breadcrumbs should provide context for where users are in a nested hierarchy.
+To design, build, and release a breadcrumb component. 
 </div>
 
 ## Background
