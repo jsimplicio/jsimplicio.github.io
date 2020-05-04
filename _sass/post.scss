@@ -99,6 +99,16 @@
     background-size: 60% auto;
     height: 700px;
   }
+
+  @include breakpoint(1824px) {
+    background-size: 60% auto;
+    height: 800px;
+  }
+
+  @include breakpoint(2024px) {
+    background-size: 50% auto;
+    height: 800px;
+  }
 }
 
 .cp_embed_wrapper {
