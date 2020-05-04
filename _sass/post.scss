@@ -90,19 +90,14 @@
     height: 400px;
   }
 
-  @include breakpoint(1200px) {
-    background-size: 60% auto;
-    height: 450px;
-  }
-
-  @include breakpoint(1300px) {
+  @include breakpoint(1224px) {
     background-size: 60% auto;
     height: 500px;
   }
 
-  @include breakpoint(1600px) {
+  @include breakpoint(1624px) {
     background-size: 60% auto;
-    height: 600px;
+    height: 700px;
   }
 }
 
