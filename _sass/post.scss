@@ -44,7 +44,7 @@
 }
 
 .hero-image {
-  background-size: 100% auto;
+  background-size: 50vh auto;
   background-repeat: no-repeat;
   background-position: center 15%;
   height: 30vh;
@@ -60,7 +60,12 @@
     width: 100%;
   }
   
-  @include breakpoint(768px) {
+  @include breakpoint(600px) {
+    background-size: 80vh auto;
+    height: 50vh;
+  }
+
+  @include breakpoint(800px) {
     background-size: 100vh auto;
     height: 50vh;
   }
