@@ -47,7 +47,7 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center 15%;
-  height: 200px;
+  height: 35vh;
   margin: -10px -10px $spacer-normal -10px;
   position: relative;
 
@@ -59,55 +59,10 @@
     position: absolute;
     width: 100%;
   }
-
-  @include breakpoint(480px) {
-    background-size: 100% auto;
-    height: 300px;
-  }
-
-  @include breakpoint(650px) {
-    background-size: 90% auto;
-    height: 350px;
-  }
-
-  @include breakpoint(600px) {
-    background-size: 90% auto;
-    height: 400px;
-  }
-
-  @include breakpoint(900px) {
-    background-size: 70% auto;
-    height: 400px;
-  }
-
-  @include breakpoint(1000px) {
-    background-size: 70% auto;
-    height: 400px;
-  }
-
-  @include breakpoint(1024px) {
-    background-size: 60% auto;
-    height: 400px;
-  }
-
-  @include breakpoint(1224px) {
-    background-size: 60% auto;
-    height: 500px;
-  }
-
-  @include breakpoint(1624px) {
-    background-size: 60% auto;
-    height: 700px;
-  }
-
-  @include breakpoint(1824px) {
-    background-size: 60% auto;
-    height: 800px;
-  }
-
-  @include breakpoint(2024px) {
-    background-size: 50% auto;
-    height: 800px;
+  
+  @include breakpoint(768px) {
+    background-size: 100vh auto;
+    height: 50vh;
   }
 }
 
