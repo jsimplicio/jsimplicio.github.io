@@ -8,7 +8,7 @@ hero_color: "#D0E8E6"
 ---
 
 <div class="problem-statement">
-	<h2>💪 The challenge</h2>
+	<h2>Problem statement</h2>
 	Let researchers screen for research participants from a pool of hundreds of thousands of people provided by dscout. Let researchers find the best participants that fit their project needs.
 </div>
 

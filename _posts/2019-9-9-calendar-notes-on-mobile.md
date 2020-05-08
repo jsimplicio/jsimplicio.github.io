@@ -6,10 +6,9 @@ categories: product design
 hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
 ---
-
 <div class="problem-statement">
-	<h2>💪 The challenge</h2>
-	Social media managers highly requested the ability to add calendar notes. Notes help them create reminders and organize their work. This project focuses on the Android and iOS experiences.
+	<h2>Problem statement</h2>
+	Social media managers requested the ability to add calendar notes to help them create reminders and organize their work.
 </div>
 
 ## The team and my role
