@@ -11,14 +11,14 @@ I had the opportunity to go through a residency in our Design Systems team at Sp
 
 <div class="problem-statement"> 
 <h2>Problem statement</h2>
-To design, build, and release a breadcrumb component. 
+	Design, build, and release a breadcrumb component.
 </div>
 
 ## Background
 Outside of the residency, my team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb component.
 
-## Design proposals and research
-I proposed several different designs for the Breadcrumb component based on breadcrumb UX patterns. We landed on a design that was conscious of space, provided easy wayfinding and fit within our system.
+## Design proposal and research
+I proposed different designs for the Breadcrumb component based on breadcrumb UX patterns. We landed on a design that was conscious of space, provided easy wayfinding, and fit well within our system.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb design proposal" />
@@ -26,6 +26,8 @@ I proposed several different designs for the Breadcrumb component based on bread
 </figure>
 
 ## Development proposal
+
+When the design proposal was ready, I started thinking about how I would build the component. I decided to go with a development proposal in order to get input from other engineers.
 
 I wrote a document outlining the following:
 * The definition of breadcrumb

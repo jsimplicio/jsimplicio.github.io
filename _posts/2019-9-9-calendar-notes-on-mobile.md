@@ -8,7 +8,7 @@ hero_color: "#EAEAF9"
 ---
 <div class="problem-statement">
 	<h2>Problem statement</h2>
-	Social media managers requested the ability to add calendar notes to help them create reminders and organize their work.
+	Social media managers want to add calendar notes to help them create reminders and organize their work.
 </div>
 
 ## The team and my role
@@ -20,6 +20,7 @@ The mobile engineering team was responsible for implementing the designs with th
 For this project, the web feature had already been designed by my teammate, so my research was heavily done based on the web experience that had already been tested. I also did research in order to implement the same user experience but by relying on user interfaces for each specific mobile OS.
 
 ## Final Designs
+The designs below were submitted for the mobile senior product manager and senior android engineer.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/notes-on-calendar-1.png" title="Notes on calendar" />

@@ -8,13 +8,10 @@ hero_color: "#197FF6"
 ---
 The dscout researcher platform did not have onboarding for new users. New researchers logged in for the first time, and arrived at an empty blank project.
 
-### Brief
-We worked on an onboarding experience for new researchers on the dscout web platform.
-
-The project's goal was for the home to showcase and guide new researchers through different areas of our product.
-
-### Objective
-* Provide an onboarding experience for new users.
+<div class="problem-statement"> 
+	<h2>Problem statement</h2>
+	New researchers need an onboarding experience to guide and introduce them through dscout.
+</div>
 
 ### Key Results
 * Researchers experience a smooth onboarding experience.

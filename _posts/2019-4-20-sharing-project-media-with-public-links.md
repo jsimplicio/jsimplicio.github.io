@@ -9,7 +9,7 @@ hero_color: "#FFECEF"
 
 <div class="problem-statement">
 	<h2>Problem statement</h2>
-	Researchers wanted to share project data bites with colleagues outside of dscout.
+	Researchers want to share project data with colleagues outside of dscout.
 </div>
 
 ## Getting started with share links
