@@ -7,7 +7,7 @@ hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#6F5ED3"
 ---
 
-I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of Breadcrumb on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds ↗</a>.
+I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of the Breadcrumb component on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds ↗</a>.
 
 <div class="problem-statement"> 
 <h2>Problem statement</h2>

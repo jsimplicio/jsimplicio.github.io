@@ -114,7 +114,7 @@ The following are a couple recent reviews we have received from Scouts on the Go
 <strong>Gwen Geronimo</strong>
 
 <blockquote>
-	I really enjoy Dscout. This app is simplistic and is easy to follow. They have many opportunities, consistently.
+	I really enjoy Dscout. This app is simplistic and is easy to follow.
 </blockquote>
 <date class="post-meta">April 25, 2018</date>
 <strong>Adriana Auten</strong>
