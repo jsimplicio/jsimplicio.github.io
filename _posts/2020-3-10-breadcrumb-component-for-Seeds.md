@@ -5,14 +5,12 @@ date:   2020-3-18
 categories: product design system
 hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#6F5ED3"
+problem_statement: "Design, build, and release a breadcrumb component."
 ---
 
 I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of the Breadcrumb component on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds ↗</a>.
 
-<div class="problem-statement"> 
-<h2>Problem statement</h2>
-	Design, build, and release a breadcrumb component.
-</div>
+{% include problem_statement.md %}
 
 ## Background
 Outside of the residency, my team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb component.

@@ -5,12 +5,10 @@ date:   2019-4-20
 categories: product design
 hero_image: "/../assets/images/4-20-2019-hero.png"
 hero_color: "#FFECEF"
+problem_statement: "Researchers want to share project data with colleagues outside of dscout."
 ---
 
-<div class="problem-statement">
-	<h2>Problem statement</h2>
-	Researchers want to share project data with colleagues outside of dscout.
-</div>
+{% include problem_statement.md %}
 
 ## Getting started with share links
 Generated links live inside the project link manager on the project home page.

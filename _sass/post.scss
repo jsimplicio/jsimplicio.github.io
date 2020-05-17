@@ -41,6 +41,11 @@
   border-radius: 8px;
   margin-bottom: $spacer-normal;
   padding: $spacer-small;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .hero-image {

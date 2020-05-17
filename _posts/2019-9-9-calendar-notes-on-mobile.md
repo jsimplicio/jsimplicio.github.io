@@ -5,11 +5,10 @@ date:   2019-9-9
 categories: product design
 hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
+problem_statement: "Social media managers want to add calendar notes to help them create reminders and organize their work."
 ---
-<div class="problem-statement">
-	<h2>Problem statement</h2>
-	Social media managers want to add calendar notes to help them create reminders and organize their work.
-</div>
+
+{% include problem_statement.md %}
 
 ## The team and my role
 Since I focused on designing the notes experience for our iOS and Android apps. The mobile design lead helped validate questions and give feedback along the way.
