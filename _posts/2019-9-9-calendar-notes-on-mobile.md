@@ -17,10 +17,10 @@ Since I focused on designing the notes experience for our iOS and Android apps. 
 The mobile engineering team was responsible for implementing the designs with their PM as a project lead, and one engineer per operating system.
 
 ## The research
-For this project, the web feature had already been designed by my teammate, so my research was heavily done based on the web experience that had already been tested. I also did research in order to implement the same user experience but by relying on user interfaces for each specific mobile OS.
+For this project, the web feature had already been researched and designed by one of my teammates, so my research was heavily informed by the web experience. My researched laid on the mobile implementation of the same experience.
 
 ## Final Designs
-The designs below were submitted for the mobile senior product manager and senior android engineer.
+The designs below were the final work submitted to the mobile senior product manager, and ultimately implemented by a senior Android engineer.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/notes-on-calendar-1.png" title="Notes on calendar" />
