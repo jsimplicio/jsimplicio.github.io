@@ -27,12 +27,16 @@ I proposed different designs to the team of product designers for the Breadcrumb
 
 When the design proposal was presented and the final design was chosen, I started thinking about how I would build the component. I decided to write a development proposal in order to get input from other engineers.
 
-I wrote a document outlining the following:
+I wrote a development proposal document outlining the following:
 * The definition of the breadcrumb component
 * Proposed component structure
 * HTML translation
 * Prop Table
 * Accessibility considerations
+
+By writing a development proposal, I spent time researching other design systems ways of implementing breadcrumbs, which provided me inspiration and ideas of how I would uniquely implement Breadcrumb in our design system.
+
+My proposal provided enough starting material to get actionable feedback from engineers across the company.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-2.png" title="Breadcrumb development proposal" />
