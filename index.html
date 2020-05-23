@@ -9,11 +9,7 @@ title: Jules Simplicio - Software Product Designer
   <h2>Work</h2>
   <div class="work-wrapper">
     {% for post in paginator.posts %}
-      <article class="work-item">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title}}
-        </a>
-      </article>
+      {% include project_card.md %}
     {% endfor %}
     <div class="page--navigation">
       {% if paginator.total_pages > 1 %}

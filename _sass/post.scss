@@ -51,7 +51,7 @@
 .hero-image {
   background-size: 50vh auto;
   background-repeat: no-repeat;
-  background-position: center 15%;
+  background-position: center 20%;
   height: 30vh;
   margin: -10px -10px $spacer-normal -10px;
   position: relative;
@@ -71,8 +71,8 @@
   }
 
   @include breakpoint(800px) {
-    background-size: 100vh auto;
-    height: 50vh;
+    background-size: 90vh auto;
+    height: 55vh;
   }
 }
 

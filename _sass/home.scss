@@ -1,6 +1,38 @@
-.work-item {
+.post-card {
+  border: 1px solid #F0F0F0;
+  border-radius: 8px;
   display: block;
-  margin-bottom: 2em;
-  position: relative;
-  transition: 200ms ease-in;
+  margin-bottom: $spacer-small;
+  transition: 250ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 32px 4px rgba(0,0,0,.1);
+  }
+
+  @include breakpoint(560px) {
+    display: flex;
+    height: 200px;
+  }
 }
+
+.post-image {
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px 8px 0 0;
+  height: 200px;
+  width: 100%;
+
+  @include breakpoint(560px) {
+    background-size: 90%;
+    border-radius: 8px 0 0 8px;
+    height: auto;
+    flex: 2 0 0;
+  }
+}
+
+.post-content {
+  flex: 4 0 0;
+  padding: 0 $spacer-small;
+}
+

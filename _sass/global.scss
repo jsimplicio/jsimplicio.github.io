@@ -96,6 +96,7 @@ iframe {
 }
 
 p {
+  color: $text-color;
   padding-bottom: $spacer-small;
 }
 
@@ -226,6 +227,10 @@ blockquote {
   @include breakpoint(1024px) {
     max-width: 768px;
   }
+}
+
+.work-wrapper {
+  margin-top: $spacer-normal;
 }
 
 .site-footer {
