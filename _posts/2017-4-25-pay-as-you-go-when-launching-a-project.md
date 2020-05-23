@@ -4,8 +4,10 @@ title:  "Pay as you go when launching a project"
 date:   2017-4-25
 categories: product design
 hero_image: "/../assets/images/4-25-2017-hero.png"
-hero_color: "#FEFEFE"
+hero_color: "#DEDEDE"
 ---
+
+
 At dscout, we offer three kinds of project plans for researchers:
 
 * DIY Projects: Users pay as they go a fee of $295 for launching a mission. DIY projects require users to keep a credit card on file that is automatically charged upon launching a mission. DIY is our most basic plan. It gives users access to our platform, but it doesn't give them access to our pool of participants, nor the guidance of a user success advisor throughout their research project

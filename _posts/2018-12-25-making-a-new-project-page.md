@@ -5,8 +5,12 @@ date:   2018-12-25
 categories: product design
 hero_image: "/../assets/images/12-25-2018-2-hero.png"
 hero_color: "#776FC7"
+problem_statement: "Design a new project page with our modern components, providing researchers all of the tools they need to run a dscout research project successfuly."
 ---
-We broke up what makes part of a dscout project into actionable items.
+
+{% include problem_statement.md %}
+
+I broke up what makes part of a dscout project into actionable items.
 
 On the left sidebar, a quick click away to create a screener, mission, or panel.
 
