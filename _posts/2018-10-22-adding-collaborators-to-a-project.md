@@ -5,7 +5,7 @@ date:   2018-10-22
 categories: product design
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#ECF3FD"
-problem_statement: "Researchers want to be able to add project collaborators and set collaborators permission settings."
+problem_statement: "Researchers want to add project collaborators and set collaborators permission settings."
 ---
 
 Adding collaborators didn't used to be a clear experience. There was lots of fine print on the modal, and it was hard to tell when people were succesfully added to a project.

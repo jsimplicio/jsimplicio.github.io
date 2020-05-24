@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Making a new project page"
+title:  "Making a new project dashboard"
 date:   2018-12-25
 categories: product design
 hero_image: "/../assets/images/12-25-2018-2-hero.png"
 hero_color: "#776FC7"
-problem_statement: "Design a new project page with our modern components, providing researchers all of the tools they need to run a dscout research project successfuly."
+problem_statement: "Researchers need a project dashboard that acts as a home for the research projects."
 ---
 
 {% include problem_statement.md %}
