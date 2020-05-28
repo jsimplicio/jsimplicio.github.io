@@ -5,7 +5,7 @@ date:   2020-3-18
 categories: product design system
 hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#6F5ED3"
-problem_statement: "Design, build, and release a breadcrumb component."
+problem_statement: "Design, build, and release a breadcrumb component for Sprout Social's design system."
 ---
 
 {% include problem_statement.md %}

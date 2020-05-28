@@ -5,7 +5,7 @@ date:   2019-9-9
 categories: product design
 hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#EAEAF9"
-problem_statement: "Social media managers want to add calendar notes to help them create reminders and organize their work."
+problem_statement: "Social media managers want to add notes to their calendar so they can create reminders and content to better organize their calendar work."
 ---
 
 {% include problem_statement.md %}

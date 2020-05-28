@@ -5,7 +5,7 @@ date:   2019-3-13
 categories: product design
 hero_image: "/../assets/images/3-13-2019-hero.png"
 hero_color: "#197FF6"
-problem_statement: "New researchers need a proper onboarding experience to guide them through the product and introduce them to dscout."
+problem_statement: "New researchers need an onboarding experience to guide them through the product and introduce them to dscout."
 ---
 
 The dscout researcher platform did not have onboarding for new users. New researchers logged in for the first time, and arrived at an empty blank project.
