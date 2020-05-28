@@ -4,7 +4,7 @@ title:  "Calendar notes on mobile"
 date:   2019-9-9
 categories: product design
 hero_image: "/../assets/images/9-9-2019-hero.png"
-hero_color: "#EAEAF9"
+hero_color: "#C1C1F7"
 problem_statement: "Social media managers want to add notes to their calendar so they can create reminders and content to better organize their calendar work."
 ---
 
