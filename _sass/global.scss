@@ -42,14 +42,6 @@ h4 {
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: $spacer-xxsmall;
-
-  a {
-    color: $text-color;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
 }
 
 h1 {
@@ -64,12 +56,6 @@ h3 {
   font-size: 1.15rem;
 }
 
-h3.mute {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.25rem;
-}
-
 hr {
   background: $border-color;
   border: none;
@@ -78,13 +64,12 @@ hr {
 }
 
 a {
-  color: $accent-color;
-  text-decoration: none;
-  border-bottom: 1px dotted transparent;
+  color: blue;
   display: inline;
+  text-decoration: underline;
 
   &:hover {
-    border-bottom: 1px dotted;
+    color: $text-color;
     text-decoration: none;
   }
 }
@@ -141,26 +126,44 @@ li li {
   margin-left: $spacer-normal;
 }
 
+
 blockquote {
-  font-style: italic;
+  margin: $spacer-normal auto;
+  padding: $spacer-small 0 0 $spacer-normal;
   position: relative;
-
-  p {
-    padding: $spacer-small 0 0 0;
+  
+  q {
+    display: block;
+    quotes: "“" "”";
+    
+    &::before {
+      content: open-quote;
+      font-size: $font-xxlarge;
+      font-weight: bold;
+      line-height: 2;
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+    
+    &::after {
+      content: close-quote;
+    }
   }
-
-  h3 {
-    font-size: $body-font-size;
+  
+  cite {
+    color: #999;
   }
 }
 
 .header {
-  margin: 32px auto 0 auto;
+  margin: 8px auto 0 auto;
 }
 
 .main-nav a {
   &.active {
-    border-bottom: 1px dotted;
+    color: $text-color;
+    text-decoration: none;
   }
 }
 
@@ -181,12 +184,6 @@ blockquote {
       display: inline-block;
       margin: $spacer-xsmall $spacer-small $spacer-xsmall 0;
     }
-  }
-
-  .intro {
-    font-size: 1.8rem;
-    line-height: 1.4;
-    font-weight: bold;
   }
 }
 
@@ -218,7 +215,6 @@ blockquote {
 }
 
 .work,
-.archive,
 .about {
   margin: $spacer-normal auto 0 auto;
   max-width: 768px;
@@ -231,6 +227,10 @@ blockquote {
 
 .work-wrapper {
   margin-top: $spacer-normal;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .site-footer {

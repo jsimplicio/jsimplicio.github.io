@@ -1,10 +1,7 @@
-<p><b>I'm Jules Simplicio and I design and develop software.</b> I am currently solving complex problems by building tools and experiences at <a href="https://sproutsocial.com" title="Sprout Social" target="_blank">Sprout Social ↗</a>.</p>
-<hr />
 <nav class="main-nav">
-    <ul>
-        <li><a href="/" {% if page.path contains 'index' %}class="active"{% endif %}>🏠 Home</a></li>
-        <li><a href="/about" {% if page.path contains 'about' %}class="active"{% endif %}>👤  About</a></li>
-        <li><a href="/archive" {% if page.path contains 'archive' %}class="active"{% endif %}>🗄 Archive</a></li>
-    </ul>
+	<ul>
+		<li><a href="/" {% if page.title contains 'Home' %}class="active"{% endif %}>Jules Simplicio</a></li>
+		<li><a href="/work" {% if page.title contains 'Work' %}class="active"{% endif %}>Work</a></li>
+		<li><a href="/about" {% if page.title contains 'About' %}class="active"{% endif %}>About</a></li>
+	</ul>
 </nav>
-<hr />

@@ -1,51 +1,43 @@
 ---
 layout: default
-title: Jules Simplicio - Software Product Designer
+title: Home - Jules Simplicio
 ---
-<header class="intro wrapper header">
+<header class="wrapper header">
   {% include header.html %}
 </header>
 <section class="work">
-  <h2>Work</h2>
-  <div class="work-wrapper">
-    {% for post in paginator.posts %}
-      {% include project_card.md %}
-    {% endfor %}
-    <div class="page--navigation">
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | relative_url }}#work">
-              &laquo; Previous
-            </a>
-          {% else %}
-            <span>&laquo; Previous</span>
-          {% endif %}
-
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <em>{{ page }}</em>
-            {% elsif page == 1 %}
-              <a href="{{ paginator.previous_page_path | relative_url }}#work">
-                {{ page }}
-              </a>
-            {% else %}
-              <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}#work ">
-                {{ page }}
-              </a>
-            {% endif %}
-          {% endfor %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | relative_url }}#work">
-              Next &raquo;
-            </a>
-          {% else %}
-            <span>Next &raquo;</span>
-          {% endif %}
-        </div>
-      {% endif %}
-    </div>
+  <h2 class="home-intro">Jules Simplicio designs and develops software. They are currently helping build tools and product experiences at <a href="https://sproutsocial.com" title="Sprout Social">Sprout Social</a>.</h2> 
+  <div class="skills">
+    <article class="skill">
+      <img src="/assets/images/ux-strategy.svg" />
+      <h3>Product Strategy</h3>
+      <p>I help businesses stand out by focusing on a vision and defining goals. I help build a roadmap so products can achieve set goals in order to provide value to customers by giving them what they need, and measuring success.</p>
+    </article>
+    <article class="skill">
+      <img src="/assets/images/ux-research.svg"/>
+      <h3>User Experience Research</h3>
+      <p>I improve a product's usability and usefulness by empathizing with current and potential customers, and by understanding their behaviors. I use a variety of methods to gather qualitative and quantitative data and insights.</p>
+    </article>
+    <article class="skill">
+      <img src="/assets/images/wireframe-prototype.svg" />
+      <h3>Wireframing and Prototyping</h3>
+      <p>Based on research results and user feedback, I work on initial wireframe designs and prototypes based on the pre-defined user flows, that are used for testing to inform interaction patterns for the defined problems at hand.</p>
+    </article>
+    <article class="skill">
+      <img src="/assets/images/software-design.svg" />
+      <h3>Web and Desktop App Design</h3>
+      <p>I design the interface and experience of products, aligned with product goals. I create innovative and improved experiences, with better functionality and usability. I componetize designs and help build and maintain design systems.</p>
+    </article>
+    <article class="skill">
+      <img src="/assets/images/software-development.svg" />
+      <h3>Front-End Software Development</h3>
+      <p>I prototype designs in code during testing. I translate final designs into production ready code utilizing HTML, CSS, and JavaScript with modern technologies and frameworks including Scss, and React. I help develop and document design systems.</p>
+    </article>
+    <article class="skill">
+      <img src="/assets/images/mobile-design.svg" />
+      <h3>Mobile App Design</h3>
+      <p>I design mobile experiences for both Android and iOS apps, and also React Native.</p>
+    </article>
   </div>
 </section>
 {% include footer.html %}

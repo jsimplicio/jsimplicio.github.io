@@ -1,43 +1,25 @@
-.post-card {
-  border: 1px solid $border-color;
-  border-radius: 8px;
-  display: block;
-  margin-bottom: $spacer-normal;
-  transition: 250ms ease-in-out;
+.home-intro {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $spacer-normal 0;
+}
+
+.skill {
+  text-align: center;
+  flex: 100% 0 0;
+  padding: 0 $spacer-normal;
 
   p {
-    margin: 0;
-    padding: 0;
-  }
-
-  &:hover {
-    box-shadow: 0 0 32px 4px rgba(0,0,0,.1);
+    font-size: $font-small;
   }
 
   @include breakpoint(560px) {
-    display: flex;
-    height: 200px;
+    flex: 50% 0 0;
   }
-}
-
-.post-image {
-  background-size: 110%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 8px 8px 0 0;
-  height: 350px;
-  width: 100%;
-
-  @include breakpoint(560px) {
-    background-size: 90%;
-    border-radius: 8px 0 0 8px;
-    height: auto;
-    flex: 2 0 0;
-  }
-}
-
-.post-card-content {
-  flex: 4 0 0;
-  padding: $spacer-normal $spacer-small;
 }
 

@@ -11,7 +11,7 @@ problem_statement: "Design, build, and release a breadcrumb component for Sprout
 {% include problem_statement.md %}
 
 ## The team and my role
-I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of the Breadcrumb component on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds ↗</a>.
+I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of the Breadcrumb component on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds</a>.
 
 Outside of the residency, my actual team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb component.
 

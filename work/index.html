@@ -1,0 +1,51 @@
+---
+layout: default
+title: Work - Jules Simplicio
+---
+<header class="intro wrapper header">
+  {% include header.html %}
+</header>
+<section class="work">
+  <h2>Work</h2>
+  <div class="work-wrapper">
+    {% for post in paginator.posts %}
+      {% include project_card.md %}
+    {% endfor %}
+    <div class="page--navigation">
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | relative_url }}#work">
+              &laquo; Previous
+            </a>
+          {% else %}
+            <span>&laquo; Previous</span>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <em>{{ page }}</em>
+            {% elsif page == 1 %}
+              <a href="{{ paginator.previous_page_path | relative_url }}#work">
+                {{ page }}
+              </a>
+            {% else %}
+              <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}#work ">
+                {{ page }}
+              </a>
+            {% endif %}
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | relative_url }}#work">
+              Next &raquo;
+            </a>
+          {% else %}
+            <span>Next &raquo;</span>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% include footer.html %}

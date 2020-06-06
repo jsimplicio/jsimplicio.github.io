@@ -10,20 +10,6 @@
   }
 }
 
-.tag {
-  background: rgba($text-color,.1);
-  color: rgba($text-color,.6);
-  display: inline-block;
-  font-family: $secondary-font;
-  font-size: $font-small;
-  margin: $spacer-xsmall $spacer-xxsmall $spacer-xxsmall 0;
-  padding: .25em $spacer-xxsmall;
-
-  a {
-    display: block;
-  }
-}
-
 .post-meta {
   color: #888;
   display: block;
@@ -78,10 +64,4 @@
 
 .cp_embed_wrapper {
   margin-bottom: $spacer-normal;
-}
-
-.posts-in-year {
-  li {
-    list-style-type: none;
-  }
 }
