@@ -1,7 +1,8 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="17" y="30" width="94" height="68" rx="3" fill="url(#paint0_linear)" stroke="#444444" stroke-width="2"/>
-<rect x="68" y="51" width="20" height="2" rx="1" fill="#4F4F4F"/>
-<rect x="24" y="76" width="20" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="68" y="51" width="29" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="24" y="76" width="24" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="24" y="80" width="12" height="2" rx="1" fill="#4F4F4F"/>
 <rect x="95" y="37" width="10" height="2" rx="1" fill="#4F4F4F"/>
 <rect x="83" y="37" width="10" height="2" rx="1" fill="#4F4F4F"/>
 <rect x="71" y="37" width="10" height="2" rx="1" fill="#4F4F4F"/>
