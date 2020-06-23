@@ -4,7 +4,7 @@ title:  "Pay as you go when launching a project"
 date:   2017-4-25
 categories: product design
 hero_image: "/../assets/images/4-25-2017-hero.png"
-hero_color: "#DEDEDE"
+hero_color: "#ECF3FD"
 problem_statement: "Pay per project researchers need a way to pay for a project when launching it."
 ---
 
