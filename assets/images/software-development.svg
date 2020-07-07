@@ -1,9 +1,8 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="17" y="30" width="94" height="68" rx="3" fill="#BDBDBD" stroke="#444444" stroke-width="2"/>
-<path d="M17 33C17 31.3431 18.3431 30 20 30H23V98H20C18.3431 98 17 96.6569 17 95V33Z" fill="#E0E0E0" stroke="#444444" stroke-width="2"/>
-<rect x="23" y="30" width="20" height="68" fill="url(#paint0_linear)" stroke="#444444" stroke-width="2"/>
-<path d="M28.6 34.2C28.1582 33.8686 27.5314 33.9582 27.2 34.4C26.8686 34.8418 26.9582 35.4686 27.4 35.8L28.6 34.2ZM27.4 40.2C26.9582 40.5314 26.8686 41.1582 27.2 41.6C27.5314 42.0418 28.1582 42.1314 28.6 41.8L27.4 40.2ZM27.4 35.8L30.3333 38L31.5333 36.4L28.6 34.2L27.4 35.8ZM30.3333 38L27.4 40.2L28.6 41.8L31.5333 39.6L30.3333 38ZM30.3333 38H30.3333L31.5333 39.6C32.6 38.8 32.6 37.2 31.5333 36.4L30.3333 38Z" fill="#444444"/>
-<rect x="49" y="36" width="56" height="56" rx="1" fill="url(#paint1_linear)" stroke="#444444" stroke-width="2"/>
+<rect x="17" y="30" width="94" height="68" rx="3" fill="#E0E0E0" stroke="#444444" stroke-width="2"/>
+<path d="M20 30H43V98H20C18.3431 98 17 96.6569 17 95V33C17 31.3431 18.3431 30 20 30Z" fill="#E0E0E0" stroke="#444444" stroke-width="2"/>
+<path d="M24.6 36.2C24.1582 35.8686 23.5314 35.9582 23.2 36.4C22.8686 36.8418 22.9582 37.4686 23.4 37.8L24.6 36.2ZM23.4 42.2C22.9582 42.5314 22.8686 43.1582 23.2 43.6C23.5314 44.0418 24.1582 44.1314 24.6 43.8L23.4 42.2ZM23.4 37.8L26.3333 40L27.5333 38.4L24.6 36.2L23.4 37.8ZM26.3333 40L23.4 42.2L24.6 43.8L27.5333 41.6L26.3333 40ZM26.3333 40L26.3333 40L27.5333 41.6C28.6 40.8 28.6 39.2 27.5333 38.4L26.3333 40Z" fill="#444444"/>
+<rect x="49" y="36" width="56" height="56" rx="1" fill="#444444" stroke="#444444" stroke-width="2"/>
 <rect x="57" y="39" width="20" height="2" rx="1" fill="#E0E0E0"/>
 <rect x="57" y="43" width="29" height="2" rx="1" fill="#E0E0E0"/>
 <rect x="57" y="47" width="25" height="2" rx="1" fill="#E0E0E0"/>
@@ -25,14 +24,4 @@
 <circle cx="53" cy="80" r="1" fill="#BDBDBD"/>
 <circle cx="53" cy="84" r="1" fill="#BDBDBD"/>
 <circle cx="53" cy="88" r="1" fill="#BDBDBD"/>
-<defs>
-<linearGradient id="paint0_linear" x1="33" y1="29" x2="33" y2="99" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F2F2F2"/>
-<stop offset="1" stop-color="#BDBDBD"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x1="49.5" y1="35" x2="106" y2="93" gradientUnits="userSpaceOnUse">
-<stop stop-color="#828282"/>
-<stop offset="1"/>
-</linearGradient>
-</defs>
 </svg>

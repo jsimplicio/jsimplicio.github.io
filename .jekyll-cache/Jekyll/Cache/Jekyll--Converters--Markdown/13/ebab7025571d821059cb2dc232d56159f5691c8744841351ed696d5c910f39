@@ -1,0 +1,90 @@
+I"�<p>The Diary team launched a new Analysis tab with improvements that give researchers the ability to quantify data from open-ended answers. Close-ended answers can be easier to quantify in charts, like the data seen in the Summary tab.</p>
+
+<div class="problem-statement"> 
+  <h2>Problem statement</h2>
+  <p>Researchers want to make meaningful data patterns from answers to open-ended questions.</p>
+</div>
+
+<h2 id="objective">Objective</h2>
+<ul>
+  <li>The Analysis feature has features that help researchers researchers get a quick understanding of open-ended answers through tools that generate patterns.</li>
+</ul>
+
+<h2 id="key-result">Key Result</h2>
+<ul>
+  <li>Researchers can quickly create meaningful value out of answers to open-ended questions.</li>
+</ul>
+
+<h2 id="the-features">The features</h2>
+<p>The following images belong to a research project that examined the experience of customers that were provided a trial of the <a href="https://www.birchbox.com/">Birchbox</a> service, a personalized box delivery subscription.</p>
+
+<p>The following are screenshots on the analysis of one of the open-ended questions in the Birchbox project: “Is there anything that’s surprising or unexpected, in terms of contents of your box or the overall experience?”</p>
+
+<p>The following are the filter tools provided for word analysis:</p>
+
+<ul>
+  <li>Question picker</li>
+  <li>Filter top words (10, 25, or 50)</li>
+  <li>See and filter words by part of speech</li>
+  <li>Filter based on the rating of responses (positive, negative, or unrated)</li>
+  <li>Eliminate words from the chart by adding them to a stop word list</li>
+</ul>
+
+<h2 id="early-sketches">Early Sketches</h2>
+<figure>
+	<img src="/assets/images/analysis-sketch-1.png" title="Design explorations around the word cluster" />
+	<figcaption class="media-caption center">Design explorations around the word cluster</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-sketch-2.png" title="Design explorations around the word cluster" />
+	<figcaption class="media-caption center">Design explorations around the word cluster</figcaption>
+</figure>
+
+<h2 id="final-designs">Final designs</h2>
+
+<figure>
+	<img src="/assets/images/analysis-1.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-2.png" title="Filter responses list below by a word, or create a stop word" />
+	<figcaption class="media-caption center">Filter responses list below by a word, or create a stop word</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-3.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-4.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-5.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-6.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-7.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-8.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+
+<figure>
+	<img src="/assets/images/analysis-9.png" title="The word cloud analysis of an open-ended question" />
+	<figcaption class="media-caption center">The word cloud analysis of an open-ended question</figcaption>
+</figure>
+:ET
