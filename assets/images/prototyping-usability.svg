@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="29" y="79" width="36" height="8" rx="2" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="29" y="63" width="36" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="29" y="67" width="36" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="29" y="71" width="20" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="36" y="91" width="22" height="2" rx="1" fill="#4F4F4F"/>
+<rect x="74" y="64" width="24" height="24" rx="4" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<rect x="78.3846" y="67" width="23.4977" height="1.95814" rx="0.97907" transform="rotate(45 78.3846 67)" fill="#BDBDBD"/>
+<rect x="95" y="68.3846" width="23.4977" height="1.95814" rx="0.97907" transform="rotate(135 95 68.3846)" fill="#BDBDBD"/>
+<path d="M83 95.5675V85.1948C83 84.3371 84.009 83.8773 84.6562 84.4402L92.4822 91.2454C93.1801 91.8523 92.7509 93 91.826 93H91.1343C90.371 93 89.8891 93.8207 90.261 94.4872L91.9856 97.578C92.265 98.0789 92.0668 98.7118 91.5514 98.9637L90.2942 99.5782C89.8121 99.8138 89.2299 99.6269 88.975 99.1547L87.1042 95.6882C86.7852 95.0971 85.9858 94.9823 85.5133 95.4598L84.7109 96.2708C84.0824 96.906 83 96.461 83 95.5675Z" fill="white" stroke="#4F4F4F" stroke-width="2"/>
+<rect x="29" y="29" width="69" height="28" rx="2" fill="#F2F2F2" stroke="#4F4F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
