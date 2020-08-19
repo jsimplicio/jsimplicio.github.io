@@ -1,7 +1,6 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="36" y="68" width="24" height="24" rx="12" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M78.2245 36.4242C78.9707 34.985 81.0293 34.985 81.7755 36.4242L92.4856 57.0794C93.1759 58.4107 92.2097 60 90.7101 60H69.2899C67.7903 60 66.8241 58.4107 67.5144 57.0794L78.2245 36.4242Z" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="36" y="36" width="24" height="24" rx="2" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.2245 36.4242C46.9707 34.985 49.0293 34.985 49.7755 36.4242L60.4856 57.0794C61.1759 58.4107 60.2097 60 58.7101 60H37.2899C35.7903 60 34.8241 58.4107 35.5144 57.0794L46.2245 36.4242Z" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36" y="68" width="24" height="24" rx="2" fill="#F2F2F2" stroke="#828282" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="92" y="68" width="24" height="24" rx="12" transform="rotate(90 92 68)" fill="white" stroke="#4F4F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 5"/>
 <rect x="74" y="79" width="12" height="2" rx="1" fill="#4F4F4F"/>
 <rect x="81" y="74" width="12" height="2" rx="1" transform="rotate(90 81 74)" fill="#4F4F4F"/>
