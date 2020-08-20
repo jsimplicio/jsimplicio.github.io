@@ -5,6 +5,7 @@ date:   2016-08-11
 categories: product design
 hero_image: "/../assets/images/8-11-2016-hero.png"
 hero_color: "#0298FF"
+problem_statement: "An exploration for onboarding Artist Shops shop owners."
 ---
 I proposed a new welcome page design for new and recurring shop owners. The dashboard is the first thing new shop owners see when they login for the first time, so I wanted to provide options that onboard them into all corners of the Artist Shops platform. For recurring shop owners, I showed a summary of their sales activity, and tips for promoting and maintaining their Artist Shop.
 
