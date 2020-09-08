@@ -4,7 +4,7 @@ title:  "Launching a Diary study"
 date:   2017-12-7
 categories: product design
 hero_image: "/../assets/images/12-7-2017-2-hero.png"
-hero_color: "#2BAE92"
+hero_color: "#FF8FCB"
 problem_statement: "Researchers need the ability to release a collection of consecutive parts of their research study to participants"
 ---
 

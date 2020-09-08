@@ -4,8 +4,8 @@ title:  "Breadcrumb component for Seeds"
 date:   2020-3-18
 categories: product design system
 hero_image: "/../assets/images/3-18-2020-hero.png"
-hero_color: "#6F5ED3"
-problem_statement: "Design, build, and release a breadcrumb component for Sprout Social's design system."
+hero_color: "#FF8FCB"
+problem_statement: "Design, build, document, and release a breadcrumb component for Sprout Social's design system."
 ---
 
 {% include problem_statement.md %}
@@ -45,3 +45,8 @@ My proposal provided enough starting material to get actionable feedback from en
 
 After receiving feedback from my engineer peers, I was able to make adjustments to the development strategy. I then proceeded to build the component. By writing a proposal ahead of developing code, I was able to get all of my ideas down and get feedback as well, which made the process of building the actual component very smooth! I was able to receive more code review feedback during this round of the build process.
 
+## Breadcrumb in use
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-3.png" title="Breadcrumb development proposal" />
+	<figcaption class="media-caption center">Breadcrumb development proposal</figcaption>
+</figure>

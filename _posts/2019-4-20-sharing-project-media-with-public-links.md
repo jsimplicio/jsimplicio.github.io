@@ -4,7 +4,7 @@ title:  "Sharing project media with public links"
 date:   2019-4-20
 categories: product design
 hero_image: "/../assets/images/4-20-2019-hero.png"
-hero_color: "#FFECEF"
+hero_color: "#FFF28F"
 problem_statement: "Researchers want to share project data with colleagues outside of dscout."
 ---
 

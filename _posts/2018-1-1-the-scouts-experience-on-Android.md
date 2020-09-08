@@ -4,7 +4,7 @@ title:  "The scout's experience on Android"
 date:   2018-1-1
 categories: product mobile design
 hero_image: "/../assets/images/1-1-2018-hero.png"
-hero_color: "#197FF6"
+hero_color: "#B5FF8F"
 problem_statement: "Android scouts need an experience for going through the re-designed dscout app that introduced missions parts."
 ---
 The dscout Diary researcher experience was redesigned with the launch of [Mission parts](/product/design/analyzing-entries-with-dscout/). Research studies are now capable of being divided up into parts, missions don't have to be analyzed separately, they're a part of a whole.
@@ -109,19 +109,19 @@ The following are a couple recent reviews we have received from Scouts on the Go
 
 
 <blockquote>
-	Dscout is an excellent app. It is easy to use and intuitive.
+	<q>Dscout is an excellent app. It is easy to use and intuitive.</q>
 </blockquote>
 <date class="post-meta">April 25, 2018</date>
 <strong>Gwen Geronimo</strong>
 
 <blockquote>
-	I really enjoy Dscout. This app is simplistic and is easy to follow.
+	<q>I really enjoy Dscout. This app is simplistic and is easy to follow.</q>
 </blockquote>
 <date class="post-meta">April 25, 2018</date>
 <strong>Adriana Auten</strong>
 
 <blockquote>
-	This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!
+	<q>This is WONDERFUL. I've enjoyed the missions I've participated in and made some money doing it. Highly recommended!</q>
 </blockquote>
 <date class="post-meta">July 25, 2018</date>
 <strong>Terry Dellow</strong>

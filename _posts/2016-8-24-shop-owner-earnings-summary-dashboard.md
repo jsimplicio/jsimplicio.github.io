@@ -4,7 +4,7 @@ title:  "Shop owner earnings summary dashboard"
 date:   2016-08-24
 categories: product design
 hero_image: "/../assets/images/8-24-2016-hero.png"
-hero_color: "#007CCE"
+hero_color: "#B5FF8F"
 problem_statement: "An exploration of a sales summary dashboard for Artist Shops shop owners."
 ---
 I designed a proposal for an upcoming earnings dashboard, where shop owners can see a summary of their sales activity.

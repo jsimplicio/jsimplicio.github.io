@@ -1,0 +1,6 @@
+I"Ô<p>At dscout, I spent over two years helping build Particle, our first component library.</p>
+
+<p>Dscout went through a major platform re-design that started as a trial on some parts of the system. This re-design was built with the building blocks of particle. The system is built on React, and back when it first started I generated its counter part UI kit in Sketch for the team.</p>
+
+<p>I took what our lead product designer Timo Kuhn created, and I documented it in Sketch, eventually turning my documentation into a comprehensive and re-usable UI kit that was adopted by dscoutâ€™s product designers. Some of the components and interface bits themselves were also designed and shipped to our code repository by me.</p>
+:ET
