@@ -2,7 +2,7 @@
 layout: post
 title:  "The scout's experience on Android"
 date:   2018-1-1
-categories: product mobile design
+categories: mobile
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#B5FF8F"
 problem_statement: "Android scouts need an experience for going through the re-designed dscout app that introduced missions parts."

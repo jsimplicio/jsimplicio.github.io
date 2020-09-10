@@ -2,7 +2,7 @@
 layout: post
 title:  "Adding collaborators to a project"
 date:   2018-10-22
-categories: product design
+categories: [user interface]
 hero_image: "/../assets/images/10-22-2018-hero.png"
 hero_color: "#FFF28F"
 problem_statement: "Researchers want to add project collaborators and set collaborators permission settings."

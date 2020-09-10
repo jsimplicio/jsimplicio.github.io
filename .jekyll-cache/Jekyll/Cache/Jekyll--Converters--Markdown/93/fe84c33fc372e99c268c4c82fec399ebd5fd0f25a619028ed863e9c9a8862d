@@ -1,0 +1,31 @@
+I"r<p>I was tasked to design an experience for content that loads at separate speeds on Sprout’s month view calendar. I was inspired by our analytics team use of a skeleton of the UI for loading content.</p>
+
+<figure>
+	<img src="../../../../../../assets/images/skeleton-1.png" title="Use of a skeleton loaders in Analytics" />
+	<figcaption class="media-caption center">Use of a skeleton loaders in Analytics</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/skeleton-2.png" title="Example of content loaded after the skeleton screen" />
+	<figcaption class="media-caption center">Example of loaded content after the skeleton screen</figcaption>
+</figure>
+
+<p>I researched skeleton loaders, and learned that they provide a perceived performance experience to users, making them feel like there’s little to no wait time when content loads. Perceived performance is achieved when we put skeleton in place of the content that will be loaded. Most of the content in our app is either a circular avatar, or square shaped or text. The Skeleton component is flexible and let’s the user set a height, width, and border radius in order to achieve almost any shape of content inside the Sprout app.</p>
+
+<p>I took a pattern inside the Analytics portion of our app, and brought it to our design system Seeds, so that we could all share it across the product.</p>
+
+<figure>
+	<img src="../../../../../../assets/images/skeleton-3.png" title="Example of loaded content after the skeleton screen" />
+	<figcaption class="media-caption center">Example of loaded content after the skeleton screen</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/skeleton-4.png" title="Implementing skeleton loading in a calendar view" />
+	<figcaption class="media-caption center">Implementing skeleton loading in a calendar view</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/skeleton-5.png" title="Implementing skeleton loading when fetching assets in the asset library  " />
+	<figcaption class="media-caption center">Implementing skeleton loading when fetching assets in the asset library</figcaption>
+</figure>
+:ET

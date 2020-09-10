@@ -2,7 +2,7 @@
 layout: post
 title:  "Breadcrumb component for Seeds"
 date:   2020-3-18
-categories: product design system
+categories: [design systems]
 hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#FF8FCB"
 problem_statement: "Design, build, document, and release a breadcrumb component for Sprout Social's design system."
@@ -46,7 +46,14 @@ My proposal provided enough starting material to get actionable feedback from en
 After receiving feedback from my engineer peers, I was able to make adjustments to the development strategy. I then proceeded to build the component. By writing a proposal ahead of developing code, I was able to get all of my ideas down and get feedback as well, which made the process of building the actual component very smooth! I was able to receive more code review feedback during this round of the build process.
 
 ## Breadcrumb in use
+Breadcrumb's first adoption was in Asset Library after we launched the folders feature. It began as a pattern in our design system, and it is now even used in other Sprout apps like Landscape.
+
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-3.png" title="Breadcrumb development proposal" />
-	<figcaption class="media-caption center">Breadcrumb development proposal</figcaption>
+	<figcaption class="media-caption center">Breadcrumb in use inside Sprout Social's Asset Library</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-4.png" title="Breadcrumb development proposal" />
+	<figcaption class="media-caption center">Breadcrumb in use on <a target="_blank" title="Landscape" href="https://sproutsocial.com/landscape/">Landscape</a></figcaption>
 </figure>

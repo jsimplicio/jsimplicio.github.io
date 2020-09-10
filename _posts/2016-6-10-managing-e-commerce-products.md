@@ -2,7 +2,7 @@
 layout: post
 title: "Managing e-commerce products"
 date: 2016-06-10
-categories: product design
+categories: [e-commerce, usability testing]
 hero_image: "/../assets/images/6-10-2016-hero.png"
 hero_color: "#FF8FCB"
 problem_statement: "Providing Artist Shops shop owners control over managing and editing their products."

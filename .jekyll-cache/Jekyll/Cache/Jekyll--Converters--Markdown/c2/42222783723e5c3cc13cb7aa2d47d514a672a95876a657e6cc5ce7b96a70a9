@@ -1,0 +1,17 @@
+I"�<p>I built Sprout Social’s Figma first Figma plugin, a file setup and organizer for the product design team. It all started with one of our lead product designers coming up with a system for file covers that represent projects, plus page designs that divide content according to what stage of the process the designing is at. The goal was to turn this into a template for everyone, so that it would be easier for designers, engineers, and product managers to navigate anyone’s files.</p>
+
+<figure>
+	<img src="../../../../../../assets/images/plugin-1.png" title="Figma Plugin for getting your project started at Sprout Social" />
+	<figcaption class="media-caption center">Figma Plugin for getting your project started at Sprout Social</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/plugin-2.png" title="What the plugin generates based on input" />
+	<figcaption class="media-caption center">Filling out the plugin's form</figcaption>
+</figure>
+
+<figure>
+	<img src="../../../../../../assets/images/plugin-3.png" title="What the plugin generates based on input" />
+	<figcaption class="media-caption center">What the plugin generates based on input</figcaption>
+</figure>
+:ET

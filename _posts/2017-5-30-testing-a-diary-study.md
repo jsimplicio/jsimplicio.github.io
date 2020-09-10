@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing a Diary study"
 date:   2017-5-30
-categories: product design
+categories: [user interface]
 hero_image: "/../assets/images/5-30-2017-hero.png"
 hero_color: "#FFBE8F"
 problem_statement: "Researchers need the ability to test their research studies before launching them to all participants."

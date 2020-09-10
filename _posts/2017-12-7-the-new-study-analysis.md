@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "The new Diary study analysis dashboard"
+title:  "The qualitative analysis dashboard"
 date:   2017-12-7
-categories: product design
+categories: [data visualization]
 hero_image: "/../assets/images/12-7-2017-hero.png"
 hero_color: "#A48FFF"
-problem_statement: "Researchers need analytics dashboards that provide informative charts that quantify research study answers."
+problem_statement: "Researchers need analytics dashboards that provide charts representing research study answers."
 ---
 The new dscout Diary launched in Q4 of 2017. For a year, we worked on a new researcher experience. Projects are easier to run, conducting research and data analysis is faster.
 

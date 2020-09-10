@@ -2,7 +2,7 @@
 layout: post
 title:  "Inviting research participants to a project"
 date:   2017-6-1
-categories: product design
+categories: [user experience, user interface]
 hero_image: "/../assets/images/6-1-2017-hero.png"
 hero_color: "#FF8F8F"
 problem_statement: "Researchers need a better way to invite research participants to their projects."

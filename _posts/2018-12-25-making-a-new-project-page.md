@@ -2,7 +2,7 @@
 layout: post
 title:  "Making a new project dashboard"
 date:   2018-12-25
-categories: product design
+categories: [user experience]
 hero_image: "/../assets/images/12-25-2018-2-hero.png"
 hero_color: "#FF8F8F"
 problem_statement: "Researchers need a project dashboard that acts as a home for the research projects."

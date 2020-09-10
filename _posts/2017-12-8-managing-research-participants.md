@@ -2,7 +2,7 @@
 layout: post
 title:  "Managing research participants"
 date:   2017-12-8
-categories: product design
+categories: [user interface]
 hero_image: "/../assets/images/8-12-2017-hero.png"
 hero_color: "#8FD5FF"
 problem_statement: "Researchers need to manage the progress of their research participants in the research study."

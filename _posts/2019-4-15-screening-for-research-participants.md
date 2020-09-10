@@ -2,7 +2,7 @@
 layout: post
 title:  "Screening for research participants"
 date:   2019-4-15
-categories: product design
+categories: [user interface]
 hero_image: "/../assets/images/4-15-2019-hero.png"
 hero_color: "#8FD5FF"
 problem_statement: "Researchers need to screen for the best research participants from a pool of hundreds of thousands of people provided by dscout."

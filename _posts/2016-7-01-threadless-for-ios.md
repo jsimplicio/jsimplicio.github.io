@@ -2,7 +2,7 @@
 layout: post
 title:  "Threadless for iOS"
 date:   2016-07-01
-categories: product design
+categories: [mobile]
 hero_image: "/../assets/images/7-01-2016-hero.png"
 hero_color: "#A48FFF"
 problem_statement: "Exploring improved experiences for the Threadless iOS app."

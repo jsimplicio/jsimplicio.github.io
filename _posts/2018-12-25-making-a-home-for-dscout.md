@@ -2,7 +2,7 @@
 layout: post
 title:  "Making a home for dscout"
 date:   2018-12-25
-categories: product design
+categories: [homepage]
 hero_image: "/../assets/images/12-25-2018-hero.png"
 hero_color: "#FFBE8F"
 problem_statement: "Design a previously unexisting home page that primarily houses research projects."

@@ -2,7 +2,7 @@
 layout: post
 title:  "Shop owner earnings summary dashboard"
 date:   2016-08-24
-categories: product design
+categories: [e-commerce, user interface]
 hero_image: "/../assets/images/8-24-2016-hero.png"
 hero_color: "#B5FF8F"
 problem_statement: "An exploration of a sales summary dashboard for Artist Shops shop owners."
