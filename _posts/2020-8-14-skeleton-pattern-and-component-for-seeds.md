@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Skeleton component for Seeds"
+title:  "Skeleton pattern and component for Seeds"
 date:   2020-6-12
 categories: [design systems]
 hero_image: "/../assets/images/8-14-2020-hero.png"

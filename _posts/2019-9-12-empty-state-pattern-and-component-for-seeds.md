@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Empty state component for Seeds"
+title:  "Empty state pattern and component for Seeds"
 date:   2019-9-12
 categories: [design systems]
 hero_image: "/../assets/images/9-12-2019-hero.png"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Breadcrumb component for Seeds"
+title:  "Breadcrumb pattern and component for Seeds"
 date:   2020-3-18
 categories: [design systems]
 hero_image: "/../assets/images/3-18-2020-hero.png"
