@@ -37,3 +37,18 @@ In terms of adoption, dscout designers utilized the UI kit for designing and pro
 	<img src="{{ site.baseurl }}/assets/images/particle-4.png" title="Particle component library" />
 	<figcaption class="media-caption center">Particle component library</figcaption>
 </figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/particle-5.png" title="Particle component library" />
+	<figcaption class="media-caption center">Particle component library</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/particle-6.png" title="Particle component library" />
+	<figcaption class="media-caption center">Particle component library</figcaption>
+</figure>
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/particle-7.png" title="Particle component library" />
+	<figcaption class="media-caption center">Particle component library</figcaption>
+</figure>
