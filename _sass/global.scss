@@ -128,7 +128,7 @@ li li {
 
 
 blockquote {
-  margin: $spacer-normal auto;
+  margin: $spacer-small auto;
   padding: $spacer-small 0 0 $spacer-normal;
   position: relative;
   
@@ -253,4 +253,24 @@ blockquote {
   min-width: 200px;
   max-width: 300px;
   height: auto;
+}
+
+.under-construction {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  display: flex;
+  justify-content: center;  
+  padding-top: $spacer-large * 2;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  p {
+    text-shadow: 0px 8px 32px rgba(0,0,0,0.5);
+    color: #FFFFFF;
+    font-size: $font-xxlarge;
+    font-weight: bold;
+  }
 }

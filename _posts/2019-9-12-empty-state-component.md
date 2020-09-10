@@ -10,6 +10,8 @@ problem_statement: "Design, build, document, and release an empty state componen
 
 During Sprout Social's recent major platform re-design, I helped our engineering and product design teams by identifying patterns across the app which could be re-usable components in our new design system, Seeds. The empty state component was my first major contribution to Seeds, where I identified a need, researched and designed the component upon receiving team feedback, and shipped it to our system.
 
+The empty state component has properties that can be used when needed. The image is required but the title, description, and button are options one can take to build an empty state in Sprout. Below are a few examples in-app.
+
 <figure>
 	<img src="../../../../../../assets/images/empty-state-1.png" title="Empty State for Find Content inside Sprout Social" />
 	<figcaption class="media-caption center">Empty State for Find Content inside Sprout Social</figcaption>
