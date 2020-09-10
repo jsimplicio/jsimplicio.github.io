@@ -271,8 +271,11 @@ blockquote {
     text-shadow: 0px 8px 32px rgba(0,0,0,0.5);
     color: #FFFFFF;
     font-size: $font-large;
+    height: 100vh;
     font-weight: bold;
     padding: 0 $spacer-normal;
+    position: absolute;
+    top: 50vh;
 
     @include breakpoint(1024px) {
       font-size: $font-xxlarge;
