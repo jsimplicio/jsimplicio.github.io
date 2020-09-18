@@ -12,7 +12,7 @@ exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md, vendor]
 
 # Build settings
 markdown: kramdown
-plugins: [autoprefixer-rails, jekyll-paginate]
+plugins: [autoprefixer-rails]
 permalink: /:categories/:title/
 
 # Variables
@@ -30,6 +30,3 @@ navigation:
     url: /about
   - title: work
     url: /work
-
-paginate: 10
-paginate_path: "work/page:num"

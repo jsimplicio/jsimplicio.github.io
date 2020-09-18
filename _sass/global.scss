@@ -246,6 +246,10 @@ blockquote {
 .site-footer {
   padding: $spacer-large;
   text-align: center;
+
+  ul {
+    list-style-type: none;
+  }
 }
 
 .me-photo {

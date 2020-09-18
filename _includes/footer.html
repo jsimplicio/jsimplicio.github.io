@@ -1,28 +1,7 @@
 <footer class="site-footer">
-  <p>Have a good <span id="js-time"></span></p>
-
-  <p>&copy; Jules Simplicio 2016-2020</p>
+  <ul>
+    <li>&copy; Jules Simplicio ‧ 2020</li>
+    <li><a target="_blank" href="mailto:hi@julessimplic.io" title="Email me">Email me</a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/in/jules-simplicio-they-them-theirs-983611126/" title="LinkedIn">LinkedIn</a></li>
+  </ul>
 </footer>
-<script>
-  let date =  new Date();
-  let hours = date.getHours();
-  let time;
-
-  if ( hours >= 6 && hours <= 11 ) {
-    time = "morning ☕️"
-  }
-
-  else if ( hours >= 12 && hours <= 17) {
-    time = "afternoon ✌️"
-  }
-
-  else if ( hours >= 18 && hours <= 20) {
-    time = "evening ✌️"
-  }
-
-  else {
-    time = "night 😴"
-  }
-
-  document.getElementById('js-time').innerHTML = time;
-</script>

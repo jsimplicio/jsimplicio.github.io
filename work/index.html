@@ -8,30 +8,9 @@ title: Work - Jules Simplicio
 <section class="work">
   <h2 class="center">Work</h2>
   <div class="work-wrapper">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       {% include project_card.md %}
     {% endfor %}
-    <div class="page--navigation">
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | relative_url }}">
-              &laquo; Previous
-            </a>
-          {% else %}
-            <span>&laquo; Previous</span>
-          {% endif %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | relative_url }}#work">
-              Next &raquo;
-            </a>
-          {% else %}
-            <span>Next &raquo;</span>
-          {% endif %}
-        </div>
-      {% endif %}
-    </div>
   </div>
 </section>
 {% include footer.html %}
