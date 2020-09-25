@@ -4,7 +4,7 @@ title:  "Breadcrumb pattern and component for Seeds"
 date:   2020-3-18
 categories: [design systems]
 hero_image: "/../assets/images/3-18-2020-hero.png"
-hero_color: "#FF8FCB"
+hero_color: "#FF8FCB, #FF8F8F"
 problem_statement: "Design, build, document, and release a breadcrumb component for Sprout Social's design system."
 ---
 

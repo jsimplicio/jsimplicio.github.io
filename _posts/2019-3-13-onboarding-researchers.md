@@ -4,7 +4,7 @@ title:  "Onboarding researchers"
 date:   2019-3-13
 categories: [onboarding]
 hero_image: "/../assets/images/3-13-2019-hero.png"
-hero_color: "#FF8FCB"
+hero_color: "#FF8FCB, #FF8F8F"
 problem_statement: "New researchers need an onboarding experience to guide them through the product and introduce them to dscout."
 ---
 

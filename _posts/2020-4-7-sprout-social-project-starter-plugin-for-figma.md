@@ -4,7 +4,7 @@ title:  "Sprout Social project starter plugin for Figma"
 date:   2020-4-9  
 categories: [plugins]
 hero_image: "/../assets/images/4-7-2020-hero.png"
-hero_color: "#A48FFF"
+hero_color: "#A48FFF, #FF8FCB"
 problem_statement: "Research and build a Figma plugin that for the product design team to keep their files organized similarly."
 ---
 
