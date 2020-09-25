@@ -56,8 +56,12 @@
     width: 100%;
   }
 
-  @include breakpoint(560px) {
+  @include breakpoint(480px) {
     height: 25vh;
+  }
+
+  @include breakpoint(560px) {
+    height: 30vh;
   }
 
   @include breakpoint(800px) {
