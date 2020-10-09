@@ -1,28 +1,26 @@
----
-layout: post
-title:  "Skeleton pattern and component for Seeds"
-date:   2020-6-12
-categories: [design systems]
-hero_image: "/../assets/images/8-14-2020-hero.png"
-hero_color: "#B5FF8F, #8FD5FF"
-role: User interface design and Front-end development
-team: Design Systems team, Front-end developer, and me
-problem_statement: "Design, build, document, and release a skeleton component for Sprout Social's design system."
----
-
+I"ë
 <table>
 	<tr>
-		<th>Role</th>
-		<th>Team</th>
-	</tr>
+		<th>
+		Role
+		<th>
+	&lt;/tr&gt;
 	<tr>
-		<td>{{ page.role }}</td>
-		<td>{{ page.team }}	</td>
+		<th>
+		<div>
+  <b>Role</b>
+  <p>User interface design and Front-end development</p>
+</div>
+		</th>
 	</tr>
+&lt;/table&gt;
 
-</table>
+<div>
+  <b>Team</b>
+  <p>Design Systems team, Front-end developer, and me</p>
+</div>
 
-I was tasked to design an experience for content loading at separate speeds on Sprout Social's month view calendar. I was inspired by our analytics team use of a skeleton of the UI for loading content.
+I was tasked to design an experience for content that loads at separate speeds on Sprout's month view calendar. I was inspired by our analytics team use of a skeleton of the UI for loading content.
 
 I took a pattern inside the Analytics portion of our app, and brought it to our design system Seeds, so that we could all share it across the product.
 
@@ -59,3 +57,5 @@ Below I used Skeletons to give a better loading experience for Asset Library in 
 	<img src="../../../../../../assets/images/skeleton-6.png" title="Loaded content in asset library after skeleton screen" />
 	<figcaption class="media-caption center">Loaded content in asset library after skeleton screen</figcaption>
 </figure>
+</th></th></tr></table>
+:ET

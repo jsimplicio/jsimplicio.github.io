@@ -5,8 +5,21 @@ date:   2019-9-9
 categories: [mobile]
 hero_image: "/../assets/images/9-9-2019-hero.png"
 hero_color: "#FFBE8F, #FFF28F"
+role: User interface design
+team: Product Design and Mobile
 problem_statement: "Social media managers want to add notes to their calendar so they can create reminders and content to better organize their calendar work."
 ---
+
+<table>
+	<tr>
+		<th>Role</th>
+		<th>Team</th>
+	</tr>
+	<tr>
+		<td>{{ page.role }}</td>
+		<td>{{ page.team }}	</td>
+	</tr>
+</table>
 
 {% include problem_statement.md %}
 

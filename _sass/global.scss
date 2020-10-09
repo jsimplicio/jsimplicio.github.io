@@ -80,6 +80,24 @@ iframe {
   width: 100%;
 }
 
+table {
+  border-collapse: separate;
+  border: 1px solid #DEDEDE;
+  border-radius: 8px;
+  margin-bottom: $spacer-normal;
+  width: 100%;
+}
+
+th {
+  background: #DEDEDE;
+  border-radius: 4px;
+}
+
+td {
+  padding: $spacer-xsmall;
+  width: 50%;
+}
+
 p {
   color: $text-color;
   padding-bottom: $spacer-small;

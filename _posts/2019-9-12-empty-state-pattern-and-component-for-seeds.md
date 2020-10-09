@@ -5,8 +5,21 @@ date:   2019-9-12
 categories: [design systems]
 hero_image: "/../assets/images/9-12-2019-hero.png"
 hero_color: "#FF8F8F, #FFBE8F"
+role: Front-end development
+team: Product Design, Design Systems, and me
 problem_statement: "Design, build, document, and release an empty state component for Sprout Social's design system."
 ---
+
+<table>
+	<tr>
+		<th>Role</th>
+		<th>Team</th>
+	</tr>
+	<tr>
+		<td>{{ page.role }}</td>
+		<td>{{ page.team }}	</td>
+	</tr>
+</table>
 
 During Sprout Social's recent major platform re-design, I helped our engineering and product design teams by identifying patterns across the app which could be re-usable components in our new design system, Seeds. The empty state component was my first major contribution to Seeds, where I identified a need, researched and designed the component upon receiving team feedback, and shipped it to our system.
 
