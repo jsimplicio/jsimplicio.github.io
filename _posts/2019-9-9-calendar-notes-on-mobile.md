@@ -10,16 +10,7 @@ team: Product Design and Mobile
 problem_statement: "Social media managers want to add notes to their calendar so they can create reminders and content to better organize their calendar work."
 ---
 
-<table>
-	<tr>
-		<th>Role</th>
-		<th>Team</th>
-	</tr>
-	<tr>
-		<td>{{ page.role }}</td>
-		<td>{{ page.team }}	</td>
-	</tr>
-</table>
+{% include team_and_role.md %}
 
 {% include problem_statement.md %}
 

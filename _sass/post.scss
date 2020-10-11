@@ -25,6 +25,12 @@
   }
 }
 
+.team--role th {
+  width: 30%;
+  text-align: left;
+  padding-left: $spacer-small;
+}
+
 .post-content {
   margin: 2em 0;
 }

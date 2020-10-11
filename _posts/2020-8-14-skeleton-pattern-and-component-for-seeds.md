@@ -10,16 +10,7 @@ team: Design Systems, Front-end developer, and me
 problem_statement: "Design, build, document, and release a skeleton component for Sprout Social's design system."
 ---
 
-<table>
-	<tr>
-		<th>Role</th>
-		<th>Team</th>
-	</tr>
-	<tr>
-		<td>{{ page.role }}</td>
-		<td>{{ page.team }}	</td>
-	</tr>
-</table>
+{% include team_and_role.md %}
 
 I was tasked to design an experience for content loading at separate speeds on Sprout Social's month view calendar. I was inspired by our analytics team use of a skeleton of the UI for loading content.
 

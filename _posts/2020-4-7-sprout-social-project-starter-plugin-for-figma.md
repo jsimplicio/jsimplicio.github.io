@@ -10,17 +10,7 @@ team: Design Systems and me
 problem_statement: "Research and build a Figma plugin that for the product design team to keep their files organized similarly."
 ---
 
-
-<table>
-	<tr>
-		<th>Role</th>
-		<th>Team</th>
-	</tr>
-	<tr>
-		<td>{{ page.role }}</td>
-		<td>{{ page.team }}	</td>
-	</tr>
-</table>
+{% include team_and_role.md %}
 
 I built Sprout Social's first Figma plugin, a file setup and organizer for the product design team. It all started with one of our lead product designers coming up with a system for file covers that represent projects, plus page designs that divide the file's content according to what stage the design is at. The goal of the initial templates was to help everyone in the team organize their files in a way that would be easy for designers, engineers, and product managers to navigate any designer's files.
 

@@ -9,16 +9,8 @@ role: User interface design and Front-end development
 team: Design Systems and me
 problem_statement: "Design, build, document, and release a breadcrumb component for Sprout Social's design system."
 ---
-<table>
-	<tr>
-		<th>Role</th>
-		<th>Team</th>
-	</tr>
-	<tr>
-		<td>{{ page.role }}</td>
-		<td>{{ page.team }}	</td>
-	</tr>
-</table>
+
+{% include team_and_role.md %}
 
 {% include problem_statement.md %}
 
