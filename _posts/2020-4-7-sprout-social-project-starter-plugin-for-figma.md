@@ -5,7 +5,7 @@ date:   2020-4-9
 categories: [plugins]
 hero_image: "/../assets/images/4-7-2020-hero.png"
 hero_color: "#A48FFF, #FF8FCB"
-role: Front-end development
+role: Front-end Development
 team: Design Systems and me
 problem_statement: "Research and build a Figma plugin that for the product design team to keep their files organized similarly."
 ---

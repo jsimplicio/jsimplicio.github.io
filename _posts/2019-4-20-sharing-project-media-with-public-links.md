@@ -5,8 +5,12 @@ date:   2019-4-20
 categories: [user interface]
 hero_image: "/../assets/images/4-20-2019-hero.png"
 hero_color: "#FFF28F, #B5FF8F"
+role: "Product Design and User Interface Design"
+team: "Front-end Developers, Product Manager, and me"
 problem_statement: "Researchers want to share project data with colleagues outside of dscout."
 ---
+
+{% include team_and_role.md %}
 
 {% include problem_statement.md %}
 

@@ -5,7 +5,7 @@ date:   2019-9-12
 categories: [design systems]
 hero_image: "/../assets/images/9-12-2019-hero.png"
 hero_color: "#FF8F8F, #FFBE8F"
-role: Front-end development
+role: Front-end Development
 team: Product Design, Design Systems, and me
 problem_statement: "Design, build, document, and release an empty state component for Sprout Social's design system."
 ---

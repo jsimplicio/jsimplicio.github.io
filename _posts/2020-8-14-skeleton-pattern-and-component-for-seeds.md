@@ -5,8 +5,8 @@ date:   2020-6-12
 categories: [design systems]
 hero_image: "/../assets/images/8-14-2020-hero.png"
 hero_color: "#B5FF8F, #8FD5FF"
-role: User interface design and Front-end development
-team: Design Systems, Front-end developer, and me
+role: User Interface Design and Front-end Development
+team: Design Systems, Front-end Developer, and me
 problem_statement: "Design, build, document, and release a skeleton component for Sprout Social's design system."
 ---
 
