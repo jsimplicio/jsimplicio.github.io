@@ -38,14 +38,19 @@ I researched skeleton loaders, and learned that they provide a perceived perform
 	<figcaption class="media-caption center">Implementing skeleton loading in a calendar view</figcaption>
 </figure>
 
+<figure>
+	<img src="../../../../../../assets/images/skeleton-5.png" title="Implementing skeleton loading in a calendar view" />
+	<figcaption class="media-caption center">Implementing skeleton loading in a calendar view</figcaption>
+</figure>
+
 Below I used Skeletons to give a better loading experience for Asset Library in Sprout, as a great amount of  different sized assets and folders are fetched.
 
 <figure>
-	<img src="../../../../../../assets/images/skeleton-5.png" title="Implementing skeleton loading when fetching assets in the asset library" />
+	<img src="../../../../../../assets/images/skeleton-6.png" title="Implementing skeleton loading when fetching assets in the asset library" />
 	<figcaption class="media-caption center">Implementing skeleton loading when fetching assets in the asset library</figcaption>
 </figure>
 
 <figure>
-	<img src="../../../../../../assets/images/skeleton-6.png" title="Loaded content in asset library after skeleton screen" />
+	<img src="../../../../../../assets/images/skeleton-7.png" title="Loaded content in asset library after skeleton screen" />
 	<figcaption class="media-caption center">Loaded content in asset library after skeleton screen</figcaption>
 </figure>
