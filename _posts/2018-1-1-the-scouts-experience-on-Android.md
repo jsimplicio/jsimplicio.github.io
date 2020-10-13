@@ -4,7 +4,7 @@ title:  "The scout's experience on Android"
 date:   2018-1-1
 categories: mobile
 hero_image: "/../assets/images/1-1-2018-hero.png"
-hero_color: "#B5FF8F, #8FD5FF"
+hero_color: "#8FD5FF"
 problem_statement: "Android scouts need an experience for going through the re-designed dscout app that introduced missions parts."
 ---
 The dscout Diary researcher experience was redesigned with the launch of [Mission parts](/product/design/analyzing-entries-with-dscout/). Research studies are now capable of being divided up into parts, missions don't have to be analyzed separately, they're a part of a whole.
