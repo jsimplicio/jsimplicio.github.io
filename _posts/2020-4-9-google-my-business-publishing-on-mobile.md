@@ -4,7 +4,7 @@ title:  "Google My Business publishing on mobile"
 date:   2020-4-9  
 categories: [mobile]
 hero_image: "/../assets/images/4-9-2020-hero.png"
-hero_color: "#A48FFF"
+hero_color: "#FF8FCB"
 problem_statement: "Composing and publishing Google My Business posts on Sprout for mobile."
 published: false
 ---

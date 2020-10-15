@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Making a new project dashboard"
+title:  "Making a new project page"
 date:   2018-12-25
 categories: [user experience]
 hero_image: "/../assets/images/12-25-2018-2-hero.png"
-hero_color: "#FFBE8F"
+hero_color: "#FF8FCB"
 problem_statement: "Researchers need a project dashboard that acts as a home for the research projects."
 ---
 

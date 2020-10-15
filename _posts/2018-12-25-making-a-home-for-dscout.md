@@ -4,8 +4,8 @@ title:  "Making a home for dscout"
 date:   2018-12-25
 categories: [homepage]
 hero_image: "/../assets/images/12-25-2018-hero.png"
-hero_color: "#FFF28F"
-problem_statement: "Design a previously unexisting home page that primarily houses research projects."
+hero_color: "#A48FFF"
+problem_statement: "Design a home page for dscout that houses research projects."
 ---
 We designed and launched a home for the dscout web app. The app lacked a home page. Researchers would log in and arrive at the last active project. First time researchers would arrive at an empty first project, which caused confusion.
 

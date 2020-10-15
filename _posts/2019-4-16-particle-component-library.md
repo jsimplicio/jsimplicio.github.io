@@ -4,7 +4,7 @@ title:  "Particle component library"
 date:   2019-4-16
 categories: [component libraries]
 hero_image: "/../assets/images/4-16-2019-hero.png"
-hero_color: "#8FD5FF"
+hero_color: "#B5FF8F"
 problem_statement: "Dscout's first component library."
 ---
 

@@ -4,7 +4,7 @@ title:  "Pay as you go when launching a project"
 date:   2017-4-25
 categories: [user experience]
 hero_image: "/../assets/images/4-25-2017-hero.png"
-hero_color: "#B5FF8F"
+hero_color: "#8FD5FF"
 problem_statement: "Researchers who run DIY projects need a payment flow to launch their projects."
 ---
 

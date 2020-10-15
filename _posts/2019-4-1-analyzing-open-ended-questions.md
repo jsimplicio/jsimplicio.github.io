@@ -4,7 +4,7 @@ title:  "Analyzing open-ended questions"
 date:   2019-4-1
 categories: [data visualization]
 hero_image: "/../assets/images/4-1-2019-hero.png"
-hero_color: "#FF8FCB"
+hero_color: "#FFBE8F"
 problem_statement: "Researchers want to make meaningful data patterns from answers to open-ended questions."
 ---
 
