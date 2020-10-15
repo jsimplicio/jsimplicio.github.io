@@ -68,26 +68,26 @@
   @include breakpoint(480px) {
     background-size: 100%;
     background-position: center 30%;
-    height: 40vh;
   }
 
   @include breakpoint(560px) {
     background-size: 100%;
     background-position: center 30%;
+    height: 40vh;
   }
 
   @include breakpoint(700px) {
-    background-size: 100%;
-    background-position: center 30%;
+    background-size: 80%;
+    background-position: center 20%;
     height: 50vh;
   }
 
   @include breakpoint(1024px) {
-    background-size: 80%;
+    height: 55vh;
   }
 
   @include breakpoint(1200px) {
-    background-size: 65%;
+    background-size: 60%;
   }
 }
 
