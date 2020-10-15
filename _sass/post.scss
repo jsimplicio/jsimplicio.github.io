@@ -49,12 +49,12 @@
 }
 
 .hero-image {
-  height: 40vh;
+  height: 30vh;
   margin: -10px -10px $spacer-normal -10px;
   position: relative;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center 20%;
+  background-position: center 15%;
 
   &:after {
     content: '';
@@ -63,6 +63,12 @@
     height: 100%;
     position: absolute;
     width: 100%;
+  }
+
+  @include breakpoint(480px) {
+    background-size: 100%;
+    background-position: center 30%;
+    height: 40vh;
   }
 
   @include breakpoint(560px) {
