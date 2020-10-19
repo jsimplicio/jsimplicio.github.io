@@ -266,7 +266,7 @@ blockquote {
 }
 
 .site-footer {
-  padding: $spacer-normal $spacer-large;
+  padding: 0 $spacer-large $spacer-large $spacer-large;
   text-align: center;
 
   ul {
@@ -275,7 +275,7 @@ blockquote {
 }
 
 .me-photo {
-  border-radius: 24px;
+  border-radius: 100%;
   min-width: 200px;
   max-width: 300px;
   height: auto;
