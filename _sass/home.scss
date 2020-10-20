@@ -1,24 +1,4 @@
-.home-intro {
-  font-size: 2rem;
+.intro {
+  padding-top: 0;
+  margin-top: $spacer-normal;
 }
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  padding: $spacer-normal 0;
-}
-
-.skill {
-  text-align: center;
-  flex: 100% 0 0;
-  padding: 0 $spacer-normal;
-
-  p {
-    font-size: $font-small;
-  }
-
-  @include breakpoint(560px) {
-    flex: 50% 0 0;
-  }
-}
-

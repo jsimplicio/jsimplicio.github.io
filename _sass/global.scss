@@ -30,7 +30,6 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 10px;
 }
 
 h1,
@@ -246,6 +245,7 @@ blockquote {
 
 .wrapper {
   max-width: 768px;
+  padding: $spacer-small;
 }
 
 .main {
@@ -270,18 +270,15 @@ blockquote {
 
 .work,
 .about,
-.tags {
-  margin: $spacer-normal auto 0 auto;
+.post {
+  margin: 0 auto;
   max-width: 768px;
   width: 100%;
-
-  @include breakpoint(1024px) {
-    max-width: 768px;
-  }
 }
 
 .work-wrapper {
   margin-top: $spacer-normal;
+  padding-top: 0;
 
   a {
     text-decoration: none;
@@ -298,9 +295,9 @@ blockquote {
 }
 
 .me-photo {
-  min-width: 200px;
-  max-width: 300px;
-  height: auto;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
 }
 
 .under-construction {
