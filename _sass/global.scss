@@ -246,6 +246,10 @@ blockquote {
 .wrapper {
   max-width: 768px;
   padding: $spacer-small;
+
+  &.pt--none {
+    padding-top: 0;
+  }
 }
 
 .main {
