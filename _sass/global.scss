@@ -299,9 +299,9 @@ blockquote {
 }
 
 .me-photo {
-  left: 50%;
+  max-width: 600px;
+  width: 100%;
   position: relative;
-  transform: translateX(-50%);
 }
 
 .under-construction {
