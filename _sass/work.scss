@@ -41,3 +41,11 @@
   flex: 4 0 0;
   padding: $spacer-normal $spacer-small;
 }
+
+.work .post-image {
+  visibility: hidden;
+
+  &.show {
+    visibility: visible;
+  }
+}
