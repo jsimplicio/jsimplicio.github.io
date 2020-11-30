@@ -12,9 +12,9 @@ problem_statement: "Design, build, document, and release a skeleton component fo
 
 {% include team_and_role.md %}
 
-I was tasked to design an experience for content loading at separate speeds on Sprout Social's month view calendar. I was inspired by our analytics team use of a skeleton of the UI for loading content.
+The problem was that content on Sprout Social's loaded at separate rates. I was to design an experience that handled elements showing up on the screen at different speeds. I was inspired by our analytics team use of a skeleton of the UI for loading content that could hang up a bit.
 
-I took a pattern inside the Analytics portion of our app, and brought it to our design system Seeds, so that we could all share it across the product.
+I took the pattern inside the Analytics portion of our app, and brought it to our design system Seeds, so that we could all share it across the product.
 
 <figure>
 	<img src="../../../../../../assets/images/skeleton-1.png" title="Use of a skeleton loaders in Analytics" />
@@ -26,7 +26,9 @@ I took a pattern inside the Analytics portion of our app, and brought it to our 
 	<figcaption class="media-caption center">Loaded content after the skeleton screen</figcaption>
 </figure>
 
-I researched skeleton loaders, and learned that they provide a perceived performance experience to users, making them feel like there's little to no wait time when content loads. Perceived performance is achieved when we put skeleton in place of the content that will be loaded. Most of the content in our app is either a circular avatar, or square shaped or text. The Skeleton component is flexible and let's the user set a height, width, and border radius in order to achieve almost any shape of content inside the Sprout app.
+I researched skeleton loaders and learned that they provide a perceived performance to users, making them feel like there's little to no wait time when content loads. Perceived performance to the eye can be achieved when skeletons of the shape of a content stays in place of the content until it loads.
+
+Most of the content in Sprout Social is either circular (e.g. avatar), or square shapes (e.g. text blocks). The Skeleton component is flexible and lets the user set a height, width, and border radius in order to achieve almost any shape of content inside the Sprout app.
 
 <figure>
 	<img src="../../../../../../assets/images/skeleton-3.png" title="More use of a skeleton loaders in Analytics" />
