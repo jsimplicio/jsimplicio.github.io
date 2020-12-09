@@ -6,6 +6,7 @@ categories: [data visualization]
 hero_image: "/../assets/images/4-1-2019-hero.png"
 hero_color: "#FFBE8F"
 problem_statement: "Researchers want to make meaningful data patterns from answers to open-ended questions."
+published: false
 ---
 
 The Diary team launched a new Analysis tab with improvements that give researchers the ability to quantify data from open-ended answers. Close-ended answers can be easier to quantify in charts, like the data seen in the Summary tab.

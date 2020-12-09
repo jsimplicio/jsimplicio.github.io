@@ -6,6 +6,7 @@ categories: [component libraries]
 hero_image: "/../assets/images/4-16-2019-hero.png"
 hero_color: "#B5FF8F"
 problem_statement: "Dscout's first component library."
+published: false
 ---
 
 At dscout, I spent over two years helping build Particle, our first component library.

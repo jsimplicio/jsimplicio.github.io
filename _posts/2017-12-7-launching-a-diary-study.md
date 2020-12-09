@@ -6,6 +6,7 @@ categories: [user interface]
 hero_image: "/../assets/images/12-7-2017-2-hero.png"
 hero_color: "#FF8F8F"
 problem_statement: "Researchers need the ability to release a collection of consecutive parts of their research study to participants"
+published: false
 ---
 
 The new Diary introduced mission parts. Before parts, researchers often had to break up their study into a few missions, making it hard for analysis of data across each mission. By dividing a mission into parts, now researchers can see the whole breadth of their research inside one mission.

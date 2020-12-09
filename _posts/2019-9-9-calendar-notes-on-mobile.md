@@ -8,6 +8,7 @@ hero_color: "#A48FFF"
 role: User Interface Design
 team: Product Design and Mobile
 problem_statement: "Social media managers want to add notes to their calendar so they can create reminders and content to better organize their calendar work."
+published: false
 ---
 
 {% include team_and_role.md %}

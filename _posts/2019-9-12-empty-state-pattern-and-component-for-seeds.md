@@ -8,6 +8,7 @@ hero_color: "#FF8FCB"
 role: Front-end Development
 team: Product Design, Design Systems, and me
 problem_statement: "Design, build, document, and release an empty state component for Sprout Social's design system."
+published: false
 ---
 
 {% include team_and_role.md %}

@@ -8,6 +8,7 @@ hero_color: "#8FD5FF"
 role: "Product Design and User Interface Design"
 team: "Front-end Developers, Product Manager, and me"
 problem_statement: "Researchers want to share project data with colleagues outside of dscout."
+published: false
 ---
 
 {% include team_and_role.md %}

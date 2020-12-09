@@ -4,8 +4,8 @@ title:  "Making a new project page"
 date:   2018-12-25
 categories: [user experience]
 hero_image: "/../assets/images/12-25-2018-2-hero.png"
-hero_color: "#FF8FCB"
-problem_statement: "Researchers need a project dashboard that acts as a home for the research projects."
+hero_color: "#B5FF8F"
+problem_statement: "Design a research project home that houses a collection of studies."
 ---
 
 {% include problem_statement.md %}

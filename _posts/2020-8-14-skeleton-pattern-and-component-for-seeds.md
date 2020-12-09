@@ -4,10 +4,11 @@ title:  "Skeleton pattern and component for Seeds"
 date:   2020-6-12
 categories: [design systems]
 hero_image: "/../assets/images/8-14-2020-hero.png"
-hero_color: "#FFF28F"
+hero_color: "#FF8FCB"
 role: User Interface Design and Front-end Development
 team: Design Systems, Front-end Developer, and me
 problem_statement: "Design, build, document, and release a skeleton component for Sprout Social's design system."
+published: false
 ---
 
 {% include team_and_role.md %}

@@ -6,6 +6,7 @@ categories: [user interface]
 hero_image: "/../assets/images/8-12-2017-hero.png"
 hero_color: "#FFF28F"
 problem_statement: "Researchers need to manage the progress of their research participants in the research study."
+published: false
 ---
 
 In the new Diary tool, researchers can manage scouts throughout all parts of the project inside "Manage."
