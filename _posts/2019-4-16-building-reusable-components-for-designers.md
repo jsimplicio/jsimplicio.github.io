@@ -14,7 +14,7 @@ Dscout went through a major platform re-design that started as a trial on some p
 
 In a small team of two, I helped the lead designer create a brand new UI language. I documented the [atoms and molecules](https://bradfrost.com/blog/post/atomic-web-design/){:target="_blank"} of every component in Sketch, which I eventually turned into a comprehensive and reusable UI kit for dscout's product designers. 
 
-I displayed the code of every component above said component. The goal was to show designers how they were being implemented by engineers, and to actually show them the component names we use in code.
+I displayed the code of every component documented. The goal was to show designers how they were being implemented by engineers, actual component names, props and all, so designers could learn a bit of Web Components (in our case, React) and how to talk to engineers better.
 
 Dscout designers utilized the UI kit for designing and prototyping anything from small product ideas, to new features. The UI Kit in Sketch inspired the future switch to building our system in Figma.
 
