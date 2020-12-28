@@ -6,6 +6,7 @@ categories: [user experience]
 hero_image: "/../assets/images/12-25-2018-2-hero.png"
 hero_color: "#B5FF8F"
 problem_statement: "Design a research project home that houses a collection of studies."
+published: false
 ---
 
 {% include problem_statement.md %}
