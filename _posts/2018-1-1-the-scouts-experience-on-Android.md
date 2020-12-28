@@ -5,8 +5,12 @@ date:   2018-1-1
 categories: mobile
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#FFBE8F"
+role: User Interface Design and Prototyping
+team: Mobile Engineer, Product Manager, and me
 problem_statement: "Android scouts need an experience for going through the re-designed dscout app that introduced missions parts."
 ---
+{% include team_and_role.md %}
+
 The dscout Diary researcher experience was redesigned with the launch of [Mission parts](/product/design/analyzing-entries-with-dscout/). Research studies are now capable of being divided up into parts, missions don't have to be analyzed separately, they're a part of a whole.
 
 I updated the Scout experience for Android, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.

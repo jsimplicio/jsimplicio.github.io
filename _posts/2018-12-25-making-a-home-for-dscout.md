@@ -5,15 +5,18 @@ date:   2018-12-25
 categories: [homepage]
 hero_image: "/../assets/images/12-25-2018-hero.png"
 hero_color: "#FFF28F"
+role: User Interface Design and Project Management
+team: Front-End Engineering and me
 problem_statement: "Design an organized home for a collection of research projects."
 ---
-We designed and launched a home for the dscout web app. The app lacked a home page. Researchers would log in and arrive at the last active project. First time researchers would arrive at an empty first project, which caused confusion.
+{% include team_and_role.md %}
 
-I was lead designer and Scrum Master on this project, and I also lead the re-design of the dscout project page, which we tackled alongside building the home.
+We designed and launched a home for the dscout web app because the app lacked a clear home page. Researchers logged in only to arrive at the last active project. First time researchers would arrive at an empty first project, which caused even more confusion.
+
+I was lead designer and project manager on this project, and I also lead the re-design of the dscout project page, which we tackled alongside building the home.
 
 ### Objectives
-* Provide a home for the dscout web app.
-* Bring the project page to the v4 API.
+* Provide a home for the dscout web app using the new component library and API.
 
 ### Key Results
 * The dscout web app has a clear home in its structural design.

@@ -5,8 +5,12 @@ date:   2019-4-16
 categories: [component libraries]
 hero_image: "/../assets/images/4-16-2019-hero.png"
 hero_color: "#B5FF8F"
+role: User Interface Design
+team: Product Design Lead and me
 problem_statement: "Powering designers with dscout's first component library and UI kit."
 ---
+
+{% include team_and_role.md %}
 
 I spent over two years at dscout helping build and promote adoption of Particle, our first component library which was the foundation to our design system.
 
