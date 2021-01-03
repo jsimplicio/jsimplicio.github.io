@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Sprout Social project starter plugin for Figma"
+title:  "Sprout Social project setup plugin for Figma"
 date:   2020-4-9  
 categories: [plugins]
 hero_image: "/../assets/images/4-7-2020-hero.png"
 hero_color: "#A48FFF"
 role: Front-end Development
-team: Design Systems and me
-problem_statement: "Research and build a file organization Figma plugin for the product design team."
+team: Design Systems, Product Design, and me
+problem_statement: "Build a design file setup and organization format Figma plugin for the product design team."
 ---
 
 {% include team_and_role.md %}

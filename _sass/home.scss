@@ -1,4 +1,23 @@
 .intro {
-  padding-top: 0;
+  padding: 0 $spacer-small;
   margin-top: $spacer-normal;
+}
+
+.work--list li {
+  list-style-type: none;
+  position: relative;
+  margin-left: $spacer-normal;
+  &::before {
+    content: "💼";
+    position: absolute;
+    left: -$spacer-normal;
+    margin-right: $spacer-xsmall;
+  }
+}
+
+.about {
+  p:last-child {
+    margin: 0;
+    padding: 0;
+  }
 }
