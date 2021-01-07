@@ -4,10 +4,15 @@ title:  "Inviting research participants to a project"
 date:   2017-6-1
 categories: [user experience, user interface]
 hero_image: "/../assets/images/6-1-2017-hero.png"
-hero_color: "#FF8FCB"
+hero_color: "#FFF28F"
+role: User Interface Design and User Experience Research
+team: UX Research, Front-end Engineering and me
 problem_statement: "Researchers need a better way to invite research participants to their projects."
 published: false
 ---
+
+{% include team_and_role.md %}
+
 The invites feature launched to facilitate the process of building and launching a research study with dscout. Our user research, prototyping, and testing, helped us gather the essential parts that researchers need to launch their project.
 
 With invites, we focused on the invitation of research participants to a researcher's project. We catalogued all of the activities in the research process—writing the questions script, inviting participants, conducting research analysis, managing research participants, and many more—and we used this data to understand the research process in dscout. Our goal was to determine the best place for inviting participants in the researcher flow.

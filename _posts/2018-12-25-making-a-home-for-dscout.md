@@ -8,6 +8,7 @@ hero_color: "#FFF28F"
 role: User Interface Design and Project Management
 team: Front-End Engineering and me
 problem_statement: "Design an organized home for a collection of research projects."
+published: false
 ---
 {% include team_and_role.md %}
 
