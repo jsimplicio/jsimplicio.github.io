@@ -51,27 +51,27 @@ When questions arise during the build, or even design phase, we point to our sys
 The new dscout not only has a new API but a brand new design language, with not only UI pieces, but nuances and patterns.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/particle-5.png" title="Particle component library" />
+	<img src="{{ site.baseurl }}/assets/images/Particle-5.png" title="Particle component library" />
 	<figcaption class="media-caption center">Product shots, built with Particle</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/particle-6.png" title="Particle component library" />
+	<img src="{{ site.baseurl }}/assets/images/Particle-6.png" title="Particle component library" />
 	<figcaption class="media-caption center">Product shots, built with Particle</figcaption>
 </figure>
 
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/particle-7.png" title="Particle component library" />
+	<img src="{{ site.baseurl }}/assets/images/Particle-7.png" title="Particle component library" />
 	<figcaption class="media-caption center">Product shots, built with Particle</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/particle-8.png" title="Particle component library" />
+	<img src="{{ site.baseurl }}/assets/images/Particle-8.png" title="Particle component library" />
 	<figcaption class="media-caption center">Product shots, built with Particle</figcaption>
 </figure>
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/particle-9.png" title="Particle component library" />
+	<img src="{{ site.baseurl }}/assets/images/Particle-9.png" title="Particle component library" />
 	<figcaption class="media-caption center">Product shots, built with Particle</figcaption>
 </figure>
