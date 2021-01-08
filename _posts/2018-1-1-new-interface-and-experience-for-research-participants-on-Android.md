@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "A new visual identity and experience for research participants on Android"
+title:  "New interface and experience for research participants on Android"
 date:   2018-1-1
 categories: mobile
 hero_image: "/../assets/images/1-1-2018-hero.png"
 hero_color: "#FFBE8F"
 role: User Interface Design and Prototyping
 team: Mobile Engineer, Product Manager, and me
-problem_statement: "Design a new material design Android identity and prototype an improved new user experience."
+problem_statement: "Design a new Material Design visual identity and prototype the user experience."
 ---
 {% include team_and_role.md %}
 
