@@ -15,10 +15,10 @@ The dscout Diary researcher experience was redesigned with the launch of [Missio
 
 I updated the Scout experience for Android, working alongside our design director, Timo Kuhn, who was responsible for the iOS redesign.
 
-### Objective
+## Objective
 - Update the Android Scout app to conform to the new user experiences of the Diary researcher experience.
 
-### Designing the Scout experience
+## Designing the Scout experience
 My goal was broad--the Scout experience from login all the way to the completion of submitting research questions.
 
 I also designed additional features that became priority along the way, such as an upload progress screen where Scouts can track their entry uploads.
