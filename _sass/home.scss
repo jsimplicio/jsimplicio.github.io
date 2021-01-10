@@ -1,12 +1,16 @@
 .intro {
-  padding: 0 $spacer-small;
-  margin-top: $spacer-normal;
+  padding: $spacer-large $spacer-small $spacer-xlarge;
+
+  @include breakpoint(480px) {
+    text-align: center;
+  }
 }
 
 .work--list li {
   list-style-type: none;
-  position: relative;
   margin-left: $spacer-normal;
+  position: relative;
+
   &::before {
     content: "💼";
     position: absolute;

@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 15px;
 
   @include breakpoint(1024px) {
     font-size: 18px;
@@ -52,7 +52,9 @@ h2 {
 }
 
 h3 {
+  line-height: 1.4;
   font-size: 1.15rem;
+  font-weight: normal;
 }
 
 hr {
@@ -178,58 +180,29 @@ blockquote {
 }
 
 .main-nav {
-  border: 1px solid $border-color;
-  border-radius: 8px;  
-  padding: .125em;
+  padding: $spacer-normal;
+  padding-bottom: 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    a {
+      align-self: center;
+      margin: 0 $spacer-xsmall;
+    }
+
+    li.active a {
+      color: $text-color;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
 }
 
 .error {
   padding: $spacer-large;
-}
-
-.header {
-  font-size: .825em;
-  margin: $spacer-normal auto 0 auto;
-  max-width: 350px;
-
-  a {
-    text-decoration: none;
-    color: $text-color;
-    display: block;
-
-    &.active {
-      color: white;
-    }
-  }
-
-  p {
-    padding: 0;
-  }
-
-  ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-
-    li {
-      border-radius: 6px;  
-      display: inline-block;
-      margin: .25em;
-      padding: $spacer-xxsmall;
-      text-align: center;
-      transition: background 50ms ease-in-out;
-      width: 100%;
-
-      &:hover {
-        background: #DDD;
-      }
-    }
-
-    li.active {
-      background: $text-color;
-    }
-  }
 }
 
 .page--navigation {
