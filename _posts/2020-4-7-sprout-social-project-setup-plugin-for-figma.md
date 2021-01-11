@@ -5,7 +5,7 @@ date:   2020-4-9
 categories: [plugins]
 hero_image: "/../assets/images/4-7-2020-hero.png"
 hero_color: "#A48FFF"
-role: Front-end Development
+role: Front-end Engineering
 team: Design Systems, Product Design, and me
 problem_statement: "Build a Figma file setup and organization plugin for the product design team."
 ---

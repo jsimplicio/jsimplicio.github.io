@@ -3,7 +3,12 @@
   border-radius: 8px;
   display: block;
   margin-bottom: $spacer-normal;
+  position: relative;
   transition: 250ms ease-in-out;
+
+  footer {
+    padding-top: $spacer-small;
+  }
 
   p {
     margin: 0;
@@ -12,11 +17,15 @@
 
   &:hover {
     box-shadow: 0 0 32px 4px rgba(0,0,0,.1);
+
+    .post-arrow {
+      transform: translateX(5px);
+    }
   }
 
   @include breakpoint(560px) {
     display: flex;
-    height: 200px;
+    height: 250px;
   }
 }
 
@@ -33,13 +42,13 @@
     border-radius: 8px 0 0 8px;
     height: auto;
     margin: -1px 0 -1px -1px;
-    flex: 2 0 0;
+    flex: 3 0 0;
   }
 }
 
 .post-card-content {
   flex: 4 0 0;
-  padding: $spacer-normal $spacer-small;
+  padding: $spacer-small;
 }
 
 .work .post-image {
@@ -48,4 +57,12 @@
   &.show {
     visibility: visible;
   }
+}
+
+.post-arrow {
+  bottom: $spacer-small;
+  font-size: $font-large;
+  position: absolute;
+  right: $spacer-small;
+  transition: ease-in-out 250ms;
 }

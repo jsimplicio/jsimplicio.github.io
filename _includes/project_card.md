@@ -5,7 +5,8 @@
     <div class="post-card-content">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>{{ post.title}}</h2>
-      <p class="font--size-s">{{ post.problem_statement }}</p>
+      <p>{{ post.problem_statement }}</p>
     </div>
+    <div class="post-arrow">→</div>
   </article>
 </a>
