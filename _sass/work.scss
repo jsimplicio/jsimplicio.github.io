@@ -6,10 +6,6 @@
   position: relative;
   transition: 250ms ease-in-out;
 
-  footer {
-    padding-top: $spacer-small;
-  }
-
   p {
     margin: 0;
     padding: 0;
@@ -60,9 +56,15 @@
 }
 
 .post-arrow {
-  bottom: $spacer-small;
-  font-size: $font-large;
-  position: absolute;
-  right: $spacer-small;
-  transition: ease-in-out 250ms;
+  display: none;
+
+  @include breakpoint(480px) {
+    bottom: $spacer-small;
+    display: inline-block;
+    font-size: $font-large;
+    position: absolute; 
+    right: $spacer-small;
+    transition: ease-in-out 250ms;
+    text-align: center;
+  }
 }
