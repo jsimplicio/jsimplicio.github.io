@@ -21,30 +21,11 @@
 
   @include breakpoint(560px) {
     display: flex;
-    height: 250px;
-  }
-}
-
-.post-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 8px 8px 0 0;
-  height: 350px;
-  margin: -1px 0 -1px 0;
-  width: 100%;
-
-  @include breakpoint(560px) {
-    border-radius: 8px 0 0 8px;
-    height: auto;
-    margin: -1px 0 -1px -1px;
-    flex: 3 0 0;
   }
 }
 
 .post-card-content {
-  flex: 4 0 0;
-  padding: $spacer-small;
+  padding: $spacer-normal;
 }
 
 .work .post-image {

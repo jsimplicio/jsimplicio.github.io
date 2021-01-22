@@ -8,6 +8,7 @@ hero_color: "#FFF28F"
 role: User Interface Design and Usability Testing
 team: UX Lead and me
 problem_statement: "Provide shop owners control over managing and editing products."
+published: false
 ---
 
 {% include team_and_role.md %}

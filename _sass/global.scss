@@ -6,10 +6,10 @@
 
 html {
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 18px;
 
   @include breakpoint(1024px) {
-    font-size: 18px;
+    font-size: 21px;
   }
 }
 
@@ -38,7 +38,7 @@ h3,
 h4 {
   color: $text-color;
   font-family: $secondary-font;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: $spacer-xxsmall;
 }
@@ -162,7 +162,7 @@ blockquote {
     &::before {
       content: open-quote;
       font-size: $font-xxlarge;
-      font-weight: bold;
+      font-weight: 700;
       line-height: 2;
       left: 0;
       top: 0;
@@ -195,7 +195,6 @@ blockquote {
 
     li.active a {
       color: $text-color;
-      font-weight: bold;
       text-decoration: none;
     }
   }
@@ -276,32 +275,4 @@ blockquote {
   max-width: 600px;
   width: 100%;
   position: relative;
-}
-
-.under-construction {
-  background: rgba(0,0,0,0.5);
-  position: absolute;
-  display: flex;
-  justify-content: center;  
-  padding-top: $spacer-large * 2;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  right: 0;
-  top: 0;
-
-  p {
-    text-shadow: 0px 8px 32px rgba(0,0,0,0.5);
-    color: #FFFFFF;
-    font-size: $font-large;
-    height: 100vh;
-    font-weight: bold;
-    padding: 0 $spacer-normal;
-    position: absolute;
-    top: 50vh;
-
-    @include breakpoint(1024px) {
-      font-size: $font-xxlarge;
-    }
-  }
 }

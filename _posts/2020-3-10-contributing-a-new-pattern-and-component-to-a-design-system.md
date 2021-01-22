@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Breadcrumb pattern and component for Seeds"
+title:  "Contributing a new pattern and component to a design system"
 date:   2020-3-18
 categories: [design systems]
 hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#8FD5FF"
 role: User Interface Design and Front-end Engineering
 team: Design Systems and me
-problem_statement: "Design, build, document, and release a breadcrumb component for Seeds."
+problem_statement: "Proposing a new user experience pattern, and designing and developing its component for Seeds."
 ---
 
 {% include team_and_role.md %}

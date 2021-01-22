@@ -8,6 +8,7 @@ hero_color: "#FFBE8F"
 role: User Interface Design and Prototyping
 team: Mobile Engineer, Product Manager, and me
 problem_statement: "Design a new Material Design visual identity and prototype the user experience."
+published: false
 ---
 {% include team_and_role.md %}
 
