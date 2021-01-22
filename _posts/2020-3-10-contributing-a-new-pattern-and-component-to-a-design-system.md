@@ -12,15 +12,15 @@ problem_statement: "Proposing a new user experience pattern, and designing and d
 
 {% include team_and_role.md %}
 
-{% include problem_statement.md %}
-
-## The team and my role
+## Working with Design Systems
 I had the opportunity to go through a residency in our Design Systems team at Sprout Social. During my residency, I focused on a few projects, one being the design, development and release of the Breadcrumb component on <a target="_blank" title="Sprout Social's Seeds" href="https://seeds.sproutsocial.com">Seeds</a>.
 
-Outside of the residency, my actual team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb component.
+Outside of the residency, my actual team builds Publishing features for Sprout Social. My latest design for Publishing involved an interface where there could be a limitless amount of nested folders. The structure of folders requires a navigation element to help users navigate and locate themselves within the app. This feature called for a breadcrumb navigation.
 
-## Research
-I proposed different designs to the team of product designers for the Breadcrumb component based on research and analysis done on breadcrumb UI and UX patterns. The team gave me immediate feedback on the proposed design options during the presentation, so I was able to get feedback on which design direction to take. We landed on a design that was conscious of space, provided easy wayfinding, and fit well within our system.
+Knowing that breadcrumb navigations are a fairly common UX pattern, I decided to present this as a possible component to the product design team. That way we could house it in our design system and continue to use it in areas that require breadcrumb navigation.
+
+## Design proposal
+I proposed different designs to the team of product designers for the Breadcrumb component based on research and analysis done on breadcrumb UX patterns. The team gave me immediate feedback on the proposed design options during the presentation, so I was able to get feedback on which design direction to take. We landed on a design that was conscious of space, provided easy wayfinding, and fit well within our system.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb design proposal" />
@@ -29,7 +29,7 @@ I proposed different designs to the team of product designers for the Breadcrumb
 
 ## Development proposal
 
-When the design proposal was presented and the final design was chosen, I started thinking about how I would build the component. I decided to write a development proposal in order to get input from other engineers.
+When the design proposal was presented, the final design was chosen. Later, I started thinking about how I would build the component. I decided to write a development proposal in order to get input from other engineers.
 
 I wrote a development proposal document outlining the following:
 * The definition of the breadcrumb component
