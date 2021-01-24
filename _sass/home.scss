@@ -1,5 +1,5 @@
 .intro {
-  padding: $spacer-large*2 $spacer-small $spacer-xlarge*2;
+  padding: $spacer-large $spacer-small $spacer-xlarge;
 
   @include breakpoint(480px) {
     text-align: center;
