@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building a Figma plugin for for file setup, organization, and hand off"
+title:  "Building a Figma plugin for file setup, organization, and hand off"
 date:   2020-4-9  
 categories: [plugins]
 hero_image: "/../assets/images/4-7-2020-hero.png"
