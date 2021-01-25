@@ -5,6 +5,5 @@
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>{{ post.title}}</h2>
     </div>
-    <div class="post-arrow">→</div>
   </article>
 </a>
