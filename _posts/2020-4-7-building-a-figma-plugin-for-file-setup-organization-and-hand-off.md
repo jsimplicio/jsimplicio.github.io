@@ -8,6 +8,7 @@ hero_color: "#A48FFF"
 role: Front-end Engineering
 team: Design Systems, Product Design, and me
 problem_statement: "Building a Figma plugin for product designers."
+published: false
 ---
 
 {% include team_and_role.md %}

@@ -8,6 +8,7 @@ hero_color: "#B5FF8F"
 role: User Interface Design and Front-end Engineering
 team: Product Design Lead, Lead Front-end Engineer and me
 problem_statement: "Powering designers and engineers with dscout's first component library."
+published: false
 ---
 
 <figure>
