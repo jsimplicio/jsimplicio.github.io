@@ -1,7 +1,8 @@
-$font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", sans-serif;
-$secondary-font: "Gotham Rounded SSm A", "Gotham Rounded SSm B", sans-serif;
+$font-family: "Chronicle SSm A", "Chronicle SSm B", serif;
+$secondary-font: "Chronicle SSm A", "Chronicle SSm B", serif;
 
-$font-size: 16px;
+
+$font-size: 14px;
 $font-normal: 1rem;
 $font-small: $font-normal / 1.333;
 $font-medium: $font-normal * 1.333;
@@ -23,5 +24,5 @@ $spacer-normal: 2em;
 $spacer-large: 3em;
 $spacer-xlarge: 4em;
 
-$page-width: 1024px;
-$main-content--width: 1024px;
+$page-width: 992px;
+$main-content--width: 992px;
