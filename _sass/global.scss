@@ -167,7 +167,7 @@ blockquote {
 }
 
 .main-nav {
-  padding: $spacer-normal;
+  padding: $spacer-small;
   padding-bottom: 0;
 
   ul {
@@ -205,7 +205,7 @@ blockquote {
 
 .wrapper {
   max-width: $main-content--width;
-  padding: 0 $spacer-normal;
+  padding: 0 $spacer-small;
 
   &.pt--none {
     padding-top: 0;
@@ -238,7 +238,7 @@ blockquote {
 }
 
 .site-footer {
-  margin: $spacer-normal;
+  margin: $spacer-large $spacer-small $spacer-small $spacer-small;
 
   ul {
     list-style-type: none;
