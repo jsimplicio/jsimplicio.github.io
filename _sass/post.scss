@@ -14,11 +14,8 @@
   color: #888;
   display: block;
   font-size: $font-small;
+  font-weight: 800;
   text-decoration: none;
-}
-
-.post-header {
-  text-align: center;
 }
 
 .team--role th {
@@ -29,69 +26,4 @@
 
 .post-content {
   margin: 2em 0;
-}
-
-.problem-statement {
-  background: #e8f9ff;
-  border: 1px solid #add8e6;
-  border-radius: 8px;
-  margin-bottom: $spacer-normal;
-  padding: $spacer-small;
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-.hero-image {
-  height: 30vh;
-  margin-bottom: $spacer-normal;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center 15%;
-
-  &:after {
-    content: '';
-    display: block;
-    background: linear-gradient(to bottom, rgba(2,2,2,0), rgba(0,0,0,.15));
-    height: 100%;
-    position: absolute;
-    width: 100%;
-  }
-
-  @include breakpoint(480px) {
-    background-size: 100%;
-    background-position: center 30%;
-  }
-
-  @include breakpoint(560px) {
-    background-size: 100%;
-    background-position: center 30%;
-    height: 40vh;
-  }
-
-  @include breakpoint(700px) {
-    background-size: 80%;
-    background-position: center 20%;
-    height: 50vh;
-  }
-
-  @include breakpoint(1024px) {
-    height: 55vh;
-  }
-
-  @include breakpoint(1200px) {
-    background-size: 60%;
-  }
-}
-
-.cp_embed_wrapper {
-  margin-bottom: $spacer-normal;
-}
-
-.post-nav {
-  font-size: $font-small;
-  margin-top: $spacer-normal;
 }

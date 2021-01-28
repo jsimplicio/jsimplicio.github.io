@@ -2,14 +2,15 @@
 layout: default
 title: Select Work - Jules Simplicio
 ---
-<header class="header">
-  {% include header.html %}
-</header>
-<section class="work">
-  <div class="work-wrapper wrapper">
+  <header class="header">
+    {% include header.html %}
+  </header>
+  <main class="work-wrapper wrapper">
     {% for post in site.posts %}
-      {% include project_card.md %}
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        <h2>{{ post.title }}</h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </a>
     {% endfor %}
-  </div>
-</section>
+  </main>
 {% include footer.html %}

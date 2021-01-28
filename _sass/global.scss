@@ -6,10 +6,10 @@
 
 html {
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
 
   @include breakpoint(1024px) {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 
@@ -17,19 +17,14 @@ body {
   -webkit-text-size-adjust: none;
   -moz-osx-font-smoothing: grayscale;
   background: #FFFFFF;
-  font-size: 1rem;
   box-sizing: border-box;
   color: $text-color;
   font-family: $font-family;
-  font-size: $font-normal;
+  font-size: $font-medium;
   font-style: normal;
   font-weight: 500;
   line-height: 1.6;
   position: relative;
-}
-
-main {
-  margin: 0 auto;
 }
 
 h1,
@@ -40,20 +35,19 @@ h4 {
   font-family: $secondary-font;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: $spacer-xxsmall;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: $font-xlarge;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: $font-large;
 }
 
 h3 {
   line-height: 1.4;
-  font-size: 1.15rem;
+  font-size: $font-small;
 }
 
 hr {
@@ -74,12 +68,6 @@ a {
   }
 }
 
-iframe {
-  border: none;
-  height: 650px;
-  width: 100%;
-}
-
 table {
   border-collapse: separate;
   border: 1px solid #DEDEDE;
@@ -98,7 +86,7 @@ tr {
 }
 
 td {
-  padding: $spacer-xsmall $spacer-small;
+  padding: $spacer-small/4 $spacer-small;
   border-radius: 4px;
 }
 
@@ -162,7 +150,7 @@ blockquote {
       content: open-quote;
       font-size: $font-xxlarge;
       font-weight: 700;
-      line-height: 2.2;
+      line-height: 1.9;
       left: 0;
       top: 0;
       position: absolute;
@@ -184,12 +172,17 @@ blockquote {
 
   ul {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     list-style: none;
-
+    margin: 0;
+    
     a {
       align-self: center;
-      margin: 0 $spacer-xsmall;
+      margin-right: $spacer-xsmall;
+    }
+
+    li { 
+      margin: 0;
     }
 
     li.active a {
@@ -197,10 +190,6 @@ blockquote {
       text-decoration: none;
     }
   }
-}
-
-.error {
-  padding: $spacer-large;
 }
 
 .page--navigation {
@@ -215,8 +204,8 @@ blockquote {
 }
 
 .wrapper {
-  max-width: 768px;
-  padding: 0 $spacer-small;
+  max-width: $main-content--width;
+  padding: 0 $spacer-normal;
 
   &.pt--none {
     padding-top: 0;
@@ -224,23 +213,7 @@ blockquote {
 }
 
 .main {
-  margin: 0 auto;
-  max-width: 768px;
-}
-
-.memoji {
-  max-width: 64px;
-}
-
-.sidebar {
-  margin: 0 auto;
-  max-width: 768px;
-  padding: $spacer-normal 0 0 0;
-  width: 100%;
-
-  @include breakpoint(1024px) {
-    max-width: 350px;
-  }
+  max-width: $main-content--width;
 }
 
 .post {
@@ -250,8 +223,7 @@ blockquote {
 .work,
 .about,
 .post {
-  margin: 0 auto;
-  max-width: 768px;
+  max-width: $main-content--width;
   width: 100%;
 }
 
@@ -266,16 +238,9 @@ blockquote {
 }
 
 .site-footer {
-  margin: $spacer-xlarge $spacer-large $spacer-large $spacer-large; 
-  text-align: center;
+  margin: $spacer-normal;
 
   ul {
     list-style-type: none;
   }
-}
-
-.me-photo {
-  max-width: 600px;
-  width: 100%;
-  position: relative;
 }

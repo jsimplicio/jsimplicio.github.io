@@ -7,8 +7,11 @@ hero_image: "/../assets/images/3-18-2020-hero.png"
 hero_color: "#8FD5FF"
 role: User interface design and front-end engineering
 team: Design systems and me
-problem_statement: "Proposing a new user experience pattern, and designing and developing its component for Seeds."
 ---
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/mar182020hero.png" title="Breadcrumb component" />
+</figure>
 
 {% include team_and_role.md %}
 
@@ -23,8 +26,8 @@ Knowing that breadcrumb navigations are a fairly common UX pattern, I decided to
 I proposed different designs to the team of product designers for the Breadcrumb component based on my research done on the breadcrumb pattern. The team gave me feedback on the proposed design options, allowing me to land on a design that was conscious of header space, and fit well within our visual system.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb design proposal" />
-	<figcaption class="media-caption center">Breadcrumb design proposal</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Some proposed breadcrumb designs" />
+	<figcaption class="media-caption center">Some proposed breadcrumb designs</figcaption>
 </figure>
 
 ## Development
@@ -49,7 +52,10 @@ My proposal provided foundational material to get feedback from engineers across
 
 After receiving feedback engineering, I proceeded to build the component. By writing a proposal ahead of developing code, I was able to get all of my ideas down and get feedback, which made the process of building the actual component very smooth!
 
-## Breadcrumb in use
+## Communication
+Upon releasing the component to our component library and the Breadcrumb documentation to our live facing systems website, I plugged the component to design systems, engineering and product channels, to announce the new tool in our toolkit.
+
+## Adoption
 Breadcrumb's first adoption was for the folders feature in Sprout's Asset Library. 
 
 <figure>
@@ -57,7 +63,7 @@ Breadcrumb's first adoption was for the folders feature in Sprout's Asset Librar
 	<figcaption class="media-caption center">Breadcrumb in use inside Sprout Social's Asset Library</figcaption>
 </figure>
 
-Sprout's Marketing software, Landscape, also makes use of our system, and specially of Breadcrumb.
+Sprout's marketing software, Landscape, also makes use of our system, and specially of Breadcrumb.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-4.png" title="Breadcrumb development proposal" />
