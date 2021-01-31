@@ -18,7 +18,7 @@ team: Design systems and me
 ## Working with design systems
 I had the opportunity to go through a design systems residency at <a target="_blank" title="Sprout Social" href="https://sproutsocial.com">Sprout Social</a>. During my month-long residency with the team, I tackled a couple projects, including the design, development and release of a brand new UX pattern and component for our design system, <a target="_blank" title="Sprout Social's Design System, Seeds" href="https://seeds.sproutsocial.com">Seeds</a>.
 
-Outside of design systems, I sit on a feature team that creates and ships publishing features for social media managers. While designing a new feature for publishing, I stumbled upon a structure of unlimited folder creation, which required a wayfinding and navigation element. The feature called exactly for breadcrumb navigation.
+Outside of design systems, I sit in a feature team that creates and ships publishing features for social media managers. While designing a new feature for publishing, I had to support users creating a structure of folders with unlimited sub-folders. To let users navigate up and down their folder structure, we required a wayfinding and navigation element. The feature called exactly for breadcrumb navigation.
 
 Knowing that breadcrumbs are a fairly common UX pattern in enterprise applications, I decided to present this pattern as a potential component to our design system. That way we wouldn't have to re-invent the wheel every time a design needs breadcrumbs.
 
