@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
 
   @include breakpoint(1024px) {
     font-size: $font-size;
@@ -90,6 +90,10 @@ td {
   border-radius: 4px;
 }
 
+cite {
+  font-style: normal; 
+}
+
 p {
   color: $text-color;
   padding-bottom: $spacer-small;
@@ -159,10 +163,6 @@ blockquote {
     &::after {
       content: close-quote;
     }
-  }
-  
-  cite {
-    color: #999;
   }
 }
 
