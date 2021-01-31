@@ -56,14 +56,14 @@ After receiving feedback engineering, I proceeded to build the component. By wri
 Upon releasing the component to our component library and the Breadcrumb documentation to our live facing systems website, I plugged the component to design systems, engineering and product channels, to announce the new tool in our toolkit.
 
 ## Adoption
-Breadcrumb's first adoption was for the folders feature in Sprout's Asset Library. 
+Breadcrumb's first adoption was for the new folders feature in Asset Library. 
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-3.png" title="Breadcrumb development proposal" />
 	<figcaption class="media-caption center">Breadcrumb in use inside Sprout Social's Asset Library</figcaption>
 </figure>
 
-Sprout's marketing software, Landscape, also makes use of our system, and specially of Breadcrumb.
+Sprout's marketing software, <a href="https://sproutsocial.com/landscape/" title="Landscape" target="_blank">Landscape</a>, makes use of our component library, and it has also adopted the use of Breadcrumb.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-4.png" title="Breadcrumb development proposal" />
