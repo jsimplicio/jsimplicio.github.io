@@ -54,7 +54,7 @@ After receiving feedback engineering, I proceeded to build the component. By wri
 ## Communication
 Throghout development I kept engineering and design in the loop of the development of Breadcrumb and often seeked feedback from others, as seen on my development proposal. This lead me to developing this component completely in the open.
 
-Upon releasing Breadcrumb to our component library and the documentation to our live facing systems website, I plugged the component to design systems, engineering and product channels, to announce the new tool in our toolkit.
+Upon releasing Breadcrumb to our component library, and the documentation to our live facing systems website, I plugged Breadcrumb to design systems, engineering and product channels, to announce our brand new tool in our toolkit.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-6.png" title="Putting Breadcrumb in the open" />
