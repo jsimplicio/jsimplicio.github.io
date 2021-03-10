@@ -10,7 +10,7 @@ team: Design systems and me
 ---
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/breadcrumb-hero.png" title="Breadcrumb" />
+	<img src="{{ site.baseurl }}/assets/images/breadcrumbhero.png" title="Breadcrumb" />
 </figure>
 
 
