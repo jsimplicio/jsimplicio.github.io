@@ -10,7 +10,7 @@ team: Design systems and me
 ---
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/mar182020hero.png" title="Breadcrumb component" />
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-hero.png" title="Breadcrumb" />
 </figure>
 
 
@@ -25,8 +25,8 @@ Knowing that breadcrumbs are a fairly common UX pattern in enterprise applicatio
 I proposed different Breadcrumb component designs to the product design team based on research done on breadcrumb UX patterns. The team gave me feedback on the proposed design options, allowing me to land on a design that was conscious of header space, and fit well within our visual system.
 
 <figure>
-	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Some proposed breadcrumb designs" />
-	<figcaption class="media-caption center">Some proposed breadcrumb designs</figcaption>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-1.png" title="Breadcrumb variations" />
+	<figcaption class="media-caption center">Breadcrumb variations</figcaption>
 </figure>
 
 ## Development
