@@ -52,7 +52,7 @@ My proposal provided foundational material to get feedback from engineers across
 After receiving feedback engineering, I proceeded to build the component. By writing a proposal ahead of developing code, I was able to get all of my ideas down and get feedback, which made the process of building the actual component very smooth!
 
 ## Communication
-Throghout development I kept engineering and design in the loop of the development of Breadcrumb and often seeked feedback from others, as seen on my development proposal. This lead me to developing this component completely in the open.
+Throughout the process of developing Breadcrumb, I kept engineering and design in the loop and often seeked feedback from others, as seen on my development proposal. This lead me to developing this component completely in the open.
 
 Upon releasing Breadcrumb to our component library, and the documentation to our live facing systems website, I plugged Breadcrumb to design systems, engineering and product channels, to announce our brand new tool in our toolkit.
 
