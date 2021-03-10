@@ -1,5 +1,5 @@
 .intro {
-  padding: $spacer-large $spacer-small 0 $spacer-small;
+  padding: 0 $spacer-small;
 }
 
 .work--list li {
@@ -16,8 +16,22 @@
 }
 
 .about {
+  h2,h3 {
+    margin-top: 0;
+  }
+
   p:last-child {
     margin: 0;
     padding: 0;
+  }
+}
+
+.speaking--list {
+  h2 {
+    margin: 0;
+  }
+
+  li {
+    margin: $spacer-xsmall 0 $spacer-small;
   }
 }

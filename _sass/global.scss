@@ -35,7 +35,8 @@ h4 {
   font-family: $secondary-font;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: $spacer-small;
+  margin-top: $spacer-normal;
 }
 
 h1 {
@@ -152,6 +153,10 @@ blockquote {
   margin: $spacer-small auto;
   padding: $spacer-small 0 0 $spacer-normal;
   position: relative;
+
+  ~ cite {
+    padding: $spacer-small 0 0 $spacer-normal;
+  }
   
   q {
     display: block;
@@ -225,10 +230,6 @@ blockquote {
   max-width: $main-content--width;
 }
 
-.post {
-  padding-top: $spacer-large;
-}
-
 .work,
 .about,
 .post {
@@ -237,12 +238,10 @@ blockquote {
 }
 
 .work-wrapper {
-  margin-top: $spacer-large;
   padding-top: 0;
 
-  a {
-    color: $text-color;
-    text-decoration: none;
+  a h2:hover {
+    color: $link;
   }
 }
 
