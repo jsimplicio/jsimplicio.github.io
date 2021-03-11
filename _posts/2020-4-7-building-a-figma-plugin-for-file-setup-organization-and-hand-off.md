@@ -9,11 +9,11 @@ role: Front-end Engineering
 team: Design Systems, Product Design, and me
 ---
 
-I built Sprout Social's first Figma plugin, a Figma project setup and organizer for the product design team. 
+I built <a href="https://sproutsocial.com" title="work" target="_blank">Sprout Social's</a> first Figma plugin, a file setup and organizer for the product design team. 
 
-With Figma being a new thing for designers at the time, we decided that we needed to organize our files similarly for the sake of consistency for any product team members who navigate our files. One of our lead product designers came up with a system for file cover designs, and a structure for organizing content into pages designated for in-progress work, components, early sketches, and final hand off.
+With Figma being a new thing for designers at the time, we decided that we needed to organize our files similarly for the sake of consistency for any product team member who could navigate our files. 
 
-The plugin helps designer organize their work in Figma in a way that is easy for any member of the product team to navigate it.
+One of our lead product designers came up with a system for file cover designs, and a structure for organizing content into pages designated for in-progress work, components, early sketches, and final hand off.
 
 ## How our Figma plugin works
 Every thing, but the page structure, that the plugin generates is a component that comes from a file in our team's library. A cover is a component, and so are all of the starter app templates.
