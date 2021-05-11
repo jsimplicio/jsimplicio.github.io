@@ -99,6 +99,7 @@ td {
 }
 
 cite {
+  display: block;
   font-style: normal; 
 }
 
@@ -150,7 +151,7 @@ li li {
 
 
 blockquote {
-  margin: $spacer-small auto;
+  margin: $spacer-small auto 0 auto;
   padding: $spacer-small 0 0 $spacer-normal;
   position: relative;
 
