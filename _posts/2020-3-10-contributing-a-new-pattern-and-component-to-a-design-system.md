@@ -76,6 +76,12 @@ Sprout's marketing software, <a href="https://sproutsocial.com/landscape/" title
 	<figcaption class="media-caption center">Breadcrumb in use on <a target="_blank" title="Landscape" href="https://sproutsocial.com/landscape/">Landscape</a></figcaption>
 </figure>
 
+
+<figure>
+	<img src="{{ site.baseurl }}/assets/images/breadcrumb-7.png" title="Breadcrumb development proposal" />
+	<figcaption class="media-caption center">Breadcrumb in use inside Sprout Social's Listening tools</figcaption>
+</figure>
+
 ## Improving Breadcrumb
 After user adoption, I assessed if the component was truly living up to its usefulness. 
 
