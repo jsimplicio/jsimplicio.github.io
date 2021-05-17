@@ -62,20 +62,21 @@ Upon releasing Breadcrumb to our component library, and the documentation to our
 </figure>
 
 ## Adoption
-Breadcrumb's first adoption was, as intended, for the new folders feature in Asset Library. 
+Breadcrumb was successfully adopted in the new Asset Library folders feature. 
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-3.png" title="Breadcrumb development proposal" />
 	<figcaption class="media-caption center">Breadcrumb in use inside Sprout Social's Asset Library</figcaption>
 </figure>
 
-Sprout's marketing software, <a href="https://sproutsocial.com/landscape/" title="Landscape" target="_blank">Landscape</a>, makes use of our component library, and it has also adopted the use of Breadcrumb.
+Sprout's marketing software <a href="https://sproutsocial.com/landscape/" title="Landscape" target="_blank">Landscape</a> has also adopted Breadcrumb.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-4.png" title="Breadcrumb development proposal" />
 	<figcaption class="media-caption center">Breadcrumb in use on <a target="_blank" title="Landscape" href="https://sproutsocial.com/landscape/">Landscape</a></figcaption>
 </figure>
 
+Breadcrumb has since been successfully implemented in different interfaces in Sprout Social. Below, Breadcrumb helps users navigate a resources modal.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/breadcrumb-7.png" title="Breadcrumb development proposal" />
@@ -83,11 +84,11 @@ Sprout's marketing software, <a href="https://sproutsocial.com/landscape/" title
 </figure>
 
 ## Improving Breadcrumb
-After user adoption, I assessed if the component was truly living up to its usefulness. 
+After user adoption, I assessed if the component was being useful by watching anonymous user sessions. 
 
-Since the Asset Library folders feature introduced the possibility of really long structures of folders, I wanted to help developers and designers let the breadcrumb serve its main purpose without having to worry about the potential of long breadcrumbs. 
+Since the Asset Library folders feature introduced the possibility of 'endless' breadcrumbs, I wanted to help developers and designers not worry about layouts breaking due to this problem.
 
-I introduced an overflow property that allows developers to split a breadcrumb in half, while focusing on the current page and its closest parents. The prop also changes the breadcrumb design adding a button that gives quick access to the rest of the truncated items.
+I introduced an overflow property that allows developers to split a breadcrumb in half. The prop changes the breadcrumb design by adding a button that gives quick access to truncated items.
 
 
 <figure>
