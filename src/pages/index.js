@@ -4,26 +4,26 @@ import { StaticImage } from "gatsby-plugin-image"
 // styles
 const pageStyles = {
   color: "#232129",
-  fontSize: 21,
+  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontSize: 18,
   maxWidth: 768,
   padding: 16,
-  paddingTop: 48,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  paddingTop: 32,
 }
 const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
+  marginTop: 16,
+  marginBottom: 32,
 }
 const paragraphStyles = {
   color: "#232129",
-  marginBottom: 24,
+  marginBottom: 32,
 }
 
 const listStyles = {
   paddingLeft: 16,
 }
 const listItemStyles = {
-  marginBottom: 21,
+  marginBottom: 18,
 }
 
 const linkStyle = {
@@ -55,6 +55,10 @@ const descriptionStyle = {
   marginTop: 10,
   marginBottom: 0,
   lineHeight: 1.25,
+}
+
+const photo = {
+  borderRadius: 100,
 }
 
 const badgeStyle = {
@@ -118,10 +122,11 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Jules Simplicio, Design Systems Lead</title>
       <StaticImage
-      src="../images/me.png"
-      width={300}
-      quality={95}
-      alt="A Gatsby astronaut"
+        imgStyle={photo}
+        src="../images/me.png"
+        width={124}
+        quality={100}
+        alt="A Gatsby astronaut"
     />
       <h1 style={headingStyles}>
         Hey, I'm Jules. I design and code. ✌️

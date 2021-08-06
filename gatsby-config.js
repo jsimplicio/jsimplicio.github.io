@@ -1,7 +1,16 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "My personal website",
+    siteUrl: "https://julessimplic.io",
+    title: "Jules Simplicio, Design Systems Lead",
   },
-  plugins: ["gatsby-plugin-netlify-cms", "gatsby-plugin-image", "gatsby-plugin-gatsby-cloud"],
-};
+  plugins: [
+    "gatsby-plugin-netlify-cms", "gatsby-plugin-image", "gatsby-plugin-sharp","gatsby-plugin-gatsby-cloud",
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+  ],
+}
