@@ -14,11 +14,12 @@ const headingStyles = {
   marginBottom: 64,
 }
 const paragraphStyles = {
+  color: "#232129",
   marginBottom: 24,
 }
 
 const listStyles = {
-  paddingLeft: 0,
+  paddingLeft: 16,
 }
 const listItemStyles = {
   marginBottom: 21,
@@ -26,7 +27,13 @@ const listItemStyles = {
 
 const linkStyle = {
   color: "#232129",
-  fontWeight: "bold",
+}
+
+const listDescription = {
+  color: "#232129",
+  display: "block",
+  marginBottom: 8,
+  padding: 0,
 }
 
 const hr = {
@@ -125,28 +132,30 @@ const IndexPage = () => {
         I was born and raised in São Paulo, Brazil. I currently live with my partner and our two cats in Chicago. I like spinning records, playing the guitar, skateboarding, and building mechanical keyboards.
       </p>
       <p style={paragraphStyles}>
-        My pronouns are they/them/theirs.
+        My pronouns are they/he.
       </p>
 
       <hr style={hr}/>
 
       <p style={paragraphStyles}>
-        I like to speak about my personal struggle and success stories in design and technology:
+        I like to speak about my personal experience in the professional world of design and technology:
       </p>
 
       <ul style={listStyles}>
         {speaks.map(speak => (
           <li key={speak.url} style={{ ...listItemStyles, color: speak.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${speak.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {speak.text}
-              </a>
-            
-              <p style={descriptionStyle}>{speak.description}</p>
-            </span>
+            <a
+              style={listDescription}
+              href={`${speak.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+            >
+              {speak.text}
+            </a>
+            <a
+              style={descriptionStyle}
+              href={`${speak.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+            >
+              {speak.description}
+            </a>
           </li>
         ))}
       </ul>
@@ -160,20 +169,18 @@ const IndexPage = () => {
       <ul style={listStyles}>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
+            <p style={listDescription}>{link.description}</p>              
+            <a
+              style={linkStyle}
+              href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+            >
+              {link.text}
+            </a>
+            {link.badge && (
+              <span style={badgeStyle} aria-label="New Badge">
+                NEW!
+              </span>
+            )}
           </li>
         ))}
       </ul>
