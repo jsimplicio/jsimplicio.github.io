@@ -5,7 +5,8 @@ const pageStyles = {
   color: "#232129",
   fontSize: 21,
   maxWidth: 768,
-  padding: 96,
+  padding: 16,
+  paddingTop: 48,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
