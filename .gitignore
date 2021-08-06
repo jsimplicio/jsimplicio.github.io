@@ -3,10 +3,10 @@ project.sublime-project
 .DS_Store
 manifest.json
 feed.xml
-package.json
 style.css.map
 server.crt
 server.csr
 server.key
 _site
 .jekyll-cache
+node_modules

@@ -1,0 +1,25 @@
+{
+  "name": "my-personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My personal website",
+  "author": "jsimplicio",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.11.0",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-netlify-cms": "^5.11.0",
+    "netlify-cms-app": "^2.15.33",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
