@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 // styles
 const pageStyles = {
@@ -116,6 +117,12 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Jules Simplicio, Design Systems Lead</title>
+      <StaticImage
+      src="../images/me.png"
+      width={300}
+      quality={95}
+      alt="A Gatsby astronaut"
+    />
       <h1 style={headingStyles}>
         Hey, I'm Jules. I design and code. ✌️
       </h1>
