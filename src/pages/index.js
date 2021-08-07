@@ -90,7 +90,7 @@ const links = [
 const jobs = [
   {
     year: "2019-2021",
-    description: "Brought consistency across Sprout Social suite of tools by focusing on redesigning and adapting Sprout's social media publishing user experience with their new design system.",
+    description: "Brought consistency across Sprout Social suite of tools by focusing on redesigning Sprout's social media publishing UX patterns with their new design system.",
     color: "#CC99C9",
     url: "https://sproutsocial.com/"
   },
