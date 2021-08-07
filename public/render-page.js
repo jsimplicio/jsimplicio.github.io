@@ -6326,24 +6326,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!********************************************************************************************************!*\
-  !*** external "/Users/julessimplicio/Documents/jsimplicio.github.io/node_modules/react-dom/server.js" ***!
-  \********************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** external "/Users/jules/Documents/jsimplicio.github.io/node_modules/react-dom/server.js" ***!
+  \***********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/julessimplicio/Documents/jsimplicio.github.io/node_modules/react-dom/server.js");
+module.exports = require("/Users/jules/Documents/jsimplicio.github.io/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!***************************************************************************************************!*\
-  !*** external "/Users/julessimplicio/Documents/jsimplicio.github.io/node_modules/react/index.js" ***!
-  \***************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** external "/Users/jules/Documents/jsimplicio.github.io/node_modules/react/index.js" ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/julessimplicio/Documents/jsimplicio.github.io/node_modules/react/index.js");
+module.exports = require("/Users/jules/Documents/jsimplicio.github.io/node_modules/react/index.js");
 
 /***/ })
 

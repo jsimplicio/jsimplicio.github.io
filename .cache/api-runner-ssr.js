@@ -1,6 +1,6 @@
 var plugins = [{
       name: 'gatsby-plugin-image',
-      plugin: require('/Users/julessimplicio/Documents/jsimplicio.github.io/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Users/jules/Documents/jsimplicio.github.io/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 /* global plugins */
