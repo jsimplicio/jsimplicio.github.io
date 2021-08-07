@@ -11,7 +11,7 @@ const pageStyles = {
   paddingTop: 16,
 }
 const sectionStyles = {
-  margin: 16,
+  margin: 8,
   maxWidth: 480,
 }
 const headingStyles = {
@@ -20,7 +20,9 @@ const headingStyles = {
 }
 const paragraphStyles = {
   color: "#232129",
+  margin: 0,
   marginBottom: 32,
+  padding: 0,
 }
 const listStyles = {
   paddingLeft: 16,
@@ -36,13 +38,6 @@ const listDescription = {
   display: "block",
   marginBottom: 8,
   padding: 0,
-}
-const hr = {
-  height: 2,
-  background: "#EEE",
-  border: "none",
-  marginBottom: 24,
-  marginTop: 24,
 }
 // const docLinkStyle = {
 //   ...linkStyle,
@@ -82,20 +77,28 @@ const links = [
     url: "https://www.conwaydev.com/",
     description:
       "Jules is a passionate designer and a total blast to work with. They are a product focused thinker and a true advocate for user experience best practices.",
-    color: "#E95800",
-  },
-  {
-    text: "Josh Berman, UX Strategist at Intouch Solutions",
-    url: "https://www.joshberman.design/",
-    description:
-      "Jules was an empathetic mentor who got to know me as a person so that they could guide me towards opportunities that fit with my personal and professional objectives. Jules' thoughtful advice and wealth of industry knowledge was invaluable to me as a young designer!",
-    color: "#1099A8",
+    color: "#9EE09E",
   },
   {
     text: "Mike Joosse, Brand Studio Director at VMLY&R",
     url: "https://joosse.co/",
     description: "In every instance, they provided thoughtful, specific feedback and truly cared about making it a growth experience for the students they worked with... Their dedication to helping the design community grow and flourish in Chicago is a prime example for our students, our other mentors and critics, and designers across the city",
-    color: "#BC027F",
+    color: "#FEB144",
+  },
+]
+
+const jobs = [
+  {
+    year: "2019-2021",
+    description: "Brought consistency across Sprout Social by focusing on redesigning and adapting Sprout's social media publishing user experience with the new design system.",
+    color: "#CC99C9",
+    url: "https://sproutsocial.com/"
+  },
+  {
+    year: "2016-2019",
+    description: "Redesigned dscout's research study products for Android and web with new pattern libraries under the same design system.",
+    color: "#9EC1CF",
+    url: "https://dscout.com/",
   },
 ]
 
@@ -119,19 +122,35 @@ const IndexPage = () => {
           I am designing a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design tokens. I am building these apps to make accessible tokens and to learn SwiftUI.
         </p>
         <p style={paragraphStyles}>
-          I am a product designer and front-end engineer currently leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
-        </p>
-
-        <hr style={hr}/>
-
-        <p style={paragraphStyles}>
           I was born and raised in São Paulo, Brazil. I currently live with my partner and our two cats in Chicago. I like spinning records, playing the guitar, skateboarding, and building mechanical keyboards.
+        </p>
+        <p style={paragraphStyles}>
+          I am a product designer and front-end engineer currently leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
         </p>
         <p style={paragraphStyles}>
           My pronouns are they/he.
         </p>
+        <p style={paragraphStyles}>      
+          📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
+        </p>
       </section>
       <section style={sectionStyles}>
+        <p style={paragraphStyles}>
+          Previously I...
+          <ul style={listStyles}>
+            {jobs.map(job => (
+              <li style={{ ...listItemStyles, color: job.color }}>
+                <p style={listDescription}>{job.description}</p>
+                <a
+                style={linkStyle}
+                href={job.url}
+              >
+                {job.year}
+              </a>              
+              </li>
+            ))}
+          </ul>
+        </p>
         <p style={paragraphStyles}>
           Friends and colleagues say...
         </p>
@@ -142,7 +161,7 @@ const IndexPage = () => {
               <p style={listDescription}>{link.description}</p>              
               <a
                 style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+                href={link.url}
               >
                 {link.text}
               </a>
@@ -154,12 +173,6 @@ const IndexPage = () => {
             </li>
           ))}
         </ul>
-
-        <hr style={hr}/>
-
-        <p style={paragraphStyles}>      
-          📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
-        </p>
       </section>
     </main>
   )
