@@ -119,7 +119,7 @@ const IndexPage = () => {
           I am designing a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design tokens. I am building these apps to make accessible tokens and to learn SwiftUI.
         </p>
         <p style={paragraphStyles}>
-          I am a product designer and front-end engineer currently leading Design Systems at Firefox.
+          I am a product designer and front-end engineer currently leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
         </p>
 
         <hr style={hr}/>
