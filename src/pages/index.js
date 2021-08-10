@@ -8,11 +8,11 @@ const pageStyles = {
   flexWrap: "wrap",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
   fontSize: 18,
-  paddingTop: 16,
+  padding: '2%',
 }
 const sectionStyles = {
   margin: 8,
-  maxWidth: 480,
+  maxWidth: 600,
 }
 const headingStyles = {
   marginTop: 16,
@@ -45,12 +45,6 @@ const listDescription = {
 //   marginBottom: 24,
 // }
 
-const descriptionStyle = {
-  color: "#232129",
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
 const photo = {
   borderRadius: 100,
 }
@@ -119,7 +113,7 @@ const IndexPage = () => {
           Hey, I'm Jules. I design and code. ✌️
         </h1>
         <p style={paragraphStyles}>
-          I am designing a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design tokens. I am building these apps to make accessible tokens and to learn SwiftUI.
+          I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
         </p>
         <p style={paragraphStyles}>
           I was born and raised in São Paulo, Brazil. I currently live with my partner and our two cats in Chicago. I like spinning records, playing the guitar, skateboarding, and building mechanical keyboards.
