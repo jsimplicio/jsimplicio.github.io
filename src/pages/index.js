@@ -25,10 +25,11 @@ const paragraphStyles = {
   padding: 0,
 }
 const listStyles = {
+  marginBottom: 64,
   paddingLeft: 16,
 }
 const listItemStyles = {
-  marginBottom: 18,
+  marginBottom: 4,
 }
 const linkStyle = {
   color: "#232129",
@@ -83,16 +84,20 @@ const links = [
 
 const jobs = [
   {
+    name: "Sprout Social",
     year: "2019-2021",
     description: "Brought consistency across Sprout Social suite of tools by focusing on redesigning Sprout's social media publishing UX patterns with their new design system.",
     color: "#CC99C9",
-    url: "https://sproutsocial.com/"
+    url: "https://sproutsocial.com/",
+    hero: "../images/sproutsocial.png"
   },
   {
+    name: "dscout",
     year: "2016-2019",
     description: "Redesigned dscout's research study products for Android and web with new pattern libraries under the same design system.",
     color: "#9EC1CF",
     url: "https://dscout.com/",
+    hero: "../images/dscout.png"
   },
 ]
 
@@ -108,7 +113,7 @@ const IndexPage = () => {
           width={124}
           quality={100}
           alt="Jules Simplicio headshot"
-      />
+        />
         <h1 style={headingStyles}>
           Hey, I'm Jules. I design and code. ✌️
         </h1>
@@ -131,24 +136,23 @@ const IndexPage = () => {
       <section style={sectionStyles}>
         <p style={paragraphStyles}>
           Previously I...
-          <ul style={listStyles}>
-            {jobs.map(job => (
-              <li style={{ ...listItemStyles, color: job.color }}>
-                <p style={listDescription}>{job.description}</p>
-                <a
+        </p>
+        <ul style={listStyles}>
+          {jobs.map(job => (
+            <li style={{ ...listItemStyles, color: job.color }}>
+              <p style={listDescription}>{job.description}</p>
+              <a
                 style={linkStyle}
                 href={job.url}
               >
                 {job.year}
-              </a>              
-              </li>
-            ))}
-          </ul>
-        </p>
+              </a>           
+            </li>
+          ))}
+        </ul>
         <p style={paragraphStyles}>
           Friends and colleagues say...
         </p>
-
         <ul style={listStyles}>
           {links.map(link => (
             <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
