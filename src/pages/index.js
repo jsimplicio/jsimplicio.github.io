@@ -3,16 +3,25 @@ import { StaticImage } from "gatsby-plugin-image"
 
 // styles
 const pageStyles = {
+  alignItems: "center",
   color: "#232129",
   display: "flex",
+  flexDirection: "column",
   flexWrap: "wrap",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  fontSize: 18,
-  padding: '2%',
+  fontSize: 21,
+  justifyContent: "center",
+  marginTop: 32,
+}
+const articleStyles = {
+  maxWidth: '100%',
 }
 const sectionStyles = {
-  margin: 8,
-  maxWidth: 600,
+  padding: '1%', 
+  maxWidth: 690,
+}
+const sidebarStyles = {
+  maxWidth: 690,
 }
 const headingStyles = {
   marginTop: 16,
@@ -25,7 +34,7 @@ const paragraphStyles = {
   padding: 0,
 }
 const listStyles = {
-  marginBottom: 64,
+  marginBottom: 32,
   paddingLeft: 16,
 }
 const listItemStyles = {
@@ -99,6 +108,14 @@ const jobs = [
     url: "https://dscout.com/",
     hero: "../images/dscout.png"
   },
+  {
+    name: "Threadless",
+    year: "2016",
+    description: "Lead UX research and ecommerce interface designs for Artist Shops, Threadless platform for artists to create an online storefront for selling their art printed on custom products fulfilled by Threadless.",
+    color: "#9EC1CF",
+    url: "https://threadless.com/",
+    hero: "../images/threadless.png"
+  },
 ]
 
 // markup
@@ -106,7 +123,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Jules Simplicio, Design Systems Lead</title>
-      <section style={sectionStyles}>
+      <section style={sidebarStyles}>
         <StaticImage
           imgStyle={photo}
           src="../images/me.png"
@@ -133,44 +150,50 @@ const IndexPage = () => {
           📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
         </p>
       </section>
+
       <section style={sectionStyles}>
-        <p style={paragraphStyles}>
-          Previously I...
-        </p>
-        <ul style={listStyles}>
-          {jobs.map(job => (
-            <li style={{ ...listItemStyles, color: job.color }}>
-              <p style={listDescription}>{job.description}</p>
-              <a
-                style={linkStyle}
-                href={job.url}
-              >
-                {job.year}
-              </a>           
-            </li>
-          ))}
-        </ul>
-        <p style={paragraphStyles}>
-          Friends and colleagues say...
-        </p>
-        <ul style={listStyles}>
-          {links.map(link => (
-            <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-              <p style={listDescription}>{link.description}</p>              
-              <a
-                style={linkStyle}
-                href={link.url}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-            </li>
-          ))}
-        </ul>
+        <article style={articleStyles}>
+          <p style={paragraphStyles}>
+            Previously I...
+          </p>
+          <ul style={listStyles}>
+            {jobs.map(job => (
+              <li style={{ ...listItemStyles, color: job.color }}>
+                <p style={listDescription}>{job.description}</p>
+                <a
+                  style={linkStyle}
+                  href={job.url}
+                >
+                  {job.year}
+                </a>           
+              </li>
+            ))}
+          </ul>
+        </article>
+        
+        <article style={articleStyles}>
+          <p style={paragraphStyles}>
+            Friends and colleagues say...
+          </p>
+          <ul style={listStyles}>
+            {links.map(link => (
+              <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
+                <p style={listDescription}>{link.description}</p>              
+                <a
+                  style={linkStyle}
+                  href={link.url}
+                >
+                  {link.text}
+                </a>
+                {link.badge && (
+                  <span style={badgeStyle} aria-label="New Badge">
+                    NEW!
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </article>
       </section>
     </main>
   )
