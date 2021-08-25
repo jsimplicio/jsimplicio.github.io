@@ -81,13 +81,13 @@ const links = [
     url: "https://www.conwaydev.com/",
     description:
       "Jules is a passionate designer and a total blast to work with. They are a product focused thinker and a true advocate for user experience best practices.",
-    color: "#9EE09E",
+    color: "#FEB144",
   },
   {
     text: "Mike Joosse, Brand Studio Director at VMLY&R",
     url: "https://joosse.co/",
     description: "In every instance, they provided thoughtful, specific feedback and truly cared about making it a growth experience for the students they worked with... Their dedication to helping the design community grow and flourish in Chicago is a prime example for our students, our other mentors and critics, and designers across the city",
-    color: "#FEB144",
+    color: "#FF6663",
   },
 ]
 
@@ -111,8 +111,8 @@ const jobs = [
   {
     name: "Threadless",
     year: "2016",
-    description: "Lead UX research and ecommerce interface designs for Artist Shops, Threadless platform for artists to create an online storefront for selling their art printed on custom products fulfilled by Threadless.",
-    color: "#9EC1CF",
+    description: "Lead UX research and ecommerce pattern designs for Artist Shops, Threadless' platform for artists to create an online storefront to sell their art printed on custom products fulfilled by Threadless.",
+    color: "#9EE09E",
     url: "https://threadless.com/",
     hero: "../images/threadless.png"
   },
@@ -135,7 +135,7 @@ const IndexPage = () => {
           Hey, I'm Jules. I design and code. ✌️
         </h1>
         <p style={paragraphStyles}>
-          I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
+          I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
         </p>
         <p style={paragraphStyles}>
           I currenty work as a product designer and front-end engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
