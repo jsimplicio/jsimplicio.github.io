@@ -24,6 +24,7 @@ const sidebarStyles = {
   maxWidth: 690,
 }
 const headingStyles = {
+  fontSize: 32,
   marginTop: 16,
   marginBottom: 32,
 }
@@ -56,8 +57,10 @@ const listDescription = {
 // }
 
 const photo = {
-  borderRadius: 100,
+  background: "linear-gradient(90deg, rgba(217,192,241,1) 0%, rgba(244,220,193,1) 50%, rgba(176,210,199,1) 100%)", 
+  borderRadius: "100%",
 }
+
 const badgeStyle = {
   color: "#fff",
   backgroundColor: "#088413",
@@ -126,13 +129,14 @@ const IndexPage = () => {
       <section style={sidebarStyles}>
         <StaticImage
           imgStyle={photo}
+          height={180}
+          width={180}
           src="../images/me.png"
-          width={124}
           quality={100}
           alt="Jules Simplicio headshot"
         />
         <h1 style={headingStyles}>
-          Hey, I'm Jules. I design and code. ✌️
+          Hey, I'm Jules Simplicio. <br /> I design and code. ✌️
         </h1>
         <p style={paragraphStyles}>
           I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
@@ -170,7 +174,9 @@ const IndexPage = () => {
             ))}
           </ul>
         </article>
-        
+      </section>
+
+      <section style={sectionStyles}>
         <article style={articleStyles}>
           <p style={paragraphStyles}>
             Friends and colleagues say...
