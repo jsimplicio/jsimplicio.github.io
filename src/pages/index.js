@@ -129,8 +129,8 @@ const IndexPage = () => {
       <section style={sidebarStyles}>
         <StaticImage
           imgStyle={photo}
-          height={180}
-          width={180}
+          height={150}
+          width={150}
           src="../images/me.png"
           quality={100}
           alt="Jules Simplicio headshot"
