@@ -57,7 +57,7 @@ const listDescription = {
 // }
 
 const photo = {
-  background: "linear-gradient(90deg, rgba(217,192,241,1) 0%, rgba(244,220,193,1) 50%, rgba(176,210,199,1) 100%)", 
+  background: "linear-gradient(44deg, rgba(217,192,241,1) 0%, rgba(244,220,193,1) 50%, rgba(176,210,199,1) 100%)", 
   borderRadius: "100%",
 }
 
