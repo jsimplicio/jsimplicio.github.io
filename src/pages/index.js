@@ -20,7 +20,7 @@ const sectionStyles = {
   padding: '1%', 
   maxWidth: 690,
 }
-const sidebarStyles = {
+const introStyles = {
   maxWidth: 690,
 }
 const headingStyles = {
@@ -57,7 +57,6 @@ const listDescription = {
 // }
 
 const photo = {
-  background: "linear-gradient(44deg, rgba(217,192,241,1) 0%, rgba(244,220,193,1) 50%, rgba(176,210,199,1) 100%)", 
   borderRadius: "100%",
 }
 
@@ -126,11 +125,11 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Jules Simplicio, Design Systems Lead</title>
-      <section style={sidebarStyles}>
+      <section style={introStyles}>
         <StaticImage
           imgStyle={photo}
-          height={150}
-          width={150}
+          height={277}
+          width={277}
           src="../images/me.jpg"
           quality={100}
           alt="Jules Simplicio headshot"
