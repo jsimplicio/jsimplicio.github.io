@@ -128,8 +128,8 @@ const IndexPage = () => {
       <section style={introStyles}>
         <StaticImage
           imgStyle={photo}
-          height={277}
-          width={277}
+          height={138.5}
+          width={138.5}
           src="../images/me.jpg"
           quality={100}
           alt="Jules Simplicio headshot"
