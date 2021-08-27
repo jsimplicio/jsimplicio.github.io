@@ -131,7 +131,7 @@ const IndexPage = () => {
           imgStyle={photo}
           height={150}
           width={150}
-          src="../images/me.png"
+          src="../images/me.jpg"
           quality={100}
           alt="Jules Simplicio headshot"
         />
