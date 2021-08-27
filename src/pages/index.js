@@ -113,7 +113,7 @@ const jobs = [
   {
     name: "Threadless",
     year: "2016",
-    description: "Lead UX research and ecommerce pattern designs for Artist Shops, Threadless' platform for artists to create an online storefront to sell their art printed on custom products fulfilled by Threadless.",
+    description: "Lead usability testing and ecommerce tools for Artist Shops, Threadless' platform for artists to create and host an online storefront to sell their art printed on custom products fulfilled by Threadless.",
     color: "#9EE09E",
     url: "https://threadless.com/",
     hero: "../images/threadless.png"
@@ -144,7 +144,9 @@ const IndexPage = () => {
           I currenty work as a product designer and front-end engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
         </p>
         <p style={paragraphStyles}>
-          I was born and raised in São Paulo, Brazil. I currently live with my partner and our two cats in Chicago. I like spinning records, playing the guitar, skateboarding, and building mechanical keyboards.
+          I was born and raised in São Paulo, Brazil, where I fell in love with art through my formative years that were filled with skateboarding sessions, family music gatherings, doodling during class, and playing in a middle school punk rock band.</p>
+        
+        <p>I currently live with my partner and our two cats in Chicago. I enjoy spinning house music records, playing the guitar, skateboarding, and building mechanical keyboards.
         </p>
         <p style={paragraphStyles}>
           My pronouns are they/he.
