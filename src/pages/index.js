@@ -11,18 +11,19 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
   fontSize: 18,
   justifyContent: "center",
-  marginTop: 32,
+  marginTop: "1%",
 }
 const articleStyles = {
   maxWidth: '100%',
 }
 const sectionStyles = {
-  padding: '1%', 
+  background: "linear-gradient(48deg, rgba(207,165,246,0.25) 0%, rgba(139,255,217,0.25) 100%)",
+  borderRadius: 8,
+  padding: "4%", 
+  marginBottom: '2%',
   maxWidth: 690,
 }
-const introStyles = {
-  maxWidth: 690,
-}
+
 const headingStyles = {
   fontSize: 32,
   marginTop: 16,
@@ -31,11 +32,10 @@ const headingStyles = {
 const paragraphStyles = {
   color: "#232129",
   margin: 0,
-  marginBottom: 32,
+  marginBottom: 24,
   padding: 0,
 }
 const listStyles = {
-  marginBottom: 32,
   paddingLeft: 16,
 }
 const listItemStyles = {
@@ -125,11 +125,11 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Jules Simplicio, Design Systems Lead</title>
-      <section style={introStyles}>
+      <section style={sectionStyles}>
         <StaticImage
           imgStyle={photo}
-          height={138.5}
-          width={138.5}
+          height={120}
+          width={120}
           src="../images/me.jpg"
           quality={100}
           alt="Jules Simplicio headshot"
@@ -151,7 +151,7 @@ const IndexPage = () => {
         <p style={paragraphStyles}>
           My pronouns are they/he.
         </p>
-        <p style={paragraphStyles}>      
+        <p>      
           📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
         </p>
       </section>
