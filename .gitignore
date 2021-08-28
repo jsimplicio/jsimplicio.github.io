@@ -30,6 +30,7 @@ integration-tests/gatsby-cli/execution-folder/*
 *.un~
 dist
 bin/published.js
+.node-version
 
 # Build Path of Test Fixtures
 test/**/public
