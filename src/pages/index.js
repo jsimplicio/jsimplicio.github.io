@@ -19,9 +19,6 @@ const articleStyles = {
   padding: 8,
   marginTop: 16,
 }
-
-const htmlStyles = {  background: "#008080"
-}
 const sectionStyles = {
   background: "#C9C9C9",
   border: "1px solid #DDD",
@@ -89,6 +86,14 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
+
+
+const backgroundColor = "background: #008080"
+
+
+const getBodyStyleAttribute = (
+) => backgroundColor;
+
 // data
 const links = [
   {
@@ -145,7 +150,7 @@ const IndexPage = () => {
       <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
       <meta name="reply-to" content="hi@julessimplic.io" />
       <meta name="url" content="http://julessimplic.io" />
-      <html style="background: #008080" lang="en" />
+      <html style={getBodyStyleAttribute()} lang="en" />
       <title>Jules Simplicio, Design Systems Lead</title>
     </Helmet>
     <main style={pageStyles}>
