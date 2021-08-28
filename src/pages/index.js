@@ -9,18 +9,20 @@ const pageStyles = {
   display: "flex",
   flexDirection: "column",
   flexWrap: "wrap",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  fontSize: 18,
+  fontFamily: "Tahoma, sans-serif, serif",
+  fontSize: 16,
   justifyContent: "center",
   marginTop: "1%",
 }
 const articleStyles = {
+  background: "#FFF",
+  boxShadow: "1px 1px 0 0 rgba(255,255,255,1), inset 2px 2px 0 0 rgba(0,0,0,1)",
   maxWidth: '100%',
-  padding: 8,
-  marginTop: 16,
+  padding: "16px 16px 8px 16px",
+  margin: "2px 3px 2px 3px",
 }
 const sectionStyles = {
-  background: "#C9C9C9",
+  background: "#CFCFCF",
   border: "1px solid #DDD",
   borderRadius: 2,
   boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
@@ -55,10 +57,21 @@ const listDescription = {
   padding: 0,
 }
 
+const siteFooter = {  
+  alignItems: "center",
+  background: "#CFCFCF",
+  boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
+  height: 36,
+  display: "flex",
+  width: '100%',
+  position: 'fixed',
+  bottom: 0,
+}
+
 const titleBar = {
   background: "linear-gradient(48deg, rgba(0,28,136,1) 0%, rgba(57,142,203,1) 100%)",
   height: 24,
-  margin: "3px 0 3px 3px"
+  margin: "3px 2px 3px 3px"
 }
 // const docLinkStyle = {
 //   ...linkStyle,
@@ -68,6 +81,15 @@ const titleBar = {
 
 const photo = {
   borderRadius: "100%",
+}
+
+const winButton = {
+  borderRadius: 2,
+  boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
+  background: "#CFCFCF",
+  margin: 2,
+  fontSize: 18,
+  fontWeight: 'bold',
 }
 
 const badgeStyle = {
@@ -86,10 +108,7 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-
-
 const backgroundColor = "background: #008080"
-
 
 const getBodyStyleAttribute = (
 ) => backgroundColor;
@@ -157,36 +176,35 @@ const IndexPage = () => {
       <title></title>
       <section style={sectionStyles}>
       <div style={titleBar}></div>
-
         <article style={articleStyles}>
-        <StaticImage
-          imgStyle={photo}
-          height={120}
-          width={120}
-          src="../images/me.jpg"
-          quality={100}
-          alt="Jules Simplicio headshot"
-        />
-        <h1 style={headingStyles}>
-          Hey, I'm Jules Simplicio. <br /> I design and code. ✌️
-        </h1>
-        <p style={paragraphStyles}>
-          I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
-        </p>
-        <p style={paragraphStyles}>
-          I work as a product designer and front-end engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
-        </p>
-        <p style={paragraphStyles}>
-          I was born and raised in São Paulo, Brazil, where I fell in love with art through my formative years that were filled with skateboarding sessions, family music gatherings, doodling during class, and playing in a middle school punk rock band.</p>
-        
-        <p>I live with my partner and our two cats in Chicago. I enjoy spinning house music records, playing the guitar, skateboarding, and building mechanical keyboards.
-        </p>
-        <p style={paragraphStyles}>
-          My pronouns are they/he.
-        </p>
-        <p>      
-          📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
-        </p>
+          <StaticImage
+            imgStyle={photo}
+            height={120}
+            width={120}
+            src="../images/me.jpg"
+            quality={100}
+            alt="Jules Simplicio headshot"
+          />
+          <h1 style={headingStyles}>
+            Hey, I'm Jules Simplicio. <br /> I design and code. ✌️
+          </h1>
+          <p style={paragraphStyles}>
+            I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
+          </p>
+          <p style={paragraphStyles}>
+            I work as a product designer and front-end engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
+          </p>
+          <p style={paragraphStyles}>
+            I was born and raised in São Paulo, Brazil, where I fell in love with art through my formative years that were filled with skateboarding sessions, family music gatherings, doodling during class, and playing in a middle school punk rock band.</p>
+          
+          <p>I live with my partner and our two cats in Chicago. I enjoy spinning house music records, playing the guitar, skateboarding, and building mechanical keyboards.
+          </p>
+          <p style={paragraphStyles}>
+            My pronouns are they/he.
+          </p>
+          <p>      
+            📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
+          </p>
         </article>
       </section>
 
@@ -240,6 +258,9 @@ const IndexPage = () => {
           </ul>
         </article>
       </section>
+      <footer style={siteFooter}>
+        <button style={winButton}>☺</button>
+      </footer>
     </main>
     </>
   )
