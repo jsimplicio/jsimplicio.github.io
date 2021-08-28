@@ -5,7 +5,8 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   html {
-    background: #008080
+    background: #008080;
+    padding-bottom: 48px;
   }
 `
 
