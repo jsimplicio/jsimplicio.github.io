@@ -169,7 +169,7 @@ const IndexPage = () => {
       <meta charSet="utf-8" />
       <meta name="author" content="Jules Simplicio" />
       <meta name="keywords" content="your, tags" />
-      <meta name="description" content="My personal web site" />
+      <meta name="description" content="My personal home on the Web" />
       <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
       <meta name="reply-to" content="hi@julessimplic.io" />
       <meta name="url" content="http://julessimplic.io" />
