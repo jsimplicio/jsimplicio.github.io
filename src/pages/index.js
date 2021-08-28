@@ -110,7 +110,9 @@ const badgeStyle = {
 
 const backgroundColor = "background: #008080"
 
-const getBodyStyleAttribute = () => backgroundColor;
+const handleColor = () => {
+  return backgroundColor
+}
 
 // data
 const links = [
@@ -168,7 +170,7 @@ const IndexPage = () => {
       <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
       <meta name="reply-to" content="hi@julessimplic.io" />
       <meta name="url" content="http://julessimplic.io" />
-      <html style={{getBodyStyleAttribute}} lang="en" />
+      <html style={handleColor()} lang="en" />
       <title>Jules Simplicio, Design Systems Lead</title>
     </Helmet>
     <main style={pageStyles}>
