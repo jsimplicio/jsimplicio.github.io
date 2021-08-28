@@ -4,7 +4,7 @@ module.exports = {
     title: "Jules Simplicio, Design Systems Lead",
   },
   plugins: [
-    "gatsby-plugin-netlify-cms", "gatsby-plugin-react-helmet", "gatsby-plugin-image", "gatsby-plugin-sharp","gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-netlify-cms", `gatsby-plugin-react-helmet`, "gatsby-plugin-image", "gatsby-plugin-sharp","gatsby-plugin-gatsby-cloud",
     {
       resolve: 'gatsby-source-filesystem',
       options: {
