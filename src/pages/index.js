@@ -4,8 +4,8 @@ import { Helmet } from "react-helmet"
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    background: "#008080"
+  html {
+    background: #008080
   }
 `
 
