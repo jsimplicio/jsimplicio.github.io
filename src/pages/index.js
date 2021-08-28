@@ -1,6 +1,13 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
+import { createGlobalStyle } from 'styled-components'
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background: "#008080"
+  }
+`
 
 // styles
 const pageStyles = {
@@ -108,12 +115,6 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-const backgroundColor = "background: #008080"
-
-const handleColor = () => {
-  return backgroundColor
-}
-
 // data
 const links = [
   {
@@ -162,6 +163,7 @@ const jobs = [
 const IndexPage = () => {
   return (
     <>
+    <GlobalStyle />
     <Helmet>
       <meta charSet="utf-8" />
       <meta name="author" content="Jules Simplicio" />
@@ -170,7 +172,7 @@ const IndexPage = () => {
       <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
       <meta name="reply-to" content="hi@julessimplic.io" />
       <meta name="url" content="http://julessimplic.io" />
-      <html style={handleColor()} lang="en" />
+      <html  lang="en" />
       <title>Jules Simplicio, Design Systems Lead</title>
     </Helmet>
     <main style={pageStyles}>
