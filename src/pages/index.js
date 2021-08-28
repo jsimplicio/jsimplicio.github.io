@@ -1,5 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Helmet } from "react-helmet";
 
 // styles
 const pageStyles = {
@@ -15,13 +16,20 @@ const pageStyles = {
 }
 const articleStyles = {
   maxWidth: '100%',
+  padding: 8,
+  marginTop: 16,
+}
+
+const htmlStyles = {  background: "#008080"
 }
 const sectionStyles = {
-  background: "linear-gradient(48deg, rgba(207,165,246,0.25) 0%, rgba(139,255,217,0.25) 100%)",
-  borderRadius: 8,
-  padding: "4%", 
+  background: "#C9C9C9",
+  border: "1px solid #DDD",
+  borderRadius: 2,
+  boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
+  padding: 4, 
   marginBottom: '2%',
-  maxWidth: 690,
+  maxWidth: 680,
 }
 
 const headingStyles = {
@@ -39,7 +47,6 @@ const listStyles = {
   paddingLeft: 16,
 }
 const listItemStyles = {
-  marginBottom: 4,
 }
 const linkStyle = {
   color: "#232129",
@@ -49,6 +56,12 @@ const listDescription = {
   display: "block",
   marginBottom: 8,
   padding: 0,
+}
+
+const titleBar = {
+  background: "linear-gradient(48deg, rgba(0,28,136,1) 0%, rgba(57,142,203,1) 100%)",
+  height: 24,
+  margin: "3px 0 3px 3px"
 }
 // const docLinkStyle = {
 //   ...linkStyle,
@@ -123,9 +136,24 @@ const jobs = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <meta name="author" content="Jules Simplicio" />
+      <meta name="keywords" content="your, tags"/>
+      <meta name="description" content="My personal web site"/>
+      <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
+      <meta name="reply-to" content="hi@julessimplic.io" />
+      <meta name="url" content="http://julessimplic.io" />
+      <html style="background: #008080" lang="en" />
       <title>Jules Simplicio, Design Systems Lead</title>
+    </Helmet>
+    <main style={pageStyles}>
+      <title></title>
       <section style={sectionStyles}>
+      <div style={titleBar}></div>
+
+        <article style={articleStyles}>
         <StaticImage
           imgStyle={photo}
           height={120}
@@ -141,12 +169,12 @@ const IndexPage = () => {
           I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
         </p>
         <p style={paragraphStyles}>
-          I currenty work as a product designer and front-end engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
+          I work as a product designer and front-end engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
         </p>
         <p style={paragraphStyles}>
           I was born and raised in São Paulo, Brazil, where I fell in love with art through my formative years that were filled with skateboarding sessions, family music gatherings, doodling during class, and playing in a middle school punk rock band.</p>
         
-        <p>I currently live with my partner and our two cats in Chicago. I enjoy spinning house music records, playing the guitar, skateboarding, and building mechanical keyboards.
+        <p>I live with my partner and our two cats in Chicago. I enjoy spinning house music records, playing the guitar, skateboarding, and building mechanical keyboards.
         </p>
         <p style={paragraphStyles}>
           My pronouns are they/he.
@@ -154,9 +182,12 @@ const IndexPage = () => {
         <p>      
           📧: <a style={linkStyle} href="mailto:hi@julessimplic.io" title="email">email</a>
         </p>
+        </article>
       </section>
 
       <section style={sectionStyles}>
+      <div style={titleBar}></div>
+
         <article style={articleStyles}>
           <p style={paragraphStyles}>
             Previously I...
@@ -178,6 +209,8 @@ const IndexPage = () => {
       </section>
 
       <section style={sectionStyles}>
+      <div style={titleBar}></div>
+
         <article style={articleStyles}>
           <p style={paragraphStyles}>
             Friends and colleagues say...
@@ -203,6 +236,7 @@ const IndexPage = () => {
         </article>
       </section>
     </main>
+    </>
   )
 }
 
