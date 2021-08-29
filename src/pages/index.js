@@ -4,9 +4,11 @@ import { Helmet } from "react-helmet"
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
   html {
     background: #008080;
-    padding-bottom: 48px;
   }
 `
 // styles
@@ -19,14 +21,13 @@ const pageStyles = {
   fontFamily: "Times New Roman, serif",
   fontSize: 18,
   justifyContent: "center",
-  margin: "16px 16px 8px 8px",
+  margin: "32px 0",
 }
 
 const articleStyles = {
   background: "#FFF",
   boxShadow: "1px 1px 0 0 rgba(255,255,255,1), inset 2px 2px 0 0 rgba(0,0,0,1)",
-  maxWidth: '100%',
-  padding: '2%'
+  padding: 32,
 }
 
 const sectionStyles = {
@@ -34,81 +35,52 @@ const sectionStyles = {
   border: "1px solid #DDD",
   borderRadius: 2,
   boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
-  padding: 4, 
-  marginBottom: 16,
-  maxWidth: 1124,
+  maxWidth: 1024,
+  marginBottom: 32,
+  padding: 0,
   width: "100%",
 }
 
 const heroImages = {
   display: "flex",
   flexWrap: "wrap",
+  justifyContent: "space-between",
   position: "relative",
-  marginRight: -48,
+  marginRight: 0,
+  width: "100%",
 }
 
 const heroImage = {
   borderRadius: 4,
-  flex: "400px",
-  marginRight: 48,
-  marginTop: 24,
+  width: 468,
+  marginTop: 32,
 }
 
 const headingStyles = {
   fontSize: 24,
   margin: 0,
-  marginBottom: 24,
+  marginBottom: 32,
 }
 const paragraphStyles = {
   color: "#232129",
   margin: 0,
-  marginBottom: 24,
+  marginBottom: 18,
   padding: 0,
   maxWidth: 668,
 }
-// const listStyles = {
-//   paddingLeft: 16,
-// }
-// const listItemStyles = {
-// }
 const linkStyle = {
   color: "#232129",
 }
-// const listDescription = {
-//   color: "#232129",
-//   display: "block",
-//   marginBottom: 8,
-//   padding: 0,
-// }
-
-// const siteFooter = {  
-//   alignItems: "center",
-//   background: "#CFCFCF",
-//   boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
-//   height: 36,
-//   display: "flex",
-//   width: '100%',
-//   position: 'fixed',
-//   bottom: 0,
-// }
-
 const titleBar = {
   alignItems: "center",
   background: "linear-gradient(48deg, rgba(0,28,136,1) 0%, rgba(57,142,203,1) 100%)",
   color: "white",
   display: "flex",
-  height: 24,
+  height: 28,
   fontFamily: "Arial, sans-serif",
   fontSize: 14,
   padding: "0 0 0 8px",
 }
-// const docLinkStyle = {
-//   ...linkStyle,
-//   listStyleType: "none",
-//   marginBottom: 24,
-// }
-
-
 const winButton = {
   alignItems: "center",
   borderRadius: 2,
@@ -116,14 +88,13 @@ const winButton = {
   background: "#CFCFCF",
   display: "flex",
   margin: 2,
-  padding: 2,
+  padding: 0
 }
-
 const buttonGroup = {
   display: "flex",
   marginLeft: "auto",
+  marginRight: 2,
 }
-
 const badgeStyle = {
   color: "#fff",
   backgroundColor: "#088413",
