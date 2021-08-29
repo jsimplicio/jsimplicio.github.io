@@ -56,8 +56,8 @@ const heroImage = {
 
 const headingStyles = {
   fontSize: 24,
-  marginTop: 16,
-  marginBottom: 32,
+  margin: 0,
+  marginBottom: 24,
 }
 const paragraphStyles = {
   color: "#232129",
@@ -108,18 +108,21 @@ const titleBar = {
 //   marginBottom: 24,
 // }
 
-const photo = {
-  borderRadius: "100%",
+
+const winButton = {
+  alignItems: "center",
+  borderRadius: 2,
+  boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
+  background: "#CFCFCF",
+  display: "flex",
+  margin: 2,
+  padding: 2,
 }
 
-// const winButton = {
-//   borderRadius: 2,
-//   boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
-//   background: "#CFCFCF",
-//   margin: 2,
-//   fontSize: 18,
-//   fontWeight: 'bold',
-// }
+const buttonGroup = {
+  display: "flex",
+  marginLeft: "auto",
+}
 
 const badgeStyle = {
   color: "#fff",
@@ -237,6 +240,27 @@ const jobs = [
 
 // markup
 const IndexPage = () => {
+  const buttons = () => {
+    return(
+      <div style={buttonGroup}>
+        <button disabled style={winButton}>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="8" width="8" height="2" fill="black"/>
+          </svg>
+        </button>
+        <button disabled style={winButton}>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.11111 2H2.88889H2V3.77778V9.11111V10H2.88889H9.11111H10V9.11111V3.77778V2H9.11111ZM9.11111 9.11111V3.77778H2.88889V9.11111H9.11111Z" fill="black"/>
+          </svg>
+        </button>
+        <button disabled style={winButton}>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M2 3H4V4H5V5H7V4H8V3H10V4H9V5H8V6H7V7H8V8H9V9H10V10H8V9H7V8H5V9H4V10H2V9H3V8H4V7H5V6H4V5H3V4H2V3Z" fill="black"/>
+          </svg>
+        </button>
+      </div>
+    )
+  }
   return (
     <>
       <GlobalStyle />
@@ -253,16 +277,8 @@ const IndexPage = () => {
       </Helmet>
       <main style={pageStyles}>
         <section style={sectionStyles}>
-          <div style={titleBar}>About</div>
+          <div style={titleBar}>About - Notepad {buttons()}</div>
           <article style={articleStyles}>
-            <StaticImage
-              imgStyle={photo}
-              height={120}
-              width={120}
-              src="../images/me.jpg"
-              quality={100}
-              alt="Jules Simplicio headshot"
-            />
             <h1 style={headingStyles}>
               I'm Jules Simplicio. I design and code.
             </h1>
@@ -287,7 +303,7 @@ const IndexPage = () => {
 
         {jobs.map(job => (
           <section style={sectionStyles}>
-            <div style={titleBar}>Previously...</div>
+            <div style={titleBar}>Previously... - Notepad {buttons()}</div>
             <article style={articleStyles}>
               <p style={paragraphStyles}>{job.description}</p>
               <a
@@ -305,7 +321,7 @@ const IndexPage = () => {
 
         {links.map(link => (
           <section style={sectionStyles}>
-            <div style={titleBar}>Friends and colleagues say...</div>
+            <div style={titleBar}>Friends and colleagues say... - Notepad {buttons()}</div>
             <article style={articleStyles}>
               <p style={paragraphStyles}>{link.description}</p>              
               <a
