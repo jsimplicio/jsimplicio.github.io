@@ -44,6 +44,7 @@ const heroImages = {
   display: "flex",
   flexWrap: "wrap",
   position: "relative",
+  marginRight: -48,
 }
 
 const heroImage = {
@@ -157,7 +158,7 @@ const jobs = [
   {
     name: "Sprout Social",
     year: "2019-2021",
-    description: "Brought consistency across Sprout Social suite of tools by focusing on redesigning Sprout's social media publishing UX patterns with their new design system.",
+    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns with their new design system.",
     color: "#CC99C9",
     url: "https://sproutsocial.com/",
     hero: (
@@ -192,7 +193,7 @@ const jobs = [
   {
     name: "dscout",
     year: "2016-2019",
-    description: "Redesigned dscout's research study products for Android and web with new pattern libraries under the same design system.",
+    description: "I redesigned dscout's research study products for web and Android with new pattern libraries under the same design system.",
     color: "#9EC1CF",
     url: "https://dscout.com/",
     hero: (
