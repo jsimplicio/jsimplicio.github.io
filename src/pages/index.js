@@ -29,13 +29,13 @@ const pageStyles = {
 
 const articleStyles = {
   background: "#FFF",
-  boxShadow: "1px 1px 0 0 rgba(255,255,255,1), inset 2px 2px 0 0 rgba(0,0,0,1)",
+  boxShadow: "1px 1px 0 0 #CCC, inset 2px 2px 0 0 rgba(0,0,0,1)",
   padding: 32,
 }
 
 const sectionStyles = {
   background: "#CFCFCF",
-  border: "1px solid #DDD",
+  border: "4px solid #CCC",
   borderRadius: 2,
   boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
   maxWidth: 1024,
@@ -111,6 +111,15 @@ const winButton = {
   margin: 2,
   padding: 0
 }
+const startButton = {
+  alignItems: "center",
+  borderRadius: 2,
+  boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
+  background: "#CFCFCF",
+  display: "flex",
+  margin: 2,
+  padding: 3
+}
 const buttonGroup = {
   display: "flex",
   marginLeft: "auto",
@@ -131,7 +140,15 @@ const badgeStyle = {
   marginLeft: 10,
   lineHeight: 1,
 }
-
+const startMenu = {
+  background: "#CFCFCF",
+  bottom: 0,
+  display: "flex",
+  left: 0,
+  padding: 2,
+  position: "fixed",
+  width: "100%"
+}
 // data
 const links = [
   {
@@ -153,7 +170,7 @@ const jobs = [
   {
     name: "Sprout Social",
     year: "2019-2021",
-    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns with their new design system.",
+    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns, which I adopted into the system wide design patterns library.",
     color: "#CC99C9",
     url: "https://sproutsocial.com/",
     hero: (
@@ -180,6 +197,18 @@ const jobs = [
           style={heroImage}
           src="../images/sprout-4.png"
           quality={60}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-5.png"
+          quality={60}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-6.png"
+          quality={30}
           alt="Sprout Social"
         />
       </>
@@ -216,7 +245,19 @@ const jobs = [
           src="../images/dscout-4.png"
           quality={100}
           alt="dscout"
-        />    
+        />   
+        <StaticImage
+          style={heroImage}
+          src="../images/dscout-5.png"
+          quality={100}
+          alt="dscout"
+        />  
+        <StaticImage
+          style={heroImage}
+          src="../images/dscout-6.png"
+          quality={100}
+          alt="dscout"
+        />  
       </>
     ),
   },
@@ -269,8 +310,9 @@ const IndexPage = () => {
       </Helmet>
       <aside style={aside}>
         <span style={emailStyles}>  
-          <img src={email} />
+          <a style={emailLink} href="mailto:hi@julessimplic.io" title="email"><img src={email} /></a>
           <a style={emailLink} href="mailto:hi@julessimplic.io" title="email">Email</a>
+
         </span>
         <span style={emailStyles}>  
           <img src={notepad} />
@@ -302,23 +344,30 @@ const IndexPage = () => {
         </section>
 
         {jobs.map(job => (
+          <>
           <section style={sectionStyles}>
             <div style={titleBar}>Previously... - Notepad {buttons()}</div>
             <article style={articleStyles}>
-              <p style={paragraphStyles}>{job.description}</p>
+                <p style={paragraphStyles}>{job.description}</p>
               <a
                 style={linkStyle}
                 href={job.url}
               >
                 {job.year}
               </a>    
+            </article>
+          </section>
+
+          <section style={sectionStyles}>
+            <div style={titleBar}>{job.name} - Notepad {buttons()}</div>
+            <article style={articleStyles}>  
               <div style={heroImages}>
                 {job.hero}
               </div>   
             </article>
           </section>
+        </>
         ))}
-
         {links.map(link => (
           <section style={sectionStyles}>
             <div style={titleBar}>Friends and colleagues say... - Notepad {buttons()}</div>
@@ -339,6 +388,28 @@ const IndexPage = () => {
           </section>
         ))}
       </main>
+      <footer style={startMenu}>
+        <button style={startButton}>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="12" y="1" width="1" height="1" fill="black"/>
+            <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+            <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="3" width="10" height="11" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+          </svg>
+          Notepad
+        </button>
+      </footer>
     </>
   )
 }
