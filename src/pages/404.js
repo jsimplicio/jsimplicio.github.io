@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
 // styles
 const pageStyles = {
   color: "#232129",
@@ -12,7 +11,6 @@ const headingStyles = {
   marginBottom: 64,
   maxWidth: 320,
 }
-
 const paragraphStyles = {
   marginBottom: 48,
 }
