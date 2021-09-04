@@ -45,7 +45,7 @@ const sectionStyles = {
 }
 const aside = {
   display: "flex",
-  alignItems: "center",
+  alignItems: "end",
   margin: 8,
 }
 const heroImages = {
