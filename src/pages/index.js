@@ -62,6 +62,7 @@ const headingStyles = {
   fontSize: 24,
   margin: 0,
   marginBottom: 32,
+  maxWidth: 668,
 }
 const paragraphStyles = {
   color: "#232129",
@@ -421,7 +422,7 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              Hi! I'm Jules Simplicio. I'm a Design Engineer.
+              Hey there, I'm Jules Simplicio. I'm a Design Engineer. I design, develop, maintain, and advocate for design systems and teamwide adoption. 
             </h1>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
