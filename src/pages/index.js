@@ -26,26 +26,23 @@ const pageStyles = {
   justifyContent: "center",
   margin: "4px 0 24px 0",
 }
-
 const articleStyles = {
   background: "#FFF",
   boxShadow: "1px 1px 0 0 #CCC, inset 2px 2px 0 0 rgba(0,0,0,1)",
   padding: 32,
+  justifyContent: "space-between",
 }
-
 const sectionStyles = {
   background: "#CFCFCF",
   border: "4px solid #CCC",
   borderRadius: 2,
   boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
-  maxWidth: 1024,
+  maxWidth: 1224,
   marginBottom: 32,
   padding: 0,
   width: "100%",
 }
 const aside = {
-  display: "flex",
-  alignItems: "end",
   margin: 8,
 }
 const heroImages = {
@@ -56,13 +53,11 @@ const heroImages = {
   marginRight: 0,
   width: "100%",
 }
-
 const heroImage = {
   borderRadius: 4,
-  width: 468,
+  width: 548,
   marginTop: 32,
 }
-
 const headingStyles = {
   fontSize: 24,
   margin: 0,
@@ -75,8 +70,15 @@ const paragraphStyles = {
   padding: 0,
   maxWidth: 668,
 }
+const quote = {
+  display: "flex",
+  flexDirection: "column",
+  fontStyle: "italic",
+  margin: "32px 0"
+}
 const linkStyle = {
   color: "#232129",
+  fontStyle: "normal"
 }
 const emailLink = {
   color: "white",
@@ -94,13 +96,14 @@ const titleBar = {
   fontFamily: "Arial, sans-serif",
   fontSize: 14,
   padding: "0 0 0 8px",
+  textDecoration: "none",
 }
-const emailStyles = {
-  alignItems: "center",
-  display: "flex",
-  justifyContent: "center",
-  flexDirection: "column",
-  marginRight: 8
+const asideIcon = {
+  display: "inline-block",
+  marginRight: 16
+}
+const imageAside = {
+  display: "block"
 }
 const winButton = {
   alignItems: "center",
@@ -114,31 +117,31 @@ const winButton = {
 const startButton = {
   alignItems: "center",
   borderRadius: 2,
-  boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
+  color: "#232129",
+  boxShadow: "inset 2px 2px 0 0 rgba(255,255,255,1), 2px 2px 0 0 rgba(0,0,0,1)",
   background: "#CFCFCF",
   display: "flex",
+  fontFamily: "Arial, sans-serif",
+  fontSize: 14,
   margin: 2,
-  padding: 3
+  padding: 6,
+  whiteSpace: "nowrap",
+  overflow: "hidden",
+  textDecoration: "none",
+  textOverflow: "ellipsis",
+  maxWidth: 250,
+  width: "100%",
+}
+const startButtonContent = {
+  marginLeft: 4,
+  whiteSpace: "nowrap",
+  overflow: "hidden",
+  textOverflow: "ellipsis"
 }
 const buttonGroup = {
   display: "flex",
   marginLeft: "auto",
   marginRight: 2,
-}
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
 }
 const startMenu = {
   background: "#CFCFCF",
@@ -148,6 +151,9 @@ const startMenu = {
   padding: 2,
   position: "fixed",
   width: "100%"
+}
+const flexIcon = {
+  flexShrink: 0,
 }
 // data
 const links = [
@@ -161,14 +167,14 @@ const links = [
   {
     text: "Mike Joosse, Brand Studio Director at VMLY&R",
     url: "https://joosse.co/",
-    description: "In every instance, they provided thoughtful, specific feedback and truly cared about making it a growth experience for the students they worked with... Their dedication to helping the design community grow and flourish in Chicago is a prime example for our students, our other mentors and critics, and designers across the city",
+    description: "In every instance, they provided thoughtful, specific feedback and truly cared about making it a growth experience for the students they worked with... Their dedication to helping the design community grow and flourish in Chicago is a prime example for our students, our other mentors and critics, and designers across the city.",
     color: "#FF6663",
   },
 ]
 
 const jobs = [
   {
-    name: "Sprout Social",
+    name: "sproutsocial",
     year: "2019-2021",
     description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns, which I adopted into the system wide design patterns library.",
     color: "#CC99C9",
@@ -208,6 +214,42 @@ const jobs = [
         <StaticImage
           style={heroImage}
           src="../images/sprout-6.png"
+          quality={30}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-7.png"
+          quality={30}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-8.png"
+          quality={30}
+          alt="Sprout Social"
+        />
+           <StaticImage
+          style={heroImage}
+          src="../images/sprout-9.png"
+          quality={30}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-10.png"
+          quality={30}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-11.png"
+          quality={30}
+          alt="Sprout Social"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/sprout-12.png"
           quality={30}
           alt="Sprout Social"
         />
@@ -257,7 +299,43 @@ const jobs = [
           src="../images/dscout-6.png"
           quality={100}
           alt="dscout"
+        />
+        <StaticImage
+          style={heroImage}
+          src="../images/dscout-7.png"
+          quality={100}
+          alt="dscout"
         />  
+        <StaticImage
+          style={heroImage}
+          src="../images/dscout-8.png"
+          quality={100}
+          alt="dscout"
+        />  
+        <StaticImage
+          style={heroImage}
+          src="../images/dscout-9.png"
+          quality={100}
+          alt="dscout"
+        />  
+        <StaticImage
+          style={heroImage}
+          src="../images/dscout-10.png"
+          quality={100}
+          alt="dscout"
+        />   
+         <StaticImage
+          style={heroImage}
+          src="../images/dscout-11.png"
+          quality={100}
+          alt="dscout"
+        />   
+         <StaticImage
+          style={heroImage}
+          src="../images/dscout-12.png"
+          quality={100}
+          alt="dscout"
+        />    
       </>
     ),
   },
@@ -309,23 +387,21 @@ const IndexPage = () => {
         <title>Jules Simplicio, Design Systems Lead</title>
       </Helmet>
       <aside style={aside}>
-        <span style={emailStyles}>  
-          <a style={emailLink} href="mailto:hi@julessimplic.io" title="email"><img src={email} /></a>
+        <div style={asideIcon}>  
+          <a style={imageAside} href="mailto:hi@julessimplic.io" title="email"><img alt="Email" src={email} /></a>
           <a style={emailLink} href="mailto:hi@julessimplic.io" title="email">Email</a>
-
-        </span>
-        <span style={emailStyles}>  
-          <img src={notepad} />
+        </div>
+        <div style={asideIcon}>  
+          <img style={imageAside} alt="Notepad" src={notepad} />
           <span style={emailLink}>Notepad</span>
-        </span>
+        </div>
       </aside>
       <main style={pageStyles}>
         <section style={sectionStyles}>
-          <div style={titleBar}>
-            About - Notepad {buttons()}</div>
+          <a id="about" href="#about" style={titleBar}>About - Notepad {buttons()}</a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I'm Jules Simplicio. I design and code.
+              I'm Jules Simplicio. I am a design engineer.
             </h1>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
@@ -346,21 +422,15 @@ const IndexPage = () => {
         {jobs.map(job => (
           <>
           <section style={sectionStyles}>
-            <div style={titleBar}>Previously... - Notepad {buttons()}</div>
+            <a id={job.name} href={"#" + job.name} style={titleBar}>Previously in {job.year}... - Notepad {buttons()}</a>
             <article style={articleStyles}>
-                <p style={paragraphStyles}>{job.description}</p>
+              <p style={paragraphStyles}>{job.description}</p>
               <a
                 style={linkStyle}
                 href={job.url}
               >
                 {job.year}
               </a>    
-            </article>
-          </section>
-
-          <section style={sectionStyles}>
-            <div style={titleBar}>{job.name} - Notepad {buttons()}</div>
-            <article style={articleStyles}>  
               <div style={heroImages}>
                 {job.hero}
               </div>   
@@ -368,10 +438,11 @@ const IndexPage = () => {
           </section>
         </>
         ))}
-        {links.map(link => (
-          <section style={sectionStyles}>
-            <div style={titleBar}>Friends and colleagues say... - Notepad {buttons()}</div>
-            <article style={articleStyles}>
+        <section style={sectionStyles}>
+          <a id="friends" href="#friends" style={titleBar}>Friends and colleagues say... - Notepad {buttons()}</a>
+          <article style={articleStyles}>
+          {links.map(link => (
+            <div style={quote}>
               <p style={paragraphStyles}>{link.description}</p>              
               <a
                 style={linkStyle}
@@ -379,18 +450,14 @@ const IndexPage = () => {
               >
                 {link.text}
               </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-            </article>
-          </section>
-        ))}
+            </div>
+          ))}
+          </article>
+        </section>
       </main>
       <footer style={startMenu}>
-        <button style={startButton}>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a href="#about" style={startButton}>
+          <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="12" y="1" width="1" height="1" fill="black"/>
             <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
             <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
@@ -407,8 +474,70 @@ const IndexPage = () => {
             <rect x="2" y="3" width="10" height="11" fill="white"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
           </svg>
-          Notepad
-        </button>
+          <span style={startButtonContent}>About - Notepad</span>
+        </a>
+
+        <a href="#sproutsocial" style={startButton}>
+          <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="12" y="1" width="1" height="1" fill="black"/>
+            <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+            <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="3" width="10" height="11" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+          </svg>
+          <span style={startButtonContent}>Previously in 2019-2021... - Notepad</span>
+        </a>
+        <a href="#dscout" style={startButton}>
+          <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="12" y="1" width="1" height="1" fill="black"/>
+            <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+            <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="3" width="10" height="11" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+          </svg>
+          <span style={startButtonContent}>Previously in 2016-2019... - Notepad</span>
+        </a>
+
+        <a href="#friends" style={startButton}>
+          <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="12" y="1" width="1" height="1" fill="black"/>
+            <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+            <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+            <rect x="2" y="3" width="10" height="11" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+          </svg>
+          <span style={startButtonContent}>Friends and colleagues say... - Notepad</span>
+        </a>
       </footer>
     </>
   )
