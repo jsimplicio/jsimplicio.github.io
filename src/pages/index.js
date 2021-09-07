@@ -422,7 +422,7 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              Hey there, I'm Jules Simplicio. I'm a Design Engineer. I design, develop, maintain, and advocate for design systems and teamwide adoption. 
+              Hey there, I'm Jules Simplicio. I'm a Design Engineer. I build, maintain, and advocate for design systems. I prioritize org wide support and adoption. 
             </h1>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
