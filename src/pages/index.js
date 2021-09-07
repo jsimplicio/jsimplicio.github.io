@@ -66,7 +66,7 @@ const headingStyles = {
 const paragraphStyles = {
   color: "#232129",
   margin: 0,
-  marginBottom: 18,
+  marginBottom: 14,
   padding: 0,
   maxWidth: 668,
 }
@@ -74,7 +74,7 @@ const quote = {
   display: "flex",
   flexDirection: "column",
   fontStyle: "italic",
-  margin: "32px 0"
+  margin: "24px 0"
 }
 const linkStyle = {
   color: "#232129",
