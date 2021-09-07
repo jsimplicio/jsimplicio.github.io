@@ -103,7 +103,8 @@ const asideIcon = {
   marginRight: 16
 }
 const imageAside = {
-  display: "block"
+  alignItems: "center",
+  display: "flex",
 }
 const winButton = {
   alignItems: "center",
