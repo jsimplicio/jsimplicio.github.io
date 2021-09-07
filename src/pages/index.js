@@ -133,7 +133,6 @@ const startButton = {
   width: "100%",
 }
 const startButtonContent = {
-  marginLeft: 4,
   whiteSpace: "nowrap",
   overflow: "hidden",
   textOverflow: "ellipsis"
@@ -154,6 +153,7 @@ const startMenu = {
 }
 const flexIcon = {
   flexShrink: 0,
+  marginRight: 4,
 }
 // data
 const links = [
@@ -398,7 +398,26 @@ const IndexPage = () => {
       </aside>
       <main style={pageStyles}>
         <section style={sectionStyles}>
-          <a id="about" href="#about" style={titleBar}>About - Notepad {buttons()}</a>
+          <a id="about" href="#about" style={titleBar}>
+            <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="1" width="1" height="1" fill="black"/>
+              <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+              <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="2" y="3" width="10" height="11" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+            </svg>
+            About - Notepad {buttons()}
+          </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
               Hi! I'm Jules Simplicio. I'm a Design Engineer.
@@ -422,7 +441,26 @@ const IndexPage = () => {
         {jobs.map(job => (
           <>
           <section style={sectionStyles}>
-            <a id={job.name} href={"#" + job.name} style={titleBar}>Previously in {job.year}... - Notepad {buttons()}</a>
+            <a id={job.name} href={"#" + job.name} style={titleBar}>
+              <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="12" y="1" width="1" height="1" fill="black"/>
+                <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+                <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+                <rect x="2" y="3" width="10" height="11" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+              </svg>
+              Previously in {job.year}... - Notepad {buttons()}
+            </a>
             <article style={articleStyles}>
               <p style={paragraphStyles}>{job.description}</p>
               <a
@@ -439,7 +477,26 @@ const IndexPage = () => {
         </>
         ))}
         <section style={sectionStyles}>
-          <a id="friends" href="#friends" style={titleBar}>Friends and colleagues say... - Notepad {buttons()}</a>
+          <a id="friends" href="#friends" style={titleBar}>
+            <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="1" width="1" height="1" fill="black"/>
+              <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
+              <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
+              <rect x="2" y="3" width="10" height="11" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
+            </svg>
+            Friends and colleagues say... - Notepad {buttons()}
+          </a>
           <article style={articleStyles}>
           {links.map(link => (
             <div style={quote}>
