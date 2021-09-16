@@ -433,7 +433,7 @@ const IndexPage = () => {
             <p style={paragraphStyles}>
               I was born and raised in São Paulo, Brazil, where I fell in love with art through my formative years that were filled with skateboarding sessions, family music gatherings, doodling during class, and playing in a middle school punk rock band.</p>
               <p style={paragraphStyles}>
-              I realized I was in love with building the Web after I spent years customizing websites that I used for hosting my visual art, which was pretty much all contained in audio, video, photography, and graphic formats. But what excited me the most though, was making custom templates for the websites I hosted my art.</p>
+              I realized I was in love with building the Web after I spent years customizing websites that I used for hosting my visual art, which was pretty much all contained in audio, video, photography, and graphic formats. But what excited me the most though, was making custom templates for the websites where I hosted my art.</p>
               <p style={paragraphStyles}>
               I started my Web career participating in different open-design Web communities and volunteering for open-source projects. Once I learned the ropes of working on software with different people from different backgrounds, I began working as a feature UX designer and engineer at small-to-medium sized start ups. I have continued growing by working as a design systems architect for large sized software companies.</p>
               <p style={paragraphStyles}>I live with my partner and our two cats in Chicago. I am passionate about djing records, playing the guitar, skateboarding, building mechanical keyboards, working remotely, and advocating for harm reduction.
