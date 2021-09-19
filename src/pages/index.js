@@ -426,10 +426,16 @@ const IndexPage = () => {
               I'm Jules Simplicio. I'm a design engineer. 
             </h1>
             <h1 style={headingStyles}>
-              I create infrastructure for software applications via design systems, with a focus on usability.
+              I create infrastructure for software applications via design systems.
             </h1>
             <h1 style={headingStyles}>
               I prioritize systems advocacy, org-wide systems support and adoption, facilitating relationships between designers and engineers, and creating automated workflows.
+            </h1>
+            <h1 style={headingStyles}>
+              I create and teach a common language for software development teammates of different disciplines to build reliable interfaces together with a focus on usability.
+            </h1>
+            <h1 style={headingStyles}>
+              I am passionate about creating and cultivating inclusive and accessible applications.
             </h1>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
