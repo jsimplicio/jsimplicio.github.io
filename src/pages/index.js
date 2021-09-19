@@ -59,6 +59,7 @@ const heroImage = {
   marginTop: 32,
 }
 const headingStyles = {
+  fontFamily: "Arial, sans-serif",
   fontSize: 24,
   margin: 0,
   marginBottom: 32,
@@ -422,7 +423,13 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I'm Jules Simplicio. I'm a design engineer. I build, maintain, and advocate for design systems. I prioritize org wide systems support and adoption, facilitating the relationship between designers and engineers, and creating automated workflows. 
+              I'm Jules Simplicio. I'm a design engineer. 
+            </h1>
+            <h1 style={headingStyles}>
+              I create infrastructure for software applications via design systems, with a focus on usability.
+            </h1>
+            <h1 style={headingStyles}>
+              I prioritize systems advocacy, org-wide systems support and adoption, facilitating relationships between designers and engineers, and creating automated workflows.
             </h1>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
@@ -433,7 +440,7 @@ const IndexPage = () => {
             <p style={paragraphStyles}>
               I was born and raised in São Paulo, Brazil, where I fell in love with art through my formative years that were filled with skateboarding sessions, family music gatherings, doodling during class, and playing in a middle school punk rock band.</p>
               <p style={paragraphStyles}>
-              I realized I was in love with building the Web after I spent years customizing websites that I used for hosting my visual art, which all was pretty much audio, <a style={linkStyle} href="https://vimeo.com/78495667" title="video project">video</a>, photography, and <a style={linkStyle} href="https://openprocessing.org/sketch/129208" title="random graphics">graphics</a>. But what excited me the most though, was making custom templates for the websites where I hosted my art.</p>
+              I realized I was in love with building the Web after I spent years customizing websites that I used for hosting my visual art, which was all pretty much audio, <a style={linkStyle} href="https://vimeo.com/78495667" title="video project">video</a>, photography, and <a style={linkStyle} href="https://openprocessing.org/sketch/129208" title="random graphics">graphics</a>. But what excited me the most though, was making custom templates for the websites where I hosted my art.</p>
               <p style={paragraphStyles}>
               I started my Web career participating in different open-design Web communities and volunteering for open-source <a style={linkStyle} href="https://web.archive.org/web/20160323171413/http://juliasimplicio.com/app/design/2015/10/15/screencat.html" title="ScreenCat with Max Ogden">projects</a>. Once I learned the ropes of working on software with different people from different backgrounds, I began working as a feature UX designer and engineer at small-to-medium sized start ups. I have continued growing by working as a design systems architect for large sized software companies.</p>
               <p style={paragraphStyles}>I live with my partner and our two cats in Chicago. I am passionate about djing records, playing the guitar, skateboarding, building mechanical keyboards, working remotely, and advocating for harm reduction.
