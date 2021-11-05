@@ -29,16 +29,6 @@ const startButtonContent = {
   textOverflow: "ellipsis"
 }
 
-
-var links = document.getElementsByClassName('navigation-item');
-
-for (let i = 0; i < links.length; i++) {
-  document.addEventListener("click", function() {
-    console.log(links);
-
-  });
-}
-
 const active = (e) => {
   [...e.target.parentElement.children].forEach(sib => sib.classList.remove('active'))
   e.target.classList.add('active');
