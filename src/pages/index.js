@@ -8,10 +8,6 @@ import StartButton from './StartButton.js'
 
 
 const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  }
-
   html {
     background: #008080;
   }
@@ -401,10 +397,11 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I'm Jules Simplicio. I'm a design engineer. 
+              I'm Jules Simplicio. I am a user experience designer and engineer.
             </h1>
             <h1 style={headingStyles}>
-            I am a user experience designer and engineer. I create infrastructure for software products via design systems leadership and maintenance.</h1>
+              I create infrastructure for software products via design systems leadership and maintenance.
+            </h1>
             <p>I prioritize an open roadmap, documentation, open communication, systems advocacy, systems support and adoption, healthy relationships between designers and engineers, the alignment of design with code, and automated workflows.</p>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
