@@ -401,7 +401,7 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I'm Jules Simplicio. I am a user experience designer and engineer.
+              I'm Jules Simplicio, a user experience designer and engineer.
             </h1>
             <h1 style={headingStyles}>
               I create infrastructure for software products via design systems leadership and maintenance.
