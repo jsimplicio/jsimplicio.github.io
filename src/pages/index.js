@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { createGlobalStyle } from 'styled-components'
 import { default as email } from '../icons/email.svg';
 import { default as notepad } from '../icons/notepad.svg';
-import StartButton from './StartButton.js'
+import Navigation from './Navigation.js'
 
 
 const GlobalStyle = createGlobalStyle`
@@ -159,7 +159,7 @@ const friends = [
 
 const jobs = [
   {
-    name: "sproutsocial",
+    name: "sprout",
     year: "2019-2021",
     description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns, which I adopted into the system wide design patterns library.",
     color: "#CC99C9",
@@ -490,10 +490,7 @@ const IndexPage = () => {
         </section>
       </main>
       <footer style={startMenu}>
-        <StartButton name="About" active link="about"/>
-        <StartButton name="Sprout Social" link="sproutsocial"/>
-        <StartButton name="dscout" link="dscout"/>
-        <StartButton name="Colleagues say..." link="friends" />
+        <Navigation />
       </footer>
     </>
   )
