@@ -402,7 +402,7 @@ const IndexPage = () => {
             <h1 style={headingStyles}>
               I create infrastructure for software products via design systems leadership and maintenance.
             </h1>
-            <p>I prioritize an open roadmap, documentation, open communication, systems advocacy, systems support and adoption, healthy relationships between designers and engineers, the alignment of design with code, and automated workflows.</p>
+            <p style={paragraphStyles}>I prioritize an open roadmap, documentation, open communication, systems advocacy, systems support and adoption, healthy relationships between designers and engineers, the alignment of design with code, and automated workflows.</p>
             <p style={paragraphStyles}>
               I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
             </p>
