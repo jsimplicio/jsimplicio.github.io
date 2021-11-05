@@ -276,7 +276,7 @@ const jobs = [
         <StaticImage
           style={heroImage}
           src="../images/dscout-5.png"
-          quality={100}
+          quality={90}
           alt="dscout"
         />  
         <StaticImage
