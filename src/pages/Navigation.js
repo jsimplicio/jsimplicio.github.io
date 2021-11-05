@@ -30,7 +30,8 @@ const startButtonContent = {
 }
 
 const nav = {
-  display: "flex"
+  display: "flex",
+  width: "100%"
 }
 
 const Button = ({ active, name, onClick }) => {

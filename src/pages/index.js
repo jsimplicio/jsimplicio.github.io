@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 // styles
 const pageStyles = {
   alignItems: "center",
+  boxSizing: "border-box",
   color: "#232129",
   display: "flex",
   flexDirection: "column",
@@ -27,7 +28,10 @@ const pageStyles = {
   fontFamily: "Times New Roman, serif",
   fontSize: 18,
   justifyContent: "center",
-  margin: "4px 0 24px 0",
+  margin: "0 auto",
+  maxWidth: 1224,
+  paddingRight: 8,
+  width: "100%"
 }
 const articleStyles = {
   background: "#FFF",
@@ -40,14 +44,14 @@ const sectionStyles = {
   border: "4px solid #CCC",
   borderRadius: 2,
   boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
-  maxWidth: 1224,
   marginBottom: 32,
   marginTop: 32,
   padding: 0,
-  width: "100%",
+  width: "100%"
+
 }
 const aside = {
-  margin: 8,
+  margin: 0,
 }
 const heroImages = {
   display: "flex",
