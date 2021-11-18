@@ -16,7 +16,13 @@ const GlobalStyle = createGlobalStyle`
     background: #EEE!important;
     box-shadow: inset 2px 2px 0 0 rgba(0,0,0,1), 2px 2px 0 0 rgba(255,255,255,1)!important;
   }
+
+  .title-bar-buttons button:active {
+    background: #999!important;
+    box-shadow: inset 1px 1px 0 0 rgba(0,0,0,1), 1px 1px 0 0 rgba(255,255,255,1)!important;
+  }
 `
+
 // styles
 const pageStyles = {
   alignItems: "center",
@@ -29,6 +35,7 @@ const pageStyles = {
   fontSize: 18,
   justifyContent: "center",
   margin: "0 auto",
+  marginBottom: "64px",
   maxWidth: 1224,
   paddingRight: 8,
   width: "100%"
@@ -105,7 +112,7 @@ const titleBar = {
   height: 28,
   fontFamily: "Arial, sans-serif",
   fontSize: 14,
-  padding: "0 0 0 8px",
+  padding: "0 4px 0 8px",
   textDecoration: "none",
 }
 const asideIcon = {
@@ -118,12 +125,14 @@ const imageAside = {
 }
 const winButton = {
   alignItems: "center",
-  borderRadius: 2,
+  border: "none",
+  borderRadius: 1,
   boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
   background: "#CFCFCF",
   display: "flex",
-  margin: 2,
-  padding: 0
+  margin: 1,
+  paddingLeft: 2,
+  paddingRight: 2,
 }
 const flexIcon = {
   flexShrink: 0,
@@ -333,8 +342,7 @@ const jobs = [
 const IndexPage = () => {
   const buttons = () => {
     return(
-      <div style={buttonGroup}>
-
+      <div className="title-bar-buttons" style={buttonGroup}>
         <button disabled style={winButton}>
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="2" y="8" width="8" height="2" fill="black"/>
@@ -406,12 +414,12 @@ const IndexPage = () => {
             <h1 style={headingStyles}>
               I create infrastructure for software products via design systems leadership and maintenance.
             </h1>
-            <p style={paragraphStyles}>I prioritize an open roadmap, documentation, open communication, systems advocacy, systems support and adoption, healthy relationships between designers and engineers, the alignment of design with code, and automated workflows.</p>
+            <p style={paragraphStyles}>I value a public roadmap, documentation, open communication, radical transparency, systems advocacy, systems support and adoption, healthy relationships between designers and engineers, the alignment of design with code, and automated workflows.</p>
             <p style={paragraphStyles}>
-              I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. I am building these apps to make accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
+              I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. My goal is to make   accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
             </p>
             <p style={paragraphStyles}>
-              I work as a product designer and engineer leading design systems for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
+              Currently, I work as design engineer lead for the <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems team.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they/he.
