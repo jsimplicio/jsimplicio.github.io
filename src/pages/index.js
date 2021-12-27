@@ -412,7 +412,7 @@ const IndexPage = () => {
               I'm Jules Simplicio, a user experience designer and engineer.
             </h1>
             <h1 style={headingStyles}>
-              I create tool agnostic frameworks for building and maintaining software products user interface infrastructure via design systems leadership.
+              I create tool agnostic frameworks for building and maintaining software user interface infrastructure by leading design systems.
             </h1>
             <p style={paragraphStyles}>
               Currently, I work as Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems.
