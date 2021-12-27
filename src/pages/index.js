@@ -412,14 +412,10 @@ const IndexPage = () => {
               I'm Jules Simplicio, a user experience designer and engineer.
             </h1>
             <h1 style={headingStyles}>
-              I create infrastructure for software products via design systems leadership and maintenance.
+              I create tool agnostic frameworks for building and maintaining software products user interface infrastructure via design systems leadership.
             </h1>
-            <p style={paragraphStyles}>I value a public roadmap, documentation, open communication, radical transparency, systems advocacy, systems support and adoption, healthy relationships between designers and engineers, the alignment of design with code, and automated workflows.</p>
             <p style={paragraphStyles}>
-              I am building a <a style={linkStyle} href="https://designtokens.app/" title="Design Tokens app">macOS and iOS app</a> that lets people store and track design systems' design tokens. My goal is to make   accessible tokens and to learn <a style={linkStyle} href="https://developer.apple.com/xcode/swiftui/" title="SwiftUI">SwiftUI</a>.
-            </p>
-            <p style={paragraphStyles}>
-              Currently, I work as design engineer lead for the <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems team.
+              Currently, I work as Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they/he.
