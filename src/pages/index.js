@@ -172,7 +172,7 @@ const friends = [
 
 const jobs = [
   {
-    name: "sprout",
+    name: "Sprout Social",
     year: "2019-2021",
     description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns, which I adopted into the system wide design patterns library.",
     color: "#CC99C9",
@@ -387,7 +387,7 @@ const IndexPage = () => {
       </aside>
       <main style={pageStyles}>
         <section style={sectionStyles}>
-          <a id="about" href="#about" style={titleBar}>
+          <a id="jules" href="#jules" style={titleBar}>
             <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="12" y="1" width="1" height="1" fill="black"/>
               <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
@@ -405,17 +405,14 @@ const IndexPage = () => {
               <rect x="2" y="3" width="10" height="11" fill="white"/>
               <path fillRule="evenodd" clipRule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
             </svg>
-            About - Notepad {buttons()}
+            Jules Simplicio - Notepad {buttons()}
           </a>
           <article style={articleStyles}>
-            <h1 style={headingStyles}>
-              I'm Jules Simplicio, a user experience designer and engineer.
-            </h1>
-            <h1 style={headingStyles}>
-              I create tool agnostic frameworks for building and maintaining software products user interface infrastructure via design systems leadership.
+          <h1 style={headingStyles}>
+              I create tool agnostic frameworks for building and maintaining user interface infrastructure for software products.
             </h1>
             <p style={paragraphStyles}>
-              Currently, I work as Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems.
+              I currently lead design engineering for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they/he.
@@ -426,7 +423,7 @@ const IndexPage = () => {
         {jobs.map(job => (
           <>
           <section style={sectionStyles}>
-            <a id={job.name} href={"#" + job.name} style={titleBar}>
+            <a id={job.name.split(' ')[0].toLowerCase()} href={"#" + job.name.split(' ')[0].toLowerCase()} style={titleBar}>
               <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="12" y="1" width="1" height="1" fill="black"/>
                 <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
@@ -444,7 +441,7 @@ const IndexPage = () => {
                 <rect x="2" y="3" width="10" height="11" fill="white"/>
                 <path fillRule="evenodd" clipRule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
               </svg>
-              Previously in {job.year}... - Notepad {buttons()}
+              {job.name} - Notepad {buttons()}
             </a>
             <article style={articleStyles}>
               <p style={paragraphStyles}>{job.description}</p>

@@ -36,7 +36,7 @@ const nav = {
 
 const Button = ({ active, name, onClick }) => {
   return (
-    <a href={"#" + name} id={name} style={startButton} className={active && 'active'} onClick={onClick}>
+    <a href={"#" + name.split(' ')[0].toLowerCase()} id={name} style={startButton} className={active && 'active'} onClick={onClick}>
       <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="12" y="1" width="1" height="1" fill="black"/>
         <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
@@ -61,7 +61,7 @@ const Button = ({ active, name, onClick }) => {
 
 const Navigation = () => {
   const [clicked, setClick] = useState();
-  const notes = ["about","dscout","sprout","friends"];
+  const notes = ["Jules Simplicio","dscout","Sprout Social","Friends and colleagues say..."];
 
   return (
     <nav style={nav}>
