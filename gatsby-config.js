@@ -8,6 +8,11 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+      options: {
         name: 'src',
         path: `${__dirname}/src/pages/`,
       },
