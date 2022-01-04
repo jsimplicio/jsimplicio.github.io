@@ -367,13 +367,13 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
-        <meta name="keywords" content="jules simplicio, development, design, product, software,ß design systems" />
-        <meta name="description" content="Jules Simplicio personal home on the Web" />
+        <meta name="keywords" content="jules simplicio, development, design, product, software, design systems" />
+        <meta name="description" content="Jules Simplicio is a design systems design engineer" />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
         <html  lang="en" />
-        <title>Jules Simplicio, Design Systems Lead</title>
+        <title>Jules Simplicio</title>
       </Helmet>
       <aside style={aside}>
         <div style={asideIcon}>  
@@ -409,7 +409,7 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
           <h1 style={headingStyles}>
-              I create tool agnostic frameworks for building and maintaining user interface infrastructure for software products.
+              I create tool agnostic frameworks for building and maintaining the user interface infrastructure of software products.
             </h1>
             <p style={paragraphStyles}>
               I currently lead design engineering for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
