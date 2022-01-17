@@ -408,11 +408,11 @@ const IndexPage = () => {
             Jules Simplicio - Notepad {buttons()}
           </a>
           <article style={articleStyles}>
-          <h1 style={headingStyles}>
-              I create tool agnostic frameworks for building and maintaining the user interface infrastructure of software products.
+            <h1 style={headingStyles}>
+              I am a design systems designer and engineer that specializes in creating and maintaining frameworks and infrastructure that enable product teams to design application programs more efficiently.
             </h1>
             <p style={paragraphStyles}>
-              I currently lead design engineering for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.
+              I am currently working as a Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I am in charge of supporting our product teams by creating user interface design infrastructure through maintaining, documenting, and promoting the Firefox Browser's design and code.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they/he.
