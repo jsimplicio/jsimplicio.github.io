@@ -174,7 +174,7 @@ const jobs = [
   {
     name: "Sprout Social",
     year: "2019-2021",
-    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on redesigning Sprout's publishing UX patterns, which I adopted into the system wide design patterns library.",
+    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on creating lasting social publishing UI patterns. I contributed to the broader design system by adding reusable design patterns from our designs into our code libraries.",
     color: "#CC99C9",
     url: "https://sproutsocial.com/",
     hero: (
@@ -182,73 +182,73 @@ const jobs = [
         <StaticImage
           style={heroImage}
           src="../images/sprout-1.png"
-          quality={60}
+          quality={40}
           alt="Sprout Social"
         />   
         <StaticImage
           style={heroImage}
           src="../images/sprout-2.png"
-          quality={60}
+          quality={40}
           alt="Sprout Social"
         />     
         <StaticImage
           style={heroImage}
           src="../images/sprout-3.png"
-          quality={60}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-4.png"
-          quality={60}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-5.png"
-          quality={60}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-6.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-7.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-8.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
            <StaticImage
           style={heroImage}
           src="../images/sprout-9.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-10.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-11.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
         <StaticImage
           style={heroImage}
           src="../images/sprout-12.png"
-          quality={30}
+          quality={40}
           alt="Sprout Social"
         />
       </>
@@ -257,7 +257,7 @@ const jobs = [
   {
     name: "dscout",
     year: "2016-2019",
-    description: "I redesigned dscout's research study products for web and Android with new pattern libraries under the same design system.",
+    description: "I redesigned dscout's research study products for web and Android and created new design pattern libraries for Sketch, and contributed to our React pattern library by adding reusable components from designs.",
     color: "#9EC1CF",
     url: "https://dscout.com/",
     hero: (
@@ -265,73 +265,73 @@ const jobs = [
         <StaticImage
           style={heroImage}
           src="../images/dscout-1.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />   
         <StaticImage
           style={heroImage}
           src="../images/dscout-2.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />
         <StaticImage
           style={heroImage}
           src="../images/dscout-3.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />   
         <StaticImage
           style={heroImage}
           src="../images/dscout-4.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />   
         <StaticImage
           style={heroImage}
           src="../images/dscout-5.png"
-          quality={90}
+          quality={40}
           alt="dscout"
         />  
         <StaticImage
           style={heroImage}
           src="../images/dscout-6.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />
         <StaticImage
           style={heroImage}
           src="../images/dscout-7.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />  
         <StaticImage
           style={heroImage}
           src="../images/dscout-8.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />  
         <StaticImage
           style={heroImage}
           src="../images/dscout-9.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />  
         <StaticImage
           style={heroImage}
           src="../images/dscout-10.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />   
          <StaticImage
           style={heroImage}
           src="../images/dscout-11.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />   
          <StaticImage
           style={heroImage}
           src="../images/dscout-12.png"
-          quality={100}
+          quality={40}
           alt="dscout"
         />    
       </>
@@ -367,12 +367,12 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
-        <meta name="keywords" content="jules simplicio, development, design, product, software, design systems" />
-        <meta name="description" content="Jules Simplicio is a design systems design engineer" />
+        <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, product" />
+        <meta name="description" content="Jules Simplicio is a design systems design engineer focused on UI design frameworks and infrastructure that support product teams in shipping work efficiently." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
-        <html  lang="en" />
+        <html lang="en" />
         <title>Jules Simplicio</title>
       </Helmet>
       <aside style={aside}>
@@ -409,13 +409,12 @@ const IndexPage = () => {
           </a>
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I am a design systems designer and engineer that specializes in creating and maintaining frameworks and infrastructure that enable product teams to design application programs more efficiently.
-            </h1>
+              I am design systems design engineer focused on UI design frameworks and infrastructure that support product teams in shipping work efficiently.</h1>
             <p style={paragraphStyles}>
-              I am currently working as a Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I am in charge of supporting our product teams by creating user interface design infrastructure through maintaining, documenting, and promoting the Firefox Browser's design and code.
+              I currently work as a Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining, documenting, and promoting Firefox Browser's UI look and feel.
             </p>
             <p style={paragraphStyles}>
-              My pronouns are they/he.
+              My pronouns are they or he.
             </p>
           </article>
         </section>
