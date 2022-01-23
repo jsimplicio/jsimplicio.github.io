@@ -2,16 +2,8 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import { createGlobalStyle } from 'styled-components'
-import { default as email } from '../icons/email.svg';
-import { default as notepad } from '../icons/notepad.svg';
-import Navigation from './Navigation.js'
-
 
 const GlobalStyle = createGlobalStyle`
-  html {
-    background: #008080;
-  }
-
   a.active {
     background: #EEE!important;
     box-shadow: inset 2px 2px 0 0 rgba(0,0,0,1), 2px 2px 0 0 rgba(255,255,255,1)!important;
@@ -31,8 +23,8 @@ const pageStyles = {
   display: "flex",
   flexDirection: "column",
   flexWrap: "wrap",
-  fontFamily: "Times New Roman, serif",
-  fontSize: 18,
+  fontFamily: "Georgia, serif",
+  fontSize: 20,
   justifyContent: "center",
   margin: "0 auto",
   marginBottom: "64px",
@@ -42,24 +34,18 @@ const pageStyles = {
 }
 const articleStyles = {
   background: "#FFF",
-  boxShadow: "1px 1px 0 0 #CCC, inset 2px 2px 0 0 rgba(0,0,0,1)",
-  padding: 32,
+  padding: 8,
+  margin: "0 auto",
   justifyContent: "space-between",
 }
 const sectionStyles = {
-  background: "#CFCFCF",
-  border: "4px solid #CCC",
-  borderRadius: 2,
-  boxShadow: "2px 2px 0 0 rgba(0,0,0,1), inset 2px 2px 0 0 rgba(255,255,255,1)",
+  margin: "0 auto",
   marginBottom: 32,
   marginTop: 32,
   padding: 0,
   width: "100%"
+}
 
-}
-const aside = {
-  margin: 0,
-}
 const heroImages = {
   display: "flex",
   flexWrap: "wrap",
@@ -68,91 +54,49 @@ const heroImages = {
   marginRight: 0,
   width: "100%",
 }
+const hrefStyles = {
+  display: "inline-block",
+  margin: 8,
+  textDecoration: "none",
+}
 const heroImage = {
   borderRadius: 4,
   width: 548,
   marginTop: 32,
 }
 const headingStyles = {
-  fontFamily: "Arial, sans-serif",
-  fontSize: 24,
-  margin: 0,
-  marginBottom: 32,
+  fontFamily: "Georgia, serif",
+  fontSize: 26,
+  fontWeight: 300,
+  lineHeight: 1.3,
+  margin: "0 auto",
+  marginBottom: 24,
+  maxWidth: 668,
+}
+const subHeaderStyles = {
+  color: "#232129",
+  fontFamily: "Verdana, sans-serif",
+  fontSize: 22,
+  margin: "0 auto",
+  marginBottom: 16,
   maxWidth: 668,
 }
 const paragraphStyles = {
   color: "#232129",
-  margin: 0,
-  marginBottom: 14,
+  fontSize: 20,
+  lineHeight: 1.4,
+  margin: "0 auto",
+  marginBottom: 16,
   padding: 0,
   maxWidth: 668,
 }
 const quote = {
   display: "flex",
   flexDirection: "column",
-  fontStyle: "italic",
-  margin: "24px 0"
+  margin: "0 auto",
+  marginBottom: 28,
+  maxWidth: 668,
 }
-const linkStyle = {
-  color: "#232129",
-  fontStyle: "normal"
-}
-const emailLink = {
-  color: "white",
-  fontFamily: "Arial, sans-serif",
-  fontSize: 12,
-  fontWeight: "300",
-  textDecoration: "none",
-}
-const titleBar = {
-  alignItems: "center",
-  background: "linear-gradient(48deg, rgba(0,28,136,1) 0%, rgba(57,142,203,1) 100%)",
-  color: "white",
-  display: "flex",
-  height: 28,
-  fontFamily: "Arial, sans-serif",
-  fontSize: 14,
-  padding: "0 4px 0 8px",
-  textDecoration: "none",
-}
-const asideIcon = {
-  display: "inline-block",
-  marginRight: 16
-}
-const imageAside = {
-  alignItems: "center",
-  display: "flex",
-}
-const winButton = {
-  alignItems: "center",
-  border: "none",
-  borderRadius: 1,
-  boxShadow: "inset 1px 1px 0 0 rgba(255,255,255,1), 1px 1px 0 0 rgba(0,0,0,1)",
-  background: "#CFCFCF",
-  display: "flex",
-  margin: 1,
-  paddingLeft: 2,
-  paddingRight: 2,
-}
-const flexIcon = {
-  flexShrink: 0,
-  marginRight: 4,
-}
-const buttonGroup = {
-  display: "flex",
-  marginLeft: "auto",
-  marginRight: 2,
-}
-const startMenu = {
-  background: "#CFCFCF",
-  bottom: 0,
-  display: "flex",
-  left: 0,
-  padding: 2,
-  position: "fixed",
-  width: "100%"
-}
-
 
 const friends = [
   {
@@ -174,7 +118,7 @@ const jobs = [
   {
     name: "Sprout Social",
     year: "2019-2021",
-    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on creating lasting social publishing UI patterns. I contributed to the broader design system by adding reusable design patterns from our designs into our code libraries.",
+    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on creating lasting social publishing design patterns. I contributed to Sprout's design system by adding reusable design patterns from our designs into our Figma UI kit, React UI kit, and our public docs.",
     color: "#CC99C9",
     url: "https://sproutsocial.com/",
     hero: (
@@ -257,7 +201,7 @@ const jobs = [
   {
     name: "dscout",
     year: "2016-2019",
-    description: "I redesigned dscout's research study products for web and Android and created new design pattern libraries for Sketch, and contributed to our React pattern library by adding reusable components from designs.",
+    description: "I redesigned dscout's research study products for the Web and Android platforms, and created a framework of UI kits and design pattern libraries in Sketch. I contributed to our React UI kit by adding reusable components from our designs.",
     color: "#9EC1CF",
     url: "https://dscout.com/",
     hero: (
@@ -340,27 +284,6 @@ const jobs = [
 ]	
 
 const IndexPage = () => {
-  const buttons = () => {
-    return(
-      <div className="title-bar-buttons" style={buttonGroup}>
-        <button disabled style={winButton}>
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="8" width="8" height="2" fill="black"/>
-          </svg>
-        </button>
-        <button disabled style={winButton}>
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fillRule="evenodd" clipRule="evenodd" d="M9.11111 2H2.88889H2V3.77778V9.11111V10H2.88889H9.11111H10V9.11111V3.77778V2H9.11111ZM9.11111 9.11111V3.77778H2.88889V9.11111H9.11111Z" fill="black"/>
-          </svg>
-        </button>
-        <button disabled style={winButton}>
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fillRule="evenodd" clipRule="evenodd" d="M2 3H4V4H5V5H7V4H8V3H10V4H9V5H8V6H7V7H8V8H9V9H10V10H8V9H7V8H5V9H4V10H2V9H3V8H4V7H5V6H4V5H3V4H2V3Z" fill="black"/>
-          </svg>
-        </button>
-      </div>
-    )
-  }
   return (
     <>
       <GlobalStyle />
@@ -368,53 +291,35 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
         <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, product" />
-        <meta name="description" content="Jules Simplicio is a design systems design engineer focused on UI design frameworks and infrastructure that support product teams in shipping work efficiently." />
+        <meta name="description" content="Jules Simplicio is a design systems design engineer focused on UI design frameworks and infrastructure that supports product teams in shipping work efficiently." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
         <html lang="en" />
         <title>Jules Simplicio</title>
       </Helmet>
-      <aside style={aside}>
-        <div style={asideIcon}>  
-          <a style={imageAside} href="mailto:hi@julessimplic.io" title="email"><img alt="Email" src={email} /></a>
-          <a style={emailLink} href="mailto:hi@julessimplic.io" title="email">Email</a>
-        </div>
-        <div style={asideIcon}>  
-          <img style={imageAside} alt="Notepad" src={notepad} />
-          <span style={emailLink}>Notepad</span>
-        </div>
-      </aside>
+  
       <main style={pageStyles}>
-        <section style={sectionStyles}>
-          <a id="jules" href="#jules" style={titleBar}>
-            <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="12" y="1" width="1" height="1" fill="black"/>
-              <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <path fillRule="evenodd" clipRule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
-              <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="2" y="3" width="10" height="11" fill="white"/>
-              <path fillRule="evenodd" clipRule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
-            </svg>
-            Jules Simplicio - Notepad {buttons()}
-          </a>
+        <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I am design systems design engineer focused on UI design frameworks and infrastructure that support product teams in shipping work efficiently.</h1>
+              I am design engineer focused on design frameworks and infrastructure that support product teams in efficiently shipping software apps.
+            </h1>
+          </article>
+        </section>
+        <section style={sectionStyles}>
+          <article style={articleStyles}>
+            <h2 style={subHeaderStyles}>
+              About
+            </h2>
             <p style={paragraphStyles}>
-              I currently work as a Design Engineer Lead for <a style={linkStyle} href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining, documenting, and promoting Firefox Browser's UI look and feel.
+              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining and documenting Firefox Browser's user interface and experience, and promoting and documenting design best practices that help Firefox keep up its look and feel.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they or he.
+            </p>
+            <p style={paragraphStyles}>
+              <a href="mailto:hi@julessimplic.io" title="email">Email</a>
             </p>
           </article>
         </section>
@@ -422,34 +327,17 @@ const IndexPage = () => {
         {jobs.map(job => (
           <>
           <section style={sectionStyles}>
-            <a id={job.name.split(' ')[0].toLowerCase()} href={"#" + job.name.split(' ')[0].toLowerCase()} style={titleBar}>
-              <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="12" y="1" width="1" height="1" fill="black"/>
-                <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
-                <path fillRule="evenodd" clipRule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
-                <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
-                <rect x="2" y="3" width="10" height="11" fill="white"/>
-                <path fillRule="evenodd" clipRule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
-              </svg>
-              {job.name} - Notepad {buttons()}
-            </a>
             <article style={articleStyles}>
+              <h2 style={subHeaderStyles}>
+                {job.name}
+                <a
+                  style={hrefStyles}
+                  href={job.url}
+                >
+                  🔗
+                </a>
+              </h2>
               <p style={paragraphStyles}>{job.description}</p>
-              <a
-                style={linkStyle}
-                href={job.url}
-              >
-                {job.year}
-              </a>    
               <div style={heroImages}>
                 {job.hero}
               </div>   
@@ -458,43 +346,29 @@ const IndexPage = () => {
         </>
         ))}
         <section style={sectionStyles}>
-          <a id="friends" href="#friends" style={titleBar}>
-            <svg style={flexIcon} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="12" y="1" width="1" height="1" fill="black"/>
-              <rect x="3" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="5" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="7" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="9" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="11" y="1" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="10" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="12" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <path fillRule="evenodd" clipRule="evenodd" d="M13 3H12V14H2V15H12H13V14V3Z" fill="#CAC5CA"/>
-              <rect x="8" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="6" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="4" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="2" y="2" width="1" height="1" fill="#FEFAFF"/>
-              <rect x="2" y="3" width="10" height="11" fill="white"/>
-              <path fillRule="evenodd" clipRule="evenodd" d="M11 0H12V1H11V0ZM3 2H4V3H3V2ZM3 1V2H2V1H3ZM3 1H4V0H3V1ZM5 2H6V3H5V2ZM8 2H7V3H8V2ZM9 2H10V3H9V2ZM12 2H11V3H12V2ZM10 0H9V1H10V0ZM7 0H8V1H7V0ZM6 0H5V1H6V0ZM14 2H13V15H2V16H13V15H14V2ZM7 5H4V6H7V5ZM10 5V6H8V5H10ZM10 8V7H4V8H10ZM10 9V10H4V9H10ZM10 12V11H4V12H10Z" fill="black"/>
-            </svg>
-            Friends and colleagues say... - Notepad {buttons()}
-          </a>
+          <h2 style={subHeaderStyles}>
+            References
+          </h2>
           <article style={articleStyles}>
           {friends.map(link => (
             <div style={quote}>
-              <p style={paragraphStyles}>{link.description}</p>              
+              <p style={paragraphStyles}>{link.description}</p>   
+              <span>
+               ❏ {link.text}
               <a
-                style={linkStyle}
+                style={hrefStyles}
                 href={link.url}
               >
-                {link.text}
+                🔗
               </a>
+              </span>         
             </div>
           ))}
           </article>
         </section>
       </main>
-      <footer style={startMenu}>
-        <Navigation />
+      <footer style={pageStyles}>
+        2022, Jules Simplicio
       </footer>
     </>
   )
