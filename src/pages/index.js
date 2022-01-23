@@ -303,7 +303,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-            I am design engineer focused on design infrastructure that supports product teams in efficiently shipping software apps. 🚢
+            I am a design engineer focused on design infrastructure that supports product teams in efficiently shipping software apps. 🚢
             </h1>
           </article>
         </section>
