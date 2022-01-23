@@ -291,7 +291,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
         <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, product" />
-        <meta name="description" content="Jules Simplicio is a design systems design engineer focused on UI design frameworks and infrastructure that supports product teams in shipping work efficiently." />
+        <meta name="description" content="Jules Simplicio is a design engineer focused on design infrastructure that supports product teams in efficiently shipping software apps." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
@@ -303,7 +303,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I am design engineer focused on design frameworks and infrastructure that support product teams in efficiently shipping software apps.
+            I am design engineer focused on design infrastructure that supports product teams in efficiently shipping software apps. 🚢
             </h1>
           </article>
         </section>
@@ -313,7 +313,7 @@ const IndexPage = () => {
               About
             </h2>
             <p style={paragraphStyles}>
-              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining and documenting Firefox Browser's user interface and experience, and promoting and documenting design best practices that help Firefox keep up its look and feel.
+              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining and documenting the browser's user interface and experience, and promoting and documenting design best practices that guarantees our products keep up their look and feel.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they or he.
