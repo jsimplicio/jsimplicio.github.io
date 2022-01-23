@@ -373,7 +373,7 @@ const IndexPage = () => {
           </h2>
           <article style={articleStyles}>
             <p style={paragraphStyles}>
-              Do you need to get started on a design system or help bringing an old one back to life? <a href="mailto:hi@julessimplic.io" title="email">I am open for consulting.</a>
+              Do you need to get started on a design system or help bringing an old one back to life? <a href="mailto:hi@julessimplic.io" title="email">I am open for part-time consulting.</a>
             </p>
           </article>
         </section>
