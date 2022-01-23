@@ -118,7 +118,7 @@ const jobs = [
   {
     name: "Sprout Social",
     year: "2019-2021",
-    description: "I brought consistency across Sprout Social suite of social media management tools by focusing on creating lasting social publishing design patterns. I contributed to Sprout's design system by adding reusable design patterns from our designs into our Figma UI kit, React UI kit, and our public docs.",
+    description: "I brought consistency across Sprout Social's social media management platform with a focus on maintaining and improving the experience of their social publishing tools. I contributed to Sprout's design system by adding reusable components and design patterns from social publishing features into our Figma UI kit, React UI kit, and public-facing systems docs.",
     color: "#CC99C9",
     url: "https://sproutsocial.com/",
     hero: (
@@ -201,7 +201,7 @@ const jobs = [
   {
     name: "dscout",
     year: "2016-2019",
-    description: "I redesigned dscout's research study products for the Web and Android platforms, and created a framework of UI kits and design pattern libraries in Sketch. I contributed to our React UI kit by adding reusable components from our designs.",
+    description: "I redesigned dscout's research study products for the Web and Android that run on a new, fast, and performant codebase with a new streamlined pattern library. I created a framework for desktop and mobile UI kits and style guides in Sketch. I added reusable components and patterns from designs into our React UI kit.",
     color: "#9EC1CF",
     url: "https://dscout.com/",
     hero: (
@@ -303,7 +303,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-            I am a design engineer focused on design infrastructure that supports product teams in efficiently shipping software apps. 🚢
+              I am a design engineer focused on design infrastructure that supports teams in efficiently adapting and scaling software products.
             </h1>
           </article>
         </section>
@@ -313,7 +313,7 @@ const IndexPage = () => {
               About
             </h2>
             <p style={paragraphStyles}>
-              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining and documenting the browser's user interface and experience, and promoting and documenting design best practices that guarantees our products keep up their look and feel.
+              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining and documenting the browser's user interface and experience, and promoting and documenting design best practices for keeping up Firefox Browser products look and feel.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they or he.
