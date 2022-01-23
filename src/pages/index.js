@@ -319,7 +319,7 @@ const IndexPage = () => {
               My pronouns are they or he.
             </p>
             <p style={paragraphStyles}>
-              <a href="mailto:hi@julessimplic.io" title="email">Email</a>
+              <a href="mailto:hi@julessimplic.io" title="email">Contact me.</a>
             </p>
           </article>
         </section>
@@ -364,6 +364,17 @@ const IndexPage = () => {
               </span>         
             </div>
           ))}
+          </article>
+        </section>
+
+        <section style={sectionStyles}>
+          <h2 style={subHeaderStyles}>
+            Looking for help?
+          </h2>
+          <article style={articleStyles}>
+            <p style={paragraphStyles}>
+              Do you need to get started on a design system or help bringing an old one back to life? <a href="mailto:hi@julessimplic.io" title="email">I am open for consulting.</a>
+            </p>
           </article>
         </section>
       </main>
