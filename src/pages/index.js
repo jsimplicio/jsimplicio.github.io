@@ -62,11 +62,12 @@ const hrefStyles = {
 const imgStyles = {
   display: "block",
   margin: "24px auto 0 auto",
-  maxWidth: 200,
+  maxWidth: 180,
   width: "100%"
 }
 const captionStyles = {
   display: "block",
+  fontFamily: "Georgia, serif",
   fontSize: 16,
   margin: "24px auto",
 }
@@ -303,7 +304,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
         <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, product" />
-        <meta name="description" content="Jules Simplicio is a design engineer focused on design infrastructure that supports product teams in efficiently shipping software apps." />
+        <meta name="description" content="Jules Simplicio is a design engineer focused on infrastructure that supports product teams in efficiently shipping software apps." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
@@ -315,7 +316,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              Hey, I'm Jules Simplicio — a design engineer focused on design infrastructure that supports teams in efficiently adapting and scaling software products.
+              Hey, I'm Jules Simplicio — I focus on design infrastructure that supports teams in efficiently adapting and scaling software products.
             </h1>
           </article>
         </section>
@@ -325,7 +326,10 @@ const IndexPage = () => {
               About
             </h2>
             <p style={paragraphStyles}>
-              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> Design Systems. I support our team by maintaining and documenting the browser's user interface and experience, and promoting and documenting design best practices for keeping up Firefox Browser products look and feel.
+              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox Browser">Firefox Browser</a> design systems.
+            </p>
+            <p style={paragraphStyles}>
+              I support our team by maintaining the browser's user interface and experience, and promoting and documenting design best practices for keeping up our products look and feel.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they or he.
