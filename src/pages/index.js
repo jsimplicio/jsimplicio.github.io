@@ -441,8 +441,6 @@ const IndexPage = () => {
               </li>
             </ul>
 
-            <h3 style={paragraphStyles}>Remember folks,</h3>
-
             <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
 
             <img style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
