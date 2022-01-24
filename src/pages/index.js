@@ -34,9 +34,9 @@ const pageStyles = {
 }
 const articleStyles = {
   background: "#FFF",
-  padding: 8,
   margin: "0 auto",
   justifyContent: "space-between",
+  padding: 0,
 }
 const sectionStyles = {
   margin: "0 auto",
@@ -58,6 +58,17 @@ const hrefStyles = {
   display: "inline-block",
   margin: 8,
   textDecoration: "none",
+}
+const imgStyles = {
+  display: "block",
+  margin: "24px auto 0 auto",
+  maxWidth: 200,
+  width: "100%"
+}
+const captionStyles = {
+  display: "block",
+  fontSize: 16,
+  margin: "24px auto",
 }
 const heroImage = {
   borderRadius: 4,
@@ -85,6 +96,7 @@ const paragraphStyles = {
   color: "#232129",
   fontSize: 20,
   lineHeight: 1.4,
+  listStyle: "none",
   margin: "0 auto",
   marginBottom: 16,
   padding: 0,
@@ -303,7 +315,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              I am a design engineer focused on design infrastructure that supports teams in efficiently adapting and scaling software products.
+              Hey, I'm Jules Simplicio — a design engineer focused on design infrastructure that supports teams in efficiently adapting and scaling software products.
             </h1>
           </article>
         </section>
@@ -364,6 +376,78 @@ const IndexPage = () => {
               </span>         
             </div>
           ))}
+          </article>
+        </section>
+
+        <section style={sectionStyles}>
+          <h2 style={subHeaderStyles}>
+            Design systems is a craft
+          </h2>
+          <article style={articleStyles}>
+            <p style={paragraphStyles}>
+              I am a design systems lead and advocate. I stand for the need to create and document frameworks for maintaining AND scaling application programs. Especially for all the unknowns in the future of a product's life-cycle.
+            </p>
+            
+            <p style={paragraphStyles}>
+              In my career, I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, companies have ambitious goals, the need for flexibility, and a streamlined path to growth.
+            </p>
+
+            <p style={paragraphStyles}>
+              As a software designer, I provide infrastructure services that give piece of mind to companies that want to efficiently scale their software product without creating debt for teams to manage.
+            </p> 
+
+            <ul style={paragraphStyles}>
+              <p style={paragraphStyles}>The following services are frameworks that encompass design and code, and are quite agnostic to specific tools (that being Figma or Adobe XD (your designs), React or Next.js (your code)):</p>
+
+              <li>
+                🧰 UI Kits
+                <ul>
+                  <li>Reusable user interface components.</li>
+                </ul>
+              </li>
+
+              <li>
+                🧩 Design Patterns
+                <ul>
+                  <li>Reusable user experience patterns.</li>
+                </ul>
+              </li>
+
+              <li>
+                🎨 Style Guides
+                <ul>
+                  <li>Reusable brand styles.</li>
+                </ul>
+              </li>
+
+
+              <li>
+                📕 Docs
+                <ul>
+                  <li>Documentation that supports sytems frameworks.</li>
+                </ul>
+              </li>
+
+              <li>
+                🛠 Custom Tooling
+                <ul>
+                  <li>Because sometimes teams need custom plugins and scripts.</li>
+                  <li>I have been venturing in services such as design token APIs with <a href="https://www.apollographql.com/" title="Apollo GraphQL">the Apollo GraphQL platform</a>.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <h3 style={paragraphStyles}>Remember folks,</h3>
+
+            <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
+
+            <img style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
+            <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
+
+            <p style={paragraphStyles}><i>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong></i></p>
+
+            <p style={paragraphStyles}>
+            </p>
           </article>
         </section>
 
