@@ -4,6 +4,11 @@ import { Helmet } from "react-helmet"
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   a.active {
     background: #EEE!important;
     box-shadow: inset 2px 2px 0 0 rgba(0,0,0,1), 2px 2px 0 0 rgba(255,255,255,1)!important;
@@ -12,6 +17,16 @@ const GlobalStyle = createGlobalStyle`
   .title-bar-buttons button:active {
     background: #999!important;
     box-shadow: inset 1px 1px 0 0 rgba(0,0,0,1), 1px 1px 0 0 rgba(255,255,255,1)!important;
+  }
+
+  .gatsby-image-wrapper {
+    border-radius: 4px;
+    margin-top: 24px;
+    width: 49%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 `
 
@@ -23,11 +38,12 @@ const pageStyles = {
   display: "flex",
   flexDirection: "column",
   flexWrap: "wrap",
-  fontFamily: "Georgia, serif",
+  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
   fontSize: 20,
   justifyContent: "center",
   margin: "0 auto",
   marginBottom: "64px",
+  marginTop: "96px",
   maxWidth: 1224,
   paddingRight: 8,
   width: "100%"
@@ -59,27 +75,23 @@ const hrefStyles = {
   margin: 8,
   textDecoration: "none",
 }
-const imgStyles = {
-  display: "block",
-  margin: "24px auto 0 auto",
-  maxWidth: 180,
-  width: "100%"
-}
-const captionStyles = {
-  display: "block",
-  fontFamily: "Georgia, serif",
-  fontSize: 16,
-  margin: "24px auto",
-}
-const heroImage = {
-  borderRadius: 4,
-  width: 548,
-  marginTop: 32,
-}
+// const imgStyles = {
+//   display: "block",
+//   margin: "24px auto 0 auto",
+//   maxWidth: 180,
+//   width: "100%"
+// }
+// const captionStyles = {
+//   display: "block",
+//   fontFamily: "Helvetica Neue, Helvetica, sans-serif",
+//   fontSize: 16,
+//   margin: "24px auto",
+// }
+
 const headingStyles = {
-  fontFamily: "Georgia, serif",
+  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
   fontSize: 26,
-  fontWeight: 300,
+  fontWeight: 400,
   lineHeight: 1.3,
   margin: "0 auto",
   marginBottom: 24,
@@ -87,7 +99,7 @@ const headingStyles = {
 }
 const subHeaderStyles = {
   color: "#232129",
-  fontFamily: "Verdana, sans-serif",
+  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
   fontSize: 22,
   margin: "0 auto",
   marginBottom: 16,
@@ -137,73 +149,61 @@ const jobs = [
     hero: (
       <>
         <StaticImage
-          style={heroImage}
           src="../images/sprout-1.png"
           quality={40}
           alt="Sprout Social"
         />   
         <StaticImage
-          style={heroImage}
           src="../images/sprout-2.png"
           quality={40}
           alt="Sprout Social"
         />     
         <StaticImage
-          style={heroImage}
           src="../images/sprout-3.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-4.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-5.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-6.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-7.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-8.png"
           quality={40}
           alt="Sprout Social"
         />
-           <StaticImage
-          style={heroImage}
+        <StaticImage
           src="../images/sprout-9.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-10.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-11.png"
           quality={40}
           alt="Sprout Social"
         />
         <StaticImage
-          style={heroImage}
           src="../images/sprout-12.png"
           quality={40}
           alt="Sprout Social"
@@ -220,73 +220,61 @@ const jobs = [
     hero: (
       <>
         <StaticImage
-          style={heroImage}
           src="../images/dscout-1.png"
           quality={40}
           alt="dscout"
         />   
         <StaticImage
-          style={heroImage}
           src="../images/dscout-2.png"
           quality={40}
           alt="dscout"
         />
         <StaticImage
-          style={heroImage}
           src="../images/dscout-3.png"
           quality={40}
           alt="dscout"
         />   
         <StaticImage
-          style={heroImage}
           src="../images/dscout-4.png"
           quality={40}
           alt="dscout"
         />   
         <StaticImage
-          style={heroImage}
           src="../images/dscout-5.png"
           quality={40}
           alt="dscout"
         />  
         <StaticImage
-          style={heroImage}
           src="../images/dscout-6.png"
           quality={40}
           alt="dscout"
         />
         <StaticImage
-          style={heroImage}
           src="../images/dscout-7.png"
           quality={40}
           alt="dscout"
         />  
         <StaticImage
-          style={heroImage}
           src="../images/dscout-8.png"
           quality={40}
           alt="dscout"
         />  
         <StaticImage
-          style={heroImage}
           src="../images/dscout-9.png"
           quality={40}
           alt="dscout"
         />  
         <StaticImage
-          style={heroImage}
           src="../images/dscout-10.png"
           quality={40}
           alt="dscout"
         />   
          <StaticImage
-          style={heroImage}
           src="../images/dscout-11.png"
           quality={40}
           alt="dscout"
         />   
          <StaticImage
-          style={heroImage}
           src="../images/dscout-12.png"
           quality={40}
           alt="dscout"
@@ -335,7 +323,7 @@ const IndexPage = () => {
               My pronouns are they or he.
             </p>
             <p style={paragraphStyles}>
-              <a href="mailto:hi@julessimplic.io" title="email">Contact me.</a>
+              <a href="mailto:hi@julessimplic.io" title="email">Contact me</a>
             </p>
           </article>
         </section>
@@ -382,14 +370,14 @@ const IndexPage = () => {
           ))}
           </article>
         </section>
-
+{/* 
         <section style={sectionStyles}>
           <h2 style={subHeaderStyles}>
             Design systems is a craft
           </h2>
           <article style={articleStyles}>
             <p style={paragraphStyles}>
-              I am a design systems lead and advocate. I stand for the need to create and document frameworks for maintaining AND scaling application programs. Especially for all the unknowns in the future of a product's life-cycle.
+              I am a design systems lead and advocate that promotes frameworks for maintaining AND scaling application programs. Especially for all the unknowns in the future of a product's life-cycle.
             </p>
             
             <p style={paragraphStyles}>
@@ -451,9 +439,9 @@ const IndexPage = () => {
             <p style={paragraphStyles}>
             </p>
           </article>
-        </section>
+        </section> */}
 
-        <section style={sectionStyles}>
+        {/* <section style={sectionStyles}>
           <h2 style={subHeaderStyles}>
             Looking for help?
           </h2>
@@ -462,7 +450,7 @@ const IndexPage = () => {
               Do you need to get started on a design system or help bringing an old one back to life? <a href="mailto:hi@julessimplic.io" title="email">I am open for part-time consulting.</a>
             </p>
           </article>
-        </section>
+        </section> */}
       </main>
       <footer style={pageStyles}>
         2022, Jules Simplicio
