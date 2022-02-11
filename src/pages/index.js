@@ -90,7 +90,7 @@ const hrefStyles = {
 
 const headingStyles = {
   fontFamily: "Helvetica Neue, Helvetica, sans-serif",
-  fontSize: 28,
+  fontSize: 29,
   fontWeight: 400,
   lineHeight: 1.3,
   margin: "0 auto",
@@ -304,7 +304,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              Hey, I'm Jules Simplicio — I am a software design engineer focused on design infrastructure that supports efficient cross-team collaboration in adapting and scaling products.
+              Hey, I'm Jules Simplicio — I'm a software design engineer focused on design infrastructure that supports efficient cross-team collaboration in adapting and scaling products.
             </h1>
           </article>
         </section>
