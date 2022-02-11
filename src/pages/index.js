@@ -90,7 +90,7 @@ const hrefStyles = {
 
 const headingStyles = {
   fontFamily: "Helvetica Neue, Helvetica, sans-serif",
-  fontSize: 26,
+  fontSize: 28,
   fontWeight: 400,
   lineHeight: 1.3,
   margin: "0 auto",
