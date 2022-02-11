@@ -43,7 +43,7 @@ const pageStyles = {
   justifyContent: "center",
   margin: "0 auto",
   marginBottom: "64px",
-  marginTop: "96px",
+  marginTop: "64px",
   maxWidth: 1224,
   paddingRight: 8,
   width: "100%"
@@ -292,7 +292,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
         <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, product" />
-        <meta name="description" content="Jules Simplicio is a design engineer focused on infrastructure that supports product teams in efficiently shipping software apps." />
+        <meta name="description" content="Jules Simplicio is a software design engineer focused on design infrastructure that supports efficient cross-team collaboration in adapting and scaling products." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
@@ -304,7 +304,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 style={headingStyles}>
-              Hey, I'm Jules Simplicio — I focus on design infrastructure that supports teams in efficiently adapting and scaling software products.
+              Hey, I'm Jules Simplicio — I am a software design engineer focused on design infrastructure that supports efficient cross-team collaboration in adapting and scaling products.
             </h1>
           </article>
         </section>
