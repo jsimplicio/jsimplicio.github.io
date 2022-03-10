@@ -51,18 +51,6 @@ const hrefStyles = {
   margin: 8,
   textDecoration: "none",
 }
-// const imgStyles = {
-//   display: "block",
-//   margin: "24px auto 0 auto",
-//   maxWidth: 180,
-//   width: "100%"
-// }
-// const captionStyles = {
-//   display: "block",
-//   fontFamily: "Helvetica Neue, Helvetica, sans-serif",
-//   fontSize: 16,
-//   margin: "24px auto",
-// }
 
 const headingStyles = {
   fontFamily: "Besley, serif",
