@@ -1,45 +1,10 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
-import { createGlobalStyle } from 'styled-components'
+import "../styles/index.css" 
 import "@fontsource/besley/400.css" 
 import "@fontsource/besley/700.css" 
 import "@fontsource/besley/400-italic.css" 
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  .title {
-    font-size: 36px;
-
-    @media (max-width: 768px) {
-      font-size: 28px;
-    }
-  }
-
-  a.active {
-    background: #EEE!important;
-    box-shadow: inset 2px 2px 0 0 rgba(0,0,0,1), 2px 2px 0 0 rgba(255,255,255,1)!important;
-  }
-
-  .title-bar-buttons button:active {
-    background: #999!important;
-    box-shadow: inset 1px 1px 0 0 rgba(0,0,0,1), 1px 1px 0 0 rgba(255,255,255,1)!important;
-  }
-
-  .gatsby-image-wrapper {
-    border-radius: 4px;
-    margin-top: 24px;
-    width: 49%;
-
-    @media (max-width: 768px) {
-      width: 100%;
-    }
-  }
-`
 
 // styles
 const pageStyles = {
@@ -299,12 +264,11 @@ const jobs = [
 const IndexPage = () => {
   return (
     <>
-      <GlobalStyle />
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
-        <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, product" />
-        <meta name="description" content="Jules Simplicio is a software design engineer focused on design infrastructure that supports efficient cross-team collaboration in adapting and scaling products." />
+        <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, engineering, front-end, product" />
+        <meta name="description" content="Jules Simplicio is a software developer focused on design infrastructure that supports collaboration across disciplines." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
