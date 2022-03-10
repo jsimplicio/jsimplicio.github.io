@@ -2,11 +2,22 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import { createGlobalStyle } from 'styled-components'
+import "@fontsource/besley/400.css" 
+import "@fontsource/besley/700.css" 
+import "@fontsource/besley/400-italic.css" 
 
 const GlobalStyle = createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  .title {
+    font-size: 36px;
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
   }
 
   a.active {
@@ -32,13 +43,13 @@ const GlobalStyle = createGlobalStyle`
 
 // styles
 const pageStyles = {
+  fontFamily: "Besley, serif",
   alignItems: "center",
   boxSizing: "border-box",
   color: "#232129",
   display: "flex",
   flexDirection: "column",
   flexWrap: "wrap",
-  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
   fontSize: 20,
   justifyContent: "center",
   margin: "0 auto",
@@ -89,18 +100,19 @@ const hrefStyles = {
 // }
 
 const headingStyles = {
-  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
-  fontSize: 29,
+  fontFamily: "Besley, serif",
+  fontStyle: "italic",
   fontWeight: 400,
-  lineHeight: 1.3,
+  lineHeight: 1.325,
   margin: "0 auto",
   marginBottom: 24,
   maxWidth: 668,
 }
 const subHeaderStyles = {
   color: "#232129",
-  fontFamily: "Helvetica Neue, Helvetica, sans-serif",
-  fontSize: 22,
+  fontFamily: "Besley, serif",
+  fontSize: 24,
+  fontWeight: 700,
   margin: "0 auto",
   marginBottom: 16,
   maxWidth: 668,
@@ -303,8 +315,8 @@ const IndexPage = () => {
       <main style={pageStyles}>
         <section style={sectionStyles}> 
           <article style={articleStyles}>
-            <h1 style={headingStyles}>
-              Hey, I'm Jules Simplicio — I'm a software design engineer focused on design infrastructure that supports efficient cross-team collaboration in adapting and scaling products.
+            <h1 class="title" style={headingStyles}>
+             Hey, I'm Jules Simplicio. I'm a software developer focused on design infrastructure that supports collaboration across disciplines.
             </h1>
           </article>
         </section>
@@ -314,10 +326,10 @@ const IndexPage = () => {
               About
             </h2>
             <p style={paragraphStyles}>
-              I currently work as a Design Engineer Lead for <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox Browser">Firefox Browser</a> design systems.
+              I currently work for the design system behind Mozilla's <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox Browser">Firefox Browser</a>.
             </p>
             <p style={paragraphStyles}>
-              I support our team by maintaining the browser's user interface and experience, and promoting and documenting design best practices for keeping up our products look and feel.
+              I support our team by documenting and maintaining the browser's user interface and experience, and promoting the team's software design best practices.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they or he.
