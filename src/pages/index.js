@@ -115,62 +115,62 @@ const jobs = [
       <>
         <StaticImage
           src="../images/sprout-1.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />   
         <StaticImage
           src="../images/sprout-2.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />     
         <StaticImage
           src="../images/sprout-3.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-4.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-5.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-6.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-7.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-8.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-9.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-10.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-11.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
         <StaticImage
           src="../images/sprout-12.png"
-          quality={40}
+          quality={10}
           alt="Sprout Social"
         />
       </>
@@ -186,62 +186,62 @@ const jobs = [
       <>
         <StaticImage
           src="../images/dscout-1.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />   
         <StaticImage
           src="../images/dscout-2.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />
         <StaticImage
           src="../images/dscout-3.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />   
         <StaticImage
           src="../images/dscout-4.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />   
         <StaticImage
           src="../images/dscout-5.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />  
         <StaticImage
           src="../images/dscout-6.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />
         <StaticImage
           src="../images/dscout-7.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />  
         <StaticImage
           src="../images/dscout-8.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />  
         <StaticImage
           src="../images/dscout-9.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />  
         <StaticImage
           src="../images/dscout-10.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />   
          <StaticImage
           src="../images/dscout-11.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />   
          <StaticImage
           src="../images/dscout-12.png"
-          quality={40}
+          quality={10}
           alt="dscout"
         />    
       </>
@@ -395,7 +395,7 @@ const IndexPage = () => {
 
             <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
 
-            <img style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
+            <img loading="lazy" style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
             <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
 
             <p style={paragraphStyles}><i>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong></i></p>
