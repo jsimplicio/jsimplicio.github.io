@@ -1,10 +1,30 @@
+@font-face {
+  font-family: Besley;
+  src: url(../fonts/Besley-Book.ttf);
+}
+
+@font-face {
+  font-family: BesleyBold;
+  src: url(../fonts/Besley-Bold.ttf);
+}
+
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Besley;
 }
 
 .title {
   font-size: 36px;
+}
+
+b, h2, h3 {
+  font-family: BesleyBold;
+}
+
+h1 {
+  font-family: Besley;
 }
 
 @media (max-width: 768px) {
@@ -27,8 +47,11 @@ a.active {
   border-radius: 4px;
   margin-top: 24px;
   width: 49%;
+}
 
-  @media (max-width: 768px) {
+
+@media (max-width: 768px) {
+  .gatsby-image-wrapper {
     width: 100%;
   }
 }

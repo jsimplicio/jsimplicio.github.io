@@ -2,13 +2,9 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 import "../styles/index.css" 
-import "@fontsource/besley/400.css" 
-import "@fontsource/besley/700.css" 
-import "@fontsource/besley/400-italic.css" 
 
 // styles
 const pageStyles = {
-  fontFamily: "Besley, serif",
   alignItems: "center",
   boxSizing: "border-box",
   color: "#232129",
@@ -53,8 +49,6 @@ const hrefStyles = {
 }
 
 const headingStyles = {
-  fontFamily: "Besley, serif",
-  fontStyle: "italic",
   fontWeight: 400,
   lineHeight: 1.325,
   margin: "0 auto",
@@ -63,7 +57,6 @@ const headingStyles = {
 }
 const subHeaderStyles = {
   color: "#232129",
-  fontFamily: "Besley, serif",
   fontSize: 24,
   fontWeight: 700,
   margin: "0 auto",
