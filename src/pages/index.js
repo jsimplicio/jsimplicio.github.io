@@ -352,7 +352,7 @@ const IndexPage = () => {
             </p>
             
             <p style={paragraphStyles}>
-              In my career, I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, companies have ambitious goals, the need for flexibility and a streamlined path to growth.
+              In my career, I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, companies have ambitious goals and the need for flexibility and a streamlined path to growth.
             </p>
 
             <p style={paragraphStyles}>
