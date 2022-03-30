@@ -371,21 +371,21 @@ const IndexPage = () => {
               <p style={paragraphStyles}>The following services are frameworks that encompass design and code, and are quite agnostic to specific tools (that being Figma or Adobe XD (your designs), React or Vue (your code)):</p>
 
               <li>
-                🧰 UI Kits
+                🧰 UI kits
                 <ul>
                   <li>Reusable user interface components (buttons, modals, navigation...)</li>
                 </ul>
               </li>
 
               <li>
-                🧩 Design Patterns
+                🧩 Design patterns
                 <ul>
                   <li>Reusable user experience patterns (forms, empty states...)</li>
                 </ul>
               </li>
 
               <li>
-                🎨 Style Guides
+                🎨 Style guides
                 <ul>
                   <li>Reusable product styles (colors, type, shadows, grids...).</li>
                 </ul>
@@ -400,7 +400,7 @@ const IndexPage = () => {
               </li>
 
               <li>
-                🛠 Custom Tooling
+                🛠 Custom tooling
                 <ul>
                   <li>Teams may need custom plugins and scripts.</li>
                 </ul>
