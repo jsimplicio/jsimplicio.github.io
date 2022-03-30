@@ -364,7 +364,7 @@ const IndexPage = () => {
             <img loading="lazy" style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
             <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
 
-            <p style={paragraphStyles}>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong> Or at the very least a decentralized model for maintaining tools.</p>
+            <p style={paragraphStyles}>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong> Or at the very least a decentralized model for maintaining these frameworks.</p>
 
 
             <ul style={paragraphStyles}>
