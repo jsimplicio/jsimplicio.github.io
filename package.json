@@ -4,20 +4,16 @@
   "private": false,
   "description": "Jules Simplicio's portfolio",
   "author": "Jules Simplicio",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "devDependencies": {
-    "gatsby": "^4.11.0",
-    "gatsby-plugin-image": "^2.11.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^6.1.0"
+  "dependencies": {
+    "gatsby": "4.11.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "gatsby-plugin-image": "^2.11.0"
   }
 }
