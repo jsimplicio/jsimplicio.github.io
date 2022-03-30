@@ -1,23 +1,21 @@
 {
-  "name": "my-personal-website",
+  "name": "jules-simplicio-portfolio",
   "version": "1.0.0",
-  "private": true,
-  "description": "My personal home on the Web",
-  "author": "jsimplicio",
+  "private": false,
+  "description": "Jules Simplicio's portfolio",
+  "author": "Jules Simplicio",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "dependencies": {
-    "gatsby": "^4.10.3",
-    "gatsby-plugin-image": "^1.11.0",
-    "gatsby-plugin-netlify-cms": "^5.11.0",
+  "devDependencies": {
+    "gatsby": "^4.11.0",
+    "gatsby-plugin-image": "^2.11.0",
     "react": "^17.0.2",
     "react-helmet": "^6.1.0"
   }

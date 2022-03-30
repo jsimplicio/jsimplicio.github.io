@@ -106,64 +106,64 @@ const jobs = [
     url: "https://sproutsocial.com/",
     hero: (
       <>
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-1.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />   
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-2.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />     
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-3.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-4.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-5.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-6.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-7.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-8.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-9.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-10.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-11.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/sprout-12.png"
-          quality={10}
+          quality={90}
           alt="Sprout Social"
         />
       </>
@@ -177,64 +177,64 @@ const jobs = [
     url: "https://dscout.com/",
     hero: (
       <>
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-1.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />   
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-2.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-3.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />   
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-4.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />   
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-5.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />  
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-6.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-7.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />  
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-8.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />  
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-9.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />  
-        <StaticImage
+        <StaticImage width={1800}
           src="../images/dscout-10.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />   
-         <StaticImage
+         <StaticImage width={1800}
           src="../images/dscout-11.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />   
-         <StaticImage
+         <StaticImage width={1800}
           src="../images/dscout-12.png"
-          quality={10}
+          quality={90}
           alt="dscout"
         />    
       </>
@@ -260,7 +260,7 @@ const IndexPage = () => {
       <main style={pageStyles}>
         <section style={sectionStyles}> 
           <article style={articleStyles}>
-            <h1 class="title" style={headingStyles}>
+            <h1 className="title" style={headingStyles}>
              Hey, I'm Jules Simplicio. I'm a software developer focused on design infrastructure that supports collaboration across disciplines.
             </h1>
           </article>
@@ -417,3 +417,6 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+
+    // "gatsby-plugin-netlify-cms": "^5.11.0",
