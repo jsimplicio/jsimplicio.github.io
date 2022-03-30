@@ -402,7 +402,7 @@ const IndexPage = () => {
               <li>
                 🛠 Custom tooling
                 <ul>
-                  <li>Teams may need custom plugins and scripts.</li>
+                  <li>Teams may need custom plugins, scripts, and workflows to get things done.</li>
                 </ul>
               </li>
             </ul>
