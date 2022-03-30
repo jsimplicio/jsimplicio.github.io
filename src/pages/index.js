@@ -101,7 +101,7 @@ const jobs = [
   {
     name: "Sprout Social",
     year: "2019-2021",
-    description: "I brought consistency across Sprout Social's social media management platform with a focus on maintaining and improving the experience of their social publishing tools. I contributed to Sprout's design system by adding reusable components and design patterns from social publishing features into our Figma UI kit, React UI kit, and public-facing systems docs.",
+    description: "I brought consistency across Sprout Social's social publishing and scheduling products by focusing on contributions to Sprout's design system. I maintained, created, and documented reusable components and design patterns into the system's Figma UI kit, React UI kit (run on Storybook), and public-facing docs (built on Gatsby).",
     color: "#CC99C9",
     url: "https://sproutsocial.com/",
     hero: (
@@ -172,7 +172,7 @@ const jobs = [
   {
     name: "dscout",
     year: "2016-2019",
-    description: "I redesigned dscout's research study products for the Web and Android that run on a new, fast, and performant codebase with a new streamlined pattern library. I created a framework for desktop and mobile UI kits and style guides in Sketch. I added reusable components and patterns from designs into our React UI kit.",
+    description: "I redesigned dscout's research study products for the Web and Android that run on newer and more performant codebase with a brand new pattern library. I created a framework for desktop and mobile UI kits and style guides in Sketch. I added reusable UI components and design patterns into our React UI kit (run on Storybook).",
     color: "#9EC1CF",
     url: "https://dscout.com/",
     hero: (
