@@ -34,6 +34,20 @@ const sectionStyles = {
   width: "100%"
 }
 
+const imgStyles = {
+  display: "block",
+  margin: "24px auto 0 auto",
+  width: "200px"
+}
+
+
+const captionStyles = {
+  color: "#444",
+  display: "block",
+  fontSize: "1rem",
+  margin: "8px auto 24px auto"
+}
+
 const heroImages = {
   display: "flex",
   flexWrap: "wrap",
@@ -274,7 +288,7 @@ const IndexPage = () => {
               I currently work for the design system behind Mozilla's <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox Browser">Firefox Browser</a>.
             </p>
             <p style={paragraphStyles}>
-              I support our team by documenting and maintaining the browser's user interface and experience, and promoting the team's software design best practices.
+              I support our team by documenting and maintaining the browser's user interface and experience, while promoting our software design best practices.
             </p>
             <p style={paragraphStyles}>
               My pronouns are they or he.
@@ -327,10 +341,10 @@ const IndexPage = () => {
           ))}
           </article>
         </section>
-{/* 
+
         <section style={sectionStyles}>
           <h2 style={subHeaderStyles}>
-            Design systems is a craft
+            I focus on design systems
           </h2>
           <article style={articleStyles}>
             <p style={paragraphStyles}>
@@ -338,34 +352,42 @@ const IndexPage = () => {
             </p>
             
             <p style={paragraphStyles}>
-              In my career, I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, companies have ambitious goals, the need for flexibility, and a streamlined path to growth.
+              In my career, I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, companies have ambitious goals, the need for flexibility and a streamlined path to growth.
             </p>
 
             <p style={paragraphStyles}>
-              As a software designer, I provide infrastructure services that give piece of mind to companies that want to efficiently scale their software product without creating debt for teams to manage.
+              As a software developer, I provide infrastructure services that give piece of mind to companies that want to efficiently scale their products without creating debt for teams to manage.
             </p> 
 
+            <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
+
+            <img loading="lazy" style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
+            <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
+
+            <p style={paragraphStyles}>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong> Or at the very least a decentralized model for maintaining tools.</p>
+
+
             <ul style={paragraphStyles}>
-              <p style={paragraphStyles}>The following services are frameworks that encompass design and code, and are quite agnostic to specific tools (that being Figma or Adobe XD (your designs), React or Next.js (your code)):</p>
+              <p style={paragraphStyles}>The following services are frameworks that encompass design and code, and are quite agnostic to specific tools (that being Figma or Adobe XD (your designs), React or Vue (your code)):</p>
 
               <li>
                 🧰 UI Kits
                 <ul>
-                  <li>Reusable user interface components.</li>
+                  <li>Reusable user interface components (buttons, modals, navigation...)</li>
                 </ul>
               </li>
 
               <li>
                 🧩 Design Patterns
                 <ul>
-                  <li>Reusable user experience patterns.</li>
+                  <li>Reusable user experience patterns (forms, empty states...)</li>
                 </ul>
               </li>
 
               <li>
                 🎨 Style Guides
                 <ul>
-                  <li>Reusable brand styles.</li>
+                  <li>Reusable product styles (colors, type, shadows, grids...).</li>
                 </ul>
               </li>
 
@@ -373,32 +395,21 @@ const IndexPage = () => {
               <li>
                 📕 Docs
                 <ul>
-                  <li>Documentation that supports sytems frameworks.</li>
+                  <li>Documentation that supports the system and its frameworks.</li>
                 </ul>
               </li>
 
               <li>
                 🛠 Custom Tooling
                 <ul>
-                  <li>Because sometimes teams need custom plugins and scripts.</li>
-                  <li>I have been venturing in services such as design token APIs with <a href="https://www.apollographql.com/" title="Apollo GraphQL">the Apollo GraphQL platform</a>.</li>
+                  <li>Teams may need custom plugins and scripts.</li>
                 </ul>
               </li>
             </ul>
-
-            <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
-
-            <img loading="lazy" style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
-            <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
-
-            <p style={paragraphStyles}><i>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong></i></p>
-
-            <p style={paragraphStyles}>
-            </p>
           </article>
-        </section> */}
+        </section>
 
-        {/* <section style={sectionStyles}>
+        <section style={sectionStyles}>
           <h2 style={subHeaderStyles}>
             Looking for help?
           </h2>
@@ -407,7 +418,7 @@ const IndexPage = () => {
               Do you need to get started on a design system or help bringing an old one back to life? <a href="mailto:hi@julessimplic.io" title="email">I am open for part-time consulting.</a>
             </p>
           </article>
-        </section> */}
+        </section>
       </main>
       <footer style={pageStyles}>
         2022, Jules Simplicio

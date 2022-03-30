@@ -23,6 +23,10 @@ b, h2, h3 {
   font-family: BesleyBold;
 }
 
+strong {
+  font-family: BesleyBold;
+}
+
 h1 {
   font-family: Besley, Georgia, serif;
 }
