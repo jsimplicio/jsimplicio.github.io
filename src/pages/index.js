@@ -37,7 +37,7 @@ const sectionStyles = {
 const imgStyles = {
   display: "block",
   margin: "24px auto 0 auto",
-  width: "200px"
+  width: "125px"
 }
 
 
@@ -344,19 +344,23 @@ const IndexPage = () => {
 
         <section style={sectionStyles}>
           <h2 style={subHeaderStyles}>
-            I focus on design systems
+            My focus is design systems
           </h2>
           <article style={articleStyles}>
             <p style={paragraphStyles}>
-              I am a design systems lead and advocate that promotes frameworks for maintaining AND scaling application programs. Especially for all the unknowns in the future of a product's life-cycle.
+                I establish and maintain practices that promote designers and developers working together.
             </p>
-            
-            <p style={paragraphStyles}>
-              In my career, I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, companies have ambitious goals and the need for flexibility and a streamlined path to growth.
+                
+            <p style={paragraphStyles}>My work revolves around creating a sustainable shared language for software development teams for maintaining and scaling application programs. 
+              
             </p>
 
             <p style={paragraphStyles}>
-              As a software developer, I provide infrastructure services that give piece of mind to companies that want to efficiently scale their products without creating debt for teams to manage.
+              I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, all companies have ambitious goals and the need for flexibility and a streamlined path to growth. Especially with all the unknowns in the future of a product's life-cycle.
+            </p>
+
+            <p style={paragraphStyles}>
+              Design systems as a practice provide infrastructure for scaling products efficiently without creating technical and user experience debt for teams to manage.
             </p> 
 
             <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
@@ -364,9 +368,9 @@ const IndexPage = () => {
             <img loading="lazy" style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
             <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
 
-            <p style={paragraphStyles}>PS: Design systems' services are sustainable <strong>and</strong> maintainable frameworks, but will require dedicated individiuals to do such maintenance. <strong>Consider investing in a design systems team.</strong> Or at the very least a decentralized model for maintaining these frameworks.</p>
+            <p style={paragraphStyles}>Design systems frameworks can be sustained and maintained, but that will require specialized individiuals to do such dedicated work. <strong>Consider investing in a design systems team.</strong> Or at the very least a decentralized model for maintaining design infrastructure.</p>
 
-
+{/* 
             <ul style={paragraphStyles}>
               <p style={paragraphStyles}>The following services are frameworks that encompass design and code, and are quite agnostic to specific tools (that being Figma or Adobe XD (your designs), React or Vue (your code)):</p>
 
@@ -405,7 +409,7 @@ const IndexPage = () => {
                   <li>Teams may need custom plugins, scripts, and workflows to get things done.</li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </article>
         </section>
 
