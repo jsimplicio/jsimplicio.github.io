@@ -344,7 +344,7 @@ const IndexPage = () => {
 
         <section style={sectionStyles}>
           <h2 style={subHeaderStyles}>
-            My focus is design systems
+            My focus lies on design systems
           </h2>
           <article style={articleStyles}>
             <p style={paragraphStyles}>
