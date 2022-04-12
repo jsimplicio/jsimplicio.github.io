@@ -21,6 +21,7 @@ body {
 
 b, h2, h3 {
   font-family: BesleyBold;
+  line-height: 1.2;
 }
 
 strong {
