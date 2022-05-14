@@ -275,7 +275,7 @@ const IndexPage = () => {
         <section style={sectionStyles}> 
           <article style={articleStyles}>
             <h1 className="title" style={headingStyles}>
-             Hey, I'm Jules Simplicio. I'm a software developer focused on design infrastructure that supports collaboration across disciplines.
+             Hey, I'm Jules Simplicio. I'm a software developer focused on design infrastructure that supports cross-discipline collaboration.
             </h1>
           </article>
         </section>
@@ -356,7 +356,7 @@ const IndexPage = () => {
             </p>
 
             <p style={paragraphStyles}>
-              I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, all companies have ambitious goals and the need for flexibility and a streamlined path to growth. Especially with all the unknowns in the future of a product's life-cycle.
+              I have worked at small-to-medium sized software startups and publically-traded enterprises. No matter the size, software companies have ambitious goals that come with the need for flexibility. Especially with all of the future unknowns in a product's life-cycle.
             </p>
 
             <p style={paragraphStyles}>
@@ -366,9 +366,9 @@ const IndexPage = () => {
             <h3 style={paragraphStyles}>Every time you build a chair you don't have to start from scratch because, thankfully, there are existing tools.</h3>
 
             <img loading="lazy" style={imgStyles} alt="Ikea" src="https://static.tvtropes.org/pmwiki/pub/images/ikea.png" />
-            <caption style={captionStyles}>Confused person illustration from IKEA's timeless instruction manuals</caption>
+            <caption style={captionStyles}>Credit: IKEA</caption>
 
-            <p style={paragraphStyles}>Design systems frameworks can be sustained and maintained, but that will require specialized individiuals to do such dedicated work. <strong>Consider investing in a design systems team.</strong> Or at the very least a decentralized model for maintaining design infrastructure.</p>
+            <p style={paragraphStyles}>Design systems frameworks can be sustained and maintained, but that requires specialized individiuals to do such dedicated work. <strong>Consider investing in a design systems team</strong> or a decentralized model for maintaining design infrastructure.</p>
 
 {/* 
             <ul style={paragraphStyles}>
