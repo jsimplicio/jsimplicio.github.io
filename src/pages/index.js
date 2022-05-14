@@ -263,7 +263,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <meta name="author" content="Jules Simplicio" />
         <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, engineering, front-end, product" />
-        <meta name="description" content="Jules Simplicio is a software developer focused on design infrastructure that supports collaboration across disciplines." />
+        <meta name="description" content="Jules Simplicio is a software developer focused on design infrastructure that supports cross-discipline collaboration." />
         <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
         <meta name="reply-to" content="hi@julessimplic.io" />
         <meta name="url" content="http://julessimplic.io" />
