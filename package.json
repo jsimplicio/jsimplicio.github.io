@@ -1,21 +1,11 @@
 {
   "name": "jsimplicio.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jsimplicio/jsimplicio.github.io.git"
+  "scripts": {
+    "build": "eleventy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jsimplicio/jsimplicio.github.io/issues"
-  },
-  "homepage": "https://github.com/jsimplicio/jsimplicio.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^0.3.3",
     "@11ty/eleventy-img": "^0.3.0",
     "sharp": "^0.26.0"
   }
