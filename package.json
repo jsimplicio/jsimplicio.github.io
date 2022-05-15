@@ -15,9 +15,8 @@
   },
   "homepage": "https://github.com/jsimplicio/jsimplicio.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
-  },
-  "dependencies": {
-    "@11ty/eleventy-img": "^2.0.0"
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-img": "^0.3.0",
+    "sharp": "^0.26.0"
   }
 }
