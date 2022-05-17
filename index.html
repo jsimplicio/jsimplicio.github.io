@@ -24,7 +24,6 @@
       color: rgb(30, 30, 30);
       font-family: 'EB Garamond', serif;
       font-size: 22px;
-      padding: 12px;
     }
 
     body {
@@ -35,9 +34,9 @@
       color: rgb(10, 113, 240);
     }
 
-    p, h1, h2 {
+    p, h1, h2, hr {
       line-height: 1.4;
-      margin-bottom: 16px;
+      margin-bottom: 24px;
       max-width: 560px;
     }
 
@@ -56,18 +55,37 @@
       max-width: 49%;
     }
 
+    hr {
+      background-color: #dedede;
+      border: none;
+      height: 1px;
+      margin: 64px 0;
+      max-width: 100%;
+    }
+
     h1, h2, h3 {
+      font-family: Arial, sans-serif;
       font-size: 1em;
       line-height: 1.2;
+      margin-bottom: 8px;
     }
 
     h1, h2, h3 {
       font-weight: 700;
     }
 
-    article, section, footer {
-      margin: 0 auto 48px auto;
+    article {
+      margin-top: 48px;
+    }
+
+    main, footer {
       max-width: 968px;
+      margin: 0 auto;
+      padding: 12px;
+    }
+
+    footer {
+      margin-bottom: 64px;
     }
 
     .images {
@@ -91,6 +109,7 @@
       <article class="intro">
         <p>I'm Jules Simplicio–a software developer focused on design infrastructure that fosters collaboration between product development disciplines.</p>
       </article>
+      <hr />
       <article>
         <h2>About</h2>
         <p>I currently work for the design system behind Mozilla's <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.</p>
@@ -99,10 +118,10 @@
 
         <p>My pronouns are they or he.</p>
       </article>  
+      <hr />
       <article>
         <h2>Sprout Social</h2>
-        <p>I brought consistency across Sprout Social's social media publishing products by focusing on contributions to Sprout's design system. I developed and documented reusable components and design patterns into the system's Figma libraries, React Storybook, and public-facing docs (run on Gatsby).</p>
-        
+        <p>I brought consistency across <a href="https://sproutsocial.com" title="Sprout Social">Sprout Social's</a> social media publishing products by focusing on contributions to Sprout's new design system called <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a>. Seeds is built on frameworks for creating modular interfaces like React and Figma. I developed and documented reusable components and design patterns into the system's Figma libraries, React Storybook, and public-facing docs (run on Gatsby).</p>
         <section class="images">
           <img loading="lazy" src="/images/ss-1.jpg" alt="Documentation for the Breadcrumb component for Sprout Social" />
           <img loading="lazy" src="/images/ss-2.jpg" alt="Live documentation for the Breadcrumb component for Sprout Social" />
@@ -112,9 +131,10 @@
           <img loading="lazy" src="/images/ss-6.jpg" alt="Output of Figma plugin for Sprout Social" />
         </section>
       </article>
+      <hr />
       <article>
         <h2>dscout</h2>
-        <p>I worked on dscout's redesign for the Web and Android. The latest platform runs on a performant codebase powered by Elixir, GraphQL, and React. I created a framework for desktop and mobile UI kits with style guides in Sketch. I contributed to our React Storybook by developing reusable components and design patterns.</p>
+        <p>I worked on <a href="https://dscout.com" title="dscout">dscout's</a> redesign for the Web and Android. The latest platform runs on a performant codebase powered by Elixir, GraphQL, and React. I created a framework for desktop and mobile UI kits and style guides in Sketch. I contributed to our React Storybook by developing reusable components and design patterns.</p>
         <section class="images">
           <img loading="lazy" src="/images/d-1.jpg" alt="dscout Sketch UI kit" />
           <img loading="lazy" src="/images/d-2.jpg" alt="dscout Sketch UI kit" />
@@ -123,28 +143,29 @@
           <img loading="lazy" src="/images/d-5.jpg" alt="dscout Recruit product" />
           <img loading="lazy" src="/images/d-6.jpg" alt="dscout Recruit product" />
         </section>
-        <section>
-          <h2>
-            My latest work focuses on design systems
-          </h2>
-          <article>
-            <p>
-              I have worked at small-to-medium businesses and large enterprises. No matter the size, all software companies have ambitious goals that come with the need for flexibility. Especially with the future unknowns in a product's life cycle.
-            </p>
+      </article>
+      <hr />
+      <article>
+        <h2>
+          My latest work focuses on design systems
+        </h2>
+        <p>
+          I have worked at small-to-medium businesses and large enterprises. No matter the size, all software companies have ambitious goals that come with the need for flexibility. Especially with the future unknowns in a product's life cycle.
+        </p>
 
-            <p>
-              By working in design systems, I help companies establish and maintain practices that promote software designers and developers working as a unit and delivering quality work together.
-            </p>
+        <p>
+          By working in design systems, I help companies establish and maintain practices that promote software designers and developers working as a unit and delivering quality work together.
+        </p>
 
-            <p>Design systems provide infrastructure for scaling products efficiently and without technical and user experience debt. Systems infrastructure include tangible frameworks and people processes. For example, a tangible framework could be a collection of well-documented design patterns, while a people process could be an established process behind UI contributions to a component library.</p>
-              
-            <p>Systems infrastructure should be sustained and maintained by dedicated systems individuals. For a design system to succeed, consider investing in a design systems team or a decentralized model for maintaining design infrastructure.</p>
-        </section>
+        <p>Design systems provide infrastructure for scaling products efficiently and without technical and user experience debt. Systems infrastructure include tangible frameworks and people processes. For example, a tangible framework could be a collection of well-documented design patterns, while a people process could be an established process behind UI contributions to a component library.</p>
+          
+        <p>Systems infrastructure should be sustained and maintained by dedicated systems individuals. For a design system to succeed, consider investing in a design systems team or a decentralized model for maintaining design infrastructure.</p>
       </article>
     </main>
+    <hr />
     <footer>
       <p><a href="mailto:hi@julessimplic.io" title="email">Email me</a></p>
-      <p>Jules Simplicio, 2022</p>
+      <p>&copy; Jules Simplicio, 2022</p>
     </footer>
   </body>
 </html>
