@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="author" content="Jules Simplicio" />
     <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, engineering, front-end, product" />
-    <meta name="description" content="Jules Simplicio is a software developer focused on design infrastructure that fosters collaboration between product development disciplines." />
+    <meta name="description" content="Jules Simplicio is a software developer who designs infrastructure that fosters collaboration between product development disciplines." />
     <meta name="author" content="Jules Simplicio, hi@julessimplic.io" />
     <meta name="reply-to" content="hi@julessimplic.io" />
     <meta name="url" content="http://julessimplic.io" />
@@ -33,7 +33,7 @@
       color: rgb(10, 113, 240);
     }
 
-    p, h1, h2, hr {
+    p, h1, h2, hr, ul {
       line-height: 1.4;
       margin-bottom: 24px;
       max-width: 660px;
@@ -41,6 +41,19 @@
 
     p:last-child {
       margin-bottom: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    li::before {
+      content: '• ';
     }
 
     .intro p {
@@ -65,15 +78,31 @@
       max-width: 100%;
     }
 
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
       font-family: Arial, sans-serif;
       font-size: 1em;
       line-height: 1.2;
       margin-bottom: 8px;
     }
 
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
       font-weight: 700;
+    }
+
+    h1 {
+      font-size: 1.425em;
+    }
+
+    h2 {
+      font-size: 1.225em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+
+    h4 {
+      font-size: .825em;
     }
 
     article {
@@ -115,27 +144,50 @@
   <body>
     <main>
       <article class="intro">
-        <p><span class="name">Jules Simplicio </span>is a software developer focused on design infrastructure that fosters collaboration between product development disciplines.</p>
+        <p><span class="name">Jules Simplicio</span> is a software developer who designs infrastructure that fosters collaboration between product development disciplines.</p>
       </article>
       <hr />
       <article>
         <h2>About</h2>
 
-        <p>I have worked in software for the past 10 years. I have spent my career at startups, small and medium sized businesses, and mid-market companies. I have focused on web and mobile application design, design systems, and front-end development for education, ecommerce, research, and free and open-source software products.</p>
+        <p>With 10 years of software development experience, I've spent my career in startups, small and medium-sized businesses, and mid-market companies. My focus is web and mobile application design, design systems, and front-end development for education, e-commerce, research, and free and open-source software products.</p>
 
         <p>My pronouns are they or he.</p>
       </article>  
       <hr />
       <article>
         <h2>Mozilla</h2>
-        <p>I currently work for the design system behind Mozilla's <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a>.</p>
-        
-        <p>I support our team by documenting and maintaining the browser's user interface and experience, while promoting our software design best practices.</p>
+        <h3>2021–Present</h3>
+        <p>I'm currently the design systems lead for Mozilla's <a href="https://www.mozilla.org/en-US/firefox/" title="Firefox">Firefox</a> browser.</p>
+
+        <p>A few highlights amongst from the past 12 months:</p>
+
+        <h4>Figma</h4>
+        <ul>
+          <li>I created and maintain the Firefox design systems Figma team</li>
+          <li>I created and maintain Figma style and component libraries that map to our living code</li>
+          <li>I created and run internal user testing sessions on Figma component usability</li>
+        </ul>
+
+        <h4>Support &amp; education</h4>
+        <ul>
+          <li>I create educational material in written guidelines, video, and presentation format</li>
+          <li>I provide user support, mentorship, and onboarding via face-to-face sessions and asynchronous communication</li>
+          <li>I create internal tools supporting design and development relations, such as a Figma template for file organization and better cross-discipline collaboration, and a script for taking data out of Figma and into code format</li>
+        </ul>
+         
+        <h4>Documentation &amp; communication</h4>
+        <ul>
+          <li>I created and maintain an internal wiki in Confluence for documentation</li>
+          <li>I created a process for documenting team tasks via sprints and a public roadmap run on Jira</li>
+          <li>I write and present communications via a custom monthly newsletter, Slack announcements, and face-to-face meetings</li>
+        </ul>
       </article>
       <hr />
       <article>
         <h2>Sprout Social</h2>
-        <p>I brought consistency across <a href="https://sproutsocial.com" title="Sprout Social">Sprout Social's</a> social media publishing products by focusing on contributions to Sprout's new design system called <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a>. Seeds runs on the modular user interface frameworks React and Figma. I developed and documented reusable components and design patterns into Figma libraries, Storybook for React, and public-facing docs run on Gatsby.</p>
+        <h3>2019–2021</h3>
+          <p>I brought consistency across <a href="https://sproutsocial.com" title="Sprout Social">Sprout Social's</a> social media publishing products by contributing to its new design system, <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a>. I developed and documented reusable components and design patterns into Figma libraries, Storybook for React, and public-facing docs run on Gatsby.</p>
         <section class="images">
           <img loading="lazy" src="/images/ss-1.jpeg" alt="Sprout Social work" />
           <img loading="lazy" src="/images/ss-2.jpeg" alt="Sprout Social work" />
@@ -144,16 +196,21 @@
       <hr />
       <article>
         <h2>dscout</h2>
-        <p>I lead the design and redesign of several <a href="https://dscout.com" title="dscout">dscout</a> features during a major enhancement of the codebase. In order to improve data handling, the engineering team overhauled the platform using the performant tools Elixir, GraphQL, and React. I established a framework for UI kits and style guides in Sketch and implemented reusable components and design patterns in the Storybook for React.</p>
+        <h3>2016–2019</h3>
+        <p>I led the design and redesign of several <a href="https://dscout.com" title="dscout">dscout</a> features during a major enhancement of the codebase. To improve data handling, the engineering team overhauled the platform using the performant tools Elixir, GraphQL, and React. I established a framework for UI kits and style guides in Sketch, and implemented components and design patterns in the Storybook for React.</p>
         <section class="images">
           <img loading="lazy" src="/images/d-1.jpeg" alt="dscout" />
           <img loading="lazy" src="/images/d-2.jpeg" alt="dscout" />
         </section>
       </article>
+      <hr />
+      <article>
+        See my full work history on <a href="https://www.linkedin.com/in/jules-simplicio-983611126/" title="LinkedIn">LinkedIn</a>.
+      </article>
     </main>
     <hr />
     <footer>
-      <p><a href="mailto:hi@julessimplic.io" title="email">Email me</a></p>
+      <p><a href="mailto:hi@julessimplic.io" title="email">Email</a></p>
       <p>&copy; Jules Simplicio, 2022</p>
     </footer>
   </body>
