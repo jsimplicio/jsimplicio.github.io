@@ -28,6 +28,7 @@
       color: rgb(30, 30, 30);
       font-family: 'EB Garamond', serif;
       font-size: 22px;
+      line-height: 1.4;
     }
 
     body {
@@ -39,7 +40,6 @@
     }
 
     p, h1, h2, hr, ul {
-      line-height: 1.4;
       margin-bottom: 24px;
       max-width: 660px;
     }
@@ -61,21 +61,6 @@
       content: '• ';
     }
 
-    .intro p {
-      font-size: 1.88em;
-      line-height: 1.2;
-      margin-top: 48px;
-      max-width: 100%;
-    }
-
-    .intro h1, .intro p {
-      display: inline;
-    }
-    
-    .intro h1 {
-      font-size: 1.5em;
-    }
-
     img {
       align-self: flex-start;
       border-radius: 4px;
@@ -93,7 +78,7 @@
     h1, h2, h3, h4 {
       font-family: Helvetica, sans-serif;
       font-size: 1em;
-      line-height: 1.2;
+      line-height: 1;
       margin-bottom: 8px;
     }
 
@@ -102,7 +87,9 @@
     }
 
     h1 {
-      font-size: 1.225em;
+      font-family: 'EB Garamond', serif;
+      font-size: 1em;
+      font-weight: normal;
     }
 
     h2 {
@@ -128,6 +115,17 @@
       margin-bottom: 48px;
     }
 
+    .intro {
+      font-size: 1.5em;
+      margin-top: 32px;
+    }
+
+    .intro h1 {
+      line-height: 1.2;
+      margin-top: 48px;
+      max-width: 100%;
+    }
+
     .images {
       display: flex;
       flex-wrap: wrap;
@@ -136,14 +134,11 @@
 
     .name {
       font-family: Helvetica, sans-serif;
+      font-size: .85em;
       font-weight: bold;
     }
 
     @media (max-width: 1024px) { 
-      .intro p {
-        font-size: 1.28em;
-      }
-
       img {
         height: auto;
         width: 768px;
@@ -151,10 +146,6 @@
     }
 
     @media (max-width: 768px) { 
-      .intro p {
-        font-size: 1.28em;
-      }
-
       img {
         height: auto;
         width: 500px;
@@ -162,21 +153,13 @@
     }
 
     @media (max-width: 480px) { 
-      .intro p {
-        font-size: 1.28em;
-      }
-
       img {
         height: auto;
         width: 390px;
       }
     }
 
-    @media (max-width: 390px) { 
-      .intro p {
-        font-size: 1.28em;
-      }
-
+    @media (max-width: 390px) {
       img {
         height: auto;
         width: 340px;
@@ -185,10 +168,9 @@
   </style>
   <body>
     <main>
-      <article class="intro">
-        <h1 class="name">Jules Simplicio</h1> 
-        &nbsp;<p>is a software developer who designs infrastructure that fosters collaboration between product development disciplines.</p>
-      </article>
+      <header class="intro">
+        <h1><span class="name">Jules Simplicio</span> is a software developer who designs infrastructure that fosters collaboration between product development disciplines.</h1>
+      </header>
       <hr />
       <article>
         <h2>About</h2>
