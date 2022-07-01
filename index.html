@@ -17,8 +17,6 @@
     <title>Jules Simplicio</title>
   </head>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
-
     * {
       margin: 0;
       padding: 0;
@@ -26,13 +24,9 @@
 
     html {
       color: rgb(30, 30, 30);
-      font-family: 'EB Garamond', serif;
-      font-size: 22px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 21px;
       line-height: 1.4;
-    }
-
-    header {
-      margin-bottom: 24px;
     }
 
     body {
@@ -40,12 +34,11 @@
     }
 
     a {
-      color: rgb(10, 113, 240);
+      color: #2b7a53;
     }
 
     p, h1, h2, hr, ul {
       margin-bottom: 24px;
-      max-width: 560px;
     }
 
     p:last-child {
@@ -80,7 +73,6 @@
     }
 
     h1, h2, h3, h4 {
-      font-family: Helvetica, sans-serif;
       font-size: 1em;
       line-height: 1;
       margin-bottom: 8px;
@@ -91,22 +83,22 @@
     }
 
     h1 {
-      font-family: 'EB Garamond', serif;
-      font-size: 1em;
-      font-weight: normal;
+      font-size: 1.8em;
+      font-weight: 700;
+      margin-bottom: 32px;
     }
 
     h2 {
       font-size: 1.125em;
+      margin-bottom: 8px;
     }
 
     h3 {
       font-size: .9em;
-      font-weight: 400;
     }
 
-    article {
-      margin-top: 48px;
+    article:not(:first-of-type) {
+      margin-top: 32px;
     }
 
     main, footer {
@@ -119,14 +111,24 @@
       margin-bottom: 48px;
     }
 
-    .intro {
-      font-size: 1.5em;
+     header {
+      background: #AAF8D8;
+      margin-bottom: 64px;
+      padding: 64px 16px;
     }
 
-    .intro h1 {
+    header article {
       line-height: 1.2;
-      margin-top: 48px;
-      max-width: 100%;
+      margin: 0 auto;
+      max-width: 968px;
+    }
+
+    header h1 {
+      margin: 0 0 8px 0;
+    }
+
+    header p {
+      font-size: 1.5em;
     }
 
     .images {
@@ -135,23 +137,9 @@
       justify-content: space-between;
     }
 
-    .name {
-      font-family: Helvetica, sans-serif;
-      font-size: .85em;
-      font-weight: bold;
-    }
-
     @media (max-width: 1024px) { 
-      .intro {
-        font-size: 1.2em;
-      }
-
-      h2, p {
-        font-size: .95em;
-      }
-
-      h3 {
-        font-size: .8em;
+      header {
+        font-size: 1em;
       }
 
       img {
@@ -182,17 +170,13 @@
     }
   </style>
   <body>
-    <main>
+    <header>
       <article>
-      <header class="intro">
-        <h1><span class="name">Jules Simplicio</span> is a software developer who designs infrastructure that fosters collaboration between designers and developers.</h1>
-      </header>
-
-        <p>With 10 years of software development experience in startups, small and medium-sized businesses, and mid-market companies, I have practiced web and mobile application design, design systems, and front-end development, and worked for on-demand and free and open-source software products.</p>
-
-        <p>My pronouns are they or he.</p>
-      </article>  
-      <hr />
+        <h1>I'm Jules Simplicio 👋</h1><p>I design software infrastructure that fosters collaboration between designers and developers.</p>
+      </article>
+    </header>  
+    <main>
+      <h1>Experience</h1>
       <article>
         <h2>Mozilla</h2>
         <h3>2021–Present</h3>
@@ -200,7 +184,6 @@
                   
         <p>As a design systems lead, I maintain visual styles and user interface components, documentation, user support, communications, and internal tools and processes.</p>
       </article>
-      <hr />
       <article>
         <h2>Sprout Social</h2>
         <h3>2019–2021</h3>
@@ -212,7 +195,6 @@
           <img loading="lazy" src="/img/MTgXoqb2Aa-3096.webp" width="968" height="283" title="Sprout Social work" />
         </section>
       </article>
-      <hr />
       <article>
         <h2>dscout</h2>
         <h3>2016–2019</h3>
@@ -224,7 +206,6 @@
           <img loading="lazy" src="/img/nec-vKehco-3192.webp" width="968" height="275" title="dscout work" />
         </section>
       </article>
-      <hr />
       <article>
         <p>See my full work history on <a href="https://www.linkedin.com/in/jules-simplicio-983611126/" title="LinkedIn">LinkedIn</a>.</p>
       </article>
@@ -235,4 +216,6 @@
       <p>&copy; Jules Simplicio, 2022</p>
     </footer>
   </body>
+  <script>
+    </script>
 </html>
