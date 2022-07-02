@@ -112,9 +112,13 @@
     }
 
      header {
-      background: #AAF8D8;
+     background-color: #E7FFF5;
+      background-image: url('/img/roads.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       margin-bottom: 64px;
-      padding: 64px 16px;
+      padding: 128px 16px;
     }
 
     header article {
@@ -149,6 +153,10 @@
     }
 
     @media (max-width: 768px) { 
+      header {
+        padding: 64px 16px;
+      }
+      
       img {
         height: auto;
         width: 500px;
