@@ -1,19 +1,19 @@
 const Image = require("@11ty/eleventy-img");
 
 (async () => {
-  await Image("./img/d-1.jpeg", {
+  await Image("./img/dscout-1.png", {
     formats: ["webp"],
   });
 
-  await Image("./img/d-2.jpeg", {
+  await Image("./img/dscout-4.png", {
     formats: ["webp"],
   });
 
-  await Image("./img/ss-1.jpeg", {
+  await Image("./img/sprout-1.png", {
     formats: ["webp"]
   });
 
-  await Image("./img/ss-2.jpeg", {
+  await Image("./img/sprout-2.png", {
     formats: ["webp"]
   });
 })();
