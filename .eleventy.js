@@ -5,8 +5,9 @@ const Image = require("@11ty/eleventy-img");
     formats: ["webp"],
   });
 
-  await Image("./img/dscout-4.png", {
+  await Image("./img/dscout-2.png", {
     formats: ["webp"],
+    height: 1754
   });
 
   await Image("./img/sprout-1.png", {
