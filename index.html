@@ -39,8 +39,8 @@
       color: #5d574b;
     }
 
-    p, h1, h2, hr, ul {
-      margin-bottom: 32px;
+    p, ul {
+      margin-bottom: 24px;
     }
 
     p:last-child {
@@ -90,7 +90,7 @@
     h1 {
       font-size: 1.425em;
       font-weight: 700;
-      margin-bottom: 32px;
+      margin-bottom: 24px;
     }
 
     h2 {
@@ -103,7 +103,7 @@
     }
 
     article:not(:first-of-type) {
-      margin-top: 32px;
+      margin-top: 24px;
     }
 
     main, footer {
@@ -121,19 +121,13 @@
     }
 
     header p {
-      font-size: 1.5em;
+      font-size: 2em;
     }
 
     .images {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-    }
-
-    @media (max-width: 1024px) { 
-      header {
-        font-size: 1em;
-      }
     }
 
     @media (max-width: 768px) { 
@@ -145,11 +139,17 @@
         width: 100%;
       }
     }
+
+    @media (max-width: 480px) {
+      header {
+        font-size: .8em;
+      }
+    }
   </style>
   <body>
     <header>
       <article>
-        <p>Hey, I'm Jules Simplicio. I'm a software designer and developer working on design systems.</p>
+        <p>I'm Jules Simplicio—I'm a software designer and developer working on design systems.</p>
         <hr />
       </article>
     </header>  
