@@ -45,32 +45,12 @@
       color: inherit;
     }
 
-    p, ul {
+    p {
       margin-bottom: 12px;
     }
 
     p:last-of-type {
       margin-bottom: 32px;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    li::before }
-      content: "- ";
-    }
-
-    hr {
-      background-color: #999;
-      border: none;
-      height: 1px;
-      margin: 32px 0;
-      max-width: 100%;
     }
 
     h1, h2, h3, h4 {
@@ -111,19 +91,19 @@
       padding: 0 16px;
     }
 
-    header article {
+    .intro {
       margin: 0 auto;
       padding: 0 16px;
       max-width: 968px;
     }
 
-    header p, header h1 {
+    .intro p, .intro h1 {
       font-size: 1.625em;
       line-height: 1.3;
       padding: 0;
     }
     
-    header {
+    .intro {
       margin-bottom: 48px;
     }
 
@@ -131,20 +111,6 @@
       margin-top: 48px;
     }
     
-    time {
-      font: inherit;
-      font-size: .9em;
-      font-weight: bold;
-      letter-spacing: 1.2px;
-      margin-bottom: 8px;
-    }
-    
-    .images {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
     @media (prefers-color-scheme: dark) {
       :root {
         background: #21262d;
@@ -159,12 +125,10 @@
     }
   </style>
   <body>
-    <header>
-      <article>
-        <h1>Hello, my name is Jules Simplicio.</h1>
-        <p>I develop and maintain user interface design systems that support people who build digital products.</p>
-      </article>
-    </header>  
+    <article class"intro">
+      <h1>Hello, my name is Jules Simplicio.</h1>
+      <p>I develop and maintain user interface design systems that support people who build digital products.</p>
+    </article>
     <main>
       <article>
         <p>I'm a design technologist working on design systems for Mozilla's Firefox, the privacy-focused, free and open-source web browser.</p>
