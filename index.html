@@ -17,82 +17,54 @@
     <title>Jules Simplicio</title>
   </head>
   <style>
-    :root {
-      background: #F3EAD7;
-      color: #2A461A;
-    }
-    
     * {
       margin: 0;
       padding: 0;
     }
-
     html {
       -webkit-text-size-adjust: 100%;
       -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      background: #f0f0f0;
+      color: #111;
       font-family: Helvetica Neue, Helvetica, sans-serif;
-      font-size: 17px;
+      font-size: 18px;
       line-height: 1.5;
     }
-
     body {
-      font-size: 1rem;
-      margin-top: 128px;
+      margin-top: 72px;
+      padding: 32px;
     }
-
     a {
       color: inherit;
     }
-
     p {
-      font-family: Trebuchet MS, sans-serif;
-      font-size: 1.24em;
+      font-family: Georgia, serif;
       margin-bottom: 24px;
     }
-
-    p:last-of-type {
-      margin-bottom: 48px;
-    }
-
     h1, h2, h3, h4 {
-      font-size: 1em;
-      line-height: 1.2;
       margin-bottom: 12px;
     }
-
     h1, h2, h3, h4 {
-      font-weight: 500;
-    }
-
-    h1 {
-      font-size: 1.8em;
       font-weight: 600;
     }
-
     h2 {
-      font-size: 1.325em;
+      font-size: 1em;
       font-variant-caps: all-small-caps;
       font-weight: 600;
-      letter-spacing: 1.2;
       margin-bottom: 12px;
     }
-
+    h3 {
+      font-size: 1em;
+      font-family: Georgia, serif;
+    }
     main, footer, header {
-      max-width: 1175px;
       margin: 0 auto;
       padding: 0 16px;
     }
-
-    header {
-      margin-bottom: 128px;
-      text-align: "left";
-    }
-
     header .container {
-      max-width: 768px;
+      margin-bottom: 64px;
     }
-    
     hr {
       background-color: #2A461A;
       border: none;
@@ -100,109 +72,81 @@
       margin-bottom: 21px;
       width: 100%;
     }
-    
     header h1 {
-      font-size: 1.625em;
+      font-size: 1.15em;
       line-height: 1.3;
       padding: 0;
     }
-    
     header p {
-      font-size: 1.45em;
+      font-size: 1.15em;
       line-height: 1.4;
     }
-    
-    section {
-      display: inline-block;
-      margin-bottom: 54px;
-      vertical-align: top;
-      width: 47%;
-    }
-    
-    section:nth-child(odd) {
-      margin-right: 5%;
-    }
-    
     footer {
-      margin-top: 98px;
+      padding-block: 48px;
     }
-    
-    .number {
-      display: inline-block;
-      font-variant-caps: all-small-caps;
-      font-weight: bold;
-      font-size: 1.2rem;
-      text-align: right;
-      width: 100%;
-    }
-    
-    @media (prefers-color-scheme: dark) {
-      :root {
-        background: #1c2f18;
-        color: #E3D4AD;
-      }
-      
-      hr {
-        background-color: #E3D4AD;
-      }
-    }
-    
-    @media screen and (max-width: 560px) {
-      body {
-        font-size: .85rem;
-        margin-top: 48px;
-      }
-      
-      section {
+    section {
+      display: flex;
+      gap: 32px;
+      h2 {
+        max-width: 180px;
         width: 100%;
+      }
+      div {
+        max-width: 580px;
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 750px) {
+      body {
+        margin-top: 48px;
+        padding: 0;
+      }
+      section {
+        display: block;
       }
     }
   </style>
   <body>
     <header>
-      <div class="container">
-        <h1>Hello, my name is Jules Simplicio.</h1>
-        <p>I develop user interface design systems that support designers and developers building digital products together.</p>
-        <p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist working on the Firefox design system at Mozilla.</p>
-      </div>
+      <section class="container">
+        <h2>About</h2>
+        <div>
+          <h1>Hello, my name is Jules Simplicio.</h1>
+          <p>I develop user interface design systems that support designers and developers building digital products together.</p>
+          <p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist working on the Firefox design system at Mozilla.</p>
+        </div>
+      </section>
     </header>
     <main>
       <section>
-      <span class="number">01</span>
-      <hr />
-      <h2>Current work</h2>
-      <p>I'm a design technologist at <a title="Mozilla" href="https://mozilla.com">Mozilla</a> working on the <a title="Firefox web browser" href="https://firefox.com">Firefox</a> browser's <a title="Acorn design system" href="https://acorn.firefox.com">Acorn</a> design system.</p>
-      <p>I have led the establishment and evolution of Acorn with user interface design documentation and component libraries, support processes, and internal communications.</p>
-      <p>My current day-to-day work focuses on a web component library, design tokens, user support, and advocacy.</p>                 
+        <h2>Current work</h2>
+        <div>
+          <h3>2021</h3>
+          <p>I'm a design technologist at <a title="Mozilla" href="https://mozilla.com">Mozilla</a> working on the <a title="Firefox web browser" href="https://firefox.com">Firefox</a> browser's <a title="Acorn design system" href="https://acorn.firefox.com">Acorn</a> design system.</p>
+          <p>I have led the establishment and evolution of Acorn with user interface design documentation and component libraries, support processes, and internal communications.</p>
+          <p>My current day-to-day work focuses on a web component library, design tokens, user support, and advocacy.</p>
+        </div>
       </section>
-      
       <section>
-      <span class="number">02</span>
-      <hr />
-      <h2>Past work</h2>
-      <p>I designed web and mobile social media publishing features at <a title="Sprout Social" href="https://sproutsocial.com/">Sprout Social</a>.</p>
-      <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by designing, developing, and documenting user interface components and patterns.</p>
-      <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
-      </section>
-      
-      <section>
-      <span class="number">03</span>
-      <hr />
-      <h2>Past work</h2>
-      <p>I designed qualitative user research web and mobile products at <a title="Dscout" href="https://dscout.com/">Dscout</a> during a major platform-wide redesign.</p>
-      <p>I supported the creation of our first pattern library and designed, developed, and documented user interface components and patterns.</p>
-      </section> 
-      
-      <section>
-      <span class="number">04</span>
-      <hr />
-      <h2>Early work</h2>
-      <p>I kicked off my career with short-term jobs in web design, front-end development, and product design, and open-source project contributions through the <a title="Open Source Design" href="http://opensourcedesign.net">Open Source Design</a> community.
-      </p>
+        <h2>Past work</h2>
+        <div>
+          <h3>2019</h3>
+          <p>I designed web and mobile social media publishing features at <a title="Sprout Social" href="https://sproutsocial.com/">Sprout Social</a>.</p>
+          <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by designing, developing, and documenting user interface components and patterns.</p>
+          <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
+          <h3>2016</h3>
+          <p>I designed qualitative user research web and mobile products at <a title="Dscout" href="https://dscout.com/">Dscout</a> during a major platform-wide redesign.</p>
+          <p>I supported the creation of our first pattern library and designed, developed, and documented user interface components and patterns.</p>
+          <h3>2013</h3>
+          <p>I kicked off my career with short-term jobs in web design, front-end development, and product design, and open-source project contributions through the <a title="Open Source Design" href="http://opensourcedesign.net">Open Source Design</a> community.</p>
+        </div>
       </section>
     </main>
     <footer>
-      <p>Last updated: February 2024 · <a href="mailto:skateboard@duck.com" title="email">Email me</a></p>
+      <section>
+        <h2>Contact</h2>
+        <p><a href="mailto:skateboard@duck.com" title="email">Email me</a></p>
+      </section>
     </footer>
   </body>
 </html>
