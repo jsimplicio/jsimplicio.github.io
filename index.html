@@ -1,194 +1,261 @@
 <!doctype html>
 <html lang="en" id="html">
-  <head>
-    <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Jules Simplicio" />
-    <meta name="url" content="http://julessimplic.io" />
-    <meta name="keywords" content="jules simplicio, design systems, development, design, front-end, UI, software, engineering, front-end, product" />
-    <meta name="description" content="Jules Simplicio develops and maintains user interface design systems that support designers and developers building digital products together." />
-    <meta property="og:title" content="Jules Simplicio" />
-    <meta property="og:description" content="Jules Simplicio develops and maintains user interface design systems that support designers and developers building digital products together." />
-    <meta property="og:url" content="http://julessimplic.io">
-    <meta property="og:site_name" content="Jules Simplicio">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>">
-    <title>Jules Simplicio</title>
-  </head>
-  <style>
-    @font-face {
-     font-family: Atkinson;
-     src: url('/fonts/atkinson.woff2') format('woff2');
-     font-display: swap;
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jules Simplicio" />
+  <meta name="url" content="http://julessimplic.io" />
+  <meta name="keywords"
+    content="jules simplicio, design systems, development, design, front-end, UI, software, engineering, front-end, product" />
+  <meta name="description"
+    content="Jules Simplicio develops and maintains user interface design systems that support designers and developers building digital products together." />
+  <meta property="og:title" content="Jules Simplicio" />
+  <meta property="og:description"
+    content="Jules Simplicio develops and maintains user interface design systems that support designers and developers building digital products together." />
+  <meta property="og:url" content="http://julessimplic.io">
+  <meta property="og:site_name" content="Jules Simplicio">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>">
+  <title>Jules Simplicio</title>
+</head>
+<style>
+  @font-face {
+    font-family: Atkinson;
+    src: url('/fonts/atkinson.woff2') format('woff2');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Atkinson Bold;
+    src: url('/fonts/atkinson-bold.woff2') format('woff2');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Engrace;
+    src: url('/fonts/Engrace-Semibold.woff') format('woff');
+    font-display: swap;
+    font-weight: 600;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #EFE8DB;
+    color: #1B263B;
+    font-family: Atkinson, Georgia, Times, Times New Roman, serif;
+    font-size: 18px;
+    line-height: 1.4;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  body {
+    margin-top: 72px;
+    padding: 32px;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  p {
+    margin-bottom: 18px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 12px;
+    font-weight: normal;
+  }
+
+  h1 {
+    font-family: Engrace, Georgia, serif;
+    font-size: 2.8em;
+    line-height: 1;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+    font-variant-caps: all-small-caps;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    font-family: Engrace, Georgia, serif;
+    margin-bottom: 4px;
+  }
+
+  img {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    box-shadow: 0 0 4px -2px rgba(0, 0, 0, .05), 0 0 16px -4px rgba(0, 0, 0, .05);
+    max-width: 640px;
+  }
+
+  .images img:nth-of-type(1) {
+    margin-left: -100px;
+    transform: rotate(-2deg);
+  }
+
+  .images img:nth-of-type(2) {
+    margin-left: -200px;
+    margin-top: -15px;
+    transform: rotate(2deg);
+  }
+
+  .images img:nth-of-type(3) {
+    margin-left: -300px;
+    transform: rotate(-2deg);
+  }
+
+  main,
+  footer,
+  header {
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  header .container,
+  section {
+    margin-bottom: 48px;
+  }
+
+  footer {
+    padding-bottom: 48px;
+  }
+
+  section {
+    align-items: start;
+    display: flex;
+    gap: 32px;
+
+    h2 {
+      max-width: 180px;
+      width: 100%;
     }
-    @font-face {
-      font-family: Atkinson Bold;
-      src: url('/fonts/atkinson-bold.woff2') format('woff2');
-      font-display: swap;
+
+    div {
+      max-width: 580px;
+      width: 100%;
     }
-    @font-face {
-     font-family: Engrace;
-     src: url('/fonts/Engrace-Semibold.woff') format('woff');
-     font-display: swap;
-      font-weight: 600;
-    }
-    * {
-       margin: 0;
-       padding: 0;
-     }
-    html {
-      -webkit-text-size-adjust: 100%;
-      -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-      background: #EFE8DB;
-      color: #1B263B;
-      font-family: Atkinson, Georgia, Times,Times New Roman, serif;
-      font-size: 18px;
-      line-height: 1.4;
-      overflow: hidden;
-      overflow-y: scroll;
-    }
+  }
+
+  @media screen and (max-width: 750px) {
     body {
-      margin-top: 72px;
-      padding: 32px;
-    }
-    a {
-      color: inherit;
-    }
-    p {
-      margin-bottom: 18px;
-    }
-    h1, h2, h3, h4 {
-      margin-bottom: 12px;
-      font-weight: normal;
-    }
-    h1 {
-      font-family: Engrace, Georgia, serif;
-      font-size: 2.8em;
-      line-height: 1;
+      font-size: 17px;
+      margin-top: 48px;
       padding: 0;
     }
+
     h2 {
-      font-size: 1em;
-      letter-spacing: 2px;
-      margin-bottom: 4px;
-      font-variant-caps: all-small-caps;
+      font-size: 1.2em;
     }
-    h3 {
-      font-size: 1.5em;
-      line-height: 1;
-      font-family: Engrace, Georgia, serif;
-      margin-bottom: 4px;
-    }
-    img {
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 0 4px -2px rgba(0,0,0,.05), 0 0 16px -4px rgba(0,0,0,.05);
-      max-width: 640px;
-    }
-    .images img:nth-of-type(1) {
-      margin-left: -100px;
-    }
-    .images img:nth-of-type(2) {
-      margin-left: -200px;
-    }
-    .images img:nth-of-type(3) {
-      margin-left: -300px;
-    }
-    main, footer, header {
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-    header .container, section {
-      margin-bottom: 48px;
-    }
-    footer {
-      padding-bottom: 48px;
-    }
+
     section {
-      display: flex;
-      gap: 32px;
-      h2 {
-        max-width: 180px;
-        width: 100%;
-      }
-      div {
-        max-width: 580px;
-        width: 100%;
-      }
+      flex-direction: column;
+      gap: 16px;
     }
-    @media screen and (max-width: 750px) {
-      body {
-        font-size: 17px;
-        margin-top: 48px;
-        padding: 0;
-      }
-      h2 {
-        font-size: 1.2em;
-      }
-      section {
-        flex-direction: column;
-        gap: 16px;
-      }
+  }
+
+  @media screen and (max-width: 900px) {
+    .images img:nth-of-type(n) {
+      margin-left: 0;
+      max-width: 100%;
     }
-    @media screen and (max-width: 900px) {
-      .images img:nth-of-type(n) {
-        margin-left: 0;
-        max-width: 100%;
-      }
+
+    .images img:nth-of-type(1) {
+      margin-left: -5;
     }
-  </style>
-  <body>
-    <header>
-      <section class="container">
-        <h2>About</h2>
-        <div>
-          <h1>Hello, my name is Jules Simplicio.</h1>
-          <p>I develop user interface design systems that support designers and developers building digital products together.</p>
-          <p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist working for <a href="https://mozilla.com" title="Mozilla">Mozilla</a>.</p>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section>
-        <h2>Current work</h2>
-        <div>
-          <h3>2021 – present</h3>
-          <p>I've led the establishment and evolution of <a title="Firefox web browser" href="https://firefox.com">Firefox's</a> <a href="https://acorn.firefox.com">design system</a> with user interface design component libraries and documentation, support processes, and internal communications.</p>
-          <p>My current day-to-day work focuses on a web components library, design tokens, user support, and advocacy.</p>
-          <section class="images">
-            <img alt="Acorn design system icon package" src="./assets/firefox-1.webp" />
-            <img alt="Acorn design system website - help and support" src="./assets/firefox-3.webp" />
-            <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
-          </section>
-        </div>
-      </section>
-      <section>
-        <h2>Past work</h2>
-        <div>
-          <h3>2019 – 2021</h3>
-          <p>I designed web and mobile social media publishing features for <a title="Sprout Social" href="https://sproutsocial.com/">Sprout Social</a>.</p>
-          <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by designing, developing, and documenting user interface components and patterns.</p>
-          <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
-          <section class="images">
-            <img alt="Breadcrump component - Seeds design system" src="./assets/sprout-social-1.webp" />
-            <img alt="Skeleton component - Seeds design system" src="./assets/sprout-social-2.webp" />
-          </section>
-          <h3>2016 – 2019</h3>
-          <p>I designed qualitative user research web and mobile products for <a title="Dscout" href="https://dscout.com/">dscout</a> during a major platform-wide redesign, and worked on the creation of their first library of user interface components and patterns across design and code.</p>
-          <section class="images">
-            <img alt="dscout - project dashboard" src="./assets/dscout-1.webp" />
-            <img alt="dscout - recruit product" src="./assets/dscout-2.webp" />
-          </section>
-          <h3>2013 – 2016</h3>
-          <p>I kicked off my career with short-term jobs in web design, front-end development, and product design. At the time, I also contributed to open-source projects through the <a title="Open Source Design" href="http://opensourcedesign.net">Open Source Design</a> community.</p>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <section>
-        <h2>Contact</h2>
-        <p><a href="mailto:skateboard@duck.com" title="email">Email me</a></p>
-      </section>
-    </footer>
-  </body>
+
+    .images img:nth-of-type(2) {
+      margin-top: -15px;
+      margin-left: 5px;
+    }
+
+    .images img:nth-of-type(3) {
+      margin-top: -15px;
+    }
+  }
+</style>
+
+<body>
+  <header>
+    <section class="container">
+      <h2>About</h2>
+      <div>
+        <h1>Hello, my name is Jules Simplicio.</h1>
+        <p>I develop user interface design systems that support designers and developers building digital products
+          together.</p>
+        <p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist
+          working for <a href="https://mozilla.com" title="Mozilla">Mozilla</a>.</p>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h2>Current work</h2>
+      <div>
+        <h3>2021 – present</h3>
+        <p>I've led the establishment and evolution of <a title="Firefox web browser"
+            href="https://firefox.com">Firefox's</a> <a href="https://acorn.firefox.com">design system</a> with user
+          interface design component libraries and documentation, support processes, and internal communications.</p>
+        <p>My current day-to-day work focuses on a web components library, design tokens, user support, and advocacy.
+        </p>
+        <section class="images">
+          <img alt="Acorn design system icon package" src="./assets/firefox-1.webp" />
+          <img alt="Acorn design system website - help and support" src="./assets/firefox-3.webp" />
+          <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
+        </section>
+      </div>
+    </section>
+    <section>
+      <h2>Past work</h2>
+      <div>
+        <h3>2019 – 2021</h3>
+        <p>I designed web and mobile social media publishing features for <a title="Sprout Social"
+            href="https://sproutsocial.com/">Sprout Social</a>.</p>
+        <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by
+          designing, developing, and documenting user interface components and patterns.</p>
+        <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
+        <section class="images">
+          <img alt="Breadcrump component - Seeds design system" src="./assets/sprout-social-1.webp" />
+          <img alt="Skeleton component - Seeds design system" src="./assets/sprout-social-2.webp" />
+        </section>
+        <h3>2016 – 2019</h3>
+        <p>I designed qualitative user research web and mobile products for <a title="Dscout"
+            href="https://dscout.com/">dscout</a> during a major platform-wide redesign, and worked on the creation of
+          their first library of user interface components and patterns across design and code.</p>
+        <section class="images">
+          <img alt="dscout - project dashboard" src="./assets/dscout-1.webp" />
+          <img alt="dscout - recruit product" src="./assets/dscout-2.webp" />
+        </section>
+        <h3>2013 – 2016</h3>
+        <p>I kicked off my career with short-term jobs in web design, front-end development, and product design. At the
+          time, I also contributed to open-source projects through the <a title="Open Source Design"
+            href="http://opensourcedesign.net">Open Source Design</a> community.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h2>Contact</h2>
+      <p><a href="mailto:skateboard@duck.com" title="email">Email me</a></p>
+    </section>
+  </footer>
+</body>
+
 </html>
