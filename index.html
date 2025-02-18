@@ -33,10 +33,9 @@
   }
 
   @font-face {
-    font-family: Engrace;
-    src: url('/fonts/Engrace-Semibold.woff') format('woff');
+    font-family: Gambarino;
+    src: url('/fonts/Gambarino-Regular.woff2') format('woff2');
     font-display: swap;
-    font-weight: 600;
   }
 
   * {
@@ -51,7 +50,7 @@
     background: #EFE8DB;
     color: #1B263B;
     font-family: Atkinson, Georgia, Times, Times New Roman, serif;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.4;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -67,7 +66,7 @@
   }
 
   p {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
 
   h1,
@@ -79,9 +78,10 @@
   }
 
   h1 {
-    font-family: Engrace, Georgia, serif;
-    font-size: 2.8em;
-    line-height: 1;
+    font-family: Gambarino, Georgia, serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    line-height: 1.1;
     padding: 0;
   }
 
@@ -94,9 +94,9 @@
 
   h3 {
     font-size: 1.5em;
-    line-height: 1;
-    font-family: Engrace, Georgia, serif;
-    margin-bottom: 4px;
+    font-weight: normal;
+    font-family: Gambarino, Georgia, serif;
+    margin-bottom: 8px;
   }
 
   img {
@@ -106,26 +106,27 @@
     max-width: 640px;
   }
 
+  .images {
+    padding-block: 24px;
+  }
+
   .images img:nth-of-type(1) {
     margin-left: -100px;
-    transform: rotate(-2deg) scale(.99) translateZ(0);
-    -webkit-transform: translateZ(0) scale(.99);
-    image-rendering: -webkit-optimize-contrast;
+    transform: rotate(-2deg) scale(1.1) translateZ(0);
+    -webkit-transform: translateZ(0) scale(1.1);
   }
 
   .images img:nth-of-type(2) {
     margin-left: -200px;
     margin-top: -15px;
-    transform: rotate(2deg) scale(.99) translateZ(0);
-    -webkit-transform: translateZ(0) scale(.99);
-    image-rendering: -webkit-optimize-contrast;
+    transform: rotate(2deg) scale(1.1) translateZ(0);
+    -webkit-transform: translateZ(0) scale(1.1);
   }
 
   .images img:nth-of-type(3) {
     margin-left: -300px;
-    transform: rotate(-2deg) scale(.99) translateZ(0);
-    -webkit-transform: translateZ(0) scale(.99);
-    image-rendering: -webkit-optimize-contrast;
+    transform: rotate(-2deg) scale(1.1) translateZ(0);
+    -webkit-transform: translateZ(0) scale(1.1);
   }
 
   main,
@@ -203,7 +204,7 @@
     <section class="container">
       <h2>About</h2>
       <div>
-        <h1>Hello, my name is Jules Simplicio.</h1>
+	<h1>Hello,<br /> my name is Jules Simplicio.</h1>
         <p>I develop user interface design systems that support designers and developers building digital products
           together.</p>
         <p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist
@@ -215,16 +216,21 @@
     <section>
       <h2>Current work</h2>
       <div>
-        <h3>2021 – present</h3>
+        <h3>2021 – Present</h3>
         <p>I've led the establishment and evolution of <a title="Firefox web browser"
             href="https://firefox.com">Firefox's</a> <a href="https://acorn.firefox.com">design system</a> with user
           interface design component libraries and documentation, support processes, and internal communications.</p>
-        <p>My current day-to-day work focuses on a web components library, design tokens, user support, and advocacy.
+        <p>My current day-to-day work focuses on a web components library, design tokens, user support, and a redesign
+          of the browser settings.
         </p>
         <section class="images">
           <img alt="Acorn design system icon package" src="./assets/firefox-1.webp" />
           <img alt="Acorn design system website - help and support" src="./assets/firefox-3.webp" />
           <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
+        </section>
+        <section class="images">
+          <img alt="Acorn design system Desktop Figma library" src="./assets/firefox-5.webp" />
+          <img alt="Acorn design system Desktop Figma library" src="./assets/firefox-4.webp" />
         </section>
       </div>
     </section>
@@ -259,7 +265,7 @@
   <footer>
     <section>
       <h2>Contact</h2>
-      <p><a href="mailto:skateboard@duck.com" title="email">Email me</a></p>
+      <p><a href="mailto:skateboard@duck.com" title="email">Email</a></p>
     </section>
   </footer>
 </body>
