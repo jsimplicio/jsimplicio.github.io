@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/sprout-social-1.webp");
   eleventyConfig.addPassthroughCopy("assets/sprout-social-2.webp");
   eleventyConfig.addPassthroughCopy("fonts/Gambarino-Regular.woff2");
+  eleventyConfig.addPassthroughCopy("fonts/ClashDisplay-Medium.woff2");
   eleventyConfig.addPassthroughCopy("fonts/atkinson.woff2");
   eleventyConfig.addPassthroughCopy("fonts/atkinson-bold.woff2");
 };

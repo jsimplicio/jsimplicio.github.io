@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en" id="html">
-
 <head>
   <meta charSet="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +26,7 @@
   }
 
   @font-face {
-    font-family: Atkinson Bold;
+    font-family: AtkinsonBold;
     src: url('/fonts/atkinson-bold.woff2') format('woff2');
     font-display: swap;
   }
@@ -38,6 +37,12 @@
     font-display: swap;
   }
 
+  @font-face {
+    font-family: ClashDisplay;
+    src: url('/fonts/ClashDisplay-Medium.woff2') format('woff2');
+    font-display: swap;
+  }
+  
   * {
     margin: 0;
     padding: 0;
@@ -47,9 +52,9 @@
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background: #EFE8DB;
+    background: #efe8db;
     color: #1B263B;
-    font-family: Atkinson, Georgia, Times, Times New Roman, serif;
+    font-family: Atkinson, sans-serif;
     font-size: 19px;
     line-height: 1.4;
     overflow-x: hidden;
@@ -69,7 +74,6 @@
     margin-bottom: 16px;
   }
 
-  h1,
   h2,
   h3,
   h4 {
@@ -78,24 +82,28 @@
   }
 
   h1 {
-    font-family: Gambarino, Georgia, serif;
-    font-size: 2.5em;
+    font-family: ClashDisplay, sans-serif;
+    font-size: 3.25em;
     font-weight: normal;
-    line-height: 1.1;
+    line-height: 1;
     padding: 0;
+
+    & + p {
+      font-size: 1.5em;
+      max-width: 800px;
+    }
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
     margin-bottom: 4px;
     font-variant-caps: all-small-caps;
   }
 
   h3 {
-    font-size: 1.5em;
-    font-weight: normal;
-    font-family: Gambarino, Georgia, serif;
+    font-size: 1.25em;
+    font-family: ClashDisplay, sans-serif;
     margin-bottom: 8px;
   }
 
@@ -136,8 +144,12 @@
     padding: 0 16px;
   }
 
+  header {
+    margin-bottom: 98px;
+  }
+
   header .container,
-  section {
+  article {
     margin-bottom: 48px;
   }
 
@@ -145,10 +157,23 @@
     padding-bottom: 48px;
   }
 
-  section {
+  article {
     align-items: start;
     display: flex;
     gap: 32px;
+
+    &.vertical {
+      flex-direction: column; 
+    }
+
+    &.header {
+      gap: 16px;
+      max-width: 850px;
+      
+      > * {
+	margin-bottom: 0;
+      }
+    }
 
     h2 {
       max-width: 180px;
@@ -156,7 +181,7 @@
     }
 
     div {
-      max-width: 580px;
+      max-width: 600px;
       width: 100%;
     }
   }
@@ -172,7 +197,7 @@
       font-size: 1.2em;
     }
 
-    section {
+    article {
       flex-direction: column;
       gap: 16px;
     }
@@ -201,19 +226,18 @@
 
 <body>
   <header>
-    <section class="container">
-      <h2>About</h2>
-      <div>
-	<h1>Hello,<br /> my name is Jules Simplicio.</h1>
-        <p>I develop user interface design systems that support designers and developers building digital products
-          together.</p>
-        <p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist
-          working for <a href="https://mozilla.com" title="Mozilla">Mozilla</a>.</p>
-      </div>
-    </section>
+    <article class="container header vertical">
+      <h1>Hello,<br /> my name is Jules Simplicio.</h1>
+      <p>I develop user interface design systems that support designers and developers building digital products
+	  together.</p>
+      <section>
+	<p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist
+	  working for <a href="https://mozilla.com" title="Mozilla">Mozilla</a>.</p>
+      </section>
+    </article>
   </header>
   <main>
-    <section>
+    <article>
       <h2>Current work</h2>
       <div>
         <h3>2021 – Present</h3>
@@ -223,14 +247,14 @@
         <p>My current day-to-day work focuses on a web components library, design tokens, user support, and a redesign
           of the browser settings.
         </p>
-        <section class="images">
+        <article class="images">
           <img alt="Acorn design system icon package" src="./assets/firefox-1.webp" />
           <img alt="Acorn design system website - help and support" src="./assets/firefox-3.webp" />
           <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
-        </section>
+        </article>
       </div>
-    </section>
-    <section>
+    </article>
+    <article>
       <h2>Past work</h2>
       <div>
         <h3>2019 – 2021</h3>
@@ -239,31 +263,30 @@
         <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by
           designing, developing, and documenting user interface components and patterns.</p>
         <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
-        <section class="images">
+        <article class="images">
           <img alt="Breadcrump component - Seeds design system" src="./assets/sprout-social-1.webp" />
           <img alt="Skeleton component - Seeds design system" src="./assets/sprout-social-2.webp" />
-        </section>
+        </article>
         <h3>2016 – 2019</h3>
         <p>I designed qualitative user research web and mobile products for <a title="Dscout"
             href="https://dscout.com/">dscout</a> during a major platform-wide redesign, and worked on the creation of
           their first library of user interface components and patterns across design and code.</p>
-        <section class="images">
+        <article class="images">
           <img alt="dscout - project dashboard" src="./assets/dscout-1.webp" />
           <img alt="dscout - recruit product" src="./assets/dscout-2.webp" />
-        </section>
+        </article>
         <h3>2013 – 2016</h3>
         <p>I kicked off my career with short-term jobs in web design, front-end development, and product design. At the
           time, I also contributed to open-source projects through the <a title="Open Source Design"
             href="http://opensourcedesign.net">Open Source Design</a> community.</p>
       </div>
-    </section>
+    </article>
   </main>
   <footer>
-    <section>
-      <h2>Contact</h2>
-      <p><a href="mailto:skateboard@duck.com" title="email">Email</a></p>
-    </section>
+    <article>
+      <h2><a href="mailto:skateboard@duck.com">Contact</a></h2>
+      <h3>Thanks for stopping by!</h3>
+    </article>
   </footer>
 </body>
-
 </html>
