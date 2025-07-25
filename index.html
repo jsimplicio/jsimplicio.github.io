@@ -52,18 +52,17 @@
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background: #efe8db;
-    color: #1B263B;
+    background: #1B263B;
+    color: #FDFDFB;
     font-family: Atkinson, sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.4;
     overflow-x: hidden;
     overflow-y: scroll;
   }
 
   body {
-    margin-top: 72px;
-    padding: 32px 10%;
+    margin 10%;
   }
 
   a {
@@ -90,6 +89,7 @@
 
     & + p {
       font-size: 1.5em;
+      line-height: 1.3em;
       max-width: 800px;
     }
   }
@@ -119,7 +119,7 @@
   }
 
   .images img:nth-of-type(1) {
-    margin-left: -100px;
+    margin-left: -200px;
     transform: rotate(-2deg) scale(1.1) translateZ(0);
     -webkit-transform: translateZ(0) scale(1.1);
   }
@@ -141,12 +141,34 @@
   footer,
   header {
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 20%;
   }
 
   header {
+    align-items: center;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #FF880345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #5C03FF85 1%, #FF760000 99%),radial-gradient(142% 91% at 83% 7%, #FFDB00FF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #6B00FFCF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #00EE60FF 0%, #67008EFF 100%);
+    display: flex;
+    height: 100vh;
     margin-bottom: 98px;
-  }
+    position: relative;
+      z-index: 5;
+    
+    &::after {
+      background-image: linear-gradient(rgba(27, 38, 59, .01),rgba(27, 38, 59, .5),rgba(27, 38, 59, 1));
+      top: 0;
+      content: '';
+      display: block;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+	z-index: -1;
+    }
+}
 
   header .container,
   article {
@@ -189,8 +211,14 @@
   @media screen and (max-width: 750px) {
     body {
       font-size: 17px;
-      margin-top: 72px;
       padding: 0;
+    }
+
+    main,
+    footer,
+    header {
+      margin: 0 auto;
+      padding: 0 5%;
     }
 
     h2 {
@@ -204,22 +232,26 @@
   }
 
   @media screen and (max-width: 900px) {
+    .images {
+      padding: 2%;
+    }
+
     .images img:nth-of-type(n) {
       margin-left: 0;
       max-width: 100%;
     }
 
     .images img:nth-of-type(1) {
-      margin-left: -5;
+      margin-left: 0;
     }
 
     .images img:nth-of-type(2) {
-      margin-top: -15px;
-      margin-left: 5px;
+      margin-top: 24px;
+      margin-left: 0;
     }
 
     .images img:nth-of-type(3) {
-      margin-top: -15px;
+      margin-top: 24px;
     }
   }
 </style>
@@ -285,7 +317,7 @@
   <footer>
     <article>
       <h2><a href="mailto:skateboard@duck.com">Contact</a></h2>
-      <h3>Thanks for stopping by!</h3>
+      <p>Thanks for stopping by!</p>
     </article>
   </footer>
 </body>
