@@ -110,11 +110,14 @@
     border: 1px solid rgba(0, 0, 0, .05);
     border-radius: 8px;
     box-shadow: 0 0 4px -2px rgba(0, 0, 0, .05), 0 0 16px -4px rgba(0, 0, 0, .05);
-    max-width: 640px;
+    max-width: 680px;
   }
 
   .images {
     padding-block: 24px;
+    display: flex;
+    align-items: center;
+      margin-left: 50px;
   }
 
   .images img:nth-of-type(1) {
@@ -131,11 +134,17 @@
   }
 
   .images img:nth-of-type(3) {
-    margin-left: -300px;
+    margin-left: -200px;
     transform: rotate(-2deg) scale(1.1) translateZ(0);
     -webkit-transform: translateZ(0) scale(1.1);
   }
 
+  .images img:nth-of-type(4) {
+    margin-left: -200px;
+    transform: rotate(2deg) scale(1.1) translateZ(0);
+    -webkit-transform: translateZ(0) scale(1.1);
+  }
+  
   main,
   footer,
   header {
@@ -154,7 +163,12 @@
     margin-bottom: 98px;
     position: relative;
     z-index: 2; 
-    
+   
+
+    > * {
+      max-width: 950px;
+    }
+
     &::after {
       background-image: linear-gradient(rgba(27, 38, 59, .01),rgba(27, 38, 59, .5),rgba(27, 38, 59, 1));
       top: 0;
@@ -190,7 +204,6 @@
 
     &.header {
       gap: 24px;
-      max-width: 950px;
       
       > * {
 	margin-bottom: 0;
@@ -198,12 +211,12 @@
     }
 
     h2 {
-      max-width: 200px;
+      max-width: 220px;
       width: 100%;
     }
 
     div {
-      max-width: 800px;
+      max-width: 900px;
       width: 100%;
     }
   }
@@ -288,8 +301,9 @@
         </p>
         <article class="images">
           <img alt="Acorn design system icon package" src="./assets/firefox-1.webp" />
-          <img alt="Acorn design system website - help and support" src="./assets/firefox-3.webp" />
-          <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
+          <img alt="Acorn design tokens documentation" src="./assets/firefox-3.webp" />
+          <img alt="Box Group component on Storybook" src="./assets/firefox-4.webp" />
+	  <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
         </article>
       </div>
     </article>
