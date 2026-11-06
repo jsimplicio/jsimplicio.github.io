@@ -8,423 +8,389 @@
   <meta name="keywords"
     content="jules simplicio, design systems, development, design, front-end, UI, software, engineering, front-end, product" />
   <meta name="description"
-    content="Jules Simplicio develops and maintains user interface design systems that support designers and developers building digital products together." />
+    content="Jules Simplicio builds design systems that help designers and developers make things together." />
   <meta property="og:title" content="Jules Simplicio" />
   <meta property="og:description"
-    content="Jules Simplicio develops and maintains user interface design systems that support designers and developers building digital products together." />
+    content="Jules Simplicio builds design systems that help designers and developers make things together." />
   <meta property="og:url" content="http://julessimplic.io">
   <meta property="og:site_name" content="Jules Simplicio">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>">
   <title>Jules Simplicio</title>
-</head>
-<style>
+  <style>
   @font-face {
-    font-family: Atkinson;
-    src: url('/fonts/atkinson.woff2') format('woff2');
+    font-family: Heros;
+    src: url('/fonts/heros-web-regular.woff2') format('woff2');
+    font-weight: 400;
     font-display: swap;
   }
 
   @font-face {
-    font-family: AtkinsonBold;
-    src: url('/fonts/atkinson-bold.woff2') format('woff2');
+    font-family: Heros;
+    src: url('/fonts/heros-web-bold.woff2') format('woff2');
+    font-weight: 700;
     font-display: swap;
   }
 
-  @font-face {
-    font-family: Gambarino;
-    src: url('/fonts/Gambarino-Regular.woff2') format('woff2');
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: ClashDisplay;
-    src: url('/fonts/ClashDisplay-Medium.woff2') format('woff2');
-    font-display: swap;
-  }
-  
   * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   html {
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background: #1B263B;
     color: #FDFDFB;
-    font-family: Atkinson, sans-serif;
-    font-size: 24px;
-    line-height: 1.4;
-    overflow-x: hidden;
+    font-family: "Helvetica Neue", Heros, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
     overflow-y: scroll;
   }
 
   body {
-    overflow-x: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 48px;
   }
 
   a {
-    color: inherit;
+    color: #B4C7EF;
   }
 
   p {
-    margin-bottom: 16px;
+    margin-bottom: 1em;
   }
 
+  p,
+  blockquote {
+    color: #E3E6EB;
+    text-wrap: pretty;
+  }
+
+  h1,
   h2,
-  h3,
-  h4 {
-    margin-bottom: 12px;
-    font-weight: normal;
-  }
-
-  h1 {
-    font-family: ClashDisplay, sans-serif;
-    font-size: 2.8em;
-    font-weight: normal;
-    line-height: 1;
-    padding: 0;
-
-    & + p {
-      font-size: 1.2em;
-      line-height: 1.3;
-    }
-  }
-
-  h2 {
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    margin-bottom: 4px;
-    font-variant-caps: all-small-caps;
-  }
-
   h3 {
-    font-size: 1.25em;
-    font-family: ClashDisplay, sans-serif;
-    margin-bottom: 8px;
+    font-weight: 700;
+    text-wrap: balance;
   }
 
   img {
-    border: 1px solid rgba(0, 0, 0, .05);
-    border-radius: 8px;
-    box-shadow: 0 0 4px -2px rgba(0, 0, 0, .05), 0 0 16px -4px rgba(0, 0, 0, .05);
-    max-width: 680px;
+    display: block;
+    max-width: 100%;
   }
 
-  .cards {
+  .row {
     display: grid;
-    gap: 32px;
-    margin-top: 32px;
-    max-width: 900px;
+    grid-template-columns: 190px 1fr;
+    column-gap: 32px;
   }
 
-  .card {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    padding: 24px;
-    background: #24314B;
-    border: 1px solid rgba(253, 253, 251, .08);
-    border-radius: 16px;
-    box-shadow: 0 8px 24px -8px rgba(0, 0, 0, .4);
+  header {
+    padding-block: 96px 128px;
 
-    div {
-      flex: 1;
-    }
-
-    h4 {
-      font-family: ClashDisplay, sans-serif;
-      margin-bottom: 4px;
+    h1 {
+      grid-column: 1 / -1;
+      font-size: clamp(2.6rem, 7vw, 5.5rem);
+      letter-spacing: -.03em;
+      line-height: .95;
+      margin-bottom: 48px;
     }
 
     p {
-      margin-bottom: 0;
-    }
-
-    img {
-      width: 320px;
-      height: auto;
+      grid-column: 1 / -1;
+      font-size: 1.25em;
+      line-height: 1.4;
+      max-width: 44ch;
+      margin: 0;
     }
   }
 
-  main,
-  header {
-    margin: 0 auto;
+  main .row {
+    padding-block: 24px 96px;
+    border-top: 1px solid #8494B2;
   }
 
-  .header {
-    section {
-      p {
-	max-width: 100%;
+  .label {
+    h2 {
+      font-size: 1.25em;
+      line-height: 1.2;
+      letter-spacing: -.01em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    p {
+      margin: 8px 0 0;
+      font-size: .8em;
+      line-height: 1.4;
+      color: #C0CEED;
+    }
+  }
+
+  .content > p {
+    max-width: 36em;
+  }
+
+  .projects {
+    counter-reset: project;
+    margin-top: 48px;
+  }
+
+  .project {
+    display: flex;
+    align-items: start;
+    gap: 32px;
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: 1px solid #4A5878;
+    counter-increment: project;
+
+    > div {
+      flex: 1;
+    }
+
+    h3 {
+      font-size: 1em;
+      margin-bottom: 4px;
+
+      &::before {
+        content: counter(project, decimal-leading-zero);
+        margin-right: .6em;
+        color: #8494B2;
+        font-variant-numeric: tabular-nums;
       }
     }
-  }
 
-  header {
-    align-items: center;
-    background-size: 100% 100%;
-    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
-    background-image: radial-gradient(49% 81% at 45% 47%, #FF880345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #5C03FF85 1%, #FF760000 99%),radial-gradient(142% 91% at 83% 7%, #FFDB00FF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #6B00FFCF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #00EE60FF 0%, #67008EFF 100%);
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    margin-bottom: 98px;
-    position: relative;
-    z-index: 2; 
-
-    > * {
-      max-width: 900px;
+    &:only-child h3::before {
+      content: none;
     }
 
+    p {
+      margin: 0;
+    }
 
-    &::after {
-      background-image: linear-gradient(rgba(27, 38, 59, .01),rgba(27, 38, 59, .5),rgba(27, 38, 59, 1));
-      top: 0;
-      content: '';
+    blockquote {
+      margin-top: 16px;
+      padding-left: 16px;
+      border-left: 2px solid #4B5B7A;
+    }
+
+    cite {
       display: block;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -1;
+      margin-top: 8px;
+      font-size: .8em;
+      font-style: normal;
+      color: #C0CEED;
     }
   }
 
-  header .container,
-  article {
-    margin-bottom: 98px;
+  .thumb {
+    flex: none;
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
   }
 
   footer {
-    display: flex;
-    align-items: center;
-    font-family: ClashDisplay;
-    max-width: 900px;
-    margin: 128px auto 64px auto;
-    justify-content: space-between;
+    padding-block: 24px 64px;
+    border-top: 1px solid #8494B2;
+    font-weight: 700;
 
-    > * {
-      margin-bottom: 0;
+    p {
+      margin: 0;
     }
   }
 
-  article {
-    align-items: start;
-    display: flex;
-    gap: 32px;
-    justify-content: center;
-    position: relative;
-
-    &.vertical {
-      flex-direction: column; 
+  @media screen and (max-width: 1100px) {
+    .project {
+      flex-direction: column;
+      gap: 16px;
     }
 
-    &.header {
-      gap: 24px;
-      
-      > * {
-	margin-bottom: 0;
-      }
-    }
-
-    h2 {
-      position: absolute;
-      width: 200px;
-      left: 0;
-    }
-
-    section {
-      p, h3 {
-	max-width: 900px;
-      }
-    }
-
-    p, h3 {
-      flex: 2 0 0;
+    .thumb {
+      width: 100%;
+      max-width: 360px;
     }
   }
-  
 
   @media screen and (max-width: 900px) {
     html {
       font-size: 17px;
     }
 
-    h1 {
-      font-size: 2.5em;
+    body {
+      padding: 0 20px;
     }
 
-    h2 {
-      font-size: 1.2em;
-    }
-    
-    main,
-    header,
-    footer {
-      margin: 0 auto;
-      max-width: 100%;
-    }
+    .row {
+      grid-template-columns: 1fr;
 
-    footer {
-      padding: 12px;
-    }
-
-    article {
-      flex-direction: column;
-      gap: 16px;
-      max-width: 100%;
-      
-      h2 {
-	left: 0;
-	position: relative;
-	width: 100%;
+      > * {
+        grid-column: 1 / -1;
       }
-
-      p, h1, h2, h3 {
-	padding-inline: 12px; 
-      }
-
     }
 
-    .card {
-      flex-direction: column;
-      align-items: start;
-      margin-inline: 12px;
-      padding: 16px;
+    header {
+      padding-block: 64px;
 
-      p {
-        padding-inline: 0;
+      h1 {
+        margin-bottom: 24px;
       }
+    }
 
-      img {
-        width: 100%;
-      }
+    main .row {
+      padding-bottom: 64px;
+    }
+
+    .label {
+      margin-bottom: 16px;
+    }
+
+    .projects {
+      margin-top: 32px;
+    }
+
+    footer p {
+      margin-top: 8px;
     }
   }
-  
-  @media screen and (min-width: 901px) {
-    article {
-      padding: 0 24px;
-    }
-  }
-</style>
+  </style>
+</head>
 
 <body>
-  <header>
-    <article class="container header vertical">
-      <h1>Hello,<br /> my name is Jules Simplicio.</h1>
-      <p>I develop user interface design systems that support designers and developers building digital products
-	  together.</p>
-      <section>
-	<p>I've worked as a designer and as a developer, and today I practice both disciplines as a design technologist
-	  working for <a href="https://mozilla.com" title="Mozilla">Mozilla</a>.</p>
-      </section>
-    </article>
+  <header class="row">
+    <h1>Hello,<br /> my name is Jules Simplicio.</h1>
+    <p>I build design systems that help designers and developers make things together. I've worked as a product
+      designer and as a front-end developer, so I know both sides of the handoff.</p>
   </header>
   <main>
-    <article>
-      <section>
-        <h3>2021 – Present</h3>
-        <p>I've led the establishment and evolution of <a title="Firefox web browser"
-            href="https://firefox.com">Firefox's</a> <a href="https://acorn.firefox.com">design system</a> with user
-          interface design component libraries and documentation, support processes, and internal communications.</p>
-        <p>My current day-to-day work focuses on a web components library, design tokens, user support, and a redesign
-          of the browser settings.
-        </p>
-        <div class="cards">
-          <div class="card">
+    <section class="row">
+      <div class="label">
+        <h2>2021 – Present</h2>
+        <p>Mozilla<br />Design Technologist</p>
+      </div>
+      <div class="content">
+        <p>I'm a design technologist at <a href="https://mozilla.com" title="Mozilla">Mozilla</a>. I co-founded
+          <a title="Firefox web browser" href="https://firefox.com">Firefox's</a> design system,
+          <a href="https://acorn.firefox.com">Acorn</a>, and I've led it ever since, in Figma and in code.</p>
+        <div class="projects">
+          <div class="project">
             <div>
-              <h4>Figma Libraries</h4>
-              <p>I build and maintain the Figma libraries Firefox designers work from every day, from desktop components
-                to a full anatomy of the browser.</p>
+              <h3>Firefox Redesign</h3>
+              <p>Firefox's 2026 redesign shipped in about nine months, half the time the last one took. During it,
+                component usage nearly doubled and token coverage went from about 40% to over 60%. Our tokens and
+                components did a lot of the heavy lifting, and I taught teams how to use them so they could update
+                their own features.</p>
+              <blockquote>"Our last redesign took 18 months so the design system has enabled us to do redesign much
+                faster. It's been a great collaboration between design and engineering."
+                <cite>VP of Engineering, Firefox</cite></blockquote>
             </div>
-            <img alt="Firefox Desktop Components library in Figma" src="./assets/firefox-5.webp" />
           </div>
-          <div class="card">
+          <div class="project">
             <div>
-              <h4>Web Components</h4>
-              <p>I design and develop a library of reusable web components with Firefox engineers, documented in
-                Storybook.</p>
+              <h3>Design Tokens</h3>
+              <p>I wrote and landed our first design tokens and kept growing them until they covered color, type, and our
+                reusable patterns. Style Dictionary turns one JSON file into both Figma variables and CSS, and I
+                started a work group so desktop and mobile stay in sync. Today
+                <a href="https://firefoxux.github.io/arewedesigntokensyet/">about 70%</a> of Firefox's stylesheet
+                values use tokens, up from under 1% in 2023.</p>
             </div>
-            <img alt="Box Group component on Storybook" src="./assets/firefox-4.webp" />
+            <img class="thumb" alt="Acorn design tokens documentation" src="./assets/thumbs/firefox-3.webp" width="640" height="400" />
           </div>
-          <div class="card">
+          <div class="project">
             <div>
-              <h4>Design Tokens</h4>
-              <p>I define the design tokens that carry color, spacing, and type decisions from Figma into Firefox's code,
-                with documentation for designers and developers.</p>
+              <h3>Storybook &amp; Web Components</h3>
+              <p>I went out of my way to find an engineering partner, and together we started Acorn's Storybook and web
+                components library. I plan the roadmap, review the work, and land fixes and improvements. In
+                2023 we had 3 components used 10 times. Now there are 34, used
+                <a href="https://firefoxux.github.io/recomp-metrics/">over 1,000 times</a> across Firefox.</p>
             </div>
-            <img alt="Acorn design tokens documentation" src="./assets/firefox-3.webp" />
+            <img class="thumb" alt="Box Group component on Storybook" src="./assets/thumbs/firefox-4.webp" width="640" height="400" />
           </div>
-          <div class="card">
+          <div class="project">
             <div>
-              <h4>Advocacy &amp; Education</h4>
-              <p>I keep teams in the loop with the Acorn newsletter, user support, and internal communications that help
-                people adopt the system.</p>
+              <h3>Figma Libraries &amp; Icons</h3>
+              <p>I launched Firefox's first component and style libraries in Figma and kept them in sync with what
+                shipped in code. I also set up Acorn's icon package and its release
+                process, which has shipped 500+ icons across 170+ releases since 2023.</p>
             </div>
-            <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
+            <img class="thumb" alt="Firefox Desktop Components library in Figma" src="./assets/thumbs/firefox-5.webp" width="640" height="400" />
           </div>
-          <div class="card">
+          <div class="project">
             <div>
-              <h4>Icons</h4>
-              <p>I version and release Acorn's icon package, shipping SVG, PDF, and XML assets for desktop, iOS, and
-                Android.</p>
+              <h3>Docs &amp; Advocacy</h3>
+              <p>I co-created <a href="https://acorn.firefox.com">Acorn's documentation site</a> and have written
+                <a href="https://firefoxux.github.io/acorn-newsletters/">12 issues of our newsletter</a> since 2021.
+                We're a remote team, so I lead weekly coworking sessions and take turns hosting office hours. I also give
+                talks about the system at work weeks and on company-wide calls, and for a while I ran a design systems
+                meetup for all of Mozilla.</p>
             </div>
-            <img alt="Acorn icons release on GitHub" src="./assets/firefox-1.webp" />
+            <img class="thumb" alt="Acorn design system newsletter" src="./assets/thumbs/firefox-2.webp" width="640" height="400" />
           </div>
         </div>
-      </section>
-    </article>
-    <article>
-      <section>
-        <h3>2019 – 2021</h3>
+      </div>
+    </section>
+    <section class="row">
+      <div class="label">
+        <h2>2019 – 2021</h2>
+        <p>Sprout Social<br />Product Designer</p>
+      </div>
+      <div class="content">
         <p>I designed web and mobile social media publishing features for <a title="Sprout Social"
             href="https://sproutsocial.com/">Sprout Social</a>.</p>
         <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by
           designing, developing, and documenting user interface components and patterns.</p>
         <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
-        <div class="cards">
-          <div class="card">
+        <div class="projects">
+          <div class="project">
             <div>
-              <h4>Seeds Design System</h4>
-              <p>Components and patterns I designed, built, and documented for Sprout Social's design system.</p>
+              <h3>Seeds Design System</h3>
+              <p>Breadcrumb component docs, with a live demo and code.</p>
             </div>
-            <img alt="Breadcrumb component - Seeds design system" src="./assets/sprout-social-1.webp" />
+            <img class="thumb" alt="Breadcrumb component - Seeds design system" src="./assets/thumbs/sprout-social-1.webp" width="640" height="400" />
           </div>
         </div>
-	</section>
-      </article>
-      <article>
-	<section>
-	  <h3>2016 – 2019</h3>
-	  <p>I designed qualitative user research web and mobile products for <a title="Dscout"
-            href="https://dscout.com/">dscout</a> during a major platform-wide redesign, and worked on the creation of
-          their first library of user interface components and patterns across design and code.</p>
-        <div class="cards">
-          <div class="card">
+      </div>
+    </section>
+    <section class="row">
+      <div class="label">
+        <h2>2016 – 2019</h2>
+        <p>dscout<br />Product Designer</p>
+      </div>
+      <div class="content">
+        <p>I designed web and mobile products for qualitative user research at <a title="Dscout"
+            href="https://dscout.com/">dscout</a> during a big platform-wide redesign, and worked on their first
+          library of UI components and patterns in both design and code.</p>
+        <div class="projects">
+          <div class="project">
             <div>
-              <h4>Platform Redesign</h4>
-              <p>The research project dashboard, part of dscout's platform-wide redesign.</p>
+              <h3>Platform Redesign</h3>
+              <p>The project dashboard from dscout's redesign.</p>
             </div>
-            <img alt="dscout - project dashboard" src="./assets/dscout-1.webp" />
+            <img class="thumb" alt="dscout - project dashboard" src="./assets/thumbs/dscout-1.webp" width="640" height="400" />
           </div>
         </div>
-	</section>
-      </article>
-      <article>
-	<section>
-        <h3>2013 – 2016</h3>
+      </div>
+    </section>
+    <section class="row">
+      <div class="label">
+        <h2>2013 – 2016</h2>
+        <p>Freelance<br />Web Design &amp; Front-end</p>
+      </div>
+      <div class="content">
         <p>I kicked off my career with short-term jobs in web design, front-end development, and product design. At the
           time, I also contributed to open-source projects through the <a title="Open Source Design"
             href="http://opensourcedesign.net">Open Source Design</a> community.</p>
-      </section>
-    </article>
+      </div>
+    </section>
   </main>
-  <footer>
+  <footer class="row">
     <a href="mailto:skateboard@duck.com">Contact</a>
     <p>Thanks for stopping by!</p>
   </footer>
