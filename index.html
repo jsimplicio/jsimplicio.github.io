@@ -113,49 +113,40 @@
     max-width: 680px;
   }
 
-  .images {
+  .cards {
+    display: grid;
+    gap: 32px;
+    margin-top: 32px;
+    max-width: 900px;
+  }
+
+  .card {
     display: flex;
     align-items: center;
-    max-width: 100%;
-    height: 500px;
-    position: relative;
-    margin: 0;
-    top: 24px;
+    gap: 24px;
+    padding: 24px;
+    background: #24314B;
+    border: 1px solid rgba(253, 253, 251, .08);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px -8px rgba(0, 0, 0, .4);
+
+    div {
+      flex: 1;
+    }
+
+    h4 {
+      font-family: ClashDisplay, sans-serif;
+      margin-bottom: 4px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
 
     img {
-      position: absolute;
-      top: 24px;
+      width: 320px;
+      height: auto;
     }
-  }
-
-  .images img:nth-of-type(1) {
-    transform: rotate(-2deg) scale(1.1) translateZ(0);
-    -webkit-transform: translateZ(0) scale(1.1);
-    left: -200px;
-  }
-
-  .images.four img:nth-of-type(1) {
-    left:  -400px;
-  }
-  
-  .images.four img:nth-of-type(2) {
-    left:  0;
-  }
-
-  .images.four img:nth-of-type(3) {
-    left: 350px;
-    transform: rotate(2deg) scale(1.1) translateZ(0);
-    -webkit-transform: translateZ(0) scale(1.1);
-  }
-
-  .images.four img:nth-of-type(4) {
-    left: 650px;
-  }
-
-  .images img:nth-of-type(2) {
-    transform: rotate(2deg) scale(1.1) translateZ(0);
-    -webkit-transform: translateZ(0) scale(1.1);
-    left: 400px;
   }
 
   main,
@@ -297,34 +288,25 @@
 	padding-inline: 12px; 
       }
 
-      .images {
-	max-width: 100%;
-	display: flex;
-	gap: 24px;
-	top: 0;
-      }
     }
 
-    .images {
-      height: 100%;
-      padding: 12px;
-      top: 0;
+    .card {
+      flex-direction: column;
+      align-items: start;
+      margin-inline: 12px;
+      padding: 16px;
+
+      p {
+        padding-inline: 0;
+      }
 
       img {
-	position: relative;
-	max-width: 100%;
-	top: 0;
+        width: 100%;
       }
-    }
-
-    .images img:nth-of-type(n),
-    .images.four img:nth-of-type(n) {
-	left: 0;
-	transform: none;
     }
   }
   
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 901px) {
     article {
       padding: 0 24px;
     }
@@ -353,12 +335,48 @@
         <p>My current day-to-day work focuses on a web components library, design tokens, user support, and a redesign
           of the browser settings.
         </p>
-        <article class="images four">
-          <img alt="Acorn design tokens documentation" src="./assets/firefox-3.webp" />
-          <img alt="Box Group component on Storybook" src="./assets/firefox-4.webp" />
-	  <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
-          <img alt="Acorn design system icon package" src="./assets/firefox-1.webp" />
-        </article>
+        <div class="cards">
+          <div class="card">
+            <div>
+              <h4>Figma Libraries</h4>
+              <p>I build and maintain the Figma libraries Firefox designers work from every day, from desktop components
+                to a full anatomy of the browser.</p>
+            </div>
+            <img alt="Firefox Desktop Components library in Figma" src="./assets/firefox-5.webp" />
+          </div>
+          <div class="card">
+            <div>
+              <h4>Web Components</h4>
+              <p>I design and develop a library of reusable web components with Firefox engineers, documented in
+                Storybook.</p>
+            </div>
+            <img alt="Box Group component on Storybook" src="./assets/firefox-4.webp" />
+          </div>
+          <div class="card">
+            <div>
+              <h4>Design Tokens</h4>
+              <p>I define the design tokens that carry color, spacing, and type decisions from Figma into Firefox's code,
+                with documentation for designers and developers.</p>
+            </div>
+            <img alt="Acorn design tokens documentation" src="./assets/firefox-3.webp" />
+          </div>
+          <div class="card">
+            <div>
+              <h4>Advocacy &amp; Education</h4>
+              <p>I keep teams in the loop with the Acorn newsletter, user support, and internal communications that help
+                people adopt the system.</p>
+            </div>
+            <img alt="Acorn design system newsletter" src="./assets/firefox-2.webp" />
+          </div>
+          <div class="card">
+            <div>
+              <h4>Icons</h4>
+              <p>I version and release Acorn's icon package, shipping SVG, PDF, and XML assets for desktop, iOS, and
+                Android.</p>
+            </div>
+            <img alt="Acorn icons release on GitHub" src="./assets/firefox-1.webp" />
+          </div>
+        </div>
       </section>
     </article>
     <article>
@@ -369,10 +387,15 @@
         <p>I contributed to Sprout's design system <a href="https://seeds.sproutsocial.com" title="Seeds">Seeds</a> by
           designing, developing, and documenting user interface components and patterns.</p>
         <p>I also developed a Figma plugin that organized and prepared team files for design and handoff.</p>
-        <article class="images">
-          <img alt="Breadcrump component - Seeds design system" src="./assets/sprout-social-1.webp" />
-          <img alt="Skeleton component - Seeds design system" src="./assets/sprout-social-2.webp" />
-	</article>
+        <div class="cards">
+          <div class="card">
+            <div>
+              <h4>Seeds Design System</h4>
+              <p>Components and patterns I designed, built, and documented for Sprout Social's design system.</p>
+            </div>
+            <img alt="Breadcrumb component - Seeds design system" src="./assets/sprout-social-1.webp" />
+          </div>
+        </div>
 	</section>
       </article>
       <article>
@@ -381,10 +404,15 @@
 	  <p>I designed qualitative user research web and mobile products for <a title="Dscout"
             href="https://dscout.com/">dscout</a> during a major platform-wide redesign, and worked on the creation of
           their first library of user interface components and patterns across design and code.</p>
-	  <article class="images">
-	    <img alt="dscout - project dashboard" src="./assets/dscout-1.webp" />
-	    <img alt="dscout - recruit product" src="./assets/dscout-2.webp" />
-	  </article>
+        <div class="cards">
+          <div class="card">
+            <div>
+              <h4>Platform Redesign</h4>
+              <p>The research project dashboard, part of dscout's platform-wide redesign.</p>
+            </div>
+            <img alt="dscout - project dashboard" src="./assets/dscout-1.webp" />
+          </div>
+        </div>
 	</section>
       </article>
       <article>
